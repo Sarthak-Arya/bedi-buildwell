@@ -1,0 +1,72 @@
+/**
+ * Nucleo Icons to SVG Replacement
+ * This file replaces all Nucleo font icon pseudo-elements with SVG images
+ * Add this file after your main CSS files
+ */
+
+/* Base styles for all icon replacements */
+[class*="hank-"]:before,
+.widget.widget_mc4wp_form_widget.style2 .mc4wp-form p label:before,
+.go-to-top a:before,
+#site .wpcf7-form .field.line:after {
+    font-family: initial !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    display: inline-block;
+}
+
+/* Specific icon mappings */
+.hank-zoom:before {
+    content: "" !important;
+    background-image: url("/assets/icons/zoom.svg");
+    width: 32px;
+    height: 32px;
+}
+
+.hank-cart:before {
+    content: "" !important;
+    background-image: url("/assets/icons/cart.svg");
+    width: 32px;
+    height: 32px;
+}
+
+.hank-screen-rotation:before {
+    content: "" !important;
+    background-image: url("/assets/icons/screen-rotation.svg");
+    width: 20px;
+    height: 20px;
+}
+
+.hank-b-meeting:before {
+    content: "" !important;
+    background-image: url("/assets/icons/b-meeting.svg");
+    width: 20px;
+    height: 20px;
+}
+
+/* Newsletter icon */
+.widget.widget_mc4wp_form_widget.style2 .mc4wp-form p label:before {
+    content: "" !important;
+    background-image: url("/assets/icons/bell.svg");
+    width: 64px;
+    height: 64px;
+}
+
+/* Go to top icon */
+.go-to-top a:before {
+    content: "" !important;
+    background-image: url("/assets/icons/arrow-up.svg");
+    width: 32px;
+    height: 32px;
+}
+
+/* Form dropdown arrows */
+#site .wpcf7-form .field.line:after {
+    content: "" !important;
+    background-image: url("/assets/icons/arrow-down.svg");
+    width: 32px;
+    height: 32px;
+    transform: translateY(-50%) scaleX(-1);
+}
+

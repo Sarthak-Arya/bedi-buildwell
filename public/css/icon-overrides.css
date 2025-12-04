@@ -1,0 +1,54 @@
+/* 
+ * Icon Overrides - Replace all Nucleo font icons with SVG
+ * This file replaces empty squares with actual SVG icons
+ */
+
+/* Newsletter icon - already handled in main template */
+.widget.widget_mc4wp_form_widget.style2 .mc4wp-form p label:before {
+    content: "" !important;
+    background-image: url("/assets/icons/bell.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 64px;
+    height: 64px;
+    font-size: 0;
+}
+
+/* Go to top icon - already handled in main template */
+.go-to-top a:before {
+    content: "" !important;
+    background-image: url("/assets/icons/arrow-up.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 32px;
+    height: 32px;
+    font-size: 0;
+}
+
+/* Form dropdown arrows - already handled in main template */
+#site .wpcf7-form .field.line:after {
+    content: "" !important;
+    background-image: url("/assets/icons/arrow-down.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 32px;
+    height: 32px;
+    font-size: 0;
+    transform: translateY(-50%) scaleX(-1);
+}
+
+/* Hide default browser select arrows */
+#site .wpcf7-form .field.line select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: none;
+}
+
+#site .wpcf7-form .field.line select::-ms-expand {
+    display: none;
+}
+

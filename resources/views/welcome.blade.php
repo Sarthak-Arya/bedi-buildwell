@@ -299,18 +299,32 @@
         }
 
         .logo.logoDefault {
-            width: auto;
-            height: auto;
+            width: 180px;
+            height: 104px;
+            max-width: 180px;
+            object-fit: contain;
         }
 
         .logo.logoLight {
-            width: auto;
-            height: auto;
+            width: 180px;
+            height: 104px;
+            max-width: 180px;
+            object-fit: contain;
         }
 
         .logo.logoDark {
-            width: auto;
-            height: auto;
+            width: 180px;
+            height: 104px;
+            max-width: 180px;
+            object-fit: contain;
+        }
+
+        /* Fix Font Awesome 5 overrides - force Font Awesome 4 */
+        .fa.fa-facebook-square,
+        .fa.fa-twitter,
+        .fa.fa-linkedin-square,
+        .fa.fa-twitter-square {
+            font-family: "FontAwesome" !important;
         }
 
         .sliding-menu .off-canvas-wrap {
@@ -1145,7 +1159,7 @@
         .vc_custom_1583116792269 {
             padding-top: 150px !important;
             padding-bottom: 40px !important;
-            background: #232323 url(https://live.21lab.co/hank/wp-content/uploads/2019/11/logo-symbol.svg?id=211) !important;
+            background: #232323 url({{ asset('logonew-2.png') }}) !important;
             background-position: 0 0 !important;
             background-repeat: no-repeat !important;
         }
@@ -1279,14 +1293,14 @@
                 <div class="header-content">
                     <div class="header-brand">
                         <a href="https://live.21lab.co/hank">
-                            <img width="117" height="29"
-                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20117%2029'%3E%3C/svg%3E"
-                                data-lazy-srcset="https://live.21lab.co/hank/wp-content/themes/hank/assets/img/logo.png 1x, https://live.21lab.co/hank/wp-content/themes/hank/assets/img/logo@2x.png 2x"
+                            <img width="180" height="104"
+                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20180%20104'%3E%3C/svg%3E"
+                                data-lazy-srcset="{{ asset('logonew-2.png') }} 1x, {{ asset('logonew-2.png') }} 2x"
                                 alt="Hank" class="logo logoDefault"
-                                data-lazy-src="https://live.21lab.co/hank/wp-content/themes/hank/assets/img/logo.png" /><noscript><img
-                                    width="117" height="29"
-                                    src="https://live.21lab.co/hank/wp-content/themes/hank/assets/img/logo.png"
-                                    srcset="https://live.21lab.co/hank/wp-content/themes/hank/assets/img/logo.png 1x, https://live.21lab.co/hank/wp-content/themes/hank/assets/img/logo@2x.png 2x"
+                                data-lazy-src="{{ asset('logonew-2.png') }}" /><noscript><img
+                                    width="180" height="104"
+                                    src="{{ asset('logonew-2.png') }}"
+                                    srcset="{{ asset('logonew-2.png') }} 1x, {{ asset('logonew-2.png') }} 2x"
                                     alt="Hank" class="logo logoDefault" /></noscript> </a>
                     </div>
 
@@ -1458,14 +1472,14 @@
                 <div class="header-content">
                     <div class="header-brand">
                         <a href="https://live.21lab.co/hank">
-                            <img width="117" height="29"
-                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20117%2029'%3E%3C/svg%3E"
-                                data-lazy-srcset="https://live.21lab.co/hank/wp-content/themes/hank/assets/img/logo_sticky.png 1x, https://live.21lab.co/hank/wp-content/themes/hank/assets/img/logo_sticky@2x.png 2x"
+                            <img width="180" height="104"
+                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20180%20104'%3E%3C/svg%3E"
+                                data-lazy-srcset="{{ asset('logonew-2.png') }} 1x, {{ asset('logonew-2.png') }} 2x"
                                 alt="Hank" class="logo logoDark"
-                                data-lazy-src="https://live.21lab.co/hank/wp-content/themes/hank/assets/img/logo_sticky.png" /><noscript><img
-                                    width="117" height="29"
-                                    src="https://live.21lab.co/hank/wp-content/themes/hank/assets/img/logo_sticky.png"
-                                    srcset="https://live.21lab.co/hank/wp-content/themes/hank/assets/img/logo_sticky.png 1x, https://live.21lab.co/hank/wp-content/themes/hank/assets/img/logo_sticky@2x.png 2x"
+                                data-lazy-src="{{ asset('logonew-2.png') }}" /><noscript><img
+                                    width="180" height="104"
+                                    src="{{ asset('logonew-2.png') }}"
+                                    srcset="{{ asset('logonew-2.png') }} 1x, {{ asset('logonew-2.png') }} 2x"
                                     alt="Hank" class="logo logoDark" /></noscript> </a>
                     </div>
 
@@ -3966,10 +3980,12 @@
             <div class="footer-copyright footer-copyright-left">
                 <div class="footer-copyright-inner wrap">
                     <div class="copyright-content">
-                        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                        <img width="150" height="86"
+                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20150%2086'%3E%3C/svg%3E"
                             alt="logo"
-                            data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2019/10/logo-ft.svg"><noscript><img
-                                src="https://live.21lab.co/hank/wp-content/uploads/2019/10/logo-ft.svg"
+                            data-lazy-src="{{ asset('logonew-2.png') }}"><noscript><img
+                                width="150" height="86"
+                                src="{{ asset('logonew-2.png') }}"
                                 alt="logo"></noscript>
                         <p>Copyright © 2020 Hank. Designed and Developed by <a href="#">LineThemes</a> Only on
                             <a href="#">Envato Market.</a></p>
