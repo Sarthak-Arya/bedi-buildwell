@@ -1518,7 +1518,7 @@
                                         <i class="hank-screen-rotation"></i>
                                         <p>
                                             <span>Call us Now!</span>
-                                            <span class="lg">+91 99901 16198</span>
+                                            <span class="lg">+919990116198</span>
                                         </p>
                                     </a>
                                 </li>
@@ -1527,7 +1527,7 @@
                                         <i class="hank-b-meeting"></i>
                                         <p>
                                             <span>Talk to us</span>
-                                            <span class="lg">sukrit93@yahoo.in</span>
+                                            <span class="lg">Info@bedibuildwell.com</span>
                                         </p>
                                     </a>
                                 </li>
