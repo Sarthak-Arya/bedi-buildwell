@@ -49,7 +49,7 @@
         }
 
         .site-topbar {
-            background-color: #000000;
+            background-color: #3A3A3A;
             color: #888888;
             font-size: 14px;
             line-height: 1.3em;
@@ -61,7 +61,7 @@
         }
 
         .content-header {
-            background-color: #000000;
+            background-color: #3A3A3A;
             background-image: url(https://live.21lab.co/hank/wp-content/uploads/2019/10/bg-title.jpg);
             background-position: bottom right;
             background-repeat: no-repeat;
@@ -155,7 +155,7 @@
             text-transform: lowercase;
             font-size: 32px;
             line-height: 30px;
-            background-color: #FF6A00;
+            background-color: #F28C28;
         }
 
         .content-bottom-widgets .widget {
@@ -165,11 +165,11 @@
         .site-footer {
             color: #999999;
             font-size: 14px;
-            border-top: 0px none #000000;
-            border-right: 0px none #000000;
-            border-bottom: 0px none #000000;
-            border-left: 0px none #000000;
-            background-color: #000000;
+            border-top: 0px none #3A3A3A;
+            border-right: 0px none #3A3A3A;
+            border-bottom: 0px none #3A3A3A;
+            border-left: 0px none #3A3A3A;
+            background-color: #3A3A3A;
         }
 
         .footer-copyright {
@@ -208,7 +208,7 @@
         .site-header .navigator .menu.menu-extras .search-field,
         .site-header .off-canvas-toggle,
         .site-header .off-canvas-toggle:hover {
-            color: #FF6A00;
+            color: #F28C28;
         }
 
         .site-header-sticky .off-canvas-toggle,
@@ -220,7 +220,7 @@
         .site-header-sticky .off-canvas-toggle:hover,
         .site-header-sticky .navigator .menu>li:hover>a,
         .site-header-sticky a:hover {
-            color: #000000;
+            color: #C43E32;
         }
 
         .site-header-sticky .navigator .menu>li.current-menu-item>a,
@@ -252,7 +252,7 @@
         }
 
         .site-footer .footer-copyright a:hover {
-            color: #FF6A00;
+            color: #F28C28;
         }
 
         .wrap {
@@ -299,23 +299,23 @@
         }
 
         .logo.logoDefault {
-            width: 180px;
-            height: 104px;
-            max-width: 180px;
+            width: 220px;
+            height: 127px;
+            max-width: 220px;
             object-fit: contain;
         }
 
         .logo.logoLight {
-            width: 180px;
-            height: 104px;
-            max-width: 180px;
+            width: 220px;
+            height: 127px;
+            max-width: 220px;
             object-fit: contain;
         }
 
         .logo.logoDark {
-            width: 180px;
-            height: 104px;
-            max-width: 180px;
+            width: 220px;
+            height: 127px;
+            max-width: 220px;
             object-fit: contain;
         }
 
@@ -337,7 +337,7 @@
         input[type="button"],
         input[type="submit"],
         button {
-            background: #000000;
+            background: #3A3A3A;
             color: #ffffff;
             font-size: 16px;
             line-height: 20px;
@@ -345,10 +345,10 @@
             padding-right: 40px;
             padding-bottom: 19px;
             padding-left: 40px;
-            border-top: 0px none #000000;
-            border-right: 0px none #000000;
-            border-bottom: 0px none #000000;
-            border-left: 0px none #000000;
+            border-top: 0px none #3A3A3A;
+            border-right: 0px none #3A3A3A;
+            border-bottom: 0px none #3A3A3A;
+            border-left: 0px none #3A3A3A;
             border-radius: 0px;
         }
 
@@ -378,10 +378,10 @@
         }
 
         .site-footer .footer-copyright {
-            border-top: 0px none #000000;
-            border-right: 0px none #000000;
-            border-bottom: 0px none #000000;
-            border-left: 0px none #000000;
+            border-top: 0px none #3A3A3A;
+            border-right: 0px none #3A3A3A;
+            border-bottom: 0px none #3A3A3A;
+            border-left: 0px none #3A3A3A;
             padding-top: 50px;
             padding-bottom: 50px;
         }
@@ -424,7 +424,7 @@
         .badge.style2,
         h6.badge.style2,
         #site .blog-shortcode.post-thumbnail-cover .blog-grid .post .post-inner .post-date {
-            color: #ffed00;
+            color: #D5C371;
         }
 
         .button.primary,
@@ -478,7 +478,7 @@
         .shopping-cart .shopping-cart-items-count,
         .woocommerce-pagination li .page-numbers:hover,
         .woocommerce .products li .button:hover:before {
-            background-color: #ffed00;
+            background-color: #D5C371;
         }
 
         .button.primary.border:before,
@@ -490,7 +490,7 @@
         rs-module-wrap .video-button.play:after,
         #site .testimonial:not(.has-image),
         #site-header-sticky .extras .header-info-text .info-list span.lg:after {
-            border-color:rgb(255, 111, 0);
+            border-color: #F28C28;
         }
 
         .button:hover,
@@ -546,21 +546,21 @@
         #site .blog-shortcode.post-thumbnail-cover .blog-grid .post .post-inner .post-thumbnail .post-date .post-month,
         .woocommerce-pagination li .page-numbers.current,
         .woocommerce .product section.products h2:not(.woocommerce-loop-product__title):after {
-            background-color: #000000;
+            background-color: #C43E32;
         }
 
         .button:hover:before,
         .button.accent.border:before,
         .button.outline:before {
-            border-color: #000000;
+            border-color: #C43E32;
         }
 
         ::selection {
-            background: #ffed00;
+            background: #D5C371;
         }
 
         ::-moz-selection {
-            background: #ffed00;
+            background: #D5C371;
         }
 
         .related-posts .grid-posts .post .post-inner:hover .post-title a,
@@ -571,19 +571,19 @@
         #site .blog-shortcode.post-thumbnail-cover .blog-grid .post .post-inner:hover .post-title,
         .woocommerce .products li:hover .woocommerce-loop-product__title,
         .woocommerce .product .summary .grouped_form table tr td.woocommerce-grouped-product-list-item__label a:hover {
-            box-shadow: inset 0 -1px 0 0 #ffed00;
+            box-shadow: inset 0 -1px 0 0 #D5C371;
         }
 
         #site .imagebox:hover .box-title span:not(.box-subtitle) {
-            -webkit-text-stroke-color: #ffed00;
+            -webkit-text-stroke-color: #D5C371;
         }
 
         .vc_custom_heading u {
-            background-image: linear-gradient(180deg, transparent 65%, #ffed00 0);
+            background-image: linear-gradient(180deg, transparent 65%, #D5C371 0);
         }
 
         #site .vc_custom_heading.style1 {
-            -webkit-text-stroke-color: #000000;
+            -webkit-text-stroke-color: #3A3A3A;
         }
 
         #site .vc_section.shape-2:before,
@@ -591,14 +591,14 @@
         #site .vc_section.shape-4:before,
         #site .vc_row.shape-4:before,
         .site-footer:before {
-            background: repeating-linear-gradient(-45deg, transparent, transparent 4px, #ffed00 5px, #ffed00 10px, transparent 11px);
+            background: repeating-linear-gradient(-45deg, transparent, transparent 4px, #D5C371 5px, #D5C371 10px, transparent 11px);
         }
 
         #site .vc_section.shape-3:before,
         #site .vc_row.shape-3:before,
         #site .vc_section.shape-5:before,
         #site .vc_row.shape-5:before {
-            background: repeating-linear-gradient(-45deg, transparent, transparent 4px, #000000 5px, #000000 10px, transparent 11px);
+            background: repeating-linear-gradient(-45deg, transparent, transparent 4px, #3A3A3A 5px, #3A3A3A 10px, transparent 11px);
         }
     </style>
     <style id='wp-emoji-styles-inline-css' type='text/css'>
@@ -1265,6 +1265,121 @@
         .vc_custom_1580364963141 {
             padding-top: 45px !important;
         }
+
+        /* Responsive styles for images and elements */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .imagebox img,
+        .elements-carousel img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .elements-carousel {
+                padding: 0 15px;
+            }
+            
+            .imagebox .box-title {
+                font-size: 24px !important;
+            }
+            
+            .imagebox .box-subtitle {
+                font-size: 16px !important;
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+            .elements-carousel {
+                padding: 0 10px;
+            }
+            
+            .imagebox .box-title {
+                font-size: 20px !important;
+            }
+            
+            .imagebox .box-subtitle {
+                font-size: 14px !important;
+            }
+        }
+
+        /* Fix slider arrow overlap - ensure arrows are above all content including preview images */
+        .rev_slider_3_1_wrapper .custom-arrow,
+        .rev_slider_3_1_wrapper .tp-leftarrow,
+        .rev_slider_3_1_wrapper .tp-rightarrow {
+            z-index: 9999 !important;
+            position: absolute !important;
+        }
+        
+        /* Adjust arrow positioning to prevent overlap with content */
+        .rev_slider_3_1_wrapper .tp-leftarrow {
+            left: 20px !important;
+            top: 50% !important;
+            transform: translateY(-50%) !important;
+            bottom: auto !important;
+        }
+        
+        .rev_slider_3_1_wrapper .tp-rightarrow {
+            right: 20px !important;
+            top: 50% !important;
+            transform: translateY(-50%) !important;
+            bottom: auto !important;
+        }
+        
+        /* Hide preview/thumbnail images */
+        .rev_slider_3_1_wrapper .tp-thumb,
+        .rev_slider_3_1_wrapper .tp-tab,
+        .rev_slider_3_1_wrapper .tp-tab-mask,
+        .rev_slider_3_1_wrapper rs-tabs,
+        .rev_slider_3_1_wrapper .tp-thumb-image,
+        .rev_slider_3_1_wrapper .tp-thumb-img-wrap,
+        .rev_slider_3_1_wrapper .tp-tab-container {
+            display: none !important;
+            visibility: hidden !important;
+        }
+        
+        /* Fix slider arrow overlap on mobile */
+        @media only screen and (max-width: 778px) {
+            .rev_slider_3_1_wrapper .custom-arrow,
+            .rev_slider_3_1_wrapper .tp-leftarrow,
+            .rev_slider_3_1_wrapper .tp-rightarrow {
+                z-index: 9999 !important;
+                position: absolute !important;
+            }
+            
+            /* Adjust arrow positioning on mobile to prevent overlap */
+            .rev_slider_3_1_wrapper .tp-leftarrow {
+                left: 15px !important;
+                right: auto !important;
+                top: 50% !important;
+                transform: translateY(-50%) !important;
+                bottom: auto !important;
+            }
+            
+            .rev_slider_3_1_wrapper .tp-rightarrow {
+                right: 15px !important;
+                left: auto !important;
+                top: 50% !important;
+                transform: translateY(-50%) !important;
+                bottom: auto !important;
+            }
+            
+            /* Hide preview images on mobile */
+            .rev_slider_3_1_wrapper .tp-thumb,
+            .rev_slider_3_1_wrapper .tp-tab,
+            .rev_slider_3_1_wrapper .tp-tab-mask,
+            .rev_slider_3_1_wrapper rs-tabs,
+            .rev_slider_3_1_wrapper .tp-thumb-image,
+            .rev_slider_3_1_wrapper .tp-thumb-img-wrap,
+            .rev_slider_3_1_wrapper .tp-tab-container {
+                display: none !important;
+                visibility: hidden !important;
+            }
+        }
     </style><noscript>
         <style>
             .wpb_animate_when_almost_visible {
@@ -1293,12 +1408,12 @@
                 <div class="header-content">
                     <div class="header-brand">
                         <a href="https://live.21lab.co/hank">
-                            <img width="180" height="104"
-                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20180%20104'%3E%3C/svg%3E"
+                            <img width="220" height="127"
+                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20220%20127'%3E%3C/svg%3E"
                                 data-lazy-srcset="{{ asset('logonew-2.png') }} 1x, {{ asset('logonew-2.png') }} 2x"
                                 alt="Hank" class="logo logoDefault"
                                 data-lazy-src="{{ asset('logonew-2.png') }}" /><noscript><img
-                                    width="180" height="104"
+                                    width="220" height="127"
                                     src="{{ asset('logonew-2.png') }}"
                                     srcset="{{ asset('logonew-2.png') }} 1x, {{ asset('logonew-2.png') }} 2x"
                                     alt="Hank" class="logo logoDefault" /></noscript> </a>
@@ -1403,7 +1518,7 @@
                                         <i class="hank-screen-rotation"></i>
                                         <p>
                                             <span>Call us Now!</span>
-                                            <span class="lg">2800-312-56xxxx</span>
+                                            <span class="lg">+91 99901 16198</span>
                                         </p>
                                     </a>
                                 </li>
@@ -1412,7 +1527,7 @@
                                         <i class="hank-b-meeting"></i>
                                         <p>
                                             <span>Talk to us</span>
-                                            <span class="lg">info@example.com</span>
+                                            <span class="lg">sukrit93@yahoo.in</span>
                                         </p>
                                     </a>
                                 </li>
@@ -1471,15 +1586,15 @@
             <div class="site-header-inner wrap">
                 <div class="header-content">
                     <div class="header-brand">
-                        <a href="https://live.21lab.co/hank">
-                            <img width="180" height="104"
-                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20180%20104'%3E%3C/svg%3E"
-                                data-lazy-srcset="{{ asset('logonew-2.png') }} 1x, {{ asset('logonew-2.png') }} 2x"
+                        <a href="">
+                            <img width="220" height="127"
+                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20220%20127'%3E%3C/svg%3E"
+                                data-lazy-srcset="{{ asset('logoblack.png') }} 1x, {{ asset('logoblack.png') }} 2x"
                                 alt="Hank" class="logo logoDark"
-                                data-lazy-src="{{ asset('logonew-2.png') }}" /><noscript><img
-                                    width="180" height="104"
-                                    src="{{ asset('logonew-2.png') }}"
-                                    srcset="{{ asset('logonew-2.png') }} 1x, {{ asset('logonew-2.png') }} 2x"
+                                data-lazy-src="{{ asset('logoblack.png') }}" /><noscript><img
+                                    width="220" height="127"
+                                    src="{{ asset('logoblack.png') }}"
+                                    srcset="{{ asset('logoblack.png') }} 1x, {{ asset('logoblack.png') }} 2x"
                                     alt="Hank" class="logo logoDark" /></noscript> </a>
                     </div>
 
@@ -1570,7 +1685,7 @@
                                         <i class="hank-screen-rotation"></i>
                                         <p>
                                             <span>Call us Now!</span>
-                                            <span class="lg">2800-312-56xxxx</span>
+                                            <span class="lg">+91 99901 16198</span>
                                         </p>
                                     </a>
                                 </li>
@@ -1648,8 +1763,8 @@
                                                 <div class="vc_column-inner">
                                                     <div class="wpb_wrapper">
                                                         <h2 style="font-size: 40px;color: #ffffff;line-height: 44px;text-align: left"
-                                                            class="vc_custom_heading">we have one mission<br />
-                                                            to be the <strong>best builder in US.</strong></h2>
+                                                            class="vc_custom_heading">We have one mission to be the<strong>
+                                                                best builder in the insustry.</strong></h2>
                                                         <div class="vc_empty_space" style="height: 20px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                     </div>
@@ -1703,7 +1818,7 @@
                                                                     <rs-slide style="position: absolute;"
                                                                         data-key="rs-10"
                                                                         data-title="Culture Makes the Difference"
-                                                                        data-thumb="//live.21lab.co/hank/wp-content/uploads/revslider/slider-1/slider_1-50x100.jpg"
+                                                                        data-thumb="{{ asset('images/people-1.jpg') }}"
                                                                         data-anim="ms:1000;r:0;" data-in="o:0;"
                                                                         data-out="a:false;">
                                                                         <img width="1" height="1"
@@ -1711,9 +1826,23 @@
                                                                             src="//live.21lab.co/hank/wp-content/plugins/revslider/public/assets/assets/dummy.png"
                                                                             alt="" title="Home"
                                                                             class="rev-slidebg tp-rs-img rs-lazyload"
-                                                                            data-lazyload="//live.21lab.co/hank/wp-content/uploads/revslider/slider-1/slider_1.jpg"
+                                                                            data-lazyload="{{ asset('images/people-1.jpg') }}"
                                                                             data-no-retina>
                                                                         <!--
+       --><rs-layer id="slider-3-slide-10-layer-0" class="rs-layer-shape" data-type="shape" data-rsp_ch="on"
+                                                                            data-xy="x:850px;y:130px;"
+                                                                            data-text="w:normal;s:1;l:1;"
+                                                                            data-dim="w:600px;h:280px;"
+                                                                            data-rsp_o="on"
+                                                                            data-rsp_bd="on"
+                                                                            data-rsp_xy="x:c;y:m;"
+                                                                            data-rsp_dim="w:90%;h:auto;"
+                                                                            data-basealign="slide"
+                                                                            data-frame_0="o:0;"
+                                                                            data-frame_1="st:0;sp:500;"
+                                                                            data-frame_999="o:0;st:w;sR:8500;"
+                                                                            style="z-index:7;background-color:#ffffff;background-color:rgba(255,255,255,0.9);border-radius:0px;">
+                                                                        </rs-layer><!--
        --><rs-layer id="slider-3-slide-10-layer-1" class="f-l" data-type="text" data-color="rgba(0, 0, 0, 0.5)"
                                                                             data-rsp_ch="on"
                                                                             data-xy="x:897px;y:185px;"
@@ -1772,7 +1901,7 @@
                                                                     <rs-slide style="position: absolute;"
                                                                         data-key="rs-11"
                                                                         data-title="Our Promise of Superior Performance"
-                                                                        data-thumb="//live.21lab.co/hank/wp-content/uploads/revslider/slider-1/4-slider-50x100.jpg"
+                                                                        data-thumb="{{ asset('images/people-2.jpg') }}"
                                                                         data-anim="ms:1000;r:0;" data-in="o:0;"
                                                                         data-out="a:false;">
                                                                         <img width="1" height="1"
@@ -1780,9 +1909,23 @@
                                                                             src="//live.21lab.co/hank/wp-content/plugins/revslider/public/assets/assets/dummy.png"
                                                                             alt="" title="Home"
                                                                             class="rev-slidebg tp-rs-img rs-lazyload"
-                                                                            data-lazyload="//live.21lab.co/hank/wp-content/uploads/revslider/slider-1/4-slider.jpg"
+                                                                            data-lazyload="{{ asset('images/people-2.jpg') }}"
                                                                             data-no-retina>
                                                                         <!--
+       --><rs-layer id="slider-3-slide-11-layer-0" class="rs-layer-shape" data-type="shape" data-rsp_ch="on"
+                                                                            data-xy="x:850px;y:130px;"
+                                                                            data-text="w:normal;s:1;l:1;"
+                                                                            data-dim="w:600px;h:280px;"
+                                                                            data-rsp_o="on"
+                                                                            data-rsp_bd="on"
+                                                                            data-rsp_xy="x:c;y:m;"
+                                                                            data-rsp_dim="w:90%;h:auto;"
+                                                                            data-basealign="slide"
+                                                                            data-frame_0="o:0;"
+                                                                            data-frame_1="st:0;sp:500;"
+                                                                            data-frame_999="o:0;st:w;sR:8500;"
+                                                                            style="z-index:7;background-color:#ffffff;background-color:rgba(255,255,255,0.9);border-radius:0px;">
+                                                                        </rs-layer><!--
        --><rs-layer id="slider-3-slide-11-layer-1" class="f-l" data-type="text" data-color="rgba(0, 0, 0, 0.5)"
                                                                             data-rsp_ch="on"
                                                                             data-xy="x:895px;y:185px;"
@@ -1840,7 +1983,7 @@
                                                                     <rs-slide style="position: absolute;"
                                                                         data-key="rs-12"
                                                                         data-title="When a Project has Extraordinary Challenges"
-                                                                        data-thumb="//live.21lab.co/hank/wp-content/uploads/revslider/slider-1/slider-50x100.jpg"
+                                                                        data-thumb="{{ asset('images/people-3.jpg') }}"
                                                                         data-anim="ms:1000;r:0;" data-in="o:0;"
                                                                         data-out="a:false;">
                                                                         <img width="1" height="1"
@@ -1848,9 +1991,23 @@
                                                                             src="//live.21lab.co/hank/wp-content/plugins/revslider/public/assets/assets/dummy.png"
                                                                             alt="" title="Home"
                                                                             class="rev-slidebg tp-rs-img rs-lazyload"
-                                                                            data-lazyload="//live.21lab.co/hank/wp-content/uploads/revslider/slider-1/slider.jpg"
+                                                                            data-lazyload="{{ asset('images/people-3.jpg') }}"
                                                                             data-no-retina>
                                                                         <!--
+       --><rs-layer id="slider-3-slide-12-layer-0" class="rs-layer-shape" data-type="shape" data-rsp_ch="on"
+                                                                            data-xy="x:850px;y:130px;"
+                                                                            data-text="w:normal;s:1;l:1;"
+                                                                            data-dim="w:600px;h:280px;"
+                                                                            data-rsp_o="on"
+                                                                            data-rsp_bd="on"
+                                                                            data-rsp_xy="x:c;y:m;"
+                                                                            data-rsp_dim="w:90%;h:auto;"
+                                                                            data-basealign="slide"
+                                                                            data-frame_0="o:0;"
+                                                                            data-frame_1="st:0;sp:500;"
+                                                                            data-frame_999="o:0;st:w;sR:8500;"
+                                                                            style="z-index:7;background-color:#ffffff;background-color:rgba(255,255,255,0.9);border-radius:0px;">
+                                                                        </rs-layer><!--
        --><rs-layer id="slider-3-slide-12-layer-1" class="f-l" data-type="text" data-color="rgba(0, 0, 0, 0.5)"
                                                                             data-rsp_ch="on"
                                                                             data-xy="x:898px;y:185px;"
@@ -1902,7 +2059,7 @@
                                                                             style="z-index:11;font-family:'Rubik';text-transform:uppercase;"><a
                                                                                 class="button has-arrow"
                                                                                 href="https://live.linethemes.com/hank/work/">Explore
-                                                                                Hank Group Projects</a>
+                                                                                our Projects</a>
                                                                         </rs-layer><!--
 --> </rs-slide>
                                                                 </rs-slides>
@@ -4093,7 +4250,7 @@
                             <i class="hank-screen-rotation"></i>
                             <p>
                                 <span>Call us Now!</span>
-                                <span class="lg">2800-312-56xxxx</span>
+                                <span class="lg">+91 99901 16198</span>
                             </p>
                         </a>
                     </li>
@@ -4102,7 +4259,7 @@
                             <i class="hank-b-meeting"></i>
                             <p>
                                 <span>Talk to us</span>
-                                <span class="lg">info@example.com</span>
+                                <span class="lg"></span>
                             </p>
                         </a>
                     </li>
@@ -4240,7 +4397,7 @@
         .custom .tp-bullet-title {}
 
         #rev_slider_3_1_wrapper rs-loader.spinner1 {
-            background-color: #FF6A00 !important
+            background-color: #F28C28 !important
         }
     </style>
     <script data-minify="1" type="text/javascript"
@@ -4603,8 +4760,8 @@
                         arrows: {
                             enable: true,
                             style: "custom-arrow",
-                            hide_onmobile: true,
-                            hide_under: 778,
+                            hide_onmobile: false,
+                            hide_under: 0,
                             left: {
                                 container: "layergrid",
                                 h_align: "right",
@@ -4629,10 +4786,10 @@
                             container: "layergrid"
                         },
                         tabs: {
-                            enable: true,
+                            enable: false,
                             style: "custom-tab",
                             hide_onmobile: true,
-                            hide_under: 778,
+                            hide_under: 0,
                             anim: "bottom",
                             h_align: "left",
                             h_offset: 97,

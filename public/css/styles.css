@@ -5314,13 +5314,13 @@ button[type="submit"]:hover,
     border-color: #000;
 }
 .button.yellow {
-    background: #feeb35;
+    background: #D5C371;
 }
 .button.yellow:hover {
-    color: #feeb35;
+    color: #D5C371;
 }
 .button.yellow:hover:before {
-    border-color: #feeb35;
+    border-color: #D5C371;
 }
 .button.red {
     background: #c21323;
@@ -5469,13 +5469,13 @@ button[type="submit"]:hover,
     color: #fff;
 }
 .button.border.yellow {
-    color: #feeb35;
+    color: #D5C371;
 }
 .button.border.yellow:before {
-    border-color: #feeb35;
+    border-color: #D5C371;
 }
 .button.border.yellow:hover {
-    background: #feeb35;
+    background: #D5C371;
     color: #000;
 }
 .button.border.light {
@@ -9045,15 +9045,15 @@ body.author .author-recent-posts {
     -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);
     filter: alpha(opacity=70);
     background-color: transparent;
-    background: -webkit-linear-gradient(-180deg, transparent, #000000 80%)
+    background: -webkit-linear-gradient(-180deg, transparent, #3A3A3A 80%)
         transparent no-repeat;
-    background: -moz-linear-gradient(-180deg, transparent, #000000 80%)
+    background: -moz-linear-gradient(-180deg, transparent, #3A3A3A 80%)
         transparent no-repeat;
-    background: -ms-linear-gradient(-180deg, transparent, #000000 80%)
+    background: -ms-linear-gradient(-180deg, transparent, #3A3A3A 80%)
         transparent no-repeat;
-    background: -o-linear-gradient(-180deg, transparent, #000000 80%)
+    background: -o-linear-gradient(-180deg, transparent, #3A3A3A 80%)
         transparent no-repeat;
-    background: linear-gradient(-180deg, transparent, #000000 80%) transparent
+    background: linear-gradient(-180deg, transparent, #3A3A3A 80%) transparent
         no-repeat;
 }
 .go-to-top {
@@ -14582,7 +14582,7 @@ hr,
     text-decoration: none;
 }
 #site .vc_custom_heading.style1 {
-    -webkit-text-stroke: 1px #feeb35;
+    -webkit-text-stroke: 1px #D5C371;
 }
 @media only screen and (min-width: 320px) and (max-width: 768px) {
     #site h2.vc_custom_heading,
@@ -20651,7 +20651,7 @@ h6.badge.style2,
     .post
     .post-inner
     .post-date {
-    color: #feeb35;
+    color: #D5C371;
 }
 .button.primary,
 .button.checkout,
@@ -20704,7 +20704,7 @@ a.video-lightbox:before,
 .shopping-cart .shopping-cart-items-count,
 .woocommerce-pagination li .page-numbers:hover,
 .woocommerce .products li .button:hover:before {
-    background-color: #feeb35;
+    background-color: #D5C371;
 }
 .button.primary.border:before,
 blockquote,
@@ -20715,7 +20715,7 @@ blockquote,
 rs-module-wrap .video-button.play:after,
 #site .testimonial:not(.has-image),
 #site-header-sticky .extras .header-info-text .info-list span.lg:after {
-    border-color: #feeb35;
+    border-color: #D5C371;
 }
 .button:hover,
 .button.primary,
@@ -20787,10 +20787,10 @@ rs-module-wrap .custom-arrow:hover,
     border-color: #000;
 }
 ::selection {
-    background: #feeb35;
+    background: #D5C371;
 }
 ::-moz-selection {
-    background: #feeb35;
+    background: #D5C371;
 }
 .related-posts .grid-posts .post .post-inner:hover .post-title a,
 .blog-masonry .post-inner:hover .post-title a,
@@ -20820,13 +20820,13 @@ rs-module-wrap .custom-arrow:hover,
     tr
     td.woocommerce-grouped-product-list-item__label
     a:hover {
-    box-shadow: inset 0 -1px 0 0 #feeb35;
+    box-shadow: inset 0 -1px 0 0 #D5C371;
 }
 #site .imagebox:hover .box-title span:not(.box-subtitle) {
-    -webkit-text-stroke-color: #feeb35;
+    -webkit-text-stroke-color: #D5C371;
 }
 .vc_custom_heading u {
-    background-image: linear-gradient(180deg, transparent 65%, #feeb35 0);
+    background-image: linear-gradient(180deg, transparent 65%, #D5C371 0);
 }
 #site .vc_custom_heading.style1 {
     -webkit-text-stroke-color: #000;
@@ -20840,8 +20840,8 @@ rs-module-wrap .custom-arrow:hover,
         -45deg,
         transparent,
         transparent 4px,
-        #feeb35 5px,
-        #feeb35 10px,
+        #D5C371 5px,
+        #D5C371 10px,
         transparent 11px
     );
 }
@@ -20853,8 +20853,8 @@ rs-module-wrap .custom-arrow:hover,
         -45deg,
         transparent,
         transparent 4px,
-        #000000 5px,
-        #000000 10px,
+        #3A3A3A 5px,
+        #3A3A3A 10px,
         transparent 11px
     );
 }
