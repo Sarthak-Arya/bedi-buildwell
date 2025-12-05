@@ -4271,8 +4271,10 @@
     <script type="text/javascript"
         src="https://live.21lab.co/hank/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.5.14" defer async
         id="tp-tools-js"></script>
-    <script type="text/javascript"
+    {{-- <script type="text/javascript"
         src="https://live.21lab.co/hank/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.5.14" defer async
+        id="revmin-js"></script> --}}
+    <script src="{{ asset('js/rs6.js') }}" defer async
         id="revmin-js"></script>
     <script type="text/javascript"
         src="https://live.21lab.co/hank/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.6.1.2"
@@ -4762,5 +4764,3 @@
 </body>
 
 </html>
-
-<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1764240323 -->
