@@ -7,7 +7,10 @@
         name="viewport">
     <link rel="profile" href="//gmpg.org/xfn/11" />
 
-    <title>About &#8211; Hank</title>
+    <title>About &#8211; Bedi Buildwell</title>
+    <link rel="icon" href="{{ asset('assets/logo_dark.svg') }}" />
+    <link rel="apple-touch-icon" href="{{ asset('assets/logo_dark.svg') }}" />
+    <meta name="msapplication-TileImage" content="{{ asset('assets/logo_dark.svg') }}" />
     <link rel="preload" as="style"
         href="https://fonts.googleapis.com/css?family=Jost%3A100%2C200%2C300%2Cregular%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2Citalic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic&#038;subset=cyrillic%2Clatin%2Clatin-ext&#038;display=swap" />
     <link rel="stylesheet"
@@ -16,8 +19,9 @@
         <link rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Jost%3A100%2C200%2C300%2Cregular%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2Citalic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic&#038;subset=cyrillic%2Clatin%2Clatin-ext&#038;display=swap" />
     </noscript>
-    <link rel="stylesheet" href="https://live.21lab.co/hank/wp-content/cache/min/1/bbfd4e193f7bdd8057b5e4ce74e74b5f.css"
-        media="all" data-minify="1" />
+    {{-- CSS files --}}
+    <link rel="stylesheet" href="{{ asset('css/main.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/styles.css') }}" />
     <meta name='robots' content='max-image-preview:large' />
     <link rel='dns-prefetch' href='//static.addtoany.com' />
     <link rel='dns-prefetch' href='//fonts.googleapis.com' />
@@ -301,18 +305,38 @@
         }
 
         .logo.logoDefault {
-            width: auto;
-            height: auto;
+            width: 180px;
+            height: 104px;
+            max-width: 180px;
+            object-fit: contain;
         }
 
         .logo.logoLight {
-            width: auto;
-            height: auto;
+            width: 180px;
+            height: 104px;
+            max-width: 180px;
+            object-fit: contain;
         }
 
         .logo.logoDark {
-            width: auto;
-            height: auto;
+            width: 180px;
+            height: 104px;
+            max-width: 180px;
+            object-fit: contain;
+        }
+
+        /* Fix Font Awesome 5 overrides - force Font Awesome 4 */
+        .fa,
+        .fa.fa-facebook-square,
+        .fa.fa-twitter,
+        .fa.fa-linkedin-square,
+        .fa.fa-twitter-square {
+            font-family: "FontAwesome" !important;
+        }
+        
+        /* Ensure Nucleo icons load correctly */
+        [class*="hank-"] {
+            font-family: "Nucleo" !important;
         }
 
         .sliding-menu .off-canvas-wrap {
@@ -1006,14 +1030,6 @@
     <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
     <meta name="generator"
         content="Powered by Slider Revolution 6.5.14 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
-    <link rel="icon" href="https://live.21lab.co/hank/wp-content/uploads/2019/10/cropped-favico-1-32x32.png"
-        sizes="32x32" />
-    <link rel="icon" href="https://live.21lab.co/hank/wp-content/uploads/2019/10/cropped-favico-1-192x192.png"
-        sizes="192x192" />
-    <link rel="apple-touch-icon"
-        href="https://live.21lab.co/hank/wp-content/uploads/2019/10/cropped-favico-1-180x180.png" />
-    <meta name="msapplication-TileImage"
-        content="https://live.21lab.co/hank/wp-content/uploads/2019/10/cropped-favico-1-270x270.png" />
     <script>
         function setREVStartSize(e) {
             //window.requestAnimationFrame(function() {
@@ -1203,353 +1219,10 @@
     <div id="site" class="site wrap header-position-top">
 
 
-        <div id="site-header" class="site-header site-header-classic header-brand-left header-transparent">
-            <div class="site-header-inner wrap">
-                <div class="header-content">
-                    <div class="header-brand">
-                        <a href="https://live.21lab.co/hank">
-                            <img width="117" height="29"
-                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20117%2029'%3E%3C/svg%3E"
-                                data-lazy-srcset="https://live.21lab.co/hank/wp-content/themes/hank/assets/img/logo.png 1x, https://live.21lab.co/hank/wp-content/themes/hank/assets/img/logo@2x.png 2x"
-                                alt="Hank" class="logo logoDefault"
-                                data-lazy-src="https://live.21lab.co/hank/wp-content/themes/hank/assets/img/logo.png" /><noscript><img
-                                    width="117" height="29"
-                                    src="https://live.21lab.co/hank/wp-content/themes/hank/assets/img/logo.png"
-                                    srcset="https://live.21lab.co/hank/wp-content/themes/hank/assets/img/logo.png 1x, https://live.21lab.co/hank/wp-content/themes/hank/assets/img/logo@2x.png 2x"
-                                    alt="Hank" class="logo logoDefault" /></noscript> </a>
-                    </div>
-
-                    <nav class="navigator" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+        @include('partials.header')
 
 
-                        <ul id="menu-main-menu" class="menu menu-primary">
-                            <li id="menu-item-176"
-                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-142 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-176">
-                                <a href="{{ route('about') }}" aria-current="page">About</a>
-                                <ul class="sub-menu">
-                                    <li id="menu-item-381"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-142 current_page_item menu-item-381">
-                                        <a href="{{ route('about') }}" aria-current="page">Company</a>
-                                    </li>
-                                    <li id="menu-item-512"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-512">
-                                        <a href="{{ route('core-values') }}">Core Values</a></li>
-                                    <li id="menu-item-380"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380">
-                                        <a href="{{ route('leadership') }}">Leadership</a></li>
-                                    <li id="menu-item-781"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-781">
-                                        <a href="{{ route('why-choose-us') }}">Why choose us</a>
-                                    </li>
-                        
-                                    <li id="menu-item-175"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175">
-                                        <a href="https://live.21lab.co/hank/contact/">Contact</a></li>
-                                    <li id="menu-item-787"
-                                        class="sm has-border menu-item menu-item-type-custom menu-item-object-custom menu-item-787">
-                                        <a
-                                            href="https://live.21lab.co/hank/about/why-choose-us/#testimonials">Testimonials</a>
-                                    </li>
-                                    {{-- <li id="menu-item-788"
-                                        class="sm menu-item menu-item-type-custom menu-item-object-custom menu-item-788">
-                                        <a href="https://live.21lab.co/hank/about/why-choose-us/#awards">Awards &#038;
-                                            Recognition</a></li>
-                                    <li id="menu-item-886"
-                                        class="sm menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-886">
-                                        <a href="{{ route('about') }}#history" aria-current="page">Our
-                                            History</a></li>
-                                </ul>
-                            </li>
-                            <li id="menu-item-171"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-171">
-                                <a href="https://live.21lab.co/hank/experience/">Experience</a>
-                                <ul class="sub-menu">
-                                    <li id="menu-item-874"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-874">
-                                        <a href="https://live.21lab.co/hank/experience/">What we do</a></li>
-                                    <li id="menu-item-872"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-872">
-                                        <a href="https://live.21lab.co/hank/experience/#services">Our Services</a></li>
-                                    <li id="menu-item-876"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-876">
-                                        <a href="https://live.21lab.co/hank/experience/#safety">Safety</a></li>
-                                    <li id="menu-item-873"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-873">
-                                        <a href="https://live.21lab.co/hank/experience/#markets">Markets we Serve</a>
-                                    </li>
-                                    <li id="menu-item-887"
-                                        class="sm has-border menu-item menu-item-type-post_type menu-item-object-page menu-item-887">
-                                        <a href="https://live.21lab.co/hank/experience/property-and-buildings/">Property
-                                            and Buildings</a></li>
-                                </ul>
-                            </li>
-                            <li id="menu-item-131"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-131">
-                                <a href="https://live.21lab.co/hank/work/">Work</a>
-                                <ul class="sub-menu">
-                                    <li id="menu-item-1087"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1087">
-                                        <a href="https://live.21lab.co/hank/works-style-1/">Works – style 1</a></li>
-                                    <li id="menu-item-1091"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1091">
-                                        <a href="https://live.21lab.co/hank/works-style-2/">Works – style 2</a></li>
-                                    <li id="menu-item-1071"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1071">
-                                        <a href="https://live.21lab.co/hank/works-style-3/">Works – style 3</a></li>
-                                    <li id="menu-item-1072"
-                                        class="sm has-border menu-item menu-item-type-post_type menu-item-object-page menu-item-1072">
-                                        <a href="https://live.21lab.co/hank/work/">Default Layout</a></li>
-                                </ul>
-                            </li>
-                            <li id="menu-item-132"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-132"><a
-                                    href="https://live.21lab.co/hank/news/">News</a></li>
-                            <li id="menu-item-1142"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1142"><a
-                                    href="https://live.21lab.co/hank/shop/">Shop</a></li>
-                        </ul>
-                    </nav>
-
-                    <div class="extras">
-                        <div class="header-info-text">
-                            <ul class="info-list">
-                                <li>
-                                    <a href="#">
-                                        <i class="hank-screen-rotation"></i>
-                                        <p>
-                                            <span>Call us Now!</span>
-                                            <span class="lg">2800-312-56xxxx</span>
-                                        </p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="hank-b-meeting"></i>
-                                        <p>
-                                            <span>Talk to us</span>
-                                            <span class="lg">info@example.com</span>
-                                        </p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-
-
-                        <ul class="navigator menu-extras">
-                            <li class="search-box">
-                                <a href="#">
-                                    <i class="hank-zoom icon-32"></i>
-                                </a>
-                                <div class="widget widget_search">
-                                    <form role="search" method="get" class="search-form"
-                                        action="https://live.21lab.co/hank/">
-                                        <label>
-                                            <span class="screen-reader-text">Search for:</span>
-                                            <input type="search" class="search-field" placeholder="Search &hellip;"
-                                                value="" name="s" />
-                                        </label>
-                                        <input type="submit" class="search-submit" value="Search" />
-                                    </form>
-                                </div>
-                            </li>
-                            <li class="shopping-cart">
-                                <a class="shopping-cart-count" href="https://live.21lab.co/hank/cart/">
-                                    <i class="hank-cart icon-32"></i>
-
-                                    <span class="shopping-cart-items-count no-items"></span>
-                                </a>
-                                <div class="sub-menu">
-                                    <div class="widget_shopping_cart_content">
-
-
-                                        <p class="woocommerce-mini-cart__empty-message">No products in the cart.</p>
-
-
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <a href="javascript:;" data-target="off-canvas-right" class="off-canvas-toggle">
-                        <span></span>
-                    </a>
-
-                </div>
-            </div>
-            <!-- /.site-header-inner -->
-        </div>
-        <!-- /.site-header -->
-
-
-        <div id="site-header-sticky" class=" site-header-sticky header-brand-left">
-            <div class="site-header-inner wrap">
-                <div class="header-content">
-                    <div class="header-brand">
-                        <a href="https://live.21lab.co/hank">
-                            <img width="117" height="29"
-                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20117%2029'%3E%3C/svg%3E"
-                                data-lazy-srcset="https://live.21lab.co/hank/wp-content/themes/hank/assets/img/logo_sticky.png 1x, https://live.21lab.co/hank/wp-content/themes/hank/assets/img/logo_sticky@2x.png 2x"
-                                alt="Hank" class="logo logoDark"
-                                data-lazy-src="https://live.21lab.co/hank/wp-content/themes/hank/assets/img/logo_sticky.png" /><noscript><img
-                                    width="117" height="29"
-                                    src="https://live.21lab.co/hank/wp-content/themes/hank/assets/img/logo_sticky.png"
-                                    srcset="https://live.21lab.co/hank/wp-content/themes/hank/assets/img/logo_sticky.png 1x, https://live.21lab.co/hank/wp-content/themes/hank/assets/img/logo_sticky@2x.png 2x"
-                                    alt="Hank" class="logo logoDark" /></noscript> </a>
-                    </div>
-
-                    <nav class="navigator" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-
-
-                        <ul id="menu-main-menu-1" class="menu menu-primary">
-                            <li
-                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-142 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-176">
-                                <a href="{{ route('about') }}" aria-current="page">About</a>
-                                <ul class="sub-menu">
-                                    <li
-                                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-142 current_page_item menu-item-381">
-                                        <a href="{{ route('about') }}" aria-current="page">Company</a>
-                                    </li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-512">
-                                        <a href="{{ route('core-values') }}">Core Values</a></li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380">
-                                        <a href="{{ route('leadership') }}">Leadership</a></li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-781">
-                                        <a href="{{ route('why-choose-us') }}">Why choose us</a>
-                                    </li>
-                                    {{-- <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-517">
-                                        <a href="{{ route('careers') }}">Careers</a></li> --}}
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175">
-                                        <a href="{{ route('contact')}}">Contact</a></li>
-                                    <li
-                                        class="sm has-border menu-item menu-item-type-custom menu-item-object-custom menu-item-787">
-                                        <a
-                                            href="{{ route('why-choose-us') }}#testimonials">Testimonials</a>
-                                    </li>
-                                    <li
-                                        class="sm menu-item menu-item-type-custom menu-item-object-custom menu-item-788">
-                                        {{-- <a href="{{ route('about') }}why-choose-us/#awards">Awards &#038;
-                                            Recognition</a></li> --}}
-                                    <li
-                                        class="sm menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-886">
-                                        <a href="{{ route('about') }}#history" aria-current="page">Our
-                                            History</a></li>
-                                </ul>
-                            </li>
-                            <li
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-171">
-                                <a href="https://live.21lab.co/hank/experience/">Experience</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-874">
-                                        <a href="https://live.21lab.co/hank/experience/">What we do</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-872">
-                                        <a href="https://live.21lab.co/hank/experience/#services">Our Services</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-876">
-                                        <a href="https://live.21lab.co/hank/experience/#safety">Safety</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-873">
-                                        <a href="https://live.21lab.co/hank/experience/#markets">Markets we Serve</a>
-                                    </li>
-                                    <li
-                                        class="sm has-border menu-item menu-item-type-post_type menu-item-object-page menu-item-887">
-                                        <a href="https://live.21lab.co/hank/experience/property-and-buildings/">Property
-                                            and Buildings</a></li>
-                                </ul>
-                            </li>
-                            <li
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-131">
-                                <a href="https://live.21lab.co/hank/work/">Work</a>
-                                <ul class="sub-menu">
-                                    <li
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1087">
-                                        <a href="https://live.21lab.co/hank/works-style-1/">Works – style 1</a></li>
-                                    <li
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1091">
-                                        <a href="https://live.21lab.co/hank/works-style-2/">Works – style 2</a></li>
-                                    <li
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1071">
-                                        <a href="https://live.21lab.co/hank/works-style-3/">Works – style 3</a></li>
-                                    <li
-                                        class="sm has-border menu-item menu-item-type-post_type menu-item-object-page menu-item-1072">
-                                        <a href="https://live.21lab.co/hank/work/">Default Layout</a></li>
-                                </ul>
-                            </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-132"><a
-                                    href="https://live.21lab.co/hank/news/">News</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1142"><a
-                                    href="https://live.21lab.co/hank/shop/">Shop</a></li>
-                        </ul>
-                    </nav>
-
-                    <div class="extras">
-                        <div class="header-info-text">
-                            <ul class="info-list">
-                                <li>
-                                    <a href="#">
-                                        <i class="hank-screen-rotation"></i>
-                                        <p>
-                                            <span>Call us Now!</span>
-                                            <span class="lg">2800-312-56xxxx</span>
-                                        </p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="hank-b-meeting"></i>
-                                        <p>
-                                            <span>Talk to us</span>
-                                            <span class="lg">info@example.com</span>
-                                        </p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-
-
-                        <ul class="navigator menu-extras">
-                            <li class="search-box">
-                                <a href="#">
-                                    <i class="hank-zoom icon-32"></i>
-                                </a>
-                                <div class="widget widget_search">
-                                    <form role="search" method="get" class="search-form"
-                                        action="https://live.21lab.co/hank/">
-                                        <label>
-                                            <span class="screen-reader-text">Search for:</span>
-                                            <input type="search" class="search-field" placeholder="Search &hellip;"
-                                                value="" name="s" />
-                                        </label>
-                                        <input type="submit" class="search-submit" value="Search" />
-                                    </form>
-                                </div>
-                            </li>
-                            <li class="shopping-cart">
-                                <a class="shopping-cart-count" href="https://live.21lab.co/hank/cart/">
-                                    <i class="hank-cart icon-32"></i>
-
-                                    <span class="shopping-cart-items-count no-items"></span>
-                                </a>
-                                <div class="sub-menu">
-                                    <div class="widget_shopping_cart_content">
-
-
-                                        <p class="woocommerce-mini-cart__empty-message">No products in the cart.</p>
-
-
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <a href="javascript:;" data-target="off-canvas-right" class="off-canvas-toggle">
-                        <span></span>
-                    </a>
-
-                </div>
-            </div>
-            <!-- /.site-header-inner -->
-        </div>
-        <!-- /.site-header -->
+        @include('partials.header-sticky')
         <div id="site-content" class="site-content">
 
             <div id="content-body" class="content-body">
@@ -2282,7 +1955,7 @@
 
 
                                                                         <p class="box-readmore">
-                                                                            <a href="https://live.21lab.co/hank/work/">Take
+                                                                            <a href="{{ route('experience') }}">Take
                                                                                 a Look at What We Do</a>
                                                                         </p>
                                                                     </div>
@@ -2896,320 +2569,13 @@
         </div>
         <!-- /.site-content -->
 
-        <div id="site-footer" class="site-footer">
-
-            <div class="content-bottom-widgets">
-                <div class="content-bottom-inner wrap">
-                    <div class="content-bottom-aside-wrap">
-                        <aside data-width="12">
-                            <div id="text-3" class="widget-odd widget-first widget-1 widget widget_text">
-                                <div class="textwidget">
-                                    <h3 class="size-lg" style="color:#fff"><a
-                                            href="https://live.21lab.co/hank/contact/">contact us</a> today.<br />
-                                        For all your <a href="https://live.21lab.co/hank/experience/">construction</a>
-                                        needs!</h3>
-                                </div>
-                            </div>
-                            <div id="custom_html-5"
-                                class="widget_text widget-even widget-last widget-2 widget widget_custom_html">
-                                <div class="textwidget custom-html-widget">
-                                    <div class="contactExperts sm dark no-border">
-                                        <div class="images">
-                                            <span><img width="500" height="500"
-                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E"
-                                                    alt="img"
-                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p9.jpg"><noscript><img
-                                                        width="500" height="500"
-                                                        src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p9.jpg"
-                                                        alt="img"></noscript></span>
-                                            <span><img width="500" height="500"
-                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E"
-                                                    alt="img"
-                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/P4.jpg"><noscript><img
-                                                        width="500" height="500"
-                                                        src="https://live.21lab.co/hank/wp-content/uploads/2020/02/P4.jpg"
-                                                        alt="img"></noscript></span>
-                                            <span><img width="500" height="500"
-                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E"
-                                                    alt="img"
-                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p1.jpg"><noscript><img
-                                                        width="500" height="500"
-                                                        src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p1.jpg"
-                                                        alt="img"></noscript></span>
-                                        </div>
-                                        <div class="content">
-                                            Any questions? Reach us at <a href="#"
-                                                class="link">1-900-HANKCO</a> - Toll free in US/Canada
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </aside>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="footer-widgets">
-                <div class="footer-widgets-inner wrap">
-                    <div class="footer-aside-wrap">
-                        <aside data-width="8">
-                            <div id="nav_menu-3"
-                                class="widget-odd widget-last widget-first widget-1 menu-style2 columns-4 widget widget_nav_menu">
-                                <div class="menu-footer-menu-container">
-                                    <ul id="menu-footer-menu" class="menu">
-                                        <li id="menu-item-157"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-157">
-                                            <a href="#">Find us at</a>
-                                            <ul class="sub-menu">
-                                                <li id="menu-item-154"
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-154">
-                                                    <a href="#"><i
-                                                            class="fa fa-facebook-square"></i>Facebook</a></li>
-                                                <li id="menu-item-155"
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-155">
-                                                    <a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
-                                                <li id="menu-item-156"
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-156">
-                                                    <a href="#"><i
-                                                            class="fa fa-linkedin-square"></i>Linkedin</a></li>
-                                            </ul>
-                                        </li>
-                                        <li id="menu-item-158"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-158">
-                                            <a href="#">Who we are</a>
-                                            <ul class="sub-menu">
-                                                <li id="menu-item-160"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-142 current_page_item menu-item-160">
-                                                    <a href="{{ route('about') }}"
-                                                        aria-current="page">About Us</a></li>
-                                                <li id="menu-item-906"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-906">
-                                                    <a
-                                                        href="{{ route('leadership') }}">Leadership</a>
-                                                </li>
-                                                <li id="menu-item-159"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-159">
-                                                    <a href="https://live.21lab.co/hank/contact/">Contact Us</a></li>
-                                            </ul>
-                                        </li>
-                                        <li id="menu-item-162"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-162">
-                                            <a href="https://live.21lab.co/hank/experience/">Our Experience</a>
-                                            <ul class="sub-menu">
-                                                <li id="menu-item-910"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-910">
-                                                    <a href="https://live.21lab.co/hank/work/">What we do</a></li>
-                                                <li id="menu-item-909"
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-909">
-                                                    <a href="https://live.21lab.co/hank/experience/">Our Services</a>
-                                                </li>
-                                                <li id="menu-item-911"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-911">
-                                                    <a
-                                                        href="https://live.21lab.co/hank/experience/property-and-buildings/">Our
-                                                        Markets</a></li>
-                                            </ul>
-                                        </li>
-                                        <li id="menu-item-166"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-166">
-                                            <a href="#">Join Today</a>
-                                            <ul class="sub-menu">
-                                                <li id="menu-item-167"
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-167">
-                                                    <a href="https://live.21lab.co/hank/about/careers/">An Architect
-                                                        <span class="dotActive"></span></a></li>
-                                                <li id="menu-item-168"
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-168">
-                                                    <a href="https://live.21lab.co/hank/about/careers/">A
-                                                        Manufacturer</a></li>
-                                                <li id="menu-item-169"
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-169">
-                                                    <a href="https://live.21lab.co/hank/about/careers/">A
-                                                        Consultant</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </aside>
-                        <aside data-width="4">
-                            <div id="mc4wp_form_widget-3"
-                                class="widget-odd widget-last widget-first widget-1 style2 widget widget_mc4wp_form_widget">
-                                <script>
-                                    (function() {
-                                        window.mc4wp = window.mc4wp || {
-                                            listeners: [],
-                                            forms: {
-                                                on: function(evt, cb) {
-                                                    window.mc4wp.listeners.push({
-                                                        event: evt,
-                                                        callback: cb
-                                                    });
-                                                }
-                                            }
-                                        }
-                                    })();
-                                </script>
-                                <!-- Mailchimp for WordPress v4.8.6 - https://wordpress.org/plugins/mailchimp-for-wp/ -->
-                                <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-33" method="post"
-                                    data-id="33" data-name="Newsletter">
-                                    <div class="mc4wp-form-fields">
-                                        <p>
-                                            <label>Stay updated on special offers design trends, and more.</label>
-                                            <input type="email" name="EMAIL" placeholder="Your email address"
-                                                required />
-                                        </p>
-                                        <input type="submit" value="Subscribe Now" />
-                                    </div><label style="display: none !important;">Leave this field empty if you're
-                                        human: <input type="text" name="_mc4wp_honeypot" value=""
-                                            tabindex="-1" autocomplete="off" /></label><input type="hidden"
-                                        name="_mc4wp_timestamp" value="1765245812" /><input type="hidden"
-                                        name="_mc4wp_form_id" value="33" /><input type="hidden"
-                                        name="_mc4wp_form_element_id" value="mc4wp-form-1" />
-                                    <div class="mc4wp-response"></div>
-                                </form><!-- / Mailchimp for WordPress Plugin -->
-                            </div>
-                        </aside>
-                    </div>
-                </div>
-            </div>
-
-            <div class="footer-copyright footer-copyright-left">
-                <div class="footer-copyright-inner wrap">
-                    <div class="copyright-content">
-                        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                            alt="logo"
-                            data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2019/10/logo-ft.svg"><noscript><img
-                                src="https://live.21lab.co/hank/wp-content/uploads/2019/10/logo-ft.svg"
-                                alt="logo"></noscript>
-                        <p>Copyright © 2020 Hank. Designed and Developed by <a href="#">LineThemes</a> Only on
-                            <a href="#">Envato Market.</a></p>
-                    </div>
-
-
-                    <div class="go-to-top">
-                        <a href="javascript:;"><span>Go to Top</span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /#site-footer -->
+        @include('partials.footer')
     </div>
     <!-- /.site-wrapper -->
 
 
 
-    <div id="off-canvas-right" class="off-canvas sliding-menu">
-        <a href="javascript:;" data-target="off-canvas-right" class="off-canvas-toggle">
-            <span></span>
-        </a>
-
-        <div class="off-canvas-wrap">
-            <div class="widget widget_search">
-                <form role="search" method="get" class="search-form" action="https://live.21lab.co/hank/">
-                    <label>
-                        <span class="screen-reader-text">Search for:</span>
-                        <input type="search" class="search-field" placeholder="Search &hellip;" value=""
-                            name="s" />
-                    </label>
-                    <input type="submit" class="search-submit" value="Search" />
-                </form>
-            </div>
-            <ul id="menu-main-menu-2" class="menu menu-sliding">
-                <li
-                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-142 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-176">
-                    <a href="https://live.21lab.co/hank/about/" aria-current="page">About</a>
-                    <ul class="sub-menu">
-                        <li
-                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-142 current_page_item menu-item-381">
-                            <a href="https://live.21lab.co/hank/about/" aria-current="page">Company</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-512"><a
-                                href="https://live.21lab.co/hank/about/core-values/">Core Values</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380"><a
-                                href="https://live.21lab.co/hank/about/leadership/">Leadership</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-781"><a
-                                href="https://live.21lab.co/hank/about/why-choose-us/">Why choose us</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-517"><a
-                                href="https://live.21lab.co/hank/about/careers/">Careers</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175"><a
-                                href="https://live.21lab.co/hank/contact/">Contact</a></li>
-                        <li
-                            class="sm has-border menu-item menu-item-type-custom menu-item-object-custom menu-item-787">
-                            <a href="https://live.21lab.co/hank/about/why-choose-us/#testimonials">Testimonials</a>
-                        </li>
-                        <li class="sm menu-item menu-item-type-custom menu-item-object-custom menu-item-788"><a
-                                href="https://live.21lab.co/hank/about/why-choose-us/#awards">Awards &#038;
-                                Recognition</a></li>
-                        <li
-                            class="sm menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-886">
-                            <a href="https://live.21lab.co/hank/about/#history" aria-current="page">Our History</a>
-                        </li>
-                    </ul>
-                </li>
-                <li
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-171">
-                    <a href="https://live.21lab.co/hank/experience/">Experience</a>
-                    <ul class="sub-menu">
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-874"><a
-                                href="https://live.21lab.co/hank/experience/">What we do</a></li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-872"><a
-                                href="https://live.21lab.co/hank/experience/#services">Our Services</a></li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-876"><a
-                                href="https://live.21lab.co/hank/experience/#safety">Safety</a></li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-873"><a
-                                href="https://live.21lab.co/hank/experience/#markets">Markets we Serve</a></li>
-                        <li
-                            class="sm has-border menu-item menu-item-type-post_type menu-item-object-page menu-item-887">
-                            <a href="https://live.21lab.co/hank/experience/property-and-buildings/">Property and
-                                Buildings</a></li>
-                    </ul>
-                </li>
-                <li
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-131">
-                    <a href="https://live.21lab.co/hank/work/">Work</a>
-                    <ul class="sub-menu">
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1087"><a
-                                href="https://live.21lab.co/hank/works-style-1/">Works – style 1</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1091"><a
-                                href="https://live.21lab.co/hank/works-style-2/">Works – style 2</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1071"><a
-                                href="https://live.21lab.co/hank/works-style-3/">Works – style 3</a></li>
-                        <li
-                            class="sm has-border menu-item menu-item-type-post_type menu-item-object-page menu-item-1072">
-                            <a href="https://live.21lab.co/hank/work/">Default Layout</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-132"><a
-                        href="https://live.21lab.co/hank/news/">News</a></li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1142"><a
-                        href="https://live.21lab.co/hank/shop/">Shop</a></li>
-            </ul>
-            <div class="header-info-text">
-                <ul class="info-list">
-                    <li>
-                        <a href="#">
-                            <i class="hank-screen-rotation"></i>
-                            <p>
-                                <span>Call us Now!</span>
-                                <span class="lg">2800-312-56xxxx</span>
-                            </p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="hank-b-meeting"></i>
-                            <p>
-                                <span>Talk to us</span>
-                                <span class="lg">info@example.com</span>
-                            </p>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-        </div>
-    </div>
+    @include('partials.mobile-menu')
 
     <div id="frame">
         <span class="frame_top"></span>
