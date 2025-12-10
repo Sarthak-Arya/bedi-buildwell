@@ -7,7 +7,7 @@
         name="viewport">
     <link rel="profile" href="//gmpg.org/xfn/11" />
 
-    <title>Core Values &#8211; Hank</title>
+    <title>News &#8211; Hank</title>
     <link rel="preload" as="style"
         href="https://fonts.googleapis.com/css?family=Jost%3A100%2C200%2C300%2Cregular%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2Citalic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic&#038;subset=cyrillic%2Clatin%2Clatin-ext&#038;display=swap" />
     <link rel="stylesheet"
@@ -16,7 +16,7 @@
         <link rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Jost%3A100%2C200%2C300%2Cregular%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2Citalic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic&#038;subset=cyrillic%2Clatin%2Clatin-ext&#038;display=swap" />
     </noscript>
-    <link rel="stylesheet" href="https://live.21lab.co/hank/wp-content/cache/min/1/f7f88ecb3261bddfdb93fa8e4588e51e.css"
+    <link rel="stylesheet" href="https://live.21lab.co/hank/wp-content/cache/min/1/0546132bc3e05f5273e9c8d7646da4dc.css"
         media="all" data-minify="1" />
     <meta name='robots' content='max-image-preview:large' />
     <link rel='dns-prefetch' href='//static.addtoany.com' />
@@ -26,10 +26,6 @@
         href="https://live.21lab.co/hank/feed/" />
     <link rel="alternate" type="application/rss+xml" title="Hank &raquo; Comments Feed"
         href="https://live.21lab.co/hank/comments/feed/" />
-    <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
-        href="https://live.21lab.co/hank/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flive.21lab.co%2Fhank%2Fabout%2Fcore-values%2F" />
-    <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
-        href="https://live.21lab.co/hank/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flive.21lab.co%2Fhank%2Fabout%2Fcore-values%2F&#038;format=xml" />
     <style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
         img:is([sizes=auto i],[sizes^="auto," i]) {
             contain-intrinsic-size: 3000px 1500px
@@ -262,12 +258,6 @@
 
         .content-body-inner {
             padding-bottom: 80px;
-        }
-
-        .content>.vc_row>.row-inner,
-        .content>.vc_section>.vc_row>.row-inner {
-            width: 1710px;
-            margin: 0 auto;
         }
 
         .site-header .header-brand {
@@ -606,6 +596,205 @@
         /*# sourceURL=wp-emoji-styles-inline-css */
     </style>
 
+    <style id='wp-block-heading-inline-css' type='text/css'>
+        h1:where(.wp-block-heading).has-background,
+        h2:where(.wp-block-heading).has-background,
+        h3:where(.wp-block-heading).has-background,
+        h4:where(.wp-block-heading).has-background,
+        h5:where(.wp-block-heading).has-background,
+        h6:where(.wp-block-heading).has-background {
+            padding: 1.25em 2.375em
+        }
+
+        h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),
+        h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),
+        h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),
+        h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),
+        h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),
+        h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),
+        h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),
+        h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),
+        h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),
+        h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),
+        h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),
+        h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]) {
+            rotate: 180deg
+        }
+
+        /*# sourceURL=https://live.21lab.co/hank/wp-includes/blocks/heading/style.min.css */
+    </style>
+    <style id='wp-block-list-inline-css' type='text/css'>
+        ol,
+        ul {
+            box-sizing: border-box
+        }
+
+        :root :where(.wp-block-list.has-background) {
+            padding: 1.25em 2.375em
+        }
+
+        /*# sourceURL=https://live.21lab.co/hank/wp-includes/blocks/list/style.min.css */
+    </style>
+    <style id='wp-block-paragraph-inline-css' type='text/css'>
+        .is-small-text {
+            font-size: .875em
+        }
+
+        .is-regular-text {
+            font-size: 1em
+        }
+
+        .is-large-text {
+            font-size: 2.25em
+        }
+
+        .is-larger-text {
+            font-size: 3em
+        }
+
+        .has-drop-cap:not(:focus):first-letter {
+            float: left;
+            font-size: 8.4em;
+            font-style: normal;
+            font-weight: 100;
+            line-height: .68;
+            margin: .05em .1em 0 0;
+            text-transform: uppercase
+        }
+
+        body.rtl .has-drop-cap:not(:focus):first-letter {
+            float: none;
+            margin-left: .1em
+        }
+
+        p.has-drop-cap.has-background {
+            overflow: hidden
+        }
+
+        :root :where(p.has-background) {
+            padding: 1.25em 2.375em
+        }
+
+        :where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],
+        p.has-text-align-right[style*="writing-mode:vertical-rl"] {
+            rotate: 180deg
+        }
+
+        /*# sourceURL=https://live.21lab.co/hank/wp-includes/blocks/paragraph/style.min.css */
+    </style>
+    <style id='wp-block-pullquote-inline-css' type='text/css'>
+        .wp-block-pullquote {
+            box-sizing: border-box;
+            margin: 0 0 1em;
+            overflow-wrap: break-word;
+            padding: 4em 0;
+            text-align: center
+        }
+
+        .wp-block-pullquote blockquote,
+        .wp-block-pullquote p {
+            color: inherit
+        }
+
+        .wp-block-pullquote blockquote {
+            margin: 0
+        }
+
+        .wp-block-pullquote p {
+            margin-top: 0
+        }
+
+        .wp-block-pullquote p:last-child {
+            margin-bottom: 0
+        }
+
+        .wp-block-pullquote.alignleft,
+        .wp-block-pullquote.alignright {
+            max-width: 420px
+        }
+
+        .wp-block-pullquote cite,
+        .wp-block-pullquote footer {
+            position: relative
+        }
+
+        .wp-block-pullquote .has-text-color a {
+            color: inherit
+        }
+
+        .wp-block-pullquote.has-text-align-left blockquote {
+            text-align: left
+        }
+
+        .wp-block-pullquote.has-text-align-right blockquote {
+            text-align: right
+        }
+
+        .wp-block-pullquote.has-text-align-center blockquote {
+            text-align: center
+        }
+
+        .wp-block-pullquote.is-style-solid-color {
+            border: none
+        }
+
+        .wp-block-pullquote.is-style-solid-color blockquote {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 60%
+        }
+
+        .wp-block-pullquote.is-style-solid-color blockquote p {
+            font-size: 2em;
+            margin-bottom: 0;
+            margin-top: 0
+        }
+
+        .wp-block-pullquote.is-style-solid-color blockquote cite {
+            font-style: normal;
+            text-transform: none
+        }
+
+        .wp-block-pullquote :where(cite) {
+            color: inherit;
+            display: block
+        }
+
+        /*# sourceURL=https://live.21lab.co/hank/wp-includes/blocks/pullquote/style.min.css */
+    </style>
+    <style id='wp-block-quote-inline-css' type='text/css'>
+        .wp-block-quote {
+            box-sizing: border-box;
+            overflow-wrap: break-word
+        }
+
+        .wp-block-quote.is-large:where(:not(.is-style-plain)),
+        .wp-block-quote.is-style-large:where(:not(.is-style-plain)) {
+            margin-bottom: 1em;
+            padding: 0 1em
+        }
+
+        .wp-block-quote.is-large:where(:not(.is-style-plain)) p,
+        .wp-block-quote.is-style-large:where(:not(.is-style-plain)) p {
+            font-size: 1.5em;
+            font-style: italic;
+            line-height: 1.6
+        }
+
+        .wp-block-quote.is-large:where(:not(.is-style-plain)) cite,
+        .wp-block-quote.is-large:where(:not(.is-style-plain)) footer,
+        .wp-block-quote.is-style-large:where(:not(.is-style-plain)) cite,
+        .wp-block-quote.is-style-large:where(:not(.is-style-plain)) footer {
+            font-size: 1.125em;
+            text-align: right
+        }
+
+        .wp-block-quote>cite {
+            display: block
+        }
+
+        /*# sourceURL=https://live.21lab.co/hank/wp-includes/blocks/quote/style.min.css */
+    </style>
     <style id='global-styles-inline-css' type='text/css'>
         :root {
             --wp--preset--aspect-ratio--square: 1;
@@ -910,6 +1099,11 @@
             font-size: var(--wp--preset--font-size--x-large) !important;
         }
 
+        :root :where(.wp-block-pullquote) {
+            font-size: 1.5em;
+            line-height: 1.6;
+        }
+
         /*# sourceURL=global-styles-inline-css */
     </style>
 
@@ -942,7 +1136,6 @@
 
         /*# sourceURL=woocommerce-inline-inline-css */
     </style>
-
 
     <script type="text/javascript" src="https://live.21lab.co/hank/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
         id="jquery-core-js"></script>
@@ -987,13 +1180,9 @@
         src="https://live.21lab.co/hank/wp-content/cache/min/1/hank/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js?ver=1695002910"
         id="vc_woocommerce-add-to-cart-js-js"></script>
     <link rel="https://api.w.org/" href="https://live.21lab.co/hank/wp-json/" />
-    <link rel="alternate" title="JSON" type="application/json"
-        href="https://live.21lab.co/hank/wp-json/wp/v2/pages/486" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://live.21lab.co/hank/xmlrpc.php?rsd" />
     <meta name="generator" content="WordPress 6.9" />
     <meta name="generator" content="WooCommerce 6.1.2" />
-    <link rel="canonical" href="https://live.21lab.co/hank/about/core-values/" />
-    <link rel='shortlink' href='https://live.21lab.co/hank/?p=486' />
     <noscript>
         <style>
             .woocommerce-product-gallery {
@@ -1069,59 +1258,7 @@
             //});
         };
     </script>
-    <style type="text/css" data-type="vc_custom-css">
-        .iconlist-icon-small {
-            color: #fff;
-        }
-    </style>
-    <style type="text/css" data-type="vc_shortcodes-custom-css">
-        .vc_custom_1581389427798 {
-            padding-top: 150px !important;
-            background-color: #232323 !important;
-        }
-
-        .vc_custom_1576828842517 {
-            padding-top: 60px !important;
-            padding-bottom: 20px !important;
-        }
-
-        .vc_custom_1581396882857 {
-            background-position: 0 0 !important;
-            background-repeat: no-repeat !important;
-        }
-
-        .vc_custom_1581397513865 {
-            padding-top: 80px !important;
-        }
-
-        .vc_custom_1581397630788 {
-            padding-top: 80px !important;
-        }
-
-        .vc_custom_1575014741811 {
-            margin-bottom: 35px !important;
-        }
-
-        .vc_custom_1581397771621 {
-            margin-right: 5% !important;
-            margin-bottom: 30px !important;
-            margin-left: 5% !important;
-            padding-top: 120px !important;
-            padding-bottom: 120px !important;
-            background-image: url(https://live.21lab.co/hank/wp-content/uploads/2020/02/bg-6.jpg?id=674) !important;
-            background-position: center !important;
-            background-repeat: no-repeat !important;
-            background-size: cover !important;
-        }
-
-        .vc_custom_1578887573623 {
-            padding-top: 20px !important;
-        }
-
-        .vc_custom_1581395783488 {
-            padding-top: 60px !important;
-        }
-    </style><noscript>
+    <noscript>
         <style>
             .wpb_animate_when_almost_visible {
                 opacity: 1;
@@ -1135,8 +1272,6 @@
             }
         </style>
     </noscript>
-
-
     <style id='rs-plugin-settings-inline-css' type='text/css'>
         #rs-demo-id {}
 
@@ -1145,7 +1280,7 @@
 </head>
 
 <body
-    class="wp-singular page-template page-template-tmpl page-template-template-fullwidth page-template-tmpltemplate-fullwidth-php page page-id-486 page-child parent-pageid-142 wp-theme-hank theme-hank woocommerce-no-js sliding-desktop-off sliding-overlay layout-wide wpb-js-composer js-comp-ver-6.8.0 vc_responsive"
+    class="blog wp-theme-hank theme-hank woocommerce-no-js sliding-desktop-off sliding-overlay layout-wide blog-grid wpb-js-composer js-comp-ver-6.8.0 vc_responsive"
     itemscope="itemscope" itemtype="https://schema.org/WebPage">
 
     <div id="site" class="site wrap header-position-top">
@@ -1172,16 +1307,15 @@
 
                         <ul id="menu-main-menu" class="menu menu-primary">
                             <li id="menu-item-176"
-                                class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-176">
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-176">
                                 <a href="https://live.21lab.co/hank/about/">About</a>
                                 <ul class="sub-menu">
                                     <li id="menu-item-381"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-page-parent menu-item-381">
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-381">
                                         <a href="https://live.21lab.co/hank/about/">Company</a></li>
                                     <li id="menu-item-512"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-486 current_page_item menu-item-512">
-                                        <a href="https://live.21lab.co/hank/about/core-values/"
-                                            aria-current="page">Core Values</a></li>
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-512">
+                                        <a href="https://live.21lab.co/hank/about/core-values/">Core Values</a></li>
                                     <li id="menu-item-380"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380">
                                         <a href="https://live.21lab.co/hank/about/leadership/">Leadership</a></li>
@@ -1251,8 +1385,8 @@
                                 </ul>
                             </li>
                             <li id="menu-item-132"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-132"><a
-                                    href="https://live.21lab.co/hank/news/">News</a></li>
+                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2 current_page_item current_page_parent menu-item-132">
+                                <a href="https://live.21lab.co/hank/news/" aria-current="page">News</a></li>
                             <li id="menu-item-1142"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1142"><a
                                     href="https://live.21lab.co/hank/shop/">Shop</a></li>
@@ -1352,16 +1486,13 @@
 
                         <ul id="menu-main-menu-1" class="menu menu-primary">
                             <li
-                                class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-176">
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-176">
                                 <a href="https://live.21lab.co/hank/about/">About</a>
                                 <ul class="sub-menu">
-                                    <li
-                                        class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-page-parent menu-item-381">
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-381">
                                         <a href="https://live.21lab.co/hank/about/">Company</a></li>
-                                    <li
-                                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-486 current_page_item menu-item-512">
-                                        <a href="https://live.21lab.co/hank/about/core-values/"
-                                            aria-current="page">Core Values</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-512">
+                                        <a href="https://live.21lab.co/hank/about/core-values/">Core Values</a></li>
                                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380">
                                         <a href="https://live.21lab.co/hank/about/leadership/">Leadership</a></li>
                                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-781">
@@ -1422,8 +1553,9 @@
                                         <a href="https://live.21lab.co/hank/work/">Default Layout</a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-132"><a
-                                    href="https://live.21lab.co/hank/news/">News</a></li>
+                            <li
+                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2 current_page_item current_page_parent menu-item-132">
+                                <a href="https://live.21lab.co/hank/news/" aria-current="page">News</a></li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1142"><a
                                     href="https://live.21lab.co/hank/shop/">Shop</a></li>
                         </ul>
@@ -1501,601 +1633,543 @@
         <!-- /.site-header -->
         <div id="site-content" class="site-content">
 
+            <div class="content-header content-header-left vc_row">
+                <canvas></canvas>
+                <div class="content-header-inner wrap">
+                    <div class="flex-inner">
+                        <div class="breadcrumbs">
+                            <div class="breadcrumbs-inner">
+                                <!-- Breadcrumb NavXT 7.0.2 -->
+                                <span property="itemListElement" typeof="ListItem"><a property="item"
+                                        typeof="WebPage" title="Go to Hank." href="https://live.21lab.co/hank"
+                                        class="home"><span property="name">Hank</span></a>
+                                    <meta property="position" content="1">
+                                </span><span property="itemListElement" typeof="ListItem"><span property="name"
+                                        class="post-root post post-post current-item">News</span>
+                                    <meta property="url" content="https://live.21lab.co/hank/news/">
+                                    <meta property="position" content="2">
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="page-title-wrap">
+                            <div class="page-title">
+                                <h1 class="page-title-inner">News</h1>
+                                <p class="subtitle">Stay in the know with Hank Co.,LTD news and events.</p>
+                            </div>
+                        </div>
+
+                        <div class="down-arrow">
+                            <a href="javascript:;">
+                                <span>Scroll Down</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div id="content-body" class="content-body">
                 <div class="content-body-inner wrap">
                     <!-- The main content -->
                     <main id="main-content" class="main-content" itemprop="mainContentOfPage">
                         <div class="main-content-inner">
-                            <div class="content">
-                                <section class="vc_section vc_custom_1581389427798 vc_section-has-fill">
-                                    <div
-                                        class="vc_row wpb_row vc_row-fluid vc_custom_1575014741811 vc_row-o-content-bottom vc_row-flex">
-                                        <div class="row-inner">
-                                            <div class="wpb_column vc_column_container vc_col-sm-6">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <div style="font-size: 40px;color: #ffffff;line-height: 44px;text-align: left"
-                                                            class="vc_custom_heading">we have one mission to be<br />
-                                                            the <strong>Best Builder Company in US.</strong></div>
-                                                        <div class="vc_empty_space" style="height: 20px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="wpb_column vc_column_container vc_col-sm-1">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper"></div>
-                                                </div>
-                                            </div>
-                                            <div class="wpb_column vc_column_container vc_col-sm-4">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="wpb_text_column wpb_content_element ">
-                                                            <div class="wpb_wrapper">
-                                                                <p><span style="color: #b7b7b7;">It’s a burning,
-                                                                        never-ending desire to help our clients maximize
-                                                                        their outcomes — and exceed their strategic
-                                                                        goals. Though our goal is a bit aspirational,
-                                                                        our values are what drive us every day.</span>
-                                                                </p>
+                            <div class="content" role="main" itemprop="mainContentOfPage">
+                                <div class="content-inner" data-grid-normal data-columns="3">
 
-                                                            </div>
-                                                        </div>
-                                                        <div class="vc_empty_space" style="height: 25px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="wpb_column vc_column_container vc_col-sm-1">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="vc_row wpb_row vc_row-fluid">
-                                        <div class="row-inner">
-                                            <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="vc_wp_custommenu wpb_content_element columns-5">
-                                                            <div class="widget widget_nav_menu">
-                                                                <div class="menu-company-container">
-                                                                    <ul id="menu-company" class="menu">
-                                                                        <li id="menu-item-365"
-                                                                            class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-page-parent menu-item-365">
-                                                                            <a
-                                                                                href="https://live.21lab.co/hank/about/">Overview</a>
-                                                                        </li>
-                                                                        <li id="menu-item-489"
-                                                                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-486 current_page_item menu-item-489">
-                                                                            <a href="https://live.21lab.co/hank/about/core-values/"
-                                                                                aria-current="page">Core Values</a>
-                                                                        </li>
-                                                                        <li id="menu-item-366"
-                                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-366">
-                                                                            <a
-                                                                                href="https://live.21lab.co/hank/about/leadership/">Leadership</a>
-                                                                        </li>
-                                                                        <li id="menu-item-778"
-                                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-778">
-                                                                            <a
-                                                                                href="https://live.21lab.co/hank/about/why-choose-us/">Why
-                                                                                choose us</a></li>
-                                                                        <li id="menu-item-518"
-                                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-518">
-                                                                            <a
-                                                                                href="https://live.21lab.co/hank/about/careers/">Join
-                                                                                Us <span class="badge">7
-                                                                                    jobs</span></a></li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="vc_empty_space" style="height: 30px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section class="vc_section vc_custom_1576828842517">
-                                    <div class="vc_row wpb_row vc_row-fluid">
-                                        <div class="row-inner">
-                                            <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <h2 style="font-size: 64px;line-height: 64px;text-align: center"
-                                                            class="vc_custom_heading"><strong>our core purpose</strong>
-                                                        </h2>
-                                                        <div class="vc_empty_space" style="height: 15px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                        <p style="font-size: 21px;line-height: 26px;text-align: center"
-                                                            class="vc_custom_heading">Make a difference in the lives of
-                                                            Our Customers, Employees and Community.</p>
-                                                        <div class="vc_empty_space" style="height: 70px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="vc_row wpb_row vc_row-fluid">
-                                        <div class="row-inner">
-                                            <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <ul class="iconlist iconlist iconlist-icon-large columns-3">
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><i
-                                                                        class="hank-factory"></i></div>
-                                                                <div class="iconlist-item-content">
-                                                                    <h3>customers.</h3>
-                                                                    <p><span style="color: #7f7f7f;">We provide
-                                                                            attentive and detailed construction
-                                                                            management services. We use our extensive
-                                                                            industry experience and current technology
-                                                                            to service our clients while remaining
-                                                                            sensitive to an ever-changing
-                                                                            environment.</span></p>
-                                                                </div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><i
-                                                                        class="hank-privacy-policy"></i></div>
-                                                                <div class="iconlist-item-content">
-                                                                    <h3>employees.</h3>
-                                                                    <p><span style="color: #7f7f7f;">To our dedicated
-                                                                            employees we provide an open work
-                                                                            environment that promises to nurture
-                                                                            creativity, tolerance, professional
-                                                                            development, safety, and a family
-                                                                            environment. We strive to bring diversity
-                                                                            into the workplace.</span></p>
-                                                                </div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><i
-                                                                        class="hank-new-construction"></i></div>
-                                                                <div class="iconlist-item-content">
-                                                                    <h3>community.</h3>
-                                                                    <p><span style="color: #7f7f7f;">To our community
-                                                                            we have a strong commitment to providing
-                                                                            opportunities to local residents &amp;
-                                                                            women-owned businesses in the community to
-                                                                            work with us as employees or subcontractors
-                                                                            &amp; contribute to our collective
-                                                                            success.</span></p>
-                                                                </div>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section class="vc_section vc_custom_1581396882857 vc_section-has-fill">
-                                    <div
-                                        class="vc_row wpb_row vc_row-fluid vc_custom_1581397771621 vc_row-has-fill vc_row-o-content-middle vc_row-flex">
-                                        <div class="row-inner">
-                                            <div
-                                                class="wpb_column vc_column_container vc_col-sm-5 vc_col-lg-6 vc_hidden-xs">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="vc_empty_space" style="height: 350px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="wpb_column vc_column_container vc_col-sm-7 vc_col-lg-5 vc_col-md-6 vc_hidden-xs">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="testimonial ">
-                                                            <div class="testimonial-content">
-                                                                <blockquote>
-                                                                    <p>good buildings come from good people, and all
-                                                                        problems are solved by good design.</p>
-                                                                </blockquote>
-                                                            </div>
-                                                            <div class="testimonial-meta">
-                                                                <div class="testimonial-author">
-                                                                    <strong class="author-name">John Doe</strong>
-                                                                    <div class="author-info"><span
-                                                                            class="subtitle">CEO</span> <span
-                                                                            class="divider">-</span> <span
-                                                                            class="company">Hank Construction</span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="wpb_column vc_column_container vc_col-sm-1">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="vc_row wpb_row vc_row-fluid vc_custom_1578887573623">
-                                        <div class="row-inner">
-                                            <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="wpb_text_column wpb_content_element ">
-                                                            <div class="wpb_wrapper">
-                                                                <p style="text-align: center;"><strong
-                                                                        class="badge">People</strong> United by a
-                                                                    common goal and passion for people, our project team
-                                                                    is second to none.</p>
+                                    <div id="post-109"
+                                        class="post post-109 type-post status-publish format-standard has-post-thumbnail hentry category-diy-tips tag-energy-efficiency tag-home-improvement tag-icf-construction">
+                                        <div class="post-inner">
 
-                                                            </div>
-                                                        </div>
-                                                        <div class="vc_empty_space" style="height: 45px"><span
-                                                                class="vc_empty_space_inner"></span></div>
+
+                                            <div class="post-image">
+                                                <a class="featured-image"
+                                                    href="https://live.21lab.co/hank/renovations-that-add-the-most-resale-value-to-your-home/"
+                                                    target="_self">
+
+                                                    <span class="more">Read More</span>
+
+                                                    <img class=""
+                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20350'%3E%3C/svg%3E"
+                                                        width="800" height="350"
+                                                        alt="Female carpenter measuring the lumber - Image by © rawpixel"
+                                                        title="b10"
+                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2019/10/b10-800x350.jpg" /><noscript><img
+                                                            class=""
+                                                            src="https://live.21lab.co/hank/wp-content/uploads/2019/10/b10-800x350.jpg"
+                                                            width="800" height="350"
+                                                            alt="Female carpenter measuring the lumber - Image by © rawpixel"
+                                                            title="b10" /></noscript> </a>
+                                            </div>
+
+
+                                            <div class="post-categories">
+                                                <span>October 26, 2019</span>
+                                                <a href="https://live.21lab.co/hank/category/diy-tips/"
+                                                    rel="category tag">DIY Tips</a>
+                                            </div>
+
+                                            <div class="post-header">
+
+                                                <h2 class="post-title" itemprop="headline">
+                                                    <a href="https://live.21lab.co/hank/renovations-that-add-the-most-resale-value-to-your-home/"
+                                                        rel="bookmark">
+                                                        Renovations that Add the Most Resale Value to your Home </a>
+                                                </h2>
+                                            </div>
+
+                                            <div class="post-content">
+                                                <p>Spring is a time for new projects and many homeowners take advantage
+                                                    of the warmer weather to tackle renovations. Whether you are a DIY
+                                                    enthusiast or are relying on a contractor, you want to know that you
+                                                    are getting the most out of every home-improv...</p>
+                                            </div>
+
+                                            <div class="post-footer">
+
+                                                <div class="post-meta">
+                                                    <div class="post-author-content">
+                                                        <img alt=''
+                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2040%2040'%3E%3C/svg%3E"
+                                                            data-lazy-srcset='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=80&#038;d=mm&#038;r=g 2x'
+                                                            class='avatar avatar-40 photo' height='40'
+                                                            width='40' decoding='async'
+                                                            data-lazy-src="https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=40&#038;d=mm&#038;r=g" /><noscript><img
+                                                                alt=''
+                                                                src='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=40&#038;d=mm&#038;r=g'
+                                                                srcset='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=80&#038;d=mm&#038;r=g 2x'
+                                                                class='avatar avatar-40 photo' height='40'
+                                                                width='40' decoding='async' /></noscript>
+                                                        <span>by</span>
+                                                        <span class="post-name">
+                                                            <a href="https://live.21lab.co/hank/author/linethemes/"
+                                                                title="Posts by Linethemes"
+                                                                rel="author">Linethemes</a> </span>
+                                                    </div>
+                                                    <div class="post-comments">
+                                                        <a
+                                                            href="https://live.21lab.co/hank/renovations-that-add-the-most-resale-value-to-your-home/#respond">0
+                                                            <span>Comment</span></a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </section>
-                                <section class="vc_section bg-accent vc_custom_1581397513865">
-                                    <div class="vc_row wpb_row vc_row-fluid">
-                                        <div class="row-inner">
-                                            <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <h2 style="font-size: 64px;color: #ffffff;line-height: 64px;text-align: center"
-                                                            class="vc_custom_heading"><strong>our core values</strong>
-                                                        </h2>
-                                                        <div class="vc_empty_space" style="height: 15px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                        <p style="font-size: 21px;color: #b7b7b7;line-height: 26px;text-align: center"
-                                                            class="vc_custom_heading">Our core values are the
-                                                            foundation by which Hank Construction was built.</p>
-                                                        <div class="vc_empty_space" style="height: 70px"><span
-                                                                class="vc_empty_space_inner"></span></div>
+
+                                    <div id="post-97"
+                                        class="post post-97 type-post status-publish format-standard has-post-thumbnail hentry category-innovation tag-3d-printing tag-art tag-human">
+                                        <div class="post-inner">
+
+
+                                            <div class="post-image">
+                                                <a class="featured-image"
+                                                    href="https://live.21lab.co/hank/3d-printing-a-technology-to-serve-humans-and-human-art/"
+                                                    target="_self">
+
+                                                    <span class="more">Read More</span>
+
+                                                    <img class=""
+                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20350'%3E%3C/svg%3E"
+                                                        width="800" height="350"
+                                                        alt="Oslo Opera House, Oslo, Norway - Image by @maxvdo Unsplash"
+                                                        title="b9-4"
+                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2019/10/b9-4-800x350.jpg" /><noscript><img
+                                                            class=""
+                                                            src="https://live.21lab.co/hank/wp-content/uploads/2019/10/b9-4-800x350.jpg"
+                                                            width="800" height="350"
+                                                            alt="Oslo Opera House, Oslo, Norway - Image by @maxvdo Unsplash"
+                                                            title="b9-4" /></noscript> </a>
+                                            </div>
+
+
+                                            <div class="post-categories">
+                                                <span>October 26, 2019</span>
+                                                <a href="https://live.21lab.co/hank/category/innovation/"
+                                                    rel="category tag">Innovation</a>
+                                            </div>
+
+                                            <div class="post-header">
+
+                                                <h2 class="post-title" itemprop="headline">
+                                                    <a href="https://live.21lab.co/hank/3d-printing-a-technology-to-serve-humans-and-human-art/"
+                                                        rel="bookmark">
+                                                        3D Printing a Technology to Serve Humans and Human Art </a>
+                                                </h2>
+                                            </div>
+
+                                            <div class="post-content">
+                                                <p>Many a fantasy has arisen from some spectacular and highly publicised
+                                                    examples of add-on constructions produced by 3D printing techniques,
+                                                    the most obvious one being the replacement of humans by machines
+                                                    leading to the risk of job losses. … But reali...</p>
+                                            </div>
+
+                                            <div class="post-footer">
+
+                                                <div class="post-meta">
+                                                    <div class="post-author-content">
+                                                        <img alt=''
+                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2040%2040'%3E%3C/svg%3E"
+                                                            data-lazy-srcset='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=80&#038;d=mm&#038;r=g 2x'
+                                                            class='avatar avatar-40 photo' height='40'
+                                                            width='40' decoding='async'
+                                                            data-lazy-src="https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=40&#038;d=mm&#038;r=g" /><noscript><img
+                                                                alt=''
+                                                                src='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=40&#038;d=mm&#038;r=g'
+                                                                srcset='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=80&#038;d=mm&#038;r=g 2x'
+                                                                class='avatar avatar-40 photo' height='40'
+                                                                width='40' decoding='async' /></noscript>
+                                                        <span>by</span>
+                                                        <span class="post-name">
+                                                            <a href="https://live.21lab.co/hank/author/linethemes/"
+                                                                title="Posts by Linethemes"
+                                                                rel="author">Linethemes</a> </span>
+                                                    </div>
+                                                    <div class="post-comments">
+                                                        <a
+                                                            href="https://live.21lab.co/hank/3d-printing-a-technology-to-serve-humans-and-human-art/#respond">0
+                                                            <span>Comment</span></a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="vc_row wpb_row vc_row-fluid">
-                                        <div class="row-inner">
-                                            <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <ul class="iconlist iconlist iconlist-icon-small columns-3">
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><i
-                                                                        class="hank-d-check"></i></div>
-                                                                <div class="iconlist-item-content">
-                                                                    <h3>teamwork.</h3>
-                                                                    <p><span style="color: #999;">We recognize our
-                                                                            primary asset is people. We work with our
-                                                                            clients as a team. Mutual respect provides
-                                                                            the foundation for our success.</span></p>
-                                                                </div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><i
-                                                                        class="hank-d-check"></i></div>
-                                                                <div class="iconlist-item-content">
-                                                                    <h3>intergity.</h3>
-                                                                    <p><span style="color: #999;">We abide by the
-                                                                            Biblical principle that our “yes is yes” and
-                                                                            our “no is no”. When we make a commitment or
-                                                                            an agreement, we will always follow
-                                                                            through</span></p>
-                                                                </div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><i
-                                                                        class="hank-d-check"></i></div>
-                                                                <div class="iconlist-item-content">
-                                                                    <h3>excellence.</h3>
-                                                                    <p><span style="color: #999;">Skillfully execute
-                                                                            our work, utilizing innovation and
-                                                                            ingenuity, so that we provide a high-quality
-                                                                            finished product and excellent customer
-                                                                            service.</span></p>
-                                                                </div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><i
-                                                                        class="hank-d-check"></i></div>
-                                                                <div class="iconlist-item-content">
-                                                                    <h3>safety.</h3>
-                                                                    <p><span style="color: #999;">At Hank Construction,
-                                                                            we are dedicated to maintaining a safe work
-                                                                            environment for our employees, our
-                                                                            subcontractors, our clients and the general
-                                                                            public.</span></p>
-                                                                </div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><i
-                                                                        class="hank-d-check"></i></div>
-                                                                <div class="iconlist-item-content">
-                                                                    <h3>innovation.</h3>
-                                                                    <p><span style="color: #999;">We foster a culture
-                                                                            that embraces the need for change. We
-                                                                            encourage and support innovation and
-                                                                            individual creativity in problem solving;
-                                                                            always rising to the challenge.</span></p>
-                                                                </div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><i
-                                                                        class="hank-d-check"></i></div>
-                                                                <div class="iconlist-item-content">
-                                                                    <h3>communication.</h3>
-                                                                    <p><span style="color: #999;">We take time to
-                                                                            listen. Open, honest, and proactive
-                                                                            communication with clients, partners, and
-                                                                            employees is essential to how we
-                                                                            operate.</span></p>
-                                                                </div>
-                                                            </li>
-                                                        </ul>
+
+                                    <div id="post-93"
+                                        class="post post-93 type-post status-publish format-standard has-post-thumbnail hentry category-diy-tips tag-home-improvement">
+                                        <div class="post-inner">
+
+
+                                            <div class="post-image">
+                                                <a class="featured-image"
+                                                    href="https://live.21lab.co/hank/3-signs-your-home-is-at-risk-of-moisture-damage/"
+                                                    target="_self">
+
+                                                    <span class="more">Read More</span>
+
+                                                    <img class=""
+                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20350'%3E%3C/svg%3E"
+                                                        width="800" height="350"
+                                                        alt="Man fixing kitchen sink - image by © rawpixel"
+                                                        title="b8"
+                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2019/10/b8-800x350.jpg" /><noscript><img
+                                                            class=""
+                                                            src="https://live.21lab.co/hank/wp-content/uploads/2019/10/b8-800x350.jpg"
+                                                            width="800" height="350"
+                                                            alt="Man fixing kitchen sink - image by © rawpixel"
+                                                            title="b8" /></noscript> </a>
+                                            </div>
+
+
+                                            <div class="post-categories">
+                                                <span>October 26, 2019</span>
+                                                <a href="https://live.21lab.co/hank/category/diy-tips/"
+                                                    rel="category tag">DIY Tips</a>
+                                            </div>
+
+                                            <div class="post-header">
+
+                                                <h2 class="post-title" itemprop="headline">
+                                                    <a href="https://live.21lab.co/hank/3-signs-your-home-is-at-risk-of-moisture-damage/"
+                                                        rel="bookmark">
+                                                        3 Signs your Home is at Risk of Moisture Damage </a>
+                                                </h2>
+                                            </div>
+
+                                            <div class="post-content">
+                                                <p>Moisture can cause a disastrous amount of damage to your home when
+                                                    left unchecked. Performing regular maintenance and looking out for
+                                                    these warning signs will help you to reduce the risk of damage and
+                                                    keep your home functioning optimally.
+
+
+
+                                                    Your Wat...</p>
+                                            </div>
+
+                                            <div class="post-footer">
+
+                                                <div class="post-meta">
+                                                    <div class="post-author-content">
+                                                        <img alt=''
+                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2040%2040'%3E%3C/svg%3E"
+                                                            data-lazy-srcset='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=80&#038;d=mm&#038;r=g 2x'
+                                                            class='avatar avatar-40 photo' height='40'
+                                                            width='40' decoding='async'
+                                                            data-lazy-src="https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=40&#038;d=mm&#038;r=g" /><noscript><img
+                                                                alt=''
+                                                                src='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=40&#038;d=mm&#038;r=g'
+                                                                srcset='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=80&#038;d=mm&#038;r=g 2x'
+                                                                class='avatar avatar-40 photo' height='40'
+                                                                width='40' decoding='async' /></noscript>
+                                                        <span>by</span>
+                                                        <span class="post-name">
+                                                            <a href="https://live.21lab.co/hank/author/linethemes/"
+                                                                title="Posts by Linethemes"
+                                                                rel="author">Linethemes</a> </span>
+                                                    </div>
+                                                    <div class="post-comments">
+                                                        <a
+                                                            href="https://live.21lab.co/hank/3-signs-your-home-is-at-risk-of-moisture-damage/#respond">0
+                                                            <span>Comment</span></a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </section>
-                                <section class="vc_section vc_custom_1581397630788">
-                                    <div class="vc_row wpb_row vc_row-fluid vc_column-gap-35">
-                                        <div class="row-inner">
-                                            <div class="wpb_column vc_column_container vc_col-sm-6">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <div
-                                                            class="wpb_single_image wpb_content_element vc_align_left">
 
-                                                            <figure class="wpb_wrapper vc_figure">
-                                                                <div
-                                                                    class="vc_single_image-wrapper   vc_box_border_grey">
-                                                                    <img fetchpriority="high" decoding="async"
-                                                                        width="1680" height="726"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201680%20726'%3E%3C/svg%3E"
-                                                                        class="vc_single_image-img attachment-full"
-                                                                        alt="" title="video"
-                                                                        data-lazy-srcset="https://live.21lab.co/hank/wp-content/uploads/2019/12/video.jpg 1680w, https://live.21lab.co/hank/wp-content/uploads/2019/12/video-600x259.jpg 600w, https://live.21lab.co/hank/wp-content/uploads/2019/12/video-300x130.jpg 300w, https://live.21lab.co/hank/wp-content/uploads/2019/12/video-1024x443.jpg 1024w, https://live.21lab.co/hank/wp-content/uploads/2019/12/video-768x332.jpg 768w, https://live.21lab.co/hank/wp-content/uploads/2019/12/video-1536x664.jpg 1536w"
-                                                                        data-lazy-sizes="(max-width: 1680px) 100vw, 1680px"
-                                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2019/12/video.jpg" /><noscript><img
-                                                                            fetchpriority="high" decoding="async"
-                                                                            width="1680" height="726"
-                                                                            src="https://live.21lab.co/hank/wp-content/uploads/2019/12/video.jpg"
-                                                                            class="vc_single_image-img attachment-full"
-                                                                            alt="" title="video"
-                                                                            srcset="https://live.21lab.co/hank/wp-content/uploads/2019/12/video.jpg 1680w, https://live.21lab.co/hank/wp-content/uploads/2019/12/video-600x259.jpg 600w, https://live.21lab.co/hank/wp-content/uploads/2019/12/video-300x130.jpg 300w, https://live.21lab.co/hank/wp-content/uploads/2019/12/video-1024x443.jpg 1024w, https://live.21lab.co/hank/wp-content/uploads/2019/12/video-768x332.jpg 768w, https://live.21lab.co/hank/wp-content/uploads/2019/12/video-1536x664.jpg 1536w"
-                                                                            sizes="(max-width: 1680px) 100vw, 1680px" /></noscript>
-                                                                </div>
-                                                            </figure>
-                                                        </div>
-                                                        <div class="vc_empty_space" style="height: 30px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                        <h2 style="font-size: 48px;line-height: 48px;text-align: left"
-                                                            class="vc_custom_heading"><strong>our mission</strong></h2>
-                                                        <div class="vc_empty_space" style="height: 15px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                        <div class="wpb_text_column wpb_content_element ">
-                                                            <div class="wpb_wrapper">
-                                                                <p><strong>We Have One Goal: To be the Best Builder in
-                                                                        America. </strong><span
-                                                                        style="color: #7f7f7f;">It’s a burning,
-                                                                        never-ending desire to help our clients maximize
-                                                                        their outcomes — and exceed their strategic
-                                                                        goals. Though our goal is a bit aspirational,
-                                                                        our values are what drive us every day.</span>
-                                                                </p>
+                                    <div id="post-88"
+                                        class="post post-88 type-post status-publish format-standard has-post-thumbnail hentry category-sustainability tag-green-building tag-icf-construction">
+                                        <div class="post-inner">
 
-                                                            </div>
-                                                        </div>
-                                                        <div class="vc_empty_space" style="height: 60px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                    </div>
-                                                </div>
+
+                                            <div class="post-image">
+                                                <a class="featured-image"
+                                                    href="https://live.21lab.co/hank/sustainable-and-eco-friendly-construction-with-icf/"
+                                                    target="_self">
+
+                                                    <span class="more">Read More</span>
+
+                                                    <img class=""
+                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20350'%3E%3C/svg%3E"
+                                                        width="800" height="350"
+                                                        alt="Volumetric composition - image by @ripato" title="b7"
+                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2019/10/b7-800x350.jpg" /><noscript><img
+                                                            class=""
+                                                            src="https://live.21lab.co/hank/wp-content/uploads/2019/10/b7-800x350.jpg"
+                                                            width="800" height="350"
+                                                            alt="Volumetric composition - image by @ripato"
+                                                            title="b7" /></noscript> </a>
                                             </div>
-                                            <div class="wpb_column vc_column_container vc_col-sm-6">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <div
-                                                            class="wpb_single_image wpb_content_element vc_align_left">
 
-                                                            <figure class="wpb_wrapper vc_figure">
-                                                                <div
-                                                                    class="vc_single_image-wrapper   vc_box_border_grey">
-                                                                    <img decoding="async" width="1680"
-                                                                        height="726"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201680%20726'%3E%3C/svg%3E"
-                                                                        class="vc_single_image-img attachment-full"
-                                                                        alt="" title="img2"
-                                                                        data-lazy-srcset="https://live.21lab.co/hank/wp-content/uploads/2019/12/img2.jpg 1680w, https://live.21lab.co/hank/wp-content/uploads/2019/12/img2-600x259.jpg 600w, https://live.21lab.co/hank/wp-content/uploads/2019/12/img2-300x130.jpg 300w, https://live.21lab.co/hank/wp-content/uploads/2019/12/img2-1024x443.jpg 1024w, https://live.21lab.co/hank/wp-content/uploads/2019/12/img2-768x332.jpg 768w, https://live.21lab.co/hank/wp-content/uploads/2019/12/img2-1536x664.jpg 1536w"
-                                                                        data-lazy-sizes="(max-width: 1680px) 100vw, 1680px"
-                                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2019/12/img2.jpg" /><noscript><img
-                                                                            decoding="async" width="1680"
-                                                                            height="726"
-                                                                            src="https://live.21lab.co/hank/wp-content/uploads/2019/12/img2.jpg"
-                                                                            class="vc_single_image-img attachment-full"
-                                                                            alt="" title="img2"
-                                                                            srcset="https://live.21lab.co/hank/wp-content/uploads/2019/12/img2.jpg 1680w, https://live.21lab.co/hank/wp-content/uploads/2019/12/img2-600x259.jpg 600w, https://live.21lab.co/hank/wp-content/uploads/2019/12/img2-300x130.jpg 300w, https://live.21lab.co/hank/wp-content/uploads/2019/12/img2-1024x443.jpg 1024w, https://live.21lab.co/hank/wp-content/uploads/2019/12/img2-768x332.jpg 768w, https://live.21lab.co/hank/wp-content/uploads/2019/12/img2-1536x664.jpg 1536w"
-                                                                            sizes="(max-width: 1680px) 100vw, 1680px" /></noscript>
-                                                                </div>
-                                                            </figure>
-                                                        </div>
-                                                        <div class="vc_empty_space" style="height: 30px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                        <h2 style="font-size: 48px;line-height: 48px;text-align: left"
-                                                            class="vc_custom_heading"><strong>our vision</strong></h2>
-                                                        <div class="vc_empty_space" style="height: 15px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                        <div class="wpb_text_column wpb_content_element ">
-                                                            <div class="wpb_wrapper">
-                                                                <p><span style="color: #7f7f7f;">The firm strives to
-                                                                        maintain project diversity as it continues to
-                                                                        expand its construction activities, constructing
-                                                                        corporate interiors, renovating existing
-                                                                        properties and aiming to increase its
-                                                                        participation in building ground-up, high-design
-                                                                        residential apartments, condominiums and
-                                                                        hotels.</span></p>
 
-                                                            </div>
-                                                        </div>
-                                                        <div class="vc_empty_space" style="height: 60px"><span
-                                                                class="vc_empty_space_inner"></span></div>
+                                            <div class="post-categories">
+                                                <span>October 25, 2019</span>
+                                                <a href="https://live.21lab.co/hank/category/sustainability/"
+                                                    rel="category tag">Sustainability</a>
+                                            </div>
+
+                                            <div class="post-header">
+
+                                                <h2 class="post-title" itemprop="headline">
+                                                    <a href="https://live.21lab.co/hank/sustainable-and-eco-friendly-construction-with-icf/"
+                                                        rel="bookmark">
+                                                        Sustainable and Eco-friendly Construction with ICF </a>
+                                                </h2>
+                                            </div>
+
+                                            <div class="post-content">
+                                                <p>Sustainable Development requires a balance to be maintained between
+                                                    development and the environment. It promotes inter-generational
+                                                    equity, i.e. better quality of life for present and future
+                                                    generations. Insulated Concrete Forms (ICFs) do exactly jus...</p>
+                                            </div>
+
+                                            <div class="post-footer">
+
+                                                <div class="post-meta">
+                                                    <div class="post-author-content">
+                                                        <img alt=''
+                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2040%2040'%3E%3C/svg%3E"
+                                                            data-lazy-srcset='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=80&#038;d=mm&#038;r=g 2x'
+                                                            class='avatar avatar-40 photo' height='40'
+                                                            width='40' decoding='async'
+                                                            data-lazy-src="https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=40&#038;d=mm&#038;r=g" /><noscript><img
+                                                                alt=''
+                                                                src='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=40&#038;d=mm&#038;r=g'
+                                                                srcset='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=80&#038;d=mm&#038;r=g 2x'
+                                                                class='avatar avatar-40 photo' height='40'
+                                                                width='40' decoding='async' /></noscript>
+                                                        <span>by</span>
+                                                        <span class="post-name">
+                                                            <a href="https://live.21lab.co/hank/author/linethemes/"
+                                                                title="Posts by Linethemes"
+                                                                rel="author">Linethemes</a> </span>
+                                                    </div>
+                                                    <div class="post-comments">
+                                                        <a
+                                                            href="https://live.21lab.co/hank/sustainable-and-eco-friendly-construction-with-icf/#respond">0
+                                                            <span>Comment</span></a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="vc_row wpb_row vc_row-fluid">
-                                        <div class="row-inner">
-                                            <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <div
-                                                            class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey">
-                                                            <span class="vc_sep_holder vc_sep_holder_l"><span
-                                                                    class="vc_sep_line"></span></span><span
-                                                                class="vc_sep_holder vc_sep_holder_r"><span
-                                                                    class="vc_sep_line"></span></span>
-                                                        </div>
+
+                                    <div id="post-85"
+                                        class="post post-85 type-post status-publish format-standard has-post-thumbnail hentry category-energy-savings tag-energy tag-wind">
+                                        <div class="post-inner">
+
+
+                                            <div class="post-image">
+                                                <a class="featured-image"
+                                                    href="https://live.21lab.co/hank/digitalisation-drives-efficiency-and-decision-making-in-wind-energy/"
+                                                    target="_self">
+
+                                                    <span class="more">Read More</span>
+
+                                                    <img class=""
+                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20350'%3E%3C/svg%3E"
+                                                        width="800" height="350"
+                                                        alt="Unnamed Road, 44580 Bourgneuf-en-Retz, France, Bourgneuf-en-Retz - by @thomasreaubourg"
+                                                        title="b6"
+                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2019/10/b6-800x350.jpg" /><noscript><img
+                                                            class=""
+                                                            src="https://live.21lab.co/hank/wp-content/uploads/2019/10/b6-800x350.jpg"
+                                                            width="800" height="350"
+                                                            alt="Unnamed Road, 44580 Bourgneuf-en-Retz, France, Bourgneuf-en-Retz - by @thomasreaubourg"
+                                                            title="b6" /></noscript> </a>
+                                            </div>
+
+
+                                            <div class="post-categories">
+                                                <span>October 25, 2019</span>
+                                                <a href="https://live.21lab.co/hank/category/energy-savings/"
+                                                    rel="category tag">Energy Savings</a>
+                                            </div>
+
+                                            <div class="post-header">
+
+                                                <h2 class="post-title" itemprop="headline">
+                                                    <a href="https://live.21lab.co/hank/digitalisation-drives-efficiency-and-decision-making-in-wind-energy/"
+                                                        rel="bookmark">
+                                                        Digitalisation Drives Efficiency and Decision Making in Wind
+                                                        Energy </a>
+                                                </h2>
+                                            </div>
+
+                                            <div class="post-content">
+                                                <p>This is the key finding of the report Digitalisation and the Future
+                                                    of the Wind Energy Industry published yesterday by DNV GL, a global
+                                                    quality assurance and risk management company operating in more than
+                                                    100 countries. Based on a survey of almost 2,...</p>
+                                            </div>
+
+                                            <div class="post-footer">
+
+                                                <div class="post-meta">
+                                                    <div class="post-author-content">
+                                                        <img alt=''
+                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2040%2040'%3E%3C/svg%3E"
+                                                            data-lazy-srcset='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=80&#038;d=mm&#038;r=g 2x'
+                                                            class='avatar avatar-40 photo' height='40'
+                                                            width='40' decoding='async'
+                                                            data-lazy-src="https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=40&#038;d=mm&#038;r=g" /><noscript><img
+                                                                alt=''
+                                                                src='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=40&#038;d=mm&#038;r=g'
+                                                                srcset='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=80&#038;d=mm&#038;r=g 2x'
+                                                                class='avatar avatar-40 photo' height='40'
+                                                                width='40' decoding='async' /></noscript>
+                                                        <span>by</span>
+                                                        <span class="post-name">
+                                                            <a href="https://live.21lab.co/hank/author/linethemes/"
+                                                                title="Posts by Linethemes"
+                                                                rel="author">Linethemes</a> </span>
+                                                    </div>
+                                                    <div class="post-comments">
+                                                        <a
+                                                            href="https://live.21lab.co/hank/digitalisation-drives-efficiency-and-decision-making-in-wind-energy/#respond">0
+                                                            <span>Comment</span></a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </section>
-                                <section class="vc_section">
-                                    <div class="vc_row wpb_row vc_row-fluid vc_custom_1581395783488">
-                                        <div class="row-inner">
-                                            <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <p style="font-size: 24px;line-height: 30px;text-align: left"
-                                                            class="vc_custom_heading">Supported by 9+ industry bodies
-                                                            and media partners</p>
-                                                        <div class="vc_empty_space" style="height: 40px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                        <ul class="iconlist iconlist iconlist-icon-xlarge ">
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><img decoding="async"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                                                                        alt="et"
-                                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/et.svg" /><noscript><img
-                                                                            decoding="async"
-                                                                            src="https://live.21lab.co/hank/wp-content/uploads/2020/02/et.svg"
-                                                                            alt="et" /></noscript></div>
-                                                                <div class="iconlist-item-content"></div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><img decoding="async"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                                                                        alt="line"
-                                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/line.svg" /><noscript><img
-                                                                            decoding="async"
-                                                                            src="https://live.21lab.co/hank/wp-content/uploads/2020/02/line.svg"
-                                                                            alt="line" /></noscript></div>
-                                                                <div class="iconlist-item-content"></div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><img decoding="async"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                                                                        alt="gbc"
-                                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/gbc.svg" /><noscript><img
-                                                                            decoding="async"
-                                                                            src="https://live.21lab.co/hank/wp-content/uploads/2020/02/gbc.svg"
-                                                                            alt="gbc" /></noscript></div>
-                                                                <div class="iconlist-item-content"></div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><img decoding="async"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                                                                        alt="tf"
-                                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/tf.svg" /><noscript><img
-                                                                            decoding="async"
-                                                                            src="https://live.21lab.co/hank/wp-content/uploads/2020/02/tf.svg"
-                                                                            alt="tf" /></noscript></div>
-                                                                <div class="iconlist-item-content"></div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><img decoding="async"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                                                                        alt="mgr"
-                                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/mgr.svg" /><noscript><img
-                                                                            decoding="async"
-                                                                            src="https://live.21lab.co/hank/wp-content/uploads/2020/02/mgr.svg"
-                                                                            alt="mgr" /></noscript></div>
-                                                                <div class="iconlist-item-content"></div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><img decoding="async"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                                                                        alt="nano2"
-                                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/nano2.svg" /><noscript><img
-                                                                            decoding="async"
-                                                                            src="https://live.21lab.co/hank/wp-content/uploads/2020/02/nano2.svg"
-                                                                            alt="nano2" /></noscript></div>
-                                                                <div class="iconlist-item-content"></div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><img decoding="async"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                                                                        alt="hnk2"
-                                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/hnk2.svg" /><noscript><img
-                                                                            decoding="async"
-                                                                            src="https://live.21lab.co/hank/wp-content/uploads/2020/02/hnk2.svg"
-                                                                            alt="hnk2" /></noscript></div>
-                                                                <div class="iconlist-item-content"></div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><img decoding="async"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                                                                        alt="gc"
-                                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/gc.svg" /><noscript><img
-                                                                            decoding="async"
-                                                                            src="https://live.21lab.co/hank/wp-content/uploads/2020/02/gc.svg"
-                                                                            alt="gc" /></noscript></div>
-                                                                <div class="iconlist-item-content"></div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><img decoding="async"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                                                                        alt="glb"
-                                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/glb.svg" /><noscript><img
-                                                                            decoding="async"
-                                                                            src="https://live.21lab.co/hank/wp-content/uploads/2020/02/glb.svg"
-                                                                            alt="glb" /></noscript></div>
-                                                                <div class="iconlist-item-content"></div>
-                                                            </li>
-                                                        </ul>
-                                                        <div class="vc_empty_space" style="height: 10px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                        <div class="wpb_text_column wpb_content_element ">
-                                                            <div class="wpb_wrapper">
-                                                                <p><a class="link has-arrow" style="color: #7f7f7f;"
-                                                                        href="https://live.21lab.co/hank/about/">Find
-                                                                        out more about company</a></p>
 
-                                                            </div>
-                                                        </div>
+                                    <div id="post-79"
+                                        class="post post-79 type-post status-publish format-standard has-post-thumbnail hentry category-company-news tag-hanoi tag-signing">
+                                        <div class="post-inner">
+
+
+                                            <div class="post-image">
+                                                <a class="featured-image"
+                                                    href="https://live.21lab.co/hank/signing-ceremony-asahi-intecc-hanoi-auxiliary-renovation-work/"
+                                                    target="_self">
+
+                                                    <span class="more">Read More</span>
+
+                                                    <img class=""
+                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20350'%3E%3C/svg%3E"
+                                                        width="800" height="350"
+                                                        alt="Hands shaking comic style vector - image by © rawpixel"
+                                                        title="b5-2"
+                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2019/10/b5-2-800x350.jpg" /><noscript><img
+                                                            class=""
+                                                            src="https://live.21lab.co/hank/wp-content/uploads/2019/10/b5-2-800x350.jpg"
+                                                            width="800" height="350"
+                                                            alt="Hands shaking comic style vector - image by © rawpixel"
+                                                            title="b5-2" /></noscript> </a>
+                                            </div>
+
+
+                                            <div class="post-categories">
+                                                <span>October 25, 2019</span>
+                                                <a href="https://live.21lab.co/hank/category/company-news/"
+                                                    rel="category tag">Company News</a>
+                                            </div>
+
+                                            <div class="post-header">
+
+                                                <h2 class="post-title" itemprop="headline">
+                                                    <a href="https://live.21lab.co/hank/signing-ceremony-asahi-intecc-hanoi-auxiliary-renovation-work/"
+                                                        rel="bookmark">
+                                                        Signing Ceremony: Asahi Intecc Hanoi Auxiliary Renovation work
+                                                    </a>
+                                                </h2>
+                                            </div>
+
+                                            <div class="post-content">
+                                                <p>On April 24, 2019, at NSN Construction &amp; Engineering Joint Stock
+                                                    Company’s Office, there was a Signing Ceremony between NSN Company
+                                                    and the owner- Asahi Intecc Hanoi Co, Ltd. for upgrading Asahi
+                                                    Intecc Hanoi Auxiliary Factory.
+
+
+
+                                                    At the ceremony,...</p>
+                                            </div>
+
+                                            <div class="post-footer">
+
+                                                <div class="post-meta">
+                                                    <div class="post-author-content">
+                                                        <img alt=''
+                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2040%2040'%3E%3C/svg%3E"
+                                                            data-lazy-srcset='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=80&#038;d=mm&#038;r=g 2x'
+                                                            class='avatar avatar-40 photo' height='40'
+                                                            width='40' decoding='async'
+                                                            data-lazy-src="https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=40&#038;d=mm&#038;r=g" /><noscript><img
+                                                                alt=''
+                                                                src='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=40&#038;d=mm&#038;r=g'
+                                                                srcset='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=80&#038;d=mm&#038;r=g 2x'
+                                                                class='avatar avatar-40 photo' height='40'
+                                                                width='40' decoding='async' /></noscript>
+                                                        <span>by</span>
+                                                        <span class="post-name">
+                                                            <a href="https://live.21lab.co/hank/author/linethemes/"
+                                                                title="Posts by Linethemes"
+                                                                rel="author">Linethemes</a> </span>
+                                                    </div>
+                                                    <div class="post-comments">
+                                                        <a
+                                                            href="https://live.21lab.co/hank/signing-ceremony-asahi-intecc-hanoi-auxiliary-renovation-work/#respond">0
+                                                            <span>Comment</span></a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </section>
+                                </div>
 
+                                <nav class="navigation paging-navigation pager-numeric">
+                                    <div class="pagination loop-pagination"><span aria-current="page"
+                                            class="page-numbers current">1</span>
+                                        <a class="page-numbers" href="https://live.21lab.co/hank/news/page/2/">2</a>
+                                        <a class="next page-numbers"
+                                            href="https://live.21lab.co/hank/news/page/2/">Next Page</a>
+                                    </div>
+                                </nav>
                             </div>
                             <!-- /.content -->
-
                         </div>
                         <!-- /.main-content-inner -->
                     </main>
@@ -2193,7 +2267,7 @@
                                             <a href="#">Who we are</a>
                                             <ul class="sub-menu">
                                                 <li id="menu-item-160"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-160">
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-160">
                                                     <a href="https://live.21lab.co/hank/about/">About Us</a></li>
                                                 <li id="menu-item-906"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-906">
@@ -2276,7 +2350,7 @@
                                     </div><label style="display: none !important;">Leave this field empty if you're
                                         human: <input type="text" name="_mc4wp_honeypot" value=""
                                             tabindex="-1" autocomplete="off" /></label><input type="hidden"
-                                        name="_mc4wp_timestamp" value="1765320359" /><input type="hidden"
+                                        name="_mc4wp_timestamp" value="1765320350" /><input type="hidden"
                                         name="_mc4wp_form_id" value="33" /><input type="hidden"
                                         name="_mc4wp_form_element_id" value="mc4wp-form-1" />
                                     <div class="mc4wp-response"></div>
@@ -2330,16 +2404,13 @@
             </div>
             <ul id="menu-main-menu-2" class="menu menu-sliding">
                 <li
-                    class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-176">
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-176">
                     <a href="https://live.21lab.co/hank/about/">About</a>
                     <ul class="sub-menu">
-                        <li
-                            class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-page-parent menu-item-381">
-                            <a href="https://live.21lab.co/hank/about/">Company</a></li>
-                        <li
-                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-486 current_page_item menu-item-512">
-                            <a href="https://live.21lab.co/hank/about/core-values/" aria-current="page">Core
-                                Values</a></li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-381"><a
+                                href="https://live.21lab.co/hank/about/">Company</a></li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-512"><a
+                                href="https://live.21lab.co/hank/about/core-values/">Core Values</a></li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380"><a
                                 href="https://live.21lab.co/hank/about/leadership/">Leadership</a></li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-781"><a
@@ -2392,8 +2463,9 @@
                             <a href="https://live.21lab.co/hank/work/">Default Layout</a></li>
                     </ul>
                 </li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-132"><a
-                        href="https://live.21lab.co/hank/news/">News</a></li>
+                <li
+                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2 current_page_item current_page_parent menu-item-132">
+                    <a href="https://live.21lab.co/hank/news/" aria-current="page">News</a></li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1142"><a
                         href="https://live.21lab.co/hank/shop/">Shop</a></li>
             </ul>
@@ -2458,7 +2530,6 @@
             }
         })();
     </script>
-    <script type="text/html" id="wpb-modifications"></script>
     <script type="text/javascript">
         (function() {
             var c = document.body.className;
@@ -2771,15 +2842,6 @@
         //# sourceURL=rocket-preload-links-js-after
         /* ]]> */
     </script>
-    <script type="text/javascript"
-        src="https://live.21lab.co/hank/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.8.0"
-        id="wpb_composer_front_js-js"></script>
-    <script data-minify="1" type="text/javascript"
-        src="https://live.21lab.co/hank/wp-content/cache/min/1/hank/wp-content/plugins/line-shortcodes/js/shortcodes-3rd.js?ver=1695004358"
-        id="line-shortcode-3rd-js"></script>
-    <script data-minify="1" type="text/javascript"
-        src="https://live.21lab.co/hank/wp-content/cache/min/1/hank/wp-content/plugins/line-shortcodes/js/shortcodes.js?ver=1695004358"
-        id="line-shortcode-js"></script>
     <script data-minify="1" type="text/javascript" defer
         src="https://live.21lab.co/hank/wp-content/cache/min/1/hank/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=1695002910"
         id="mc4wp-forms-api-js"></script>
@@ -2856,4 +2918,4 @@
 
 </html>
 
-<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1765320359 -->
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1765320350 -->

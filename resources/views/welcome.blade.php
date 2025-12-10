@@ -23,11 +23,11 @@
     {{-- <link rel="stylesheet" href="https://live.21lab.co/hank/wp-content/cache/min/1/308ad0553bcac79c7cebff97685e6bad.css"
         media="all" data-minify="1" /> --}}
     <link rel="stylesheet" href="{{ asset('css/main.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/styles.css') }}" />  
+    <link rel="stylesheet" href="{{ asset('css/styles.css') }}" />
     {{-- robots file --}}
     <meta name='robots' content='max-image-preview:large' />
     <style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-    {{--  prefetch fonts file--}}
+    {{--  prefetch fonts file --}}
     <link rel='dns-prefetch' href='//static.addtoany.com' />
     <link rel='dns-prefetch' href='//fonts.googleapis.com' />
     <link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
@@ -49,7 +49,7 @@
         }
 
         .site-topbar {
-            background-color: #3A3A3A;
+            background-color: #000000;
             color: #888888;
             font-size: 14px;
             line-height: 1.3em;
@@ -61,7 +61,7 @@
         }
 
         .content-header {
-            background-color: #3A3A3A;
+            background-color: #000000;
             background-image: url(https://live.21lab.co/hank/wp-content/uploads/2019/10/bg-title.jpg);
             background-position: bottom right;
             background-repeat: no-repeat;
@@ -155,7 +155,7 @@
             text-transform: lowercase;
             font-size: 32px;
             line-height: 30px;
-            background-color: #F28C28;
+            background-color: #FF6A00;
         }
 
         .content-bottom-widgets .widget {
@@ -165,11 +165,11 @@
         .site-footer {
             color: #999999;
             font-size: 14px;
-            border-top: 0px none #3A3A3A;
-            border-right: 0px none #3A3A3A;
-            border-bottom: 0px none #3A3A3A;
-            border-left: 0px none #3A3A3A;
-            background-color: #3A3A3A;
+            border-top: 0px none #000000;
+            border-right: 0px none #000000;
+            border-bottom: 0px none #000000;
+            border-left: 0px none #000000;
+            background-color: #000000;
         }
 
         .footer-copyright {
@@ -208,7 +208,7 @@
         .site-header .navigator .menu.menu-extras .search-field,
         .site-header .off-canvas-toggle,
         .site-header .off-canvas-toggle:hover {
-            color: #F28C28;
+            color: #FF6A00;
         }
 
         .site-header-sticky .off-canvas-toggle,
@@ -220,7 +220,7 @@
         .site-header-sticky .off-canvas-toggle:hover,
         .site-header-sticky .navigator .menu>li:hover>a,
         .site-header-sticky a:hover {
-            color: #C43E32;
+            color: #000000;
         }
 
         .site-header-sticky .navigator .menu>li.current-menu-item>a,
@@ -252,7 +252,7 @@
         }
 
         .site-footer .footer-copyright a:hover {
-            color: #F28C28;
+            color: #FF6A00;
         }
 
         .wrap {
@@ -299,23 +299,23 @@
         }
 
         .logo.logoDefault {
-            width: 220px;
-            height: 127px;
-            max-width: 220px;
+            width: 180px;
+            height: 104px;
+            max-width: 180px;
             object-fit: contain;
         }
 
         .logo.logoLight {
-            width: 220px;
-            height: 127px;
-            max-width: 220px;
+            width: 180px;
+            height: 104px;
+            max-width: 180px;
             object-fit: contain;
         }
 
         .logo.logoDark {
-            width: 220px;
-            height: 127px;
-            max-width: 220px;
+            width: 180px;
+            height: 104px;
+            max-width: 180px;
             object-fit: contain;
         }
 
@@ -337,7 +337,7 @@
         input[type="button"],
         input[type="submit"],
         button {
-            background: #3A3A3A;
+            background: #000000;
             color: #ffffff;
             font-size: 16px;
             line-height: 20px;
@@ -345,10 +345,10 @@
             padding-right: 40px;
             padding-bottom: 19px;
             padding-left: 40px;
-            border-top: 0px none #3A3A3A;
-            border-right: 0px none #3A3A3A;
-            border-bottom: 0px none #3A3A3A;
-            border-left: 0px none #3A3A3A;
+            border-top: 0px none #000000;
+            border-right: 0px none #000000;
+            border-bottom: 0px none #000000;
+            border-left: 0px none #000000;
             border-radius: 0px;
         }
 
@@ -378,10 +378,10 @@
         }
 
         .site-footer .footer-copyright {
-            border-top: 0px none #3A3A3A;
-            border-right: 0px none #3A3A3A;
-            border-bottom: 0px none #3A3A3A;
-            border-left: 0px none #3A3A3A;
+            border-top: 0px none #000000;
+            border-right: 0px none #000000;
+            border-bottom: 0px none #000000;
+            border-left: 0px none #000000;
             padding-top: 50px;
             padding-bottom: 50px;
         }
@@ -424,7 +424,7 @@
         .badge.style2,
         h6.badge.style2,
         #site .blog-shortcode.post-thumbnail-cover .blog-grid .post .post-inner .post-date {
-            color: #D5C371;
+            color: #ffed00;
         }
 
         .button.primary,
@@ -478,7 +478,7 @@
         .shopping-cart .shopping-cart-items-count,
         .woocommerce-pagination li .page-numbers:hover,
         .woocommerce .products li .button:hover:before {
-            background-color: #D5C371;
+            background-color: #ffed00;
         }
 
         .button.primary.border:before,
@@ -490,7 +490,7 @@
         rs-module-wrap .video-button.play:after,
         #site .testimonial:not(.has-image),
         #site-header-sticky .extras .header-info-text .info-list span.lg:after {
-            border-color: #F28C28;
+            border-color: rgb(255, 111, 0);
         }
 
         .button:hover,
@@ -546,21 +546,21 @@
         #site .blog-shortcode.post-thumbnail-cover .blog-grid .post .post-inner .post-thumbnail .post-date .post-month,
         .woocommerce-pagination li .page-numbers.current,
         .woocommerce .product section.products h2:not(.woocommerce-loop-product__title):after {
-            background-color: #C43E32;
+            background-color: #000000;
         }
 
         .button:hover:before,
         .button.accent.border:before,
         .button.outline:before {
-            border-color: #C43E32;
+            border-color: #000000;
         }
 
         ::selection {
-            background: #D5C371;
+            background: #ffed00;
         }
 
         ::-moz-selection {
-            background: #D5C371;
+            background: #ffed00;
         }
 
         .related-posts .grid-posts .post .post-inner:hover .post-title a,
@@ -571,19 +571,19 @@
         #site .blog-shortcode.post-thumbnail-cover .blog-grid .post .post-inner:hover .post-title,
         .woocommerce .products li:hover .woocommerce-loop-product__title,
         .woocommerce .product .summary .grouped_form table tr td.woocommerce-grouped-product-list-item__label a:hover {
-            box-shadow: inset 0 -1px 0 0 #D5C371;
+            box-shadow: inset 0 -1px 0 0 #ffed00;
         }
 
         #site .imagebox:hover .box-title span:not(.box-subtitle) {
-            -webkit-text-stroke-color: #D5C371;
+            -webkit-text-stroke-color: #ffed00;
         }
 
         .vc_custom_heading u {
-            background-image: linear-gradient(180deg, transparent 65%, #D5C371 0);
+            background-image: linear-gradient(180deg, transparent 65%, #ffed00 0);
         }
 
         #site .vc_custom_heading.style1 {
-            -webkit-text-stroke-color: #3A3A3A;
+            -webkit-text-stroke-color: #000000;
         }
 
         #site .vc_section.shape-2:before,
@@ -591,14 +591,14 @@
         #site .vc_section.shape-4:before,
         #site .vc_row.shape-4:before,
         .site-footer:before {
-            background: repeating-linear-gradient(-45deg, transparent, transparent 4px, #D5C371 5px, #D5C371 10px, transparent 11px);
+            background: repeating-linear-gradient(-45deg, transparent, transparent 4px, #ffed00 5px, #ffed00 10px, transparent 11px);
         }
 
         #site .vc_section.shape-3:before,
         #site .vc_row.shape-3:before,
         #site .vc_section.shape-5:before,
         #site .vc_row.shape-5:before {
-            background: repeating-linear-gradient(-45deg, transparent, transparent 4px, #3A3A3A 5px, #3A3A3A 10px, transparent 11px);
+            background: repeating-linear-gradient(-45deg, transparent, transparent 4px, #000000 5px, #000000 10px, transparent 11px);
         }
     </style>
     <style id='wp-emoji-styles-inline-css' type='text/css'>
@@ -971,14 +971,10 @@
 
 
     {{-- js --}}
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
-        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
-        crossorigin="anonymous">
-    </script>
-    <script src="https://code.jquery.com/jquery-migrate-3.4.1.min.js" 
-        integrity="sha256-R/JgA0/4e/03p17J5X/wGj/z/V4E/g6Qf0Jq0lG1d78=" 
-        crossorigin="anonymous"
-        id="jquery-migrate-js">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.4.1.min.js"
+        integrity="sha256-R/JgA0/4e/03p17J5X/wGj/z/V4E/g6Qf0Jq0lG1d78=" crossorigin="anonymous" id="jquery-migrate-js">
     </script>
 
     {{-- AddToAny Script --}}
@@ -1001,12 +997,9 @@
     {{-- <script type="text/javascript"
         src="https://live.21lab.co/hank/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.6.1.2"
         id="jquery-blockui-js"></script> --}}
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.blockUI/2.70/jquery.blockUI.min.js" 
-        integrity="sha512-eRMZciS8N28YtK69B+y9iB11Lw+s7fH/k+xK/y1E6Q1w22j0T5O5lB9g/u1G+b2r0E/3w5i9c6Zq8Z5G+w5g==" 
-        crossorigin="anonymous" 
-        referrerpolicy="no-referrer"
-        id="jquery-blockui-js">
-    </script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.blockUI/2.70/jquery.blockUI.min.js"
+        integrity="sha512-eRMZciS8N28YtK69B+y9iB11Lw+s7fH/k+xK/y1E6Q1w22j0T5O5lB9g/u1G+b2r0E/3w5i9c6Zq8Z5G+w5g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" id="jquery-blockui-js"></script>
     <script type="text/javascript" id="wc-add-to-cart-js-extra">
         /* <![CDATA[ */
         var wc_add_to_cart_params = {
@@ -1159,7 +1152,7 @@
         .vc_custom_1583116792269 {
             padding-top: 150px !important;
             padding-bottom: 40px !important;
-            background: #232323 url({{ asset('logonew-2.png') }}) !important;
+            background: #232323 url({{ asset('assets/logo_dark.svg') }}) !important;
             background-position: 0 0 !important;
             background-repeat: no-repeat !important;
         }
@@ -1265,121 +1258,6 @@
         .vc_custom_1580364963141 {
             padding-top: 45px !important;
         }
-
-        /* Responsive styles for images and elements */
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        .imagebox img,
-        .elements-carousel img {
-            width: 100%;
-            height: auto;
-            object-fit: cover;
-        }
-
-        @media only screen and (max-width: 768px) {
-            .elements-carousel {
-                padding: 0 15px;
-            }
-            
-            .imagebox .box-title {
-                font-size: 24px !important;
-            }
-            
-            .imagebox .box-subtitle {
-                font-size: 16px !important;
-            }
-        }
-
-        @media only screen and (max-width: 480px) {
-            .elements-carousel {
-                padding: 0 10px;
-            }
-            
-            .imagebox .box-title {
-                font-size: 20px !important;
-            }
-            
-            .imagebox .box-subtitle {
-                font-size: 14px !important;
-            }
-        }
-
-        /* Fix slider arrow overlap - ensure arrows are above all content including preview images */
-        .rev_slider_3_1_wrapper .custom-arrow,
-        .rev_slider_3_1_wrapper .tp-leftarrow,
-        .rev_slider_3_1_wrapper .tp-rightarrow {
-            z-index: 9999 !important;
-            position: absolute !important;
-        }
-        
-        /* Adjust arrow positioning to prevent overlap with content */
-        .rev_slider_3_1_wrapper .tp-leftarrow {
-            left: 20px !important;
-            top: 50% !important;
-            transform: translateY(-50%) !important;
-            bottom: auto !important;
-        }
-        
-        .rev_slider_3_1_wrapper .tp-rightarrow {
-            right: 20px !important;
-            top: 50% !important;
-            transform: translateY(-50%) !important;
-            bottom: auto !important;
-        }
-        
-        /* Hide preview/thumbnail images */
-        .rev_slider_3_1_wrapper .tp-thumb,
-        .rev_slider_3_1_wrapper .tp-tab,
-        .rev_slider_3_1_wrapper .tp-tab-mask,
-        .rev_slider_3_1_wrapper rs-tabs,
-        .rev_slider_3_1_wrapper .tp-thumb-image,
-        .rev_slider_3_1_wrapper .tp-thumb-img-wrap,
-        .rev_slider_3_1_wrapper .tp-tab-container {
-            display: none !important;
-            visibility: hidden !important;
-        }
-        
-        /* Fix slider arrow overlap on mobile */
-        @media only screen and (max-width: 778px) {
-            .rev_slider_3_1_wrapper .custom-arrow,
-            .rev_slider_3_1_wrapper .tp-leftarrow,
-            .rev_slider_3_1_wrapper .tp-rightarrow {
-                z-index: 9999 !important;
-                position: absolute !important;
-            }
-            
-            /* Adjust arrow positioning on mobile to prevent overlap */
-            .rev_slider_3_1_wrapper .tp-leftarrow {
-                left: 15px !important;
-                right: auto !important;
-                top: 50% !important;
-                transform: translateY(-50%) !important;
-                bottom: auto !important;
-            }
-            
-            .rev_slider_3_1_wrapper .tp-rightarrow {
-                right: 15px !important;
-                left: auto !important;
-                top: 50% !important;
-                transform: translateY(-50%) !important;
-                bottom: auto !important;
-            }
-            
-            /* Hide preview images on mobile */
-            .rev_slider_3_1_wrapper .tp-thumb,
-            .rev_slider_3_1_wrapper .tp-tab,
-            .rev_slider_3_1_wrapper .tp-tab-mask,
-            .rev_slider_3_1_wrapper rs-tabs,
-            .rev_slider_3_1_wrapper .tp-thumb-image,
-            .rev_slider_3_1_wrapper .tp-thumb-img-wrap,
-            .rev_slider_3_1_wrapper .tp-tab-container {
-                display: none !important;
-                visibility: hidden !important;
-            }
-        }
     </style><noscript>
         <style>
             .wpb_animate_when_almost_visible {
@@ -1407,16 +1285,14 @@
             <div class="site-header-inner wrap">
                 <div class="header-content">
                     <div class="header-brand">
-                        <a href="https://live.21lab.co/hank">
-                            <img width="220" height="127"
-                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20220%20127'%3E%3C/svg%3E"
-                                data-lazy-srcset="{{ asset('logonew-2.png') }} 1x, {{ asset('logonew-2.png') }} 2x"
-                                alt="Hank" class="logo logoDefault"
-                                data-lazy-src="{{ asset('logonew-2.png') }}" /><noscript><img
-                                    width="220" height="127"
-                                    src="{{ asset('logonew-2.png') }}"
-                                    srcset="{{ asset('logonew-2.png') }} 1x, {{ asset('logonew-2.png') }} 2x"
-                                    alt="Hank" class="logo logoDefault" /></noscript> </a>
+                        <a href="{{ route('welcome') }}">
+                            <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20180%20104'%3E%3C/svg%3E"
+                                data-lazy-srcset="{{ asset('assets/logo_full_text_dark.svg') }} 1x, {{ asset('assets/logo_full_text_dark.svg') }} 2x"
+                                alt="Bedi Buildwell" class="logo logoDefault"
+                                data-lazy-src="{{ asset('assets/logo_full_text_dark.svg') }}" /><noscript><img
+                                    width="180" height="104" src="{{ asset('assets/logo_full_text_dark.svg') }}"
+                                    srcset="{{ asset('assets/logo_full_text_dark.svg') }} 1x, {{ asset('assets/logo_full_text_dark.svg') }} 2x"
+                                    alt="Bedi Buildwell" class="logo logoDefault" /></noscript> </a>
                     </div>
 
                     <nav class="navigator" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
@@ -1425,255 +1301,93 @@
                         <ul id="menu-main-menu" class="menu menu-primary">
                             <li id="menu-item-176"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-176">
-                                <a href="https://live.21lab.co/hank/about/">About</a>
+                                <a href="{{ route('about') }}">About</a>
                                 <ul class="sub-menu">
                                     <li id="menu-item-381"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-381">
-                                        <a href="https://live.21lab.co/hank/about/">Company</a></li>
+                                        <a href="{{ route('about') }}">Company</a>
+                                    </li>
                                     <li id="menu-item-512"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-512">
-                                        <a href="https://live.21lab.co/hank/about/core-values/">Core Values</a></li>
+                                        <a href="{{ route('core-values') }}">Core Values</a>
+                                    </li>
                                     <li id="menu-item-380"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380">
-                                        <a href="https://live.21lab.co/hank/about/leadership/">Leadership</a></li>
+                                        <a href="{{ route('leadership') }}">Leadership</a>
+                                    </li>
                                     <li id="menu-item-781"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-781">
-                                        <a href="https://live.21lab.co/hank/about/why-choose-us/">Why choose us</a>
+                                        <a href="{{ route('why-choose-us') }}">Why choose us</a>
                                     </li>
-                                    <li id="menu-item-517"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-517">
-                                        <a href="https://live.21lab.co/hank/about/careers/">Careers</a></li>
                                     <li id="menu-item-175"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175">
-                                        <a href="https://live.21lab.co/hank/contact/">Contact</a></li>
+                                        <a href="{{ route('contact') }}">Contact</a>
+                                    </li>
                                     <li id="menu-item-787"
                                         class="sm has-border menu-item menu-item-type-custom menu-item-object-custom menu-item-787">
-                                        <a
-                                            href="https://live.21lab.co/hank/about/why-choose-us/#testimonials">Testimonials</a>
+                                        <a href="{{ route('why-choose-us') }}#testimonials">Testimonials</a>
                                     </li>
-                                    <li id="menu-item-788"
-                                        class="sm menu-item menu-item-type-custom menu-item-object-custom menu-item-788">
-                                        <a href="https://live.21lab.co/hank/about/why-choose-us/#awards">Awards &#038;
-                                            Recognition</a></li>
                                     <li id="menu-item-886"
                                         class="sm menu-item menu-item-type-custom menu-item-object-custom menu-item-886">
-                                        <a href="https://live.21lab.co/hank/about/#history">Our History</a></li>
+                                        <a href="{{ route('about') }}#history">Our History</a>
+                                    </li>
                                 </ul>
                             </li>
                             <li id="menu-item-171"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-171">
-                                <a href="https://live.21lab.co/hank/experience/">Experience</a>
+                                <a href="{{ route('experience') }}">Experience</a>
                                 <ul class="sub-menu">
                                     <li id="menu-item-874"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-874">
-                                        <a href="https://live.21lab.co/hank/experience/">What we do</a></li>
+                                        <a href="{{ route('experience') }}">What we do</a>
+                                    </li>
                                     <li id="menu-item-872"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-872">
-                                        <a href="https://live.21lab.co/hank/experience/#services">Our Services</a></li>
+                                        <a href="{{ route('experience') }}#services">Our Services</a>
+                                    </li>
                                     <li id="menu-item-876"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-876">
-                                        <a href="https://live.21lab.co/hank/experience/#safety">Safety</a></li>
+                                        <a href="{{ route('experience') }}#safety">Safety</a>
+                                    </li>
                                     <li id="menu-item-873"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-873">
-                                        <a href="https://live.21lab.co/hank/experience/#markets">Markets we Serve</a>
+                                        <a href="{{ route('experience') }}#markets">Markets we Serve</a>
                                     </li>
-                                    <li id="menu-item-887"
+                                    {{-- <li id="menu-item-887"
                                         class="sm has-border menu-item menu-item-type-post_type menu-item-object-page menu-item-887">
-                                        <a href="https://live.21lab.co/hank/experience/property-and-buildings/">Property
-                                            and Buildings</a></li>
+                                        <a href="{{route('experience')}}property-and-buildings/">Property
+                                            and Buildings</a>
+                                    </li> --}}
                                 </ul>
                             </li>
-                            <li id="menu-item-131"
+                            {{-- <li id="menu-item-131"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-131">
                                 <a href="https://live.21lab.co/hank/work/">Work</a>
                                 <ul class="sub-menu">
                                     <li id="menu-item-1087"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1087">
-                                        <a href="https://live.21lab.co/hank/works-style-1/">Works – style 1</a></li>
+                                        <a href="https://live.21lab.co/hank/works-style-1/">Works – style 1</a>
+                                    </li>
                                     <li id="menu-item-1091"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1091">
-                                        <a href="https://live.21lab.co/hank/works-style-2/">Works – style 2</a></li>
+                                        <a href="https://live.21lab.co/hank/works-style-2/">Works – style 2</a>
+                                    </li>
                                     <li id="menu-item-1071"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1071">
-                                        <a href="https://live.21lab.co/hank/works-style-3/">Works – style 3</a></li>
+                                        <a href="https://live.21lab.co/hank/works-style-3/">Works – style 3</a>
+                                    </li>
                                     <li id="menu-item-1072"
                                         class="sm has-border menu-item menu-item-type-post_type menu-item-object-page menu-item-1072">
-                                        <a href="https://live.21lab.co/hank/work/">Default Layout</a></li>
+                                        <a href="https://live.21lab.co/hank/work/">Default Layout</a>
+                                    </li>
                                 </ul>
-                            </li>
+                            </li> --}}
                             <li id="menu-item-132"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-132"><a
-                                    href="https://live.21lab.co/hank/news/">News</a></li>
-                            <li id="menu-item-1142"
+                                    href="{{ route('blog') }}">Blog</a></li>
+                            {{-- <li id="menu-item-1142"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1142"><a
-                                    href="https://live.21lab.co/hank/shop/">Shop</a></li>
-                        </ul>
-                    </nav>
-
-                    <div class="extras">
-                        <div class="header-info-text">
-                            <ul class="info-list">
-                                <li>
-                                    <a href="#">
-                                        <i class="hank-screen-rotation"></i>
-                                        <p>
-                                            <span>Call us Now!</span>
-                                            <span class="lg">+919990116198</span>
-                                        </p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="hank-b-meeting"></i>
-                                        <p>
-                                            <span>Talk to us</span>
-                                            <span class="lg">Info@bedibuildwell.com</span>
-                                        </p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-
-
-                        <ul class="navigator menu-extras">
-                            <li class="search-box">
-                                <a href="#">
-                                    <i class="hank-zoom icon-32"></i>
-                                </a>
-                                <div class="widget widget_search">
-                                    <form role="search" method="get" class="search-form"
-                                        action="https://live.21lab.co/hank/">
-                                        <label>
-                                            <span class="screen-reader-text">Search for:</span>
-                                            <input type="search" class="search-field" placeholder="Search &hellip;"
-                                                value="" name="s" />
-                                        </label>
-                                        <input type="submit" class="search-submit" value="Search" />
-                                    </form>
-                                </div>
-                            </li>
-                            <li class="shopping-cart">
-                                <a class="shopping-cart-count" href="https://live.21lab.co/hank/cart/">
-                                    <i class="hank-cart icon-32"></i>
-
-                                    <span class="shopping-cart-items-count no-items"></span>
-                                </a>
-                                <div class="sub-menu">
-                                    <div class="widget_shopping_cart_content">
-
-
-                                        <p class="woocommerce-mini-cart__empty-message">No products in the cart.</p>
-
-
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <a href="javascript:;" data-target="off-canvas-right" class="off-canvas-toggle">
-                        <span></span>
-                    </a>
-
-                </div>
-            </div>
-            <!-- /.site-header-inner -->
-        </div>
-        <!-- /.site-header -->
-
-
-        <div id="site-header-sticky" class=" site-header-sticky header-brand-left">
-            <div class="site-header-inner wrap">
-                <div class="header-content">
-                    <div class="header-brand">
-                        <a href="">
-                            <img width="220" height="127"
-                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20220%20127'%3E%3C/svg%3E"
-                                data-lazy-srcset="{{ asset('logoblack.png') }} 1x, {{ asset('logoblack.png') }} 2x"
-                                alt="Hank" class="logo logoDark"
-                                data-lazy-src="{{ asset('logoblack.png') }}" /><noscript><img
-                                    width="220" height="127"
-                                    src="{{ asset('logoblack.png') }}"
-                                    srcset="{{ asset('logoblack.png') }} 1x, {{ asset('logoblack.png') }} 2x"
-                                    alt="Hank" class="logo logoDark" /></noscript> </a>
-                    </div>
-
-                    <nav class="navigator" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-
-
-                        <ul id="menu-main-menu-1" class="menu menu-primary">
-                            <li
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-176">
-                                <a href="https://live.21lab.co/hank/about/">About</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-381">
-                                        <a href="https://live.21lab.co/hank/about/">Company</a></li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-512">
-                                        <a href="https://live.21lab.co/hank/about/core-values/">Core Values</a></li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380">
-                                        <a href="https://live.21lab.co/hank/about/leadership/">Leadership</a></li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-781">
-                                        <a href="https://live.21lab.co/hank/about/why-choose-us/">Why choose us</a>
-                                    </li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-517">
-                                        <a href="https://live.21lab.co/hank/about/careers/">Careers</a></li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175">
-                                        <a href="https://live.21lab.co/hank/contact/">Contact</a></li>
-                                    <li
-                                        class="sm has-border menu-item menu-item-type-custom menu-item-object-custom menu-item-787">
-                                        <a
-                                            href="https://live.21lab.co/hank/about/why-choose-us/#testimonials">Testimonials</a>
-                                    </li>
-                                    <li
-                                        class="sm menu-item menu-item-type-custom menu-item-object-custom menu-item-788">
-                                        <a href="https://live.21lab.co/hank/about/why-choose-us/#awards">Awards &#038;
-                                            Recognition</a></li>
-                                    <li
-                                        class="sm menu-item menu-item-type-custom menu-item-object-custom menu-item-886">
-                                        <a href="https://live.21lab.co/hank/about/#history">Our History</a></li>
-                                </ul>
-                            </li>
-                            <li
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-171">
-                                <a href="https://live.21lab.co/hank/experience/">Experience</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-874">
-                                        <a href="https://live.21lab.co/hank/experience/">What we do</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-872">
-                                        <a href="https://live.21lab.co/hank/experience/#services">Our Services</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-876">
-                                        <a href="https://live.21lab.co/hank/experience/#safety">Safety</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-873">
-                                        <a href="https://live.21lab.co/hank/experience/#markets">Markets we Serve</a>
-                                    </li>
-                                    <li
-                                        class="sm has-border menu-item menu-item-type-post_type menu-item-object-page menu-item-887">
-                                        <a href="https://live.21lab.co/hank/experience/property-and-buildings/">Property
-                                            and Buildings</a></li>
-                                </ul>
-                            </li>
-                            <li
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-131">
-                                <a href="https://live.21lab.co/hank/work/">Work</a>
-                                <ul class="sub-menu">
-                                    <li
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1087">
-                                        <a href="https://live.21lab.co/hank/works-style-1/">Works – style 1</a></li>
-                                    <li
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1091">
-                                        <a href="https://live.21lab.co/hank/works-style-2/">Works – style 2</a></li>
-                                    <li
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1071">
-                                        <a href="https://live.21lab.co/hank/works-style-3/">Works – style 3</a></li>
-                                    <li
-                                        class="sm has-border menu-item menu-item-type-post_type menu-item-object-page menu-item-1072">
-                                        <a href="https://live.21lab.co/hank/work/">Default Layout</a></li>
-                                </ul>
-                            </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-132"><a
-                                    href="https://live.21lab.co/hank/news/">News</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1142"><a
-                                    href="https://live.21lab.co/hank/shop/">Shop</a></li>
+                                    href="https://live.21lab.co/hank/shop/">Shop</a></li> --}}
                         </ul>
                     </nav>
 
@@ -1694,7 +1408,7 @@
                                         <i class="hank-b-meeting"></i>
                                         <p>
                                             <span>Talk to us</span>
-                                            <span class="lg">info@example.com</span>
+                                            <span class="lg">info@bedibuildwell.com</span>
                                         </p>
                                     </a>
                                 </li>
@@ -1702,7 +1416,7 @@
                         </div>
 
 
-                        <ul class="navigator menu-extras">
+                        {{-- <ul class="navigator menu-extras">
                             <li class="search-box">
                                 <a href="#">
                                     <i class="hank-zoom icon-32"></i>
@@ -1735,7 +1449,185 @@
                                     </div>
                                 </div>
                             </li>
+                        </ul> --}}
+                    </div>
+
+                    <a href="javascript:;" data-target="off-canvas-right" class="off-canvas-toggle">
+                        <span></span>
+                    </a>
+
+                </div>
+            </div>
+            <!-- /.site-header-inner -->
+        </div>
+        <!-- /.site-header -->
+
+
+        <div id="site-header-sticky" class=" site-header-sticky header-brand-left">
+            <div class="site-header-inner wrap">
+                <div class="header-content">
+                    <div class="header-brand">
+                        <a href="https://live.21lab.co/hank">
+                            <img width="180" height="104"
+                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20180%20104'%3E%3C/svg%3E"
+                                data-lazy-srcset="{{ asset('assets/logo_full_text_light.svg') }} 1x, {{ asset('assets/logo_full_text_light.svg') }} 2x"
+                                alt="Bedi Buildwell" class="logo logoDark"
+                                data-lazy-src="{{ asset('assets/logo_full_text_light.svg') }}" /><noscript><img
+                                    width="180" height="104"
+                                    src="{{ asset('assets/logo_full_text_light.svg') }}"
+                                    srcset="{{ asset('assets/logo_full_text_light.svg') }} 1x, {{ asset('assets/logo_full_text_light.svg') }} 2x"
+                                    alt="Bedi Buildwell" class="logo logoDark" /></noscript> </a>
+                    </div>
+
+                    <nav class="navigator" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+
+
+                        <ul id="menu-main-menu-1" class="menu menu-primary">
+                            <li
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-176">
+                                <a href="{{ route('about') }}">About</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-381">
+                                        <a href="{{ route('about') }}">Company</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-512">
+                                        <a href="{{ route('core-values') }}">Core Values</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380">
+                                        <a href="{{ route('leadership') }}">Leadership</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-781">
+                                        <a href="{{ route('why-choose-us') }}">Why choose us</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175">
+                                        <a href="{{ route('contact') }}">Contact</a>
+                                    </li>
+                                    <li
+                                        class="sm has-border menu-item menu-item-type-custom menu-item-object-custom menu-item-787">
+                                        <a href="{{ route('why-choose-us') }}#testimonials">Testimonials</a>
+                                    </li>
+                                    {{-- <li
+                                        class="sm menu-item menu-item-type-custom menu-item-object-custom menu-item-788">
+                                        <a href="{{ route('why-choose-us') }}#awards">Awards &#038;
+                                            Recognition</a>
+                                    </li> --}}
+                                    <li
+                                        class="sm menu-item menu-item-type-custom menu-item-object-custom menu-item-886">
+                                        <a href="{{ route('about') }}#history">Our History</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-171">
+                                <a href="{{ route('experience') }}">Experience</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-874">
+                                        <a href="{{ route('experience') }}">What we do</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-872">
+                                        <a href="{{ route('experience') }}#services">Our Services</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-876">
+                                        <a href="{{ route('experience') }}#safety">Safety</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-873">
+                                        <a href="{{ route('experience') }}#markets">Markets we Serve</a>
+                                    </li>
+                                    {{-- <li
+                                        class="sm has-border menu-item menu-item-type-post_type menu-item-object-page menu-item-887">
+                                        <a href="{{route('experience')}}property-and-buildings/">Property
+                                            and Buildings</a>
+                                    </li> --}}
+                                </ul>
+                            </li>
+                            {{-- <li
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-131">
+                                <a href="https://live.21lab.co/hank/work/">Work</a>
+                                <ul class="sub-menu">
+                                    <li
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1087">
+                                        <a href="https://live.21lab.co/hank/works-style-1/">Works – style 1</a>
+                                    </li>
+                                    <li
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1091">
+                                        <a href="https://live.21lab.co/hank/works-style-2/">Works – style 2</a>
+                                    </li>
+                                    <li
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1071">
+                                        <a href="https://live.21lab.co/hank/works-style-3/">Works – style 3</a>
+                                    </li>
+                                    <li
+                                        class="sm has-border menu-item menu-item-type-post_type menu-item-object-page menu-item-1072">
+                                        <a href="https://live.21lab.co/hank/work/">Default Layout</a>
+                                    </li>
+                                </ul>
+                            </li> --}}
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-132"><a
+                                    href="{{ route('blog') }}">Blogs</a></li>
+                            {{-- <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1142"><a
+                                    href="https://live.21lab.co/hank/shop/">Shop</a></li> --}}
                         </ul>
+                    </nav>
+
+                    <div class="extras">
+                        <div class="header-info-text">
+                            <ul class="info-list">
+                                <li>
+                                    <a href="#">
+                                        <i class="hank-screen-rotation"></i>
+                                        <p>
+                                            <span>Call us Now!</span>
+                                            <span class="lg">+91 99901 16198</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="hank-b-meeting"></i>
+                                        <p>
+                                            <span>Talk to us</span>
+                                            <span class="lg">info@bedibuildwell.com</span>
+                                        </p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                        {{-- <ul class="navigator menu-extras">
+                            <li class="search-box">
+                                <a href="#">
+                                    <i class="hank-zoom icon-32"></i>
+                                </a>
+                                <div class="widget widget_search">
+                                    <form role="search" method="get" class="search-form"
+                                        action="https://live.21lab.co/hank/">
+                                        <label>
+                                            <span class="screen-reader-text">Search for:</span>
+                                            <input type="search" class="search-field" placeholder="Search &hellip;"
+                                                value="" name="s" />
+                                        </label>
+                                        <input type="submit" class="search-submit" value="Search" />
+                                    </form>
+                                </div>
+                            </li>
+                            <li class="shopping-cart">
+                                <a class="shopping-cart-count" href="https://live.21lab.co/hank/cart/">
+                                    <i class="hank-cart icon-32"></i>
+
+                                    <span class="shopping-cart-items-count no-items"></span>
+                                </a>
+                                <div class="sub-menu">
+                                    <div class="widget_shopping_cart_content">
+
+
+                                        <p class="woocommerce-mini-cart__empty-message">No products in the cart.</p>
+
+
+                                    </div>
+                                </div>
+                            </li>
+                        </ul> --}}
                     </div>
 
                     <a href="javascript:;" data-target="off-canvas-right" class="off-canvas-toggle">
@@ -1763,8 +1655,8 @@
                                                 <div class="vc_column-inner">
                                                     <div class="wpb_wrapper">
                                                         <h2 style="font-size: 40px;color: #ffffff;line-height: 44px;text-align: left"
-                                                            class="vc_custom_heading">We have one mission to be the<strong>
-                                                                best builder in the insustry.</strong></h2>
+                                                            class="vc_custom_heading">we have one mission<br />
+                                                            to be the <strong>best builder in India.</strong></h2>
                                                         <div class="vc_empty_space" style="height: 20px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                     </div>
@@ -1785,7 +1677,7 @@
                                                                         their outcomes — and exceed their strategic
                                                                         goals. <a class="link"
                                                                             style="color: #ffffff;"
-                                                                            href="https://live.21lab.co/hank/about/">Find
+                                                                            href="{{ route('about') }}">Find
                                                                             out more</a></span></p>
 
                                                             </div>
@@ -1818,7 +1710,7 @@
                                                                     <rs-slide style="position: absolute;"
                                                                         data-key="rs-10"
                                                                         data-title="Culture Makes the Difference"
-                                                                        data-thumb="{{ asset('images/people-1.jpg') }}"
+                                                                        data-thumb="//live.21lab.co/hank/wp-content/uploads/revslider/slider-1/slider_1-50x100.jpg"
                                                                         data-anim="ms:1000;r:0;" data-in="o:0;"
                                                                         data-out="a:false;">
                                                                         <img width="1" height="1"
@@ -1826,23 +1718,9 @@
                                                                             src="//live.21lab.co/hank/wp-content/plugins/revslider/public/assets/assets/dummy.png"
                                                                             alt="" title="Home"
                                                                             class="rev-slidebg tp-rs-img rs-lazyload"
-                                                                            data-lazyload="{{ asset('images/people-1.jpg') }}"
+                                                                            data-lazyload="{{ asset('images/slider_2.png') }}"
                                                                             data-no-retina>
                                                                         <!--
-       --><rs-layer id="slider-3-slide-10-layer-0" class="rs-layer-shape" data-type="shape" data-rsp_ch="on"
-                                                                            data-xy="x:850px;y:130px;"
-                                                                            data-text="w:normal;s:1;l:1;"
-                                                                            data-dim="w:600px;h:280px;"
-                                                                            data-rsp_o="on"
-                                                                            data-rsp_bd="on"
-                                                                            data-rsp_xy="x:c;y:m;"
-                                                                            data-rsp_dim="w:90%;h:auto;"
-                                                                            data-basealign="slide"
-                                                                            data-frame_0="o:0;"
-                                                                            data-frame_1="st:0;sp:500;"
-                                                                            data-frame_999="o:0;st:w;sR:8500;"
-                                                                            style="z-index:7;background-color:#ffffff;background-color:rgba(255,255,255,0.9);border-radius:0px;">
-                                                                        </rs-layer><!--
        --><rs-layer id="slider-3-slide-10-layer-1" class="f-l" data-type="text" data-color="rgba(0, 0, 0, 0.5)"
                                                                             data-rsp_ch="on"
                                                                             data-xy="x:897px;y:185px;"
@@ -1894,14 +1772,14 @@
                                                                             data-frame_999="o:0;st:w;sR:6900;"
                                                                             style="z-index:11;font-family:'Rubik';text-transform:uppercase;"><a
                                                                                 class="button has-arrow"
-                                                                                href="https://live.linethemes.com/hank/about/">Learn
-                                                                                more about us</a>
+                                                                                href="">Learn
+                                                                                more about us</a> {{-- TODO Add about page link --}}
                                                                         </rs-layer><!--
 --> </rs-slide>
                                                                     <rs-slide style="position: absolute;"
                                                                         data-key="rs-11"
                                                                         data-title="Our Promise of Superior Performance"
-                                                                        data-thumb="{{ asset('images/people-2.jpg') }}"
+                                                                        data-thumb="//live.21lab.co/hank/wp-content/uploads/revslider/slider-1/4-slider-50x100.jpg"
                                                                         data-anim="ms:1000;r:0;" data-in="o:0;"
                                                                         data-out="a:false;">
                                                                         <img width="1" height="1"
@@ -1909,23 +1787,9 @@
                                                                             src="//live.21lab.co/hank/wp-content/plugins/revslider/public/assets/assets/dummy.png"
                                                                             alt="" title="Home"
                                                                             class="rev-slidebg tp-rs-img rs-lazyload"
-                                                                            data-lazyload="{{ asset('images/people-2.jpg') }}"
+                                                                            data-lazyload="{{ asset('images/slider_1.png') }}"
                                                                             data-no-retina>
                                                                         <!--
-       --><rs-layer id="slider-3-slide-11-layer-0" class="rs-layer-shape" data-type="shape" data-rsp_ch="on"
-                                                                            data-xy="x:850px;y:130px;"
-                                                                            data-text="w:normal;s:1;l:1;"
-                                                                            data-dim="w:600px;h:280px;"
-                                                                            data-rsp_o="on"
-                                                                            data-rsp_bd="on"
-                                                                            data-rsp_xy="x:c;y:m;"
-                                                                            data-rsp_dim="w:90%;h:auto;"
-                                                                            data-basealign="slide"
-                                                                            data-frame_0="o:0;"
-                                                                            data-frame_1="st:0;sp:500;"
-                                                                            data-frame_999="o:0;st:w;sR:8500;"
-                                                                            style="z-index:7;background-color:#ffffff;background-color:rgba(255,255,255,0.9);border-radius:0px;">
-                                                                        </rs-layer><!--
        --><rs-layer id="slider-3-slide-11-layer-1" class="f-l" data-type="text" data-color="rgba(0, 0, 0, 0.5)"
                                                                             data-rsp_ch="on"
                                                                             data-xy="x:895px;y:185px;"
@@ -1983,7 +1847,7 @@
                                                                     <rs-slide style="position: absolute;"
                                                                         data-key="rs-12"
                                                                         data-title="When a Project has Extraordinary Challenges"
-                                                                        data-thumb="{{ asset('images/people-3.jpg') }}"
+                                                                        data-thumb="//live.21lab.co/hank/wp-content/uploads/revslider/slider-1/slider-50x100.jpg"
                                                                         data-anim="ms:1000;r:0;" data-in="o:0;"
                                                                         data-out="a:false;">
                                                                         <img width="1" height="1"
@@ -1991,23 +1855,9 @@
                                                                             src="//live.21lab.co/hank/wp-content/plugins/revslider/public/assets/assets/dummy.png"
                                                                             alt="" title="Home"
                                                                             class="rev-slidebg tp-rs-img rs-lazyload"
-                                                                            data-lazyload="{{ asset('images/people-3.jpg') }}"
+                                                                            data-lazyload="{{ asset('images/slider_3.png') }}"
                                                                             data-no-retina>
                                                                         <!--
-       --><rs-layer id="slider-3-slide-12-layer-0" class="rs-layer-shape" data-type="shape" data-rsp_ch="on"
-                                                                            data-xy="x:850px;y:130px;"
-                                                                            data-text="w:normal;s:1;l:1;"
-                                                                            data-dim="w:600px;h:280px;"
-                                                                            data-rsp_o="on"
-                                                                            data-rsp_bd="on"
-                                                                            data-rsp_xy="x:c;y:m;"
-                                                                            data-rsp_dim="w:90%;h:auto;"
-                                                                            data-basealign="slide"
-                                                                            data-frame_0="o:0;"
-                                                                            data-frame_1="st:0;sp:500;"
-                                                                            data-frame_999="o:0;st:w;sR:8500;"
-                                                                            style="z-index:7;background-color:#ffffff;background-color:rgba(255,255,255,0.9);border-radius:0px;">
-                                                                        </rs-layer><!--
        --><rs-layer id="slider-3-slide-12-layer-1" class="f-l" data-type="text" data-color="rgba(0, 0, 0, 0.5)"
                                                                             data-rsp_ch="on"
                                                                             data-xy="x:898px;y:185px;"
@@ -2059,7 +1909,7 @@
                                                                             style="z-index:11;font-family:'Rubik';text-transform:uppercase;"><a
                                                                                 class="button has-arrow"
                                                                                 href="https://live.linethemes.com/hank/work/">Explore
-                                                                                our Projects</a>
+                                                                                Bedi Buildwell Group Projects</a>
                                                                         </rs-layer><!--
 --> </rs-slide>
                                                                 </rs-slides>
@@ -2107,9 +1957,8 @@
                                                                             team</strong> &#8211; We are looking for
                                                                         talented &amp; driven people to come work with
                                                                         us. <a class="link" style="color: #fff;"
-                                                                            href="https://live.21lab.co/hank/about/careers/">Available
+                                                                            href="">Available
                                                                             Positions</a></span></p>
-
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2144,7 +1993,7 @@
                                                                         style="color: #b7b7b7;"><a
                                                                             class="link has-arrow"
                                                                             style="color: #b7b7b7;"
-                                                                            href="https://live.21lab.co/hank/about/">Find
+                                                                            href="{{ route('about') }}">Find
                                                                             out more about company</a></span></p>
 
                                                             </div>
@@ -2174,17 +2023,17 @@
                                                                 <!-- BEGIN .imagebox -->
                                                                 <div class="imagebox color-qc style1 ">
                                                                     <a class="box-image"
-                                                                        href="https://live.21lab.co/hank/about/leadership/"
+                                                                        href="{{ route('leadership') }}"
                                                                         target="_self">
                                                                         <img fetchpriority="high" decoding="async"
                                                                             class=""
                                                                             src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201280%20710'%3E%3C/svg%3E"
                                                                             width="1280" height="710"
                                                                             alt="bg-ab4" title="bg-ab4"
-                                                                            data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2019/12/bg-ab4-1280x710.jpg" /><noscript><img
+                                                                            data-lazy-src="{{ asset('images/bg-ab4.webp') }}" /><noscript><img
                                                                                 fetchpriority="high" decoding="async"
                                                                                 class=""
-                                                                                src="https://live.21lab.co/hank/wp-content/uploads/2019/12/bg-ab4-1280x710.jpg"
+                                                                                src="{{ asset('images/bg-ab4.webp') }}"
                                                                                 width="1280" height="710"
                                                                                 alt="bg-ab4"
                                                                                 title="bg-ab4" /></noscript>
@@ -2210,8 +2059,7 @@
                                                                         <img decoding="async" class=""
                                                                             src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201280%20710'%3E%3C/svg%3E"
                                                                             width="1280" height="710"
-                                                                            alt="Image by @katethielicke Unsplash"
-                                                                            title="p2"
+                                                                            alt="" title="p2"
                                                                             data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2019/10/p2-1280x710.jpg" /><noscript><img
                                                                                 decoding="async" class=""
                                                                                 src="https://live.21lab.co/hank/wp-content/uploads/2019/10/p2-1280x710.jpg"
@@ -2235,18 +2083,17 @@
                                                                 <!-- BEGIN .imagebox -->
                                                                 <div class="imagebox  style1 ">
                                                                     <a class="box-image"
-                                                                        href="https://live.21lab.co/hank/experience/"
+                                                                        href="{{ route('experience') }}"
                                                                         target="_self">
                                                                         <img decoding="async" class=""
                                                                             src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201280%20710'%3E%3C/svg%3E"
                                                                             width="1280" height="710"
-                                                                            alt="Image by @anniegray - Unsplash"
-                                                                            title="b3"
-                                                                            data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2019/10/b3-1280x710.jpg" /><noscript><img
+                                                                            alt="b3" title="b3"
+                                                                            data-lazy-src="{{ asset('images/b3-1280x710.jpg') }}" /><noscript><img
                                                                                 decoding="async" class=""
-                                                                                src="https://live.21lab.co/hank/wp-content/uploads/2019/10/b3-1280x710.jpg"
+                                                                                src="{{ asset('images/b3-1280x710.jpg') }}"
                                                                                 width="1280" height="710"
-                                                                                alt="Image by @anniegray - Unsplash"
+                                                                                alt="b3"
                                                                                 title="b3" /></noscript>
                                                                         <h3 class="box-title">
                                                                             <span>UE</span>
@@ -2265,22 +2112,23 @@
                                                                 <!-- BEGIN .imagebox -->
                                                                 <div class="imagebox  style1 ">
                                                                     <a class="box-image"
-                                                                        href="https://live.21lab.co/hank/experience/#services"
+                                                                        href="{{ route('experience') }}#services"
                                                                         target="_self">
                                                                         <img decoding="async" class=""
                                                                             src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201280%20710'%3E%3C/svg%3E"
                                                                             width="1280" height="710"
                                                                             alt="bg_ab" title="bg_ab"
-                                                                            data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2019/12/bg_ab-1280x710.jpg" /><noscript><img
+                                                                            data-lazy-src="{{ asset('images/bg_ab-1280x710.webp') }}" /><noscript><img
                                                                                 decoding="async" class=""
-                                                                                src="https://live.21lab.co/hank/wp-content/uploads/2019/12/bg_ab-1280x710.jpg"
+                                                                                src="{{ asset('images/bg_ab-1280x710.webp') }}"
                                                                                 width="1280" height="710"
                                                                                 alt="bg_ab"
                                                                                 title="bg_ab" /></noscript>
                                                                         <h3 class="box-title">
                                                                             <span>ES</span>
                                                                             <span class="box-subtitle">
-                                                                                Hank providing clients a complete
+                                                                                Bedi Buildwell providing clients a
+                                                                                complete
                                                                                 service package. </span>
                                                                         </h3>
 
@@ -2311,7 +2159,7 @@
                                                         <div class="vc_empty_space" style="height: 15px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                         <p style="font-size: 21px;color: #7f7f7f;line-height: 26px;text-align: center"
-                                                            class="vc_custom_heading">Hank construction is dedicated to
+                                                            class="vc_custom_heading">Bedi Buildwell is dedicated to
                                                             being a partner<br />
                                                             for all of your construction needs.</p>
                                                         <div class="vc_empty_space" style="height: 50px"><span
@@ -2341,7 +2189,7 @@
 
                                                                         <p class="box-readmore">
                                                                             <a
-                                                                                href="https://live.21lab.co/hank/experience/#services">Ready
+                                                                                href="{{ route('experience') }}#services">Ready
                                                                                 to Explore Development</a>
                                                                         </p>
                                                                     </div>
@@ -2358,7 +2206,7 @@
 
                                                                         <p class="box-readmore">
                                                                             <a
-                                                                                href="https://live.21lab.co/hank/experience/#services">Click
+                                                                                href="{{ route('experience') }}#services">Click
                                                                                 here to Explore Construction</a>
                                                                         </p>
                                                                     </div>
@@ -2376,7 +2224,7 @@
 
                                                                         <p class="box-readmore">
                                                                             <a
-                                                                                href="https://live.21lab.co/hank/experience/#services">Click
+                                                                                href="{{ route('experience') }}#services">Click
                                                                                 here to Explore Facility Services.</a>
                                                                         </p>
                                                                     </div>
@@ -2392,7 +2240,7 @@
                                                                     is a new service – your <span
                                                                         style="color: #000000;"><a class="link"
                                                                             style="color: #000000;"
-                                                                            href="https://live.21lab.co/hank/contact/">feedback</a></span>
+                                                                            href="{{ route('contact') }}/">feedback</a></span>
                                                                     will help us to improve it. Thank you!</p>
 
                                                             </div>
@@ -2790,8 +2638,7 @@
                                                                 <div class="iconlist-item-content"></div>
                                                             </li>
                                                             <li>
-                                                                <div class="iconlist-item-icon"><img
-                                                                        decoding="async"
+                                                                <div class="iconlist-item-icon"><img decoding="async"
                                                                         src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
                                                                         alt="gbc"
                                                                         data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/gbc.svg" /><noscript><img
@@ -2801,8 +2648,7 @@
                                                                 <div class="iconlist-item-content"></div>
                                                             </li>
                                                             <li>
-                                                                <div class="iconlist-item-icon"><img
-                                                                        decoding="async"
+                                                                <div class="iconlist-item-icon"><img decoding="async"
                                                                         src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
                                                                         alt="tf"
                                                                         data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/tf.svg" /><noscript><img
@@ -2812,8 +2658,7 @@
                                                                 <div class="iconlist-item-content"></div>
                                                             </li>
                                                             <li>
-                                                                <div class="iconlist-item-icon"><img
-                                                                        decoding="async"
+                                                                <div class="iconlist-item-icon"><img decoding="async"
                                                                         src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
                                                                         alt="mgr"
                                                                         data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/mgr.svg" /><noscript><img
@@ -2823,8 +2668,7 @@
                                                                 <div class="iconlist-item-content"></div>
                                                             </li>
                                                             <li>
-                                                                <div class="iconlist-item-icon"><img
-                                                                        decoding="async"
+                                                                <div class="iconlist-item-icon"><img decoding="async"
                                                                         src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
                                                                         alt="nano2"
                                                                         data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/nano2.svg" /><noscript><img
@@ -2834,8 +2678,7 @@
                                                                 <div class="iconlist-item-content"></div>
                                                             </li>
                                                             <li>
-                                                                <div class="iconlist-item-icon"><img
-                                                                        decoding="async"
+                                                                <div class="iconlist-item-icon"><img decoding="async"
                                                                         src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
                                                                         alt="hnk2"
                                                                         data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/hnk2.svg" /><noscript><img
@@ -2845,8 +2688,7 @@
                                                                 <div class="iconlist-item-content"></div>
                                                             </li>
                                                             <li>
-                                                                <div class="iconlist-item-icon"><img
-                                                                        decoding="async"
+                                                                <div class="iconlist-item-icon"><img decoding="async"
                                                                         src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
                                                                         alt="gc"
                                                                         data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/gc.svg" /><noscript><img
@@ -2856,8 +2698,7 @@
                                                                 <div class="iconlist-item-content"></div>
                                                             </li>
                                                             <li>
-                                                                <div class="iconlist-item-icon"><img
-                                                                        decoding="async"
+                                                                <div class="iconlist-item-icon"><img decoding="async"
                                                                         src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
                                                                         alt="glb"
                                                                         data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/glb.svg" /><noscript><img
@@ -2872,7 +2713,7 @@
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
                                                                 <p><a class="link has-arrow" style="color: #7f7f7f;"
-                                                                        href="https://live.21lab.co/hank/about/">Find
+                                                                        href="{{ route('about') }}">Find
                                                                         out more about company</a></p>
 
                                                             </div>
@@ -2913,7 +2754,7 @@
                                                                     <div class="author-info"><span
                                                                             class="subtitle">CEO</span> <span
                                                                             class="divider">-</span> <span
-                                                                            class="company">Hank Construction</span>
+                                                                            class="company">Bedi Buildwell</span>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -2971,7 +2812,7 @@
                                                                 <p style="display: inline;"><span
                                                                         style="color: #7f7f7f;"><a class="link"
                                                                             style="color: #7f7f7f; font-size: 16px;"
-                                                                            href="https://live.21lab.co/hank/about/"
+                                                                            href="{{ route('about') }}"
                                                                             target="_blank"
                                                                             rel="noopener noreferrer">explore our
                                                                             company</a></span></p>
@@ -2997,7 +2838,8 @@
                                                             <li>
                                                                 <div class="iconlist-item-icon"><i
                                                                         class="hank-d-check"></i></div>
-                                                                <div class="iconlist-item-content"><strong>The hank
+                                                                <div class="iconlist-item-content"><strong>The Bedi
+                                                                        Buildwell
                                                                         experience</strong></div>
                                                             </li>
                                                             <li>
@@ -3024,7 +2866,8 @@
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
                                                                 <p style="text-align: center;">Partners in your dream,
-                                                                    committed to your success – that is the Hank
+                                                                    committed to your success – that is the Bedi
+                                                                    Buildwell
                                                                     difference.</p>
 
                                                             </div>
@@ -3060,7 +2903,7 @@
                                                                         style="color: #b7b7b7;"><a
                                                                             class="link has-arrow"
                                                                             style="color: #b7b7b7;"
-                                                                            href="https://live.21lab.co/hank/news/">EXPLORE
+                                                                            href="{{ route('blog') }}">EXPLORE
                                                                             ALL BLOG POSTS</a></span></p>
 
                                                             </div>
@@ -3273,7 +3116,7 @@
                                                                 <!-- BEGIN .imagebox -->
                                                                 <div class="imagebox   ">
                                                                     <a class="box-image"
-                                                                        href="https://live.21lab.co/hank/about/core-values/"
+                                                                        href="{{ route('about') }}core-values/"
                                                                         target="_self">
                                                                         <img decoding="async" class=""
                                                                             src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201200%20710'%3E%3C/svg%3E"
@@ -3295,7 +3138,7 @@
 
 
                                                                     <a class="box-button"
-                                                                        href="https://live.21lab.co/hank/about/core-values/"
+                                                                        href="{{ route('about') }}core-values/"
                                                                         target="_self">
                                                                         <span>Learn about our core values.</span>
                                                                     </a>
@@ -3306,7 +3149,7 @@
                                                                 <!-- BEGIN .imagebox -->
                                                                 <div class="imagebox   ">
                                                                     <a class="box-image"
-                                                                        href="https://live.21lab.co/hank/about/leadership/"
+                                                                        href="{{ route('leadership') }}"
                                                                         target="_self">
                                                                         <img decoding="async" class=""
                                                                             src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201200%20710'%3E%3C/svg%3E"
@@ -3328,9 +3171,9 @@
 
 
                                                                     <a class="box-button"
-                                                                        href="https://live.21lab.co/hank/about/leadership/"
+                                                                        href="{{ route('leadership') }}"
                                                                         target="_self">
-                                                                        <span>Meet the Hank Construction Team.</span>
+                                                                        <span>Meet the Bedi Buildwell Team.</span>
                                                                     </a>
 
                                                                 </div>
@@ -3339,7 +3182,7 @@
                                                                 <!-- BEGIN .imagebox -->
                                                                 <div class="imagebox   ">
                                                                     <a class="box-image"
-                                                                        href="https://live.21lab.co/hank/about/why-choose-us/"
+                                                                        href="{{ route('about') }}why-choose-us/"
                                                                         target="_self">
                                                                         <img decoding="async" class=""
                                                                             src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201200%20710'%3E%3C/svg%3E"
@@ -3355,14 +3198,14 @@
                                                                         <h3 class="box-title">
                                                                             <span>WHY</span>
                                                                             <span class="box-subtitle">
-                                                                                choose hank? </span>
+                                                                                choose Bedi Buildwell? </span>
                                                                         </h3>
 
                                                                     </a>
 
 
                                                                     <a class="box-button"
-                                                                        href="https://live.21lab.co/hank/about/why-choose-us/"
+                                                                        href="{{ route('about') }}why-choose-us/"
                                                                         target="_self">
                                                                         <span>Three reasons why choose us.</span>
                                                                     </a>
@@ -3413,7 +3256,8 @@
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
                                                                 <p>Headquartered in New York, with offices in 3 metro
-                                                                    areas, Hank has more than 200 employees committed to
+                                                                    areas, Bedi Buildwell has more than 200 employees
+                                                                    committed to
                                                                     being leaders in safety, ethics and people
                                                                     development.</p>
 
@@ -3469,7 +3313,8 @@
                                                                     data-to="25" data-speed="1000">0</span>
                                                                 <span class="counter-suffix">b</span>
                                                             </div>
-                                                            <div class="counter-title">Hank Group have undertaken new
+                                                            <div class="counter-title">Bedi Buildwell Group have
+                                                                undertaken new
                                                                 projects totaling 25 billion USD</div>
                                                         </div>
                                                         <div class="vc_empty_space" style="height: 60px"><span
@@ -3725,9 +3570,10 @@
                                                                             <div
                                                                                 class="wpb_text_column wpb_content_element ">
                                                                                 <div class="wpb_wrapper">
-                                                                                    <p>Hank Construction could not have
+                                                                                    <p>Bedi Buildwell could not have
                                                                                         taken better care of us…The
-                                                                                        entire Hank team lives and
+                                                                                        entire Bedi Buildwell team lives
+                                                                                        and
                                                                                         breathes excellence in
                                                                                         everything they do. Integrity,
                                                                                         initiative and intelligence are
@@ -3899,7 +3745,8 @@
                                                                                                 class="wpcf7-list-item-label">I
                                                                                                 agree to receive
                                                                                                 communications from
-                                                                                                Hank.</span></label></span></span></span>
+                                                                                                Bedi
+                                                                                                Buildwell.</span></label></span></span></span>
                                                                         </div>
                                                                         <div class="field">
                                                                             <input type="submit"
@@ -3965,8 +3812,8 @@
                             <div id="text-3" class="widget-odd widget-first widget-1 widget widget_text">
                                 <div class="textwidget">
                                     <h3 class="size-lg" style="color:#fff"><a
-                                            href="https://live.21lab.co/hank/contact/">contact us</a> today.<br />
-                                        For all your <a href="https://live.21lab.co/hank/experience/">construction</a>
+                                            href="{{ route('contact') }}/">contact us</a> today.<br />
+                                        For all your <a href="{{ route('experience') }}">construction</a>
                                         needs!</h3>
                                 </div>
                             </div>
@@ -3998,8 +3845,7 @@
                                                         alt="img"></noscript></span>
                                         </div>
                                         <div class="content">
-                                            Any questions? Reach us at <a href="#"
-                                                class="link">1-900-HANKCO</a> - Toll free in US/Canada
+                                            Any questions? Reach us at <a href="#" class="link"></a>
                                         </div>
                                     </div>
                                 </div>
@@ -4025,14 +3871,17 @@
                                                 <li id="menu-item-154"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-154">
                                                     <a href="#"><i
-                                                            class="fa fa-facebook-square"></i>Facebook</a></li>
+                                                            class="fa fa-facebook-square"></i>Facebook</a>
+                                                </li>
                                                 <li id="menu-item-155"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-155">
-                                                    <a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
+                                                    <a href="#"><i class="fa fa-twitter"></i>Twitter</a>
+                                                </li>
                                                 <li id="menu-item-156"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-156">
                                                     <a href="#"><i
-                                                            class="fa fa-linkedin-square"></i>Linkedin</a></li>
+                                                            class="fa fa-linkedin-square"></i>Linkedin</a>
+                                                </li>
                                             </ul>
                                         </li>
                                         <li id="menu-item-158"
@@ -4041,33 +3890,35 @@
                                             <ul class="sub-menu">
                                                 <li id="menu-item-160"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-160">
-                                                    <a href="https://live.21lab.co/hank/about/">About Us</a></li>
+                                                    <a href="{{ route('about') }}">About Us</a>
+                                                </li>
                                                 <li id="menu-item-906"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-906">
-                                                    <a
-                                                        href="https://live.21lab.co/hank/about/leadership/">Leadership</a>
+                                                    <a href="{{ route('leadership') }}/">Leadership</a>
                                                 </li>
                                                 <li id="menu-item-159"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-159">
-                                                    <a href="https://live.21lab.co/hank/contact/">Contact Us</a></li>
+                                                    <a href="{{ route('contact') }}/">Contact Us</a>
+                                                </li>
                                             </ul>
                                         </li>
                                         <li id="menu-item-162"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-162">
-                                            <a href="https://live.21lab.co/hank/experience/">Our Experience</a>
+                                            <a href="{{ route('experience') }}">Our Experience</a>
                                             <ul class="sub-menu">
                                                 <li id="menu-item-910"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-910">
-                                                    <a href="https://live.21lab.co/hank/work/">What we do</a></li>
+                                                    <a href="https://live.21lab.co/hank/work/">What we do</a>
+                                                </li>
                                                 <li id="menu-item-909"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-909">
-                                                    <a href="https://live.21lab.co/hank/experience/">Our Services</a>
+                                                    <a href="{{ route('experience') }}">Our Services</a>
                                                 </li>
                                                 <li id="menu-item-911"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-911">
-                                                    <a
-                                                        href="https://live.21lab.co/hank/experience/property-and-buildings/">Our
-                                                        Markets</a></li>
+                                                    <a href="{{ route('experience') }}property-and-buildings/">Our
+                                                        Markets</a>
+                                                </li>
                                             </ul>
                                         </li>
                                         <li id="menu-item-166"
@@ -4076,16 +3927,19 @@
                                             <ul class="sub-menu">
                                                 <li id="menu-item-167"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-167">
-                                                    <a href="https://live.21lab.co/hank/about/careers/">An Architect
-                                                        <span class="dotActive"></span></a></li>
+                                                    <a href="{{ route('about') }}careers/">An Architect
+                                                        <span class="dotActive"></span></a>
+                                                </li>
                                                 <li id="menu-item-168"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-168">
-                                                    <a href="https://live.21lab.co/hank/about/careers/">A
-                                                        Manufacturer</a></li>
+                                                    <a href="{{ route('about') }}careers/">A
+                                                        Manufacturer</a>
+                                                </li>
                                                 <li id="menu-item-169"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-169">
-                                                    <a href="https://live.21lab.co/hank/about/careers/">A
-                                                        Consultant</a></li>
+                                                    <a href="{{ route('about') }}careers/">A
+                                                        Consultant</a>
+                                                </li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -4140,12 +3994,11 @@
                         <img width="150" height="86"
                             src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20150%2086'%3E%3C/svg%3E"
                             alt="logo"
-                            data-lazy-src="{{ asset('logonew-2.png') }}"><noscript><img
-                                width="150" height="86"
-                                src="{{ asset('logonew-2.png') }}"
+                            data-lazy-src="{{ asset('assets/logo_full_text_dark.svg') }}"><noscript><img
+                                width="150" height="86" src="{{ asset('assets/logo_full_text_dark.svg') }}"
                                 alt="logo"></noscript>
-                        <p>Copyright © 2020 Hank. Designed and Developed by <a href="#">LineThemes</a> Only on
-                            <a href="#">Envato Market.</a></p>
+                        <p>Copyright © 2020 Bedi Buildwell. Designed and Developed by <a href="#">Takniv</a>
+                        </p>
                     </div>
 
 
@@ -4180,50 +4033,51 @@
             <ul id="menu-main-menu-2" class="menu menu-sliding">
                 <li
                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-176">
-                    <a href="https://live.21lab.co/hank/about/">About</a>
+                    <a href="{{ route('about') }}">About</a>
                     <ul class="sub-menu">
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-381"><a
-                                href="https://live.21lab.co/hank/about/">Company</a></li>
+                                href="{{ route('about') }}">Company</a></li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-512"><a
-                                href="https://live.21lab.co/hank/about/core-values/">Core Values</a></li>
+                                href="{{ route('about') }}core-values/">Core Values</a></li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380"><a
-                                href="https://live.21lab.co/hank/about/leadership/">Leadership</a></li>
+                                href="{{ route('leadership') }}/">Leadership</a></li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-781"><a
-                                href="https://live.21lab.co/hank/about/why-choose-us/">Why choose us</a></li>
+                                href="{{ route('about') }}why-choose-us/">Why choose us</a></li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-517"><a
-                                href="https://live.21lab.co/hank/about/careers/">Careers</a></li>
+                                href="{{ route('about') }}careers/">Careers</a></li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175"><a
-                                href="https://live.21lab.co/hank/contact/">Contact</a></li>
+                                href="{{ route('contact') }}/">Contact</a></li>
                         <li
                             class="sm has-border menu-item menu-item-type-custom menu-item-object-custom menu-item-787">
-                            <a href="https://live.21lab.co/hank/about/why-choose-us/#testimonials">Testimonials</a>
+                            <a href="{{ route('about') }}why-choose-us/#testimonials">Testimonials</a>
                         </li>
                         <li class="sm menu-item menu-item-type-custom menu-item-object-custom menu-item-788"><a
-                                href="https://live.21lab.co/hank/about/why-choose-us/#awards">Awards &#038;
+                                href="{{ route('about') }}why-choose-us/#awards">Awards &#038;
                                 Recognition</a></li>
                         <li class="sm menu-item menu-item-type-custom menu-item-object-custom menu-item-886"><a
-                                href="https://live.21lab.co/hank/about/#history">Our History</a></li>
+                                href="{{ route('about') }}#history">Our History</a></li>
                     </ul>
                 </li>
                 <li
                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-171">
-                    <a href="https://live.21lab.co/hank/experience/">Experience</a>
+                    <a href="{{ route('experience') }}">Experience</a>
                     <ul class="sub-menu">
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-874"><a
-                                href="https://live.21lab.co/hank/experience/">What we do</a></li>
+                                href="{{ route('experience') }}">What we do</a></li>
                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-872"><a
-                                href="https://live.21lab.co/hank/experience/#services">Our Services</a></li>
+                                href="{{ route('experience') }}#services">Our Services</a></li>
                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-876"><a
-                                href="https://live.21lab.co/hank/experience/#safety">Safety</a></li>
+                                href="{{ route('experience') }}#safety">Safety</a></li>
                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-873"><a
-                                href="https://live.21lab.co/hank/experience/#markets">Markets we Serve</a></li>
+                                href="{{ route('experience') }}#markets">Markets we Serve</a></li>
                         <li
                             class="sm has-border menu-item menu-item-type-post_type menu-item-object-page menu-item-887">
-                            <a href="https://live.21lab.co/hank/experience/property-and-buildings/">Property and
-                                Buildings</a></li>
+                            <a href="{{ route('experience') }}property-and-buildings/">Property and
+                                Buildings</a>
+                        </li>
                     </ul>
                 </li>
-                <li
+                {{-- <li
                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-131">
                     <a href="https://live.21lab.co/hank/work/">Work</a>
                     <ul class="sub-menu">
@@ -4235,13 +4089,14 @@
                                 href="https://live.21lab.co/hank/works-style-3/">Works – style 3</a></li>
                         <li
                             class="sm has-border menu-item menu-item-type-post_type menu-item-object-page menu-item-1072">
-                            <a href="https://live.21lab.co/hank/work/">Default Layout</a></li>
+                            <a href="https://live.21lab.co/hank/work/">Default Layout</a>
+                        </li>
                     </ul>
-                </li>
+                </li> --}}
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-132"><a
-                        href="https://live.21lab.co/hank/news/">News</a></li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1142"><a
-                        href="https://live.21lab.co/hank/shop/">Shop</a></li>
+                        href="{{ route('blog') }}">Blogs</a></li>
+                {{-- <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1142"><a
+                        href="https://live.21lab.co/hank/shop/">Shop</a></li> --}}
             </ul>
             <div class="header-info-text">
                 <ul class="info-list">
@@ -4259,7 +4114,7 @@
                             <i class="hank-b-meeting"></i>
                             <p>
                                 <span>Talk to us</span>
-                                <span class="lg"></span>
+                                <span class="lg">info@bedibuildwell.com</span>
                             </p>
                         </a>
                     </li>
@@ -4318,11 +4173,11 @@
             function revslider_showDoubleJqueryError(sliderID) {
                 console.log(
                     "You have some jquery.js library include that comes after the Slider Revolution files js inclusion."
-                    );
+                );
                 console.log("To fix this, you can:");
                 console.log(
                     "1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on"
-                    );
+                );
                 console.log("2. Find the double jQuery.js inclusion and remove it");
                 return "Double Included jQuery Library";
             }
@@ -4397,7 +4252,7 @@
         .custom .tp-bullet-title {}
 
         #rev_slider_3_1_wrapper rs-loader.spinner1 {
-            background-color: #F28C28 !important
+            background-color: #FF6A00 !important
         }
     </style>
     <script data-minify="1" type="text/javascript"
@@ -4428,10 +4283,8 @@
     <script type="text/javascript"
         src="https://live.21lab.co/hank/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.5.14" defer async
         id="tp-tools-js"></script>
-    {{-- <script type="text/javascript"
+    <script type="text/javascript"
         src="https://live.21lab.co/hank/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.5.14" defer async
-        id="revmin-js"></script> --}}
-    <script src="{{ asset('js/rs6.js') }}" defer async
         id="revmin-js"></script>
     <script type="text/javascript"
         src="https://live.21lab.co/hank/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.6.1.2"
@@ -4762,8 +4615,8 @@
                         arrows: {
                             enable: true,
                             style: "custom-arrow",
-                            hide_onmobile: false,
-                            hide_under: 0,
+                            hide_onmobile: true,
+                            hide_under: 778,
                             left: {
                                 container: "layergrid",
                                 h_align: "right",
@@ -4788,10 +4641,10 @@
                             container: "layergrid"
                         },
                         tabs: {
-                            enable: false,
+                            enable: true,
                             style: "custom-tab",
                             hide_onmobile: true,
-                            hide_under: 0,
+                            hide_under: 778,
                             anim: "bottom",
                             h_align: "left",
                             h_offset: 97,
@@ -4819,9 +4672,9 @@
                     },
                 });
                 /*
-      change the "1" in the "revapi3" part below to match your slider's ID:
-      https://www.themepunch.com/wp-content/uploads/2016/08/slider-id.png
-    */
+                  change the "1" in the "revapi3" part below to match your slider's ID:
+                  https://www.themepunch.com/wp-content/uploads/2016/08/slider-id.png
+                */
                 var api = revapi3;
 
                 /* no need to edit below */
@@ -4921,3 +4774,5 @@
 </body>
 
 </html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1764240323 -->
