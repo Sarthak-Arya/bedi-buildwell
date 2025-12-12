@@ -37,3 +37,7 @@ Route::get('/experience', function () {
 Route::get('/blog', function () {
     return view('pages.blog')->with('title', 'Blog');
 })->name('blog');
+
+Route::get('/calculator', function () {
+    return view('pages.calculator')->with('title', 'Construction Cost Calculator');
+})->name('calculator');

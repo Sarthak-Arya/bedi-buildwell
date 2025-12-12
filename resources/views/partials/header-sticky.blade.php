@@ -12,6 +12,9 @@
 
 
                 <ul id="menu-main-menu-1" class="menu menu-primary">
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home">
+                        <a href="{{ route('welcome') }}">Home</a>
+                    </li>
                     <li
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-176">
                         <a href="{{ route('about') }}">About</a>
@@ -81,6 +84,8 @@
                     </li> --}}
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-132"><a
                             href="{{ route('blog') }}">Blogs</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-calculator"><a
+                            href="{{ route('calculator') }}">Calculator</a></li>
                     {{-- <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1142"><a
                             href="#">Shop</a></li> --}}
                 </ul>

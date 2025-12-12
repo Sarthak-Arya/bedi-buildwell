@@ -1590,18 +1590,9 @@
                                                         </rs-module-wrap>
                                                         <!-- END REVOLUTION SLIDER -->
                                                         <div class="vc_empty_space" style="height: 40px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                        <div class="wpb_text_column wpb_content_element ">
-                                                            <div class="wpb_wrapper">
-                                                                <p style="text-align: center;"><span
-                                                                        style="color: #b7b7b7;"><strong>Join our
-                                                                            team</strong> &#8211; We are looking for
-                                                                        talented &amp; driven people to come work with
-                                                                        us. <a class="link" style="color: #fff;"
-                                                                            href="">Available
-                                                                            Positions</a></span></p>
-                                                            </div>
+                                                                class="vc_empty_space_inner"></span>
                                                         </div>
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -1894,7 +1885,10 @@
                                         </div>
                                     </div>
                                 </section>
-                                <section class="vc_section vc_custom_1578991212631">
+
+
+                                <!-- Projects Section (commented out because it's not needed) -->
+                                {{-- <section class="vc_section vc_custom_1578991212631">
                                     <div
                                         class="vc_row wpb_row vc_row-fluid vc_custom_1577346374548 vc_row-o-content-bottom vc_row-flex">
                                         <div class="row-inner">
@@ -2364,7 +2358,12 @@
                                             </div>
                                         </div>
                                     </div>
-                                </section>
+                                </section> --}}
+
+
+
+
+
                                 <section class="vc_section bg-custom3 vc_custom_1580956111795 vc_section-has-fill">
                                     <div
                                         class="vc_row wpb_row vc_row-fluid vc_custom_1581152033665 vc_row-has-fill vc_row-o-content-middle vc_row-flex shadow">
@@ -3281,31 +3280,15 @@
                                                                     aria-atomic="true"></p>
                                                                 <ul></ul>
                                                             </div>
-                                                            <form action="/hank/#wpcf7-f596-p40-o1" method="post"
+                                                            <form action="https://formspree.io/f/mvgevqql" method="post"
                                                                 class="wpcf7-form init" novalidate="novalidate"
                                                                 data-status="init">
-                                                                <div style="display: none;">
-                                                                    <input type="hidden" name="_wpcf7"
-                                                                        value="596" />
-                                                                    <input type="hidden" name="_wpcf7_version"
-                                                                        value="5.5.3" />
-                                                                    <input type="hidden" name="_wpcf7_locale"
-                                                                        value="en_US" />
-                                                                    <input type="hidden" name="_wpcf7_unit_tag"
-                                                                        value="wpcf7-f596-p40-o1" />
-                                                                    <input type="hidden"
-                                                                        name="_wpcf7_container_post"
-                                                                        value="40" />
-                                                                    <input type="hidden"
-                                                                        name="_wpcf7_posted_data_hash"
-                                                                        value="" />
-                                                                </div>
                                                                 <div class="contact-light">
                                                                     <div class="field line">
                                                                         <label>I want</label><br />
                                                                         <span
                                                                             class="wpcf7-form-control-wrap menu-393"><select
-                                                                                name="menu-393"
+                                                                                name="I want"
                                                                                 class="wpcf7-form-control wpcf7-select"
                                                                                 aria-invalid="false">
                                                                                 <option
@@ -3326,7 +3309,7 @@
                                                                         <label>I'm interested</label><br />
                                                                         <span
                                                                             class="wpcf7-form-control-wrap menu-554"><select
-                                                                                name="menu-554"
+                                                                                name="I'm interested"
                                                                                 class="wpcf7-form-control wpcf7-select"
                                                                                 aria-invalid="false">
                                                                                 <option value="design build">design
@@ -3355,7 +3338,7 @@
                                                                             <label>* Your Email</label><br />
                                                                             <span
                                                                                 class="wpcf7-form-control-wrap email-21"><input
-                                                                                    type="email" name="email-21"
+                                                                                    type="email" name="Email"
                                                                                     value="" size="40"
                                                                                     class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
                                                                                     aria-required="true"
@@ -3366,7 +3349,7 @@
                                                                             <label>* Phone Number</label><br />
                                                                             <span
                                                                                 class="wpcf7-form-control-wrap tel-869"><input
-                                                                                    type="tel" name="tel-869"
+                                                                                    type="tel" name="Phone Number"
                                                                                     value="" size="40"
                                                                                     class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel"
                                                                                     aria-invalid="false"
@@ -3591,7 +3574,8 @@
         id="hank-js"></script>
     <script type="text/javascript" src="https://live.21lab.co/hank/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0"
         id="wp-polyfill-js"></script>
-    <script type="text/javascript" id="contact-form-7-js-extra">
+    {{-- Contact Form 7 JavaScript - Commented out, using Formspree instead --}}
+    {{-- <script type="text/javascript" id="contact-form-7-js-extra">
         /* <![CDATA[ */
         var wpcf7 = {
             "api": {
@@ -3604,7 +3588,7 @@
     </script>
     <script data-minify="1" type="text/javascript"
         src="https://live.21lab.co/hank/wp-content/cache/min/1/hank/wp-content/plugins/contact-form-7/includes/js/index.js?ver=1695002910"
-        id="contact-form-7-js"></script>
+        id="contact-form-7-js"></script> --}}
     <script type="text/javascript"
         src="https://live.21lab.co/hank/wp-content/plugins/devvn-image-hotspot/frontend/js/jquery.ihotspot.min.js?ver=1.2.1"
         id="ihotspot-js-js"></script>
