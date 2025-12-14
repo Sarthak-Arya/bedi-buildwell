@@ -2870,8 +2870,9 @@
                                         </div>
                                     </div>
                                 </section>
-                                <section class="vc_section vc_custom_1580725919396">
-                                    <div
+                                  <section class="vc_section vc_custom_1580725919396">
+                                    <!-- map removed -->
+                                   <!-- <div
                                         class="vc_row wpb_row vc_row-fluid vc_custom_1577346374548 vc_row-o-content-bottom vc_row-flex">
                                         <div class="row-inner">
                                             <div class="wpb_column vc_column_container vc_col-sm-6">
@@ -2922,7 +2923,7 @@
                                                 class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-5 vc_col-md-6 vc_col-xs-12">
                                                 <div class="vc_column-inner">
                                                     <div class="wpb_wrapper">
-                                                        <div class="counter ">
+                                                        {{-- <div class="counter ">
                                                             <div class="counter-content">
                                                                 <span class="counter-prefix"></span>
                                                                 <span class="counter-value" data-from="0"
@@ -2956,7 +2957,7 @@
                                                             <div class="counter-title">Bedi Buildwell Group have
                                                                 undertaken new
                                                                 projects totaling 25 billion USD</div>
-                                                        </div>
+                                                        </div> --}}
                                                         <div class="vc_empty_space" style="height: 60px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                     </div>
@@ -3087,7 +3088,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div>  --> 
                                     <div class="vc_row wpb_row vc_row-fluid">
                                         <div class="row-inner">
                                             <div class="wpb_column vc_column_container vc_col-sm-12">
@@ -3395,10 +3396,7 @@
                                                     <div class="wpb_wrapper">
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
-                                                                <h6 class="badge">Beta</h6>
-                                                                <p style="display: inline;">We strive to build a
-                                                                    better community and make a difference in the world
-                                                                    &#8211; Best Regards!</p>
+                                                                
 
                                                             </div>
                                                         </div>

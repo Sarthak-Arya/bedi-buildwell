@@ -615,8 +615,8 @@
             display: none !important;
         }
         
-        /* Calculation Result Styling */
-        #calculation-result {
+        /* Thank You Message Styling */
+        #thank-you-message {
             animation: fadeIn 0.5s ease-in;
         }
         
@@ -629,22 +629,6 @@
                 opacity: 1;
                 transform: translateY(0);
             }
-        }
-        
-        #formspree-message.success {
-            color: #28a745;
-            padding: 15px;
-            background-color: #d4edda;
-            border: 1px solid #c3e6cb;
-            border-radius: 5px;
-        }
-        
-        #formspree-message.error {
-            color: #dc3545;
-            padding: 15px;
-            background-color: #f8d7da;
-            border: 1px solid #f5c6cb;
-            border-radius: 5px;
         }
         
     </style>
@@ -865,7 +849,7 @@
                                                                     <div class="field grid">
                                                                         <div class="field" style="grid-column: 1 / -1; text-align: center; margin-top: 10px;">
                                                                             <input type="submit"
-                                                                                value="Calculate Construction Cost"
+                                                                                value="Submit"
                                                                                 class="wpcf7-form-control has-spinner wpcf7-submit" 
                                                                                 style="width: auto; min-width: 250px; padding: 18px 40px; cursor: pointer;" />
                                                                         </div>
@@ -875,31 +859,10 @@
                                                                     aria-hidden="true"></div>
                                                             </form>
                                                             
-                                                            <!-- Calculation Result Display -->
-                                                            <div id="calculation-result" style="display: none; margin-top: 40px; padding: 30px; background-color: #f8f9fa; border-radius: 8px; border: 2px solid #e0e0e0;">
-                                                                <h3 style="color: #232323; margin-bottom: 20px; text-align: center;">Estimated Construction Cost</h3>
-                                                                <div id="cost-display" style="text-align: center; font-size: 36px; font-weight: bold; color: #d4af37; margin: 20px 0;"></div>
-                                                                <div id="cost-breakdown" style="margin: 20px 0; padding: 20px; background-color: #ffffff; border-radius: 5px;">
-                                                                    <table style="width: 100%; border-collapse: collapse;">
-                                                                        <tr>
-                                                                            <td style="padding: 8px 0; border-bottom: 1px solid #e0e0e0;"><strong>Plot Area:</strong></td>
-                                                                            <td style="padding: 8px 0; border-bottom: 1px solid #e0e0e0; text-align: right;" id="breakdown-plot-area"></td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td style="padding: 8px 0; border-bottom: 1px solid #e0e0e0;"><strong>Number of Floors:</strong></td>
-                                                                            <td style="padding: 8px 0; border-bottom: 1px solid #e0e0e0; text-align: right;" id="breakdown-floors"></td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td style="padding: 8px 0; border-bottom: 1px solid #e0e0e0;"><strong>Basement:</strong></td>
-                                                                            <td style="padding: 8px 0; border-bottom: 1px solid #e0e0e0; text-align: right;" id="breakdown-basement"></td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td style="padding: 12px 0; font-weight: bold; font-size: 18px; color: #232323;">Total Estimated Cost:</td>
-                                                                            <td style="padding: 12px 0; font-weight: bold; font-size: 18px; color: #d4af37; text-align: right;" id="breakdown-total"></td>
-                                                                        </tr>
-                                                                    </table>
-                                                                </div>
-                                                                <div id="formspree-message" style="margin-top: 20px; text-align: center; display: none;"></div>
+                                                            <!-- Thank You Message Display -->
+                                                            <div id="thank-you-message" style="display: none; margin-top: 40px; padding: 40px; background-color: #f8f9fa; border-radius: 8px; border: 2px solid #e0e0e0; text-align: center;">
+                                                                <h3 style="color: #232323; margin-bottom: 20px;">Thank You!</h3>
+                                                                <p style="font-size: 18px; color: #232323; line-height: 1.6;">Our team will contact you soon.</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1000,10 +963,16 @@
                 });
             }
             
+            /**
+             * Format number with Indian numbering system
+             */
+            function formatINR(amount) {
+                return '₹' + amount.toLocaleString('en-IN', { maximumFractionDigits: 0 });
+            }
+            
             // Form submission handler
             const calculatorForm = document.getElementById('calculator-form');
-            const resultDiv = document.getElementById('calculation-result');
-            const messageDiv = document.getElementById('formspree-message');
+            const thankYouDiv = document.getElementById('thank-you-message');
             
             if (calculatorForm) {
                 calculatorForm.addEventListener('submit', function(e) {
@@ -1018,24 +987,20 @@
                     const submitButton = document.querySelector('input[type="submit"]');
                     
                     if (!plotUnit || !floors || !basement) {
-                        messageDiv.className = 'error';
-                        messageDiv.textContent = 'Please fill in all required fields (marked with *)';
-                        messageDiv.style.display = 'block';
+                        alert('Please fill in all required fields (marked with *)');
                         return;
                     }
                     
                     if (plotSize <= 0) {
-                        messageDiv.className = 'error';
-                        messageDiv.textContent = 'Please enter a valid plot size';
-                        messageDiv.style.display = 'block';
+                        alert('Please enter a valid plot size');
                         return;
                     }
                     
-                    // Calculate construction cost
+                    // Calculate construction cost (in background, not displayed)
                     const result = calculateConstructionCost(plotSize, plotUnit, floors, basement);
                     
-                    // Display result
-                    displayResult(result, plotSize, plotUnit, floors, basement);
+                    // Store calculated cost in hidden field
+                    document.getElementById('calculated_cost').value = formatINR(result.finalCost);
                     
                     // Set email for replyto
                     if (email) {
@@ -1048,8 +1013,8 @@
                         submitButton.value = 'Submitting...';
                     }
                     
-                    // Hide previous messages
-                    messageDiv.style.display = 'none';
+                    // Hide thank you message initially
+                    thankYouDiv.style.display = 'none';
                     
                     // Prepare form data
                     const formData = new FormData(calculatorForm);
@@ -1064,9 +1029,12 @@
                     })
                     .then(response => {
                         if (response.ok) {
-                            messageDiv.className = 'success';
-                            messageDiv.textContent = 'Form submitted successfully.';
-                            messageDiv.style.display = 'block';
+                            // Hide form and show thank you message
+                            calculatorForm.style.display = 'none';
+                            thankYouDiv.style.display = 'block';
+                            
+                            // Scroll to thank you message
+                            thankYouDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
                         } else {
                             return response.json().then(data => {
                                 if (data.errors) {
@@ -1078,19 +1046,12 @@
                         }
                     })
                     .catch(error => {
-                        messageDiv.className = 'error';
-                        messageDiv.textContent = error.message || 'There was an error submitting the form. Please try again.';
-                        messageDiv.style.display = 'block';
-                    })
-                    .finally(() => {
+                        alert(error.message || 'There was an error submitting the form. Please try again.');
                         if (submitButton) {
                             submitButton.disabled = false;
-                            submitButton.value = 'Calculate Construction Cost';
+                            submitButton.value = 'Submit';
                         }
                     });
-                    
-                    // Scroll to result
-                    resultDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
                 });
             }
             
@@ -1144,40 +1105,6 @@
                     finalCost: finalCost,
                     plotUnit: plotUnit
                 };
-            }
-            
-            /**
-             * Display calculation result
-             */
-            function displayResult(result, plotSize, plotUnit, floors, basement) {
-                const costDisplay = document.getElementById('cost-display');
-                const breakdownPlotArea = document.getElementById('breakdown-plot-area');
-                const breakdownFloors = document.getElementById('breakdown-floors');
-                const breakdownBasement = document.getElementById('breakdown-basement');
-                const breakdownTotal = document.getElementById('breakdown-total');
-                
-                // Format number with Indian numbering system
-                function formatINR(amount) {
-                    return '₹' + amount.toLocaleString('en-IN', { maximumFractionDigits: 0 });
-                }
-                
-                // Display total cost
-                costDisplay.textContent = formatINR(result.finalCost);
-                
-                // Display breakdown
-                breakdownPlotArea.textContent = plotSize + ' ' + plotUnit + ' (' + result.plotAreaSqft + ' sq ft)';
-                breakdownFloors.textContent = floors;
-                breakdownBasement.textContent = basement;
-                breakdownTotal.textContent = formatINR(result.finalCost);
-                
-                // Store calculated cost in hidden field
-                document.getElementById('calculated_cost').value = formatINR(result.finalCost);
-                
-                // Show result div
-                resultDiv.style.display = 'block';
-                
-                // Reset message
-                messageDiv.style.display = 'none';
             }
         });
         

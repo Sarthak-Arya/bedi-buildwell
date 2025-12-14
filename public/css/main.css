@@ -60432,7 +60432,11 @@ rs-thumbs-wrap,rs-tabs-wrap,rs-thumbs,rs-thumb,rs-tab,rs-bullet,rs-bullets,rs-na
     cursor: pointer;
     position: absolute;
     opacity: .5;
-    box-sizing: border-box
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    min-height: 50px;
+    min-width: 50px
 }
 
 .tp-arr-imgholder,rs-poster,.tp-thumb-image,.tp-tab-image {
@@ -60443,7 +60447,21 @@ rs-thumbs-wrap,rs-tabs-wrap,rs-thumbs,rs-thumb,rs-tab,rs-bullet,rs-bullets,rs-na
     display: block;
     position: absolute;
     top: 0;
-    left: 0
+    left: 0;
+    min-height: 1px;
+    min-width: 1px
+}
+
+/* Ensure tabs with images have proper dimensions */
+.tp-tab .tp-tab-image {
+    min-height: 50px;
+    min-width: 50px
+}
+
+/* Ensure tabs with images have minimum dimensions */
+.tp-tab .tp-tab-image {
+    min-height: 50px;
+    min-width: 50px
 }
 
 rs-poster {
