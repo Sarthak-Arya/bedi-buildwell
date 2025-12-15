@@ -1327,23 +1327,11 @@
                                         <div class="row-inner">
                                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                                 <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper"><a class="video-lightbox"
-                                                            rel="prettyPhoto"
-                                                            href="https://www.youtube.com/watch?v=j8ayvr1xrzQ&#038;width=1280&#038;height=720">
+                                                    <div class="wpb_wrapper">
                                                             <img fetchpriority="high" decoding="async" width="1680"
                                                                 height="726"
-                                                                src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201680%20726'%3E%3C/svg%3E"
-                                                                class="attachment-full size-full" alt=""
-                                                                data-lazy-srcset="https://live.21lab.co/hank/wp-content/uploads/2019/12/video.jpg 1680w, https://live.21lab.co/hank/wp-content/uploads/2019/12/video-600x259.jpg 600w, https://live.21lab.co/hank/wp-content/uploads/2019/12/video-300x130.jpg 300w, https://live.21lab.co/hank/wp-content/uploads/2019/12/video-1024x443.jpg 1024w, https://live.21lab.co/hank/wp-content/uploads/2019/12/video-768x332.jpg 768w, https://live.21lab.co/hank/wp-content/uploads/2019/12/video-1536x664.jpg 1536w"
-                                                                data-lazy-sizes="(max-width: 1680px) 100vw, 1680px"
-                                                                data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2019/12/video.jpg" /><noscript><img
-                                                                    fetchpriority="high" decoding="async"
-                                                                    width="1680" height="726"
-                                                                    src="https://live.21lab.co/hank/wp-content/uploads/2019/12/video.jpg"
-                                                                    class="attachment-full size-full" alt=""
-                                                                    srcset="https://live.21lab.co/hank/wp-content/uploads/2019/12/video.jpg 1680w, https://live.21lab.co/hank/wp-content/uploads/2019/12/video-600x259.jpg 600w, https://live.21lab.co/hank/wp-content/uploads/2019/12/video-300x130.jpg 300w, https://live.21lab.co/hank/wp-content/uploads/2019/12/video-1024x443.jpg 1024w, https://live.21lab.co/hank/wp-content/uploads/2019/12/video-768x332.jpg 768w, https://live.21lab.co/hank/wp-content/uploads/2019/12/video-1536x664.jpg 1536w"
-                                                                    sizes="(max-width: 1680px) 100vw, 1680px" /></noscript>
-                                                        </a>
+                                                                src="{{ asset('images/landscape.webp') }}"
+                                                                class="attachment-full size-full" alt="" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -1357,12 +1345,11 @@
                                                 <div class="vc_column-inner">
                                                     <div class="wpb_wrapper">
                                                         <h2 style="font-size: 64px;line-height: 64px;text-align: center"
-                                                            class="vc_custom_heading"><strong>we're hank construction
-                                                                company.</strong></h2>
+                                                            class="vc_custom_heading"><strong>we're Bedi Buildwell Group.</strong></h2>
                                                         <div class="vc_empty_space" style="height: 15px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                         <p style="font-size: 21px;line-height: 26px;text-align: center"
-                                                            class="vc_custom_heading">The Hank way is built on three
+                                                            class="vc_custom_heading">Bedi Buildwell Group is built on three
                                                             pillars: People, Process and Partnership.</p>
                                                         <div class="vc_empty_space" style="height: 70px"><span
                                                                 class="vc_empty_space_inner"></span></div>
@@ -1420,7 +1407,7 @@
                                                             <div class="wpb_wrapper">
                                                                 <p style="text-align: center;"><span
                                                                         style="color: #7f7f7f;">We have one mission to
-                                                                        be the Best Builder Company in US.</span> <span
+                                                                        be the Best Builder Company in India.</span> <span
                                                                         style="color: #000000;"><a class="link"
                                                                             style="color: #000000;"
                                                                             href="{{ route('core-values') }}">Find
@@ -1434,7 +1421,7 @@
                                         </div>
                                     </div>
                                 </section>
-                                <section class="vc_section vc_custom_1581137774266">
+                               <!--<section class="vc_section vc_custom_1581137774266">
                                     <div class="vc_row wpb_row vc_row-fluid">
                                         <div class="row-inner">
                                             <div class="wpb_column vc_column_container vc_col-sm-12">
@@ -1680,7 +1667,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </section>
+                                </section> -->
                                 <section id="history" class="vc_section bg-primary vc_custom_1582334851068 shape-1">
                                     <div class="vc_row wpb_row vc_row-fluid">
                                         <div class="row-inner">
@@ -2025,7 +2012,7 @@
                                         </div>
                                     </div>
                                 </section>
-                                <section id="people" class="vc_section vc_custom_1581221259623">
+                                <!--<section id="people" class="vc_section vc_custom_1581221259623">
                                     <div
                                         class="vc_row wpb_row vc_row-fluid vc_custom_1575014741811 vc_row-o-content-bottom vc_row-flex">
                                         <div class="row-inner">
@@ -2433,7 +2420,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </section>
+                                </section> -->
                                 <section class="vc_section">
                                     <div class="vc_row wpb_row vc_row-fluid vc_custom_1581224264919">
                                         <div class="row-inner">

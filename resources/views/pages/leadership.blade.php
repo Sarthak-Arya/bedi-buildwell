@@ -1220,7 +1220,7 @@
                                                 <div class="vc_column-inner">
                                                     <div class="wpb_wrapper">
                                                         <h2 style="font-size: 40px;color: #ffffff;line-height: 44px;text-align: left"
-                                                            class="vc_custom_heading">Hank's leaders are some of<br />
+                                                            class="vc_custom_heading">Bedi Buildwell Group's leaders are some of
                                                             the hardest visionaries in the industry.</h2>
                                                         <div class="vc_empty_space" style="height: 20px"><span
                                                                 class="vc_empty_space_inner"></span></div>
@@ -1288,13 +1288,13 @@
                                                                                 href="{{ route('why-choose-us') }}">Why
                                                                                 choose us</a>
                                                                         </li>
-                                                                        <li id="menu-item-518"
+                                                                        <!-- <li id="menu-item-518"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-518">
                                                                             <a
                                                                                 href="#">Join
                                                                                 Us <span class="badge">7
                                                                                     jobs</span></a>
-                                                                        </li>
+                                                                        </li> -->
                                                                     </ul>
                                                                 </div>
                                                             </div>
@@ -1334,11 +1334,11 @@
                                                             </div>
                                                             <div class="testimonial-meta">
                                                                 <div class="testimonial-author">
-                                                                    <strong class="author-name">John Doe</strong>
+                                                                    <strong class="author-name">Sukrit Singh Bedi</strong>
                                                                     <div class="author-info"><span
                                                                             class="subtitle">CEO</span> <span
                                                                             class="divider">-</span> <span
-                                                                            class="company">Hank Construction</span>
+                                                                            class="company">Bedi Buildwell Group</span>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1389,14 +1389,12 @@
                                                 <div class="vc_column-inner">
                                                     <div class="wpb_wrapper">
                                                         <h2 style="font-size: 64px;line-height: 64px;text-align: center"
-                                                            class="vc_custom_heading"><strong>hank's leadership
-                                                                team</strong></h2>
+                                                            class="vc_custom_heading"><strong>Founder's Story</strong></h2>
                                                         <div class="vc_empty_space" style="height: 15px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                         <p style="font-size: 21px;color: #7f7f7f;line-height: 26px;text-align: center"
-                                                            class="vc_custom_heading">meet the executive management
-                                                            team<br />
-                                                            of hank construction company.</p>
+                                                            class="vc_custom_heading">The journey of building<br />
+                                                            Bedi Buildwell from the ground up.</p>
                                                         <div class="vc_empty_space" style="height: 70px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                     </div>
@@ -1404,410 +1402,26 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div
-                                        class="vc_row wpb_row vc_row-fluid vc_column-gap-10 vc_row-o-equal-height vc_row-flex">
+                                    <div class="vc_row wpb_row vc_row-fluid">
                                         <div class="row-inner">
-                                            <div
-                                                class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-2 vc_col-md-4 vc_col-xs-6">
-                                                <div class="vc_column-inner vc_custom_1581414953314">
+                                            <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                <div class="vc_column-inner">
                                                     <div class="wpb_wrapper">
-                                                        <div class="member  style2  has-image">
-
-                                                            <div class="member-image">
-                                                                <img width="500" height="500" decoding="async"
-                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E"
-                                                                    alt="Larry Swank"
-                                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p1.jpg" /><noscript><img
-                                                                        width="500" height="500"
-                                                                        decoding="async"
-                                                                        src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p1.jpg"
-                                                                        alt="Larry Swank" /></noscript>
-                                                            </div>
-
-                                                            <div class="member-info">
-                                                                <div class="member-meta">
-                                                                    <h3 class="member-name">Larry Swank</h3>
-                                                                    <div class="member-subtitle">Founder, Chairman and
-                                                                        CEO</div>
-
-                                                                </div>
-                                                                <div class="member-desc">
-                                                                    <p>Larry began his career with Hank in 1988 as a
-                                                                        carpenter superintendent in Phoenix.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-2 vc_col-md-4 vc_col-xs-6">
-                                                <div class="vc_column-inner vc_custom_1581414960282">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="member  style2  has-image">
-
-                                                            <div class="member-image">
-                                                                <img width="500" height="500" decoding="async"
-                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E"
-                                                                    alt="Bob Voss"
-                                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p2.jpg" /><noscript><img
-                                                                        width="500" height="500"
-                                                                        decoding="async"
-                                                                        src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p2.jpg"
-                                                                        alt="Bob Voss" /></noscript>
-                                                            </div>
-
-                                                            <div class="member-info">
-                                                                <div class="member-meta">
-                                                                    <h3 class="member-name">Bob Voss</h3>
-                                                                    <div class="member-subtitle">Chief Financial
-                                                                        Officer</div>
-
-                                                                </div>
-                                                                <div class="member-desc">
-                                                                    <p>He joined Hank in 2000 as a project engineer and
-                                                                        moved through a variety of core operations.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-2 vc_col-md-4 vc_col-xs-6">
-                                                <div class="vc_column-inner vc_custom_1581414967297">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="member  style2  has-image">
-
-                                                            <div class="member-image">
-                                                                <img width="500" height="500" decoding="async"
-                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E"
-                                                                    alt="Steve Perry"
-                                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p3.jpg" /><noscript><img
-                                                                        width="500" height="500"
-                                                                        decoding="async"
-                                                                        src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p3.jpg"
-                                                                        alt="Steve Perry" /></noscript>
-                                                            </div>
-
-                                                            <div class="member-info">
-                                                                <div class="member-meta">
-                                                                    <h3 class="member-name">Steve Perry</h3>
-                                                                    <div class="member-subtitle">Vice President of HR
-                                                                    </div>
-
-                                                                </div>
-                                                                <div class="member-desc">
-                                                                    <p>Steve serves as the Atlanta market business unit
-                                                                        leader for Hank’s Southern Region.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-2 vc_col-md-4 vc_col-xs-6">
-                                                <div class="vc_column-inner vc_custom_1581414973860">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="member  style2  has-image">
-
-                                                            <div class="member-image">
-                                                                <img width="500" height="500" decoding="async"
-                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E"
-                                                                    alt="Amy Jr"
-                                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/P4.jpg" /><noscript><img
-                                                                        width="500" height="500"
-                                                                        decoding="async"
-                                                                        src="https://live.21lab.co/hank/wp-content/uploads/2020/02/P4.jpg"
-                                                                        alt="Amy Jr" /></noscript>
-                                                            </div>
-
-                                                            <div class="member-info">
-                                                                <div class="member-meta">
-                                                                    <h3 class="member-name">Amy Jr</h3>
-                                                                    <div class="member-subtitle">Director of Business
-                                                                        Development</div>
-
-                                                                </div>
-                                                                <div class="member-desc">
-                                                                    <p>Amy is primarily involved in the preconstruction
-                                                                        phase of Hank projects</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-2 vc_col-md-4 vc_col-xs-6">
-                                                <div class="vc_column-inner vc_custom_1581414980193">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="member  style2  has-image">
-
-                                                            <div class="member-image">
-                                                                <img width="500" height="500" decoding="async"
-                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E"
-                                                                    alt="Dave Jeffrey"
-                                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p5.jpg" /><noscript><img
-                                                                        width="500" height="500"
-                                                                        decoding="async"
-                                                                        src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p5.jpg"
-                                                                        alt="Dave Jeffrey" /></noscript>
-                                                            </div>
-
-                                                            <div class="member-info">
-                                                                <div class="member-meta">
-                                                                    <h3 class="member-name">Dave Jeffrey</h3>
-                                                                    <div class="member-subtitle">Vice President of
-                                                                        Operations</div>
-
-                                                                </div>
-                                                                <div class="member-desc">
-                                                                    <p>With nearly 25 years of construction industry
-                                                                        experience, Dave Jeffrey joined Hank in 1994.
+                                                        <div class="wpb_text_column wpb_content_element">
+                                                            <div class="wpb_wrapper">
+                                                                <div style="max-width: 900px; margin: 0 auto;">
+                                                                    <div class="vc_empty_space" style="height: 20px"><span class="vc_empty_space_inner"></span></div>
+                                                                    <h3 style="font-size: 32px; line-height: 1.2em; margin-bottom: 25px; color: #000000; text-align: center;">Our Founding Vision</h3>
+                                                                    <p style="font-size: 18px; line-height: 1.8em; color: #666666; margin-bottom: 25px; text-align: justify;">
+                                                                        Bedi Buildwell was founded with a simple yet powerful vision: to transform the construction industry by delivering exceptional quality, unmatched integrity, and personalized service to every client. What started as a dream has grown into a trusted name in construction, built on the foundation of hard work, dedication, and an unwavering commitment to excellence.
                                                                     </p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-2 vc_col-md-4 vc_col-xs-6">
-                                                <div class="vc_column-inner vc_custom_1581414986539">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="member  style2  has-image">
-
-                                                            <div class="member-image">
-                                                                <img width="500" height="500" decoding="async"
-                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E"
-                                                                    alt="Karen Lewis"
-                                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p6.jpg" /><noscript><img
-                                                                        width="500" height="500"
-                                                                        decoding="async"
-                                                                        src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p6.jpg"
-                                                                        alt="Karen Lewis" /></noscript>
-                                                            </div>
-
-                                                            <div class="member-info">
-                                                                <div class="member-meta">
-                                                                    <h3 class="member-name">Karen Lewis</h3>
-                                                                    <div class="member-subtitle">Project Executive
-                                                                    </div>
-
-                                                                </div>
-                                                                <div class="member-desc">
-                                                                    <p>Karen is an executive vice president and the
-                                                                        Project Executive of Hank Construction Company.
+                                                                    <p style="font-size: 18px; line-height: 1.8em; color: #666666; margin-bottom: 25px; text-align: justify;">
+                                                                        From humble beginnings, our founder recognized that the construction industry needed a company that would prioritize the client's vision above all else. Every project, whether large or small, is approached with the same level of care, attention to detail, and passion that has become the hallmark of Bedi Buildwell.
                                                                     </p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="vc_row wpb_row vc_row-fluid vc_column-gap-10 vc_row-o-equal-height vc_row-flex">
-                                        <div class="row-inner">
-                                            <div
-                                                class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-2 vc_col-md-4 vc_col-xs-6">
-                                                <div class="vc_column-inner vc_custom_1581414992947">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="member  style2  has-image">
-
-                                                            <div class="member-image">
-                                                                <img width="500" height="500" decoding="async"
-                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E"
-                                                                    alt="Maria Jr"
-                                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/P7.jpg" /><noscript><img
-                                                                        width="500" height="500"
-                                                                        decoding="async"
-                                                                        src="https://live.21lab.co/hank/wp-content/uploads/2020/02/P7.jpg"
-                                                                        alt="Maria Jr" /></noscript>
-                                                            </div>
-
-                                                            <div class="member-info">
-                                                                <div class="member-meta">
-                                                                    <h3 class="member-name">Maria Jr</h3>
-                                                                    <div class="member-subtitle">Director</div>
-
-                                                                </div>
-                                                                <div class="member-desc">
-                                                                    <p>Maria is Director of Business Development for the
-                                                                        Hank Southern California Region based in San
-                                                                        Diego.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-2 vc_col-md-4 vc_col-xs-6">
-                                                <div class="vc_column-inner vc_custom_1581414999267">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="member  style2  has-image">
-
-                                                            <div class="member-image">
-                                                                <img width="500" height="500" decoding="async"
-                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E"
-                                                                    alt="Tom Reilly"
-                                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p11.jpg" /><noscript><img
-                                                                        width="500" height="500"
-                                                                        decoding="async"
-                                                                        src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p11.jpg"
-                                                                        alt="Tom Reilly" /></noscript>
-                                                            </div>
-
-                                                            <div class="member-info">
-                                                                <div class="member-meta">
-                                                                    <h3 class="member-name">Tom Reilly</h3>
-                                                                    <div class="member-subtitle">Executive Vice
-                                                                        President</div>
-
-                                                                </div>
-                                                                <div class="member-desc">
-                                                                    <p>Tom joined Hank in 1987 as a field engineer in
-                                                                        the New Jersey office</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-2 vc_col-md-4 vc_col-xs-6">
-                                                <div class="vc_column-inner vc_custom_1581415005480">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="member  style2  has-image">
-
-                                                            <div class="member-image">
-                                                                <img width="500" height="500" decoding="async"
-                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E"
-                                                                    alt="Billy Mark"
-                                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p9.jpg" /><noscript><img
-                                                                        width="500" height="500"
-                                                                        decoding="async"
-                                                                        src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p9.jpg"
-                                                                        alt="Billy Mark" /></noscript>
-                                                            </div>
-
-                                                            <div class="member-info">
-                                                                <div class="member-meta">
-                                                                    <h3 class="member-name">Billy Mark</h3>
-                                                                    <div class="member-subtitle">Senior Vice President
-                                                                    </div>
-
-                                                                </div>
-                                                                <div class="member-desc">
-                                                                    <p>Billy is a senior vice president and the chief
-                                                                        procurement officer at Hank Construction
-                                                                        Company.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-2 vc_col-md-4 vc_col-xs-6">
-                                                <div class="vc_column-inner vc_custom_1581415011872">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="member  style2  has-image">
-
-                                                            <div class="member-image">
-                                                                <img width="500" height="500" decoding="async"
-                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E"
-                                                                    alt="Suzy Page"
-                                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p8.jpg" /><noscript><img
-                                                                        width="500" height="500"
-                                                                        decoding="async"
-                                                                        src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p8.jpg"
-                                                                        alt="Suzy Page" /></noscript>
-                                                            </div>
-
-                                                            <div class="member-info">
-                                                                <div class="member-meta">
-                                                                    <h3 class="member-name">Suzy Page</h3>
-                                                                    <div class="member-subtitle">Project Management
-                                                                    </div>
-
-                                                                </div>
-                                                                <div class="member-desc">
-                                                                    <p>Suzy has served in key project management,
-                                                                        quality and business development roles at Hank
-                                                                        since 2007.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-2 vc_col-md-4 vc_col-xs-6">
-                                                <div class="vc_column-inner vc_custom_1581415018270">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="member  style2  has-image">
-
-                                                            <div class="member-image">
-                                                                <img width="500" height="500" decoding="async"
-                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E"
-                                                                    alt="Ron Lewis"
-                                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p12.jpg" /><noscript><img
-                                                                        width="500" height="500"
-                                                                        decoding="async"
-                                                                        src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p12.jpg"
-                                                                        alt="Ron Lewis" /></noscript>
-                                                            </div>
-
-                                                            <div class="member-info">
-                                                                <div class="member-meta">
-                                                                    <h3 class="member-name">Ron Lewis</h3>
-                                                                    <div class="member-subtitle">Project Executive
-                                                                    </div>
-
-                                                                </div>
-                                                                <div class="member-desc">
-                                                                    <p>Ron is an avid genealogist, having traced his
-                                                                        family ancestry back to the American Revolution.
+                                                                    <p style="font-size: 18px; line-height: 1.8em; color: #666666; margin-bottom: 25px; text-align: justify;">
+                                                                        Today, we continue to honor that founding vision by maintaining the highest standards of craftsmanship, fostering long-term relationships with our clients, and building structures that stand the test of time. Our journey is a testament to what can be achieved when passion meets purpose, and we remain committed to building not just structures, but dreams.
                                                                     </p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-2 vc_col-md-4 vc_col-xs-6">
-                                                <div class="vc_column-inner vc_custom_1581415024341">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="member  style2  has-image">
-
-                                                            <div class="member-image">
-                                                                <img width="500" height="500" decoding="async"
-                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E"
-                                                                    alt="Stephan W.Lars"
-                                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/P10.jpg" /><noscript><img
-                                                                        width="500" height="500"
-                                                                        decoding="async"
-                                                                        src="https://live.21lab.co/hank/wp-content/uploads/2020/02/P10.jpg"
-                                                                        alt="Stephan W.Lars" /></noscript>
-                                                            </div>
-
-                                                            <div class="member-info">
-                                                                <div class="member-meta">
-                                                                    <h3 class="member-name">Stephan W.Lars</h3>
-                                                                    <div class="member-subtitle">Chief Strategy Officer
-                                                                    </div>
-
-                                                                </div>
-                                                                <div class="member-desc">
-                                                                    <p>Stephan is a senior vice president and the chief
-                                                                        strategy officer at Hank Construction Company.
-                                                                    </p>
+                                                                    <div class="vc_empty_space" style="height: 30px"><span class="vc_empty_space_inner"></span></div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1823,15 +1437,51 @@
                                                     <div class="wpb_wrapper">
                                                         <div class="vc_empty_space" style="height: 20px"><span
                                                                 class="vc_empty_space_inner"></span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vc_row wpb_row vc_row-fluid">
+                                        <div class="row-inner">
+                                            <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                <div class="vc_column-inner">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="vc_empty_space" style="height: 20px"><span
+                                                                class="vc_empty_space_inner"></span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vc_row wpb_row vc_row-fluid">
+                                        <div class="row-inner">
+                                            <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                <div class="vc_column-inner">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="vc_empty_space" style="height: 20px"><span
+                                                                class="vc_empty_space_inner"></span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vc_row wpb_row vc_row-fluid">
+                                        <div class="row-inner">
+                                            <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                <div class="vc_column-inner">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="vc_empty_space" style="height: 20px"><span
+                                                                class="vc_empty_space_inner"></span></div>
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
-                                                                <p style="text-align: center;"><span
+                                                                <!--<p style="text-align: center;"><span
                                                                         class="badge style2">Hiring</span> – We are
                                                                     looking for talented &amp; driven people to come
                                                                     work with us. <a class="link"
                                                                         style="color: #7f7f7f;"
                                                                         href="#">Available
-                                                                        Positions</a></p>
+                                                                        Positions</a></p>-->
 
                                                             </div>
                                                         </div>

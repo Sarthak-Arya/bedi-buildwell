@@ -7,7 +7,7 @@
         name="viewport">
     <link rel="profile" href="//gmpg.org/xfn/11" />
 
-    <title>Core Values &#8211; Bedi Buildwell</title>
+    <title>Leadership &#8211; Bedi Buildwell</title>
     <link rel="icon" href="{{ asset('assets/logo_dark.svg') }}" />
     <link rel="apple-touch-icon" href="{{ asset('assets/logo_dark.svg') }}" />
     <meta name="msapplication-TileImage" content="{{ asset('assets/logo_dark.svg') }}" />
@@ -32,9 +32,9 @@
     <link rel="alternate" type="application/rss+xml" title="Hank &raquo; Comments Feed"
         href="https://live.21lab.co/hank/comments/feed/" />
     <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
-        href="https://live.21lab.co/hank/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flive.21lab.co%2Fhank%2Fabout%2Fcore-values%2F" />
+        href="https://live.21lab.co/hank/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flive.21lab.co%2Fhank%2Fabout%2Fleadership%2F" />
     <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
-        href="https://live.21lab.co/hank/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flive.21lab.co%2Fhank%2Fabout%2Fcore-values%2F&#038;format=xml" />
+        href="https://live.21lab.co/hank/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flive.21lab.co%2Fhank%2Fabout%2Fleadership%2F&#038;format=xml" />
     <style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
         img:is([sizes=auto i],[sizes^="auto," i]) {
             contain-intrinsic-size: 3000px 1500px
@@ -1013,12 +1013,12 @@
         id="vc_woocommerce-add-to-cart-js-js"></script>
     <link rel="https://api.w.org/" href="https://live.21lab.co/hank/wp-json/" />
     <link rel="alternate" title="JSON" type="application/json"
-        href="https://live.21lab.co/hank/wp-json/wp/v2/pages/486" />
+        href="https://live.21lab.co/hank/wp-json/wp/v2/pages/363" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://live.21lab.co/hank/xmlrpc.php?rsd" />
     <meta name="generator" content="WordPress 6.9" />
     <meta name="generator" content="WooCommerce 6.1.2" />
-    <link rel="canonical" href="{{ route('core-values') }}" />
-    <link rel='shortlink' href='https://live.21lab.co/hank/?p=486' />
+    <link rel="canonical" href="{{ route('leadership') }}" />
+    <link rel='shortlink' href='https://live.21lab.co/hank/?p=363' />
     <noscript>
         <style>
             .woocommerce-product-gallery {
@@ -1089,32 +1089,19 @@
             //});
         };
     </script>
-    <style type="text/css" data-type="vc_custom-css">
-        .iconlist-icon-small {
-            color: #fff;
-        }
-    </style>
     <style type="text/css" data-type="vc_shortcodes-custom-css">
-        .vc_custom_1581389427798 {
+        .vc_custom_1581413361140 {
             padding-top: 150px !important;
             background-color: #232323 !important;
         }
 
-        .vc_custom_1576828842517 {
-            padding-top: 60px !important;
-            padding-bottom: 20px !important;
-        }
-
-        .vc_custom_1581396882857 {
+        .vc_custom_1581415953058 {
+            padding-top: 80px !important;
             background-position: 0 0 !important;
             background-repeat: no-repeat !important;
         }
 
-        .vc_custom_1581397513865 {
-            padding-top: 80px !important;
-        }
-
-        .vc_custom_1581397630788 {
+        .vc_custom_1581221259623 {
             padding-top: 80px !important;
         }
 
@@ -1122,13 +1109,13 @@
             margin-bottom: 35px !important;
         }
 
-        .vc_custom_1581397771621 {
+        .vc_custom_1581415746653 {
             margin-right: 5% !important;
             margin-bottom: 30px !important;
             margin-left: 5% !important;
             padding-top: 120px !important;
             padding-bottom: 120px !important;
-            background-image: url(https://live.21lab.co/hank/wp-content/uploads/2020/02/bg-6.jpg?id=674) !important;
+            background-image: url(https://live.21lab.co/hank/wp-content/uploads/2020/01/bg-3.jpg?id=605) !important;
             background-position: center !important;
             background-repeat: no-repeat !important;
             background-size: cover !important;
@@ -1138,8 +1125,52 @@
             padding-top: 20px !important;
         }
 
-        .vc_custom_1581395783488 {
-            padding-top: 60px !important;
+        .vc_custom_1581414953314 {
+            padding-bottom: 40px !important;
+        }
+
+        .vc_custom_1581414960282 {
+            padding-bottom: 40px !important;
+        }
+
+        .vc_custom_1581414967297 {
+            padding-bottom: 40px !important;
+        }
+
+        .vc_custom_1581414973860 {
+            padding-bottom: 40px !important;
+        }
+
+        .vc_custom_1581414980193 {
+            padding-bottom: 40px !important;
+        }
+
+        .vc_custom_1581414986539 {
+            padding-bottom: 40px !important;
+        }
+
+        .vc_custom_1581414992947 {
+            padding-bottom: 40px !important;
+        }
+
+        .vc_custom_1581414999267 {
+            padding-bottom: 40px !important;
+        }
+
+        .vc_custom_1581415005480 {
+            padding-bottom: 40px !important;
+        }
+
+        .vc_custom_1581415011872 {
+            padding-bottom: 40px !important;
+        }
+
+        .vc_custom_1581415018270 {
+            padding-bottom: 40px !important;
+        }
+
+        .vc_custom_1581415024341 {
+            padding-bottom: 40px !important;
         }
     </style><noscript>
         <style>
@@ -1155,8 +1186,6 @@
             }
         </style>
     </noscript>
-
-
     <style id='rs-plugin-settings-inline-css' type='text/css'>
         #rs-demo-id {}
 
@@ -1165,7 +1194,7 @@
 </head>
 
 <body
-    class="wp-singular page-template page-template-tmpl page-template-template-fullwidth page-template-tmpltemplate-fullwidth-php page page-id-486 page-child parent-pageid-142 wp-theme-hank theme-hank woocommerce-no-js sliding-desktop-off sliding-overlay layout-wide wpb-js-composer js-comp-ver-6.8.0 vc_responsive"
+    class="wp-singular page-template page-template-tmpl page-template-template-fullwidth page-template-tmpltemplate-fullwidth-php page page-id-363 page-child parent-pageid-142 wp-theme-hank theme-hank woocommerce-no-js sliding-desktop-off sliding-overlay layout-wide wpb-js-composer js-comp-ver-6.8.0 vc_responsive"
     itemscope="itemscope" itemtype="https://schema.org/WebPage">
 
     <div id="site" class="site wrap header-position-top">
@@ -1183,16 +1212,16 @@
                     <main id="main-content" class="main-content" itemprop="mainContentOfPage">
                         <div class="main-content-inner">
                             <div class="content">
-                                <section class="vc_section vc_custom_1581389427798 vc_section-has-fill">
+                                <section class="vc_section vc_custom_1581413361140 vc_section-has-fill">
                                     <div
                                         class="vc_row wpb_row vc_row-fluid vc_custom_1575014741811 vc_row-o-content-bottom vc_row-flex">
                                         <div class="row-inner">
                                             <div class="wpb_column vc_column_container vc_col-sm-6">
                                                 <div class="vc_column-inner">
                                                     <div class="wpb_wrapper">
-                                                        <div style="font-size: 40px;color: #ffffff;line-height: 44px;text-align: left"
-                                                            class="vc_custom_heading">we have one mission to be<br />
-                                                            the <strong>Best Builder Company in US.</strong></div>
+                                                        <h2 style="font-size: 40px;color: #ffffff;line-height: 44px;text-align: left"
+                                                            class="vc_custom_heading">Hank's leaders are some of<br />
+                                                            the hardest visionaries in the industry.</h2>
                                                         <div class="vc_empty_space" style="height: 20px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                     </div>
@@ -1208,12 +1237,11 @@
                                                     <div class="wpb_wrapper">
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
-                                                                <p><span style="color: #b7b7b7;">It’s a burning,
-                                                                        never-ending desire to help our clients maximize
-                                                                        their outcomes — and exceed their strategic
-                                                                        goals. Though our goal is a bit aspirational,
-                                                                        our values are what drive us every day.</span>
-                                                                </p>
+                                                                <p><span style="color: #b7b7b7;">Hank’s leadership team
+                                                                        provides the vision that has propelled us from a
+                                                                        small construction company to a worldwide
+                                                                        diversified leader in a remarkably short period
+                                                                        of time.</span></p>
 
                                                             </div>
                                                         </div>
@@ -1244,26 +1272,29 @@
                                                                                 href="{{ route('about') }}">Overview</a>
                                                                         </li>
                                                                         <li id="menu-item-489"
-                                                                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-486 current_page_item menu-item-489">
-                                                                            <a href="{{ route('core-values') }}"
-                                                                                aria-current="page">Core Values</a>
+                                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-489">
+                                                                            <a
+                                                                                href="{{ route('core-values') }}">Core
+                                                                                Values</a>
                                                                         </li>
                                                                         <li id="menu-item-366"
-                                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-366">
-                                                                            <a
-                                                                                href="{{ route('leadership') }}">Leadership</a>
+                                                                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-363 current_page_item menu-item-366">
+                                                                            <a href="{{ route('leadership') }}"
+                                                                                aria-current="page">Leadership</a>
                                                                         </li>
                                                                         <li id="menu-item-778"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-778">
                                                                             <a
                                                                                 href="{{ route('why-choose-us') }}">Why
-                                                                                choose us</a></li>
+                                                                                choose us</a>
+                                                                        </li>
                                                                         <!-- <li id="menu-item-518"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-518">
                                                                             <a
                                                                                 href="#">Join
                                                                                 Us <span class="badge">7
-                                                                                    jobs</span></a></li> -->
+                                                                                    jobs</span></a>
+                                                                        </li> -->
                                                                     </ul>
                                                                 </div>
                                                             </div>
@@ -1276,85 +1307,9 @@
                                         </div>
                                     </div>
                                 </section>
-                                <section class="vc_section vc_custom_1576828842517">
-                                    <div class="vc_row wpb_row vc_row-fluid">
-                                        <div class="row-inner">
-                                            <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <h2 style="font-size: 64px;line-height: 64px;text-align: center"
-                                                            class="vc_custom_heading"><strong>our core purpose</strong>
-                                                        </h2>
-                                                        <div class="vc_empty_space" style="height: 15px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                        <p style="font-size: 21px;line-height: 26px;text-align: center"
-                                                            class="vc_custom_heading">Make a difference in the lives of
-                                                            Our Customers, Employees and Community.</p>
-                                                        <div class="vc_empty_space" style="height: 70px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="vc_row wpb_row vc_row-fluid">
-                                        <div class="row-inner">
-                                            <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <ul class="iconlist iconlist iconlist-icon-large columns-3">
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><i
-                                                                        class="hank-factory"></i></div>
-                                                                <div class="iconlist-item-content">
-                                                                    <h3>customers.</h3>
-                                                                    <p><span style="color: #7f7f7f;">We provide
-                                                                            attentive and detailed construction
-                                                                            management services. We use our extensive
-                                                                            industry experience and current technology
-                                                                            to service our clients while remaining
-                                                                            sensitive to an ever-changing
-                                                                            environment.</span></p>
-                                                                </div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><i
-                                                                        class="hank-privacy-policy"></i></div>
-                                                                <div class="iconlist-item-content">
-                                                                    <h3>employees.</h3>
-                                                                    <p><span style="color: #7f7f7f;">To our dedicated
-                                                                            employees we provide an open work
-                                                                            environment that promises to nurture
-                                                                            creativity, tolerance, professional
-                                                                            development, safety, and a family
-                                                                            environment. We strive to bring diversity
-                                                                            into the workplace.</span></p>
-                                                                </div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><i
-                                                                        class="hank-new-construction"></i></div>
-                                                                <div class="iconlist-item-content">
-                                                                    <h3>community.</h3>
-                                                                    <p><span style="color: #7f7f7f;">To our community
-                                                                            we have a strong commitment to providing
-                                                                            opportunities to local residents &amp;
-                                                                            women-owned businesses in the community to
-                                                                            work with us as employees or subcontractors
-                                                                            &amp; contribute to our collective
-                                                                            success.</span></p>
-                                                                </div>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section class="vc_section vc_custom_1581396882857 vc_section-has-fill">
+                                <section class="vc_section vc_custom_1581415953058 vc_section-has-fill">
                                     <div
-                                        class="vc_row wpb_row vc_row-fluid vc_custom_1581397771621 vc_row-has-fill vc_row-o-content-middle vc_row-flex">
+                                        class="vc_row wpb_row vc_row-fluid vc_custom_1581415746653 vc_row-has-fill vc_row-o-content-middle vc_row-flex">
                                         <div class="row-inner">
                                             <div
                                                 class="wpb_column vc_column_container vc_col-sm-5 vc_col-lg-6 vc_hidden-xs">
@@ -1372,8 +1327,9 @@
                                                         <div class="testimonial ">
                                                             <div class="testimonial-content">
                                                                 <blockquote>
-                                                                    <p>good buildings come from good people, and all
-                                                                        problems are solved by good design.</p>
+                                                                    <p>Our overall goal is to provide quality,
+                                                                        cost-efficient projects that leave a positive
+                                                                        experience for our clients.</p>
                                                                 </blockquote>
                                                             </div>
                                                             <div class="testimonial-meta">
@@ -1413,209 +1369,6 @@
                                                         </div>
                                                         <div class="vc_empty_space" style="height: 45px"><span
                                                                 class="vc_empty_space_inner"></span></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section class="vc_section bg-accent vc_custom_1581397513865">
-                                    <div class="vc_row wpb_row vc_row-fluid">
-                                        <div class="row-inner">
-                                            <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <h2 style="font-size: 64px;color: #ffffff;line-height: 64px;text-align: center"
-                                                            class="vc_custom_heading"><strong>our core values</strong>
-                                                        </h2>
-                                                        <div class="vc_empty_space" style="height: 15px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                        <p style="font-size: 21px;color: #b7b7b7;line-height: 26px;text-align: center"
-                                                            class="vc_custom_heading">Our core values are the
-                                                            foundation by which Hank Construction was built.</p>
-                                                        <div class="vc_empty_space" style="height: 70px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="vc_row wpb_row vc_row-fluid">
-                                        <div class="row-inner">
-                                            <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <ul class="iconlist iconlist iconlist-icon-small columns-3">
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><i
-                                                                        class="hank-d-check"></i></div>
-                                                                <div class="iconlist-item-content">
-                                                                    <h3>teamwork.</h3>
-                                                                    <p><span style="color: #999;">We recognize our
-                                                                            primary asset is people. We work with our
-                                                                            clients as a team. Mutual respect provides
-                                                                            the foundation for our success.</span></p>
-                                                                </div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><i
-                                                                        class="hank-d-check"></i></div>
-                                                                <div class="iconlist-item-content">
-                                                                    <h3>intergity.</h3>
-                                                                    <p><span style="color: #999;">We abide by the
-                                                                            Biblical principle that our “yes is yes” and
-                                                                            our “no is no”. When we make a commitment or
-                                                                            an agreement, we will always follow
-                                                                            through</span></p>
-                                                                </div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><i
-                                                                        class="hank-d-check"></i></div>
-                                                                <div class="iconlist-item-content">
-                                                                    <h3>excellence.</h3>
-                                                                    <p><span style="color: #999;">Skillfully execute
-                                                                            our work, utilizing innovation and
-                                                                            ingenuity, so that we provide a high-quality
-                                                                            finished product and excellent customer
-                                                                            service.</span></p>
-                                                                </div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><i
-                                                                        class="hank-d-check"></i></div>
-                                                                <div class="iconlist-item-content">
-                                                                    <h3>safety.</h3>
-                                                                    <p><span style="color: #999;">At Hank Construction,
-                                                                            we are dedicated to maintaining a safe work
-                                                                            environment for our employees, our
-                                                                            subcontractors, our clients and the general
-                                                                            public.</span></p>
-                                                                </div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><i
-                                                                        class="hank-d-check"></i></div>
-                                                                <div class="iconlist-item-content">
-                                                                    <h3>innovation.</h3>
-                                                                    <p><span style="color: #999;">We foster a culture
-                                                                            that embraces the need for change. We
-                                                                            encourage and support innovation and
-                                                                            individual creativity in problem solving;
-                                                                            always rising to the challenge.</span></p>
-                                                                </div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><i
-                                                                        class="hank-d-check"></i></div>
-                                                                <div class="iconlist-item-content">
-                                                                    <h3>communication.</h3>
-                                                                    <p><span style="color: #999;">We take time to
-                                                                            listen. Open, honest, and proactive
-                                                                            communication with clients, partners, and
-                                                                            employees is essential to how we
-                                                                            operate.</span></p>
-                                                                </div>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section class="vc_section vc_custom_1581397630788">
-                                    <div class="vc_row wpb_row vc_row-fluid vc_column-gap-35">
-                                        <div class="row-inner">
-                                            <div class="wpb_column vc_column_container vc_col-sm-6">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <div
-                                                            class="wpb_single_image wpb_content_element vc_align_left">
-
-                                                            <figure class="wpb_wrapper vc_figure">
-                                                                <div
-                                                                    class="vc_single_image-wrapper   vc_box_border_grey">
-                                                                    <img fetchpriority="high" decoding="async"
-                                                                        width="1680" height="726"
-                                                                        src="{{ asset('images/landscape.webp') }}"
-                                                                        class="vc_single_image-img attachment-full"
-                                                                        alt="" title="video" />
-                                                                </div>
-                                                            </figure>
-                                                        </div>
-                                                        <div class="vc_empty_space" style="height: 30px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                        <h2 style="font-size: 48px;line-height: 48px;text-align: left"
-                                                            class="vc_custom_heading"><strong>our mission</strong></h2>
-                                                        <div class="vc_empty_space" style="height: 15px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                        <div class="wpb_text_column wpb_content_element ">
-                                                            <div class="wpb_wrapper">
-                                                                <p><strong>We Have One Goal: To be the Best Builder in
-                                                                        America. </strong><span
-                                                                        style="color: #7f7f7f;">It’s a burning,
-                                                                        never-ending desire to help our clients maximize
-                                                                        their outcomes — and exceed their strategic
-                                                                        goals. Though our goal is a bit aspirational,
-                                                                        our values are what drive us every day.</span>
-                                                                </p>
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="vc_empty_space" style="height: 60px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="wpb_column vc_column_container vc_col-sm-6">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <div
-                                                            class="wpb_single_image wpb_content_element vc_align_left">
-
-                                                            <figure class="wpb_wrapper vc_figure">
-                                                                <div
-                                                                    class="vc_single_image-wrapper   vc_box_border_grey">
-                                                                    <img decoding="async" width="1680"
-                                                                        height="726"
-                                                                        src="{{ asset('images/orange_jacket.webp') }}"
-                                                                        class="vc_single_image-img attachment-full"
-                                                                        alt="" title="img2" />
-                                                                </div>
-                                                            </figure>
-                                                        </div>
-                                                        <div class="vc_empty_space" style="height: 30px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                        <h2 style="font-size: 48px;line-height: 48px;text-align: left"
-                                                            class="vc_custom_heading"><strong>our vision</strong></h2>
-                                                        <div class="vc_empty_space" style="height: 15px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                        <div class="wpb_text_column wpb_content_element ">
-                                                            <div class="wpb_wrapper">
-                                                                <p><span style="color: #7f7f7f;">The firm strives to
-                                                                        maintain project diversity as it continues to
-                                                                        expand its construction activities, constructing
-                                                                        corporate interiors, renovating existing
-                                                                        properties and aiming to increase its
-                                                                        participation in building ground-up, high-design
-                                                                        residential apartments, condominiums and
-                                                                        hotels.</span></p>
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="vc_empty_space" style="height: 60px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="vc_row wpb_row vc_row-fluid">
-                                        <div class="row-inner">
-                                            <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
                                                         <div
                                                             class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey">
                                                             <span class="vc_sep_holder vc_sep_holder_l"><span
@@ -1629,116 +1382,462 @@
                                         </div>
                                     </div>
                                 </section>
-                                <section class="vc_section">
-                                    <div class="vc_row wpb_row vc_row-fluid vc_custom_1581395783488">
+                                <section id="people" class="vc_section vc_custom_1581221259623">
+                                    <div class="vc_row wpb_row vc_row-fluid">
                                         <div class="row-inner">
                                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                                 <div class="vc_column-inner">
                                                     <div class="wpb_wrapper">
-                                                        <p style="font-size: 24px;line-height: 30px;text-align: left"
-                                                            class="vc_custom_heading">Supported by 9+ industry bodies
-                                                            and media partners</p>
-                                                        <div class="vc_empty_space" style="height: 40px"><span
+                                                        <h2 style="font-size: 64px;line-height: 64px;text-align: center"
+                                                            class="vc_custom_heading"><strong>Founder's Story</strong></h2>
+                                                        <div class="vc_empty_space" style="height: 15px"><span
                                                                 class="vc_empty_space_inner"></span></div>
-                                                        <ul class="iconlist iconlist iconlist-icon-xlarge ">
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><img decoding="async"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                                                                        alt="et"
-                                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/et.svg" /><noscript><img
-                                                                            decoding="async"
-                                                                            src="https://live.21lab.co/hank/wp-content/uploads/2020/02/et.svg"
-                                                                            alt="et" /></noscript></div>
-                                                                <div class="iconlist-item-content"></div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><img decoding="async"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                                                                        alt="line"
-                                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/line.svg" /><noscript><img
-                                                                            decoding="async"
-                                                                            src="https://live.21lab.co/hank/wp-content/uploads/2020/02/line.svg"
-                                                                            alt="line" /></noscript></div>
-                                                                <div class="iconlist-item-content"></div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><img decoding="async"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                                                                        alt="gbc"
-                                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/gbc.svg" /><noscript><img
-                                                                            decoding="async"
-                                                                            src="https://live.21lab.co/hank/wp-content/uploads/2020/02/gbc.svg"
-                                                                            alt="gbc" /></noscript></div>
-                                                                <div class="iconlist-item-content"></div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><img decoding="async"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                                                                        alt="tf"
-                                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/tf.svg" /><noscript><img
-                                                                            decoding="async"
-                                                                            src="https://live.21lab.co/hank/wp-content/uploads/2020/02/tf.svg"
-                                                                            alt="tf" /></noscript></div>
-                                                                <div class="iconlist-item-content"></div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><img decoding="async"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                                                                        alt="mgr"
-                                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/mgr.svg" /><noscript><img
-                                                                            decoding="async"
-                                                                            src="https://live.21lab.co/hank/wp-content/uploads/2020/02/mgr.svg"
-                                                                            alt="mgr" /></noscript></div>
-                                                                <div class="iconlist-item-content"></div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><img decoding="async"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                                                                        alt="nano2"
-                                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/nano2.svg" /><noscript><img
-                                                                            decoding="async"
-                                                                            src="https://live.21lab.co/hank/wp-content/uploads/2020/02/nano2.svg"
-                                                                            alt="nano2" /></noscript></div>
-                                                                <div class="iconlist-item-content"></div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><img decoding="async"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                                                                        alt="hnk2"
-                                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/hnk2.svg" /><noscript><img
-                                                                            decoding="async"
-                                                                            src="https://live.21lab.co/hank/wp-content/uploads/2020/02/hnk2.svg"
-                                                                            alt="hnk2" /></noscript></div>
-                                                                <div class="iconlist-item-content"></div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><img decoding="async"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                                                                        alt="gc"
-                                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/gc.svg" /><noscript><img
-                                                                            decoding="async"
-                                                                            src="https://live.21lab.co/hank/wp-content/uploads/2020/02/gc.svg"
-                                                                            alt="gc" /></noscript></div>
-                                                                <div class="iconlist-item-content"></div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="iconlist-item-icon"><img decoding="async"
-                                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-                                                                        alt="glb"
-                                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/glb.svg" /><noscript><img
-                                                                            decoding="async"
-                                                                            src="https://live.21lab.co/hank/wp-content/uploads/2020/02/glb.svg"
-                                                                            alt="glb" /></noscript></div>
-                                                                <div class="iconlist-item-content"></div>
-                                                            </li>
-                                                        </ul>
-                                                        <div class="vc_empty_space" style="height: 10px"><span
+                                                        <p style="font-size: 21px;color: #7f7f7f;line-height: 26px;text-align: center"
+                                                            class="vc_custom_heading">The journey of building<br />
+                                                            Bedi Buildwell from the ground up.</p>
+                                                        <div class="vc_empty_space" style="height: 70px"><span
+                                                                class="vc_empty_space_inner"></span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vc_row wpb_row vc_row-fluid">
+                                        <div class="row-inner">
+                                            <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                <div class="vc_column-inner">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="wpb_text_column wpb_content_element">
+                                                            <div class="wpb_wrapper">
+                                                                <div style="max-width: 900px; margin: 0 auto;">
+                                                                    <div class="vc_empty_space" style="height: 20px"><span class="vc_empty_space_inner"></span></div>
+                                                                    <h3 style="font-size: 32px; line-height: 1.2em; margin-bottom: 25px; color: #000000; text-align: center;">Our Founding Vision</h3>
+                                                                    <p style="font-size: 18px; line-height: 1.8em; color: #666666; margin-bottom: 25px; text-align: justify;">
+                                                                        Bedi Buildwell was founded with a simple yet powerful vision: to transform the construction industry by delivering exceptional quality, unmatched integrity, and personalized service to every client. What started as a dream has grown into a trusted name in construction, built on the foundation of hard work, dedication, and an unwavering commitment to excellence.
+                                                                    </p>
+                                                                    <p style="font-size: 18px; line-height: 1.8em; color: #666666; margin-bottom: 25px; text-align: justify;">
+                                                                        From humble beginnings, our founder recognized that the construction industry needed a company that would prioritize the client's vision above all else. Every project, whether large or small, is approached with the same level of care, attention to detail, and passion that has become the hallmark of Bedi Buildwell.
+                                                                    </p>
+                                                                    <p style="font-size: 18px; line-height: 1.8em; color: #666666; margin-bottom: 25px; text-align: justify;">
+                                                                        Today, we continue to honor that founding vision by maintaining the highest standards of craftsmanship, fostering long-term relationships with our clients, and building structures that stand the test of time. Our journey is a testament to what can be achieved when passion meets purpose, and we remain committed to building not just structures, but dreams.
+                                                                    </p>
+                                                                    <div class="vc_empty_space" style="height: 30px"><span class="vc_empty_space_inner"></span></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vc_row wpb_row vc_row-fluid">
+                                        <div class="row-inner">
+                                            <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                <div class="vc_column-inner">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="vc_empty_space" style="height: 20px"><span
+                                                                class="vc_empty_space_inner"></span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vc_row wpb_row vc_row-fluid">
+                                        <div class="row-inner">
+                                            <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                <div class="vc_column-inner">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="vc_empty_space" style="height: 20px"><span
+                                                                class="vc_empty_space_inner"></span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vc_row wpb_row vc_row-fluid">
+                                        <div class="row-inner">
+                                            <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                <div class="vc_column-inner">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="vc_empty_space" style="height: 20px"><span
+                                                                class="vc_empty_space_inner"></span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vc_row wpb_row vc_row-fluid">
+                                        <div class="row-inner">
+                                            <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                <div class="vc_column-inner">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="vc_empty_space" style="height: 20px"><span
+                                                                class="vc_empty_space_inner"></span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vc_row wpb_row vc_row-fluid">
+                                        <div class="row-inner">
+                                            <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                <div class="vc_column-inner">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="member  style2  has-image">
+
+                                                            <div class="member-image">
+                                                                <img width="500" height="500" decoding="async"
+                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E"
+                                                                    alt="Steve Perry"
+                                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p3.jpg" /><noscript><img
+                                                                        width="500" height="500"
+                                                                        decoding="async"
+                                                                        src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p3.jpg"
+                                                                        alt="Steve Perry" /></noscript>
+                                                            </div>
+
+                                                            <div class="member-info">
+                                                                <div class="member-meta">
+                                                                    <h3 class="member-name">Steve Perry</h3>
+                                                                    <div class="member-subtitle">Vice President of HR
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="member-desc">
+                                                                    <p>Steve serves as the Atlanta market business unit
+                                                                        leader for Hank’s Southern Region.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-2 vc_col-md-4 vc_col-xs-6">
+                                                <div class="vc_column-inner vc_custom_1581414973860">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="member  style2  has-image">
+
+                                                            <div class="member-image">
+                                                                <img width="500" height="500" decoding="async"
+                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E"
+                                                                    alt="Amy Jr"
+                                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/P4.jpg" /><noscript><img
+                                                                        width="500" height="500"
+                                                                        decoding="async"
+                                                                        src="https://live.21lab.co/hank/wp-content/uploads/2020/02/P4.jpg"
+                                                                        alt="Amy Jr" /></noscript>
+                                                            </div>
+
+                                                            <div class="member-info">
+                                                                <div class="member-meta">
+                                                                    <h3 class="member-name">Amy Jr</h3>
+                                                                    <div class="member-subtitle">Director of Business
+                                                                        Development</div>
+
+                                                                </div>
+                                                                <div class="member-desc">
+                                                                    <p>Amy is primarily involved in the preconstruction
+                                                                        phase of Hank projects</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-2 vc_col-md-4 vc_col-xs-6">
+                                                <div class="vc_column-inner vc_custom_1581414980193">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="member  style2  has-image">
+
+                                                            <div class="member-image">
+                                                                <img width="500" height="500" decoding="async"
+                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E"
+                                                                    alt="Dave Jeffrey"
+                                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p5.jpg" /><noscript><img
+                                                                        width="500" height="500"
+                                                                        decoding="async"
+                                                                        src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p5.jpg"
+                                                                        alt="Dave Jeffrey" /></noscript>
+                                                            </div>
+
+                                                            <div class="member-info">
+                                                                <div class="member-meta">
+                                                                    <h3 class="member-name">Dave Jeffrey</h3>
+                                                                    <div class="member-subtitle">Vice President of
+                                                                        Operations</div>
+
+                                                                </div>
+                                                                <div class="member-desc">
+                                                                    <p>With nearly 25 years of construction industry
+                                                                        experience, Dave Jeffrey joined Hank in 1994.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-2 vc_col-md-4 vc_col-xs-6">
+                                                <div class="vc_column-inner vc_custom_1581414986539">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="member  style2  has-image">
+
+                                                            <div class="member-image">
+                                                                <img width="500" height="500" decoding="async"
+                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E"
+                                                                    alt="Karen Lewis"
+                                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p6.jpg" /><noscript><img
+                                                                        width="500" height="500"
+                                                                        decoding="async"
+                                                                        src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p6.jpg"
+                                                                        alt="Karen Lewis" /></noscript>
+                                                            </div>
+
+                                                            <div class="member-info">
+                                                                <div class="member-meta">
+                                                                    <h3 class="member-name">Karen Lewis</h3>
+                                                                    <div class="member-subtitle">Project Executive
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="member-desc">
+                                                                    <p>Karen is an executive vice president and the
+                                                                        Project Executive of Hank Construction Company.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="vc_row wpb_row vc_row-fluid vc_column-gap-10 vc_row-o-equal-height vc_row-flex">
+                                        <div class="row-inner">
+                                            <div
+                                                class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-2 vc_col-md-4 vc_col-xs-6">
+                                                <div class="vc_column-inner vc_custom_1581414992947">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="member  style2  has-image">
+
+                                                            <div class="member-image">
+                                                                <img width="500" height="500" decoding="async"
+                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E"
+                                                                    alt="Maria Jr"
+                                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/P7.jpg" /><noscript><img
+                                                                        width="500" height="500"
+                                                                        decoding="async"
+                                                                        src="https://live.21lab.co/hank/wp-content/uploads/2020/02/P7.jpg"
+                                                                        alt="Maria Jr" /></noscript>
+                                                            </div>
+
+                                                            <div class="member-info">
+                                                                <div class="member-meta">
+                                                                    <h3 class="member-name">Maria Jr</h3>
+                                                                    <div class="member-subtitle">Director</div>
+
+                                                                </div>
+                                                                <div class="member-desc">
+                                                                    <p>Maria is Director of Business Development for the
+                                                                        Hank Southern California Region based in San
+                                                                        Diego.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-2 vc_col-md-4 vc_col-xs-6">
+                                                <div class="vc_column-inner vc_custom_1581414999267">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="member  style2  has-image">
+
+                                                            <div class="member-image">
+                                                                <img width="500" height="500" decoding="async"
+                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E"
+                                                                    alt="Tom Reilly"
+                                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p11.jpg" /><noscript><img
+                                                                        width="500" height="500"
+                                                                        decoding="async"
+                                                                        src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p11.jpg"
+                                                                        alt="Tom Reilly" /></noscript>
+                                                            </div>
+
+                                                            <div class="member-info">
+                                                                <div class="member-meta">
+                                                                    <h3 class="member-name">Tom Reilly</h3>
+                                                                    <div class="member-subtitle">Executive Vice
+                                                                        President</div>
+
+                                                                </div>
+                                                                <div class="member-desc">
+                                                                    <p>Tom joined Hank in 1987 as a field engineer in
+                                                                        the New Jersey office</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-2 vc_col-md-4 vc_col-xs-6">
+                                                <div class="vc_column-inner vc_custom_1581415005480">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="member  style2  has-image">
+
+                                                            <div class="member-image">
+                                                                <img width="500" height="500" decoding="async"
+                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E"
+                                                                    alt="Billy Mark"
+                                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p9.jpg" /><noscript><img
+                                                                        width="500" height="500"
+                                                                        decoding="async"
+                                                                        src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p9.jpg"
+                                                                        alt="Billy Mark" /></noscript>
+                                                            </div>
+
+                                                            <div class="member-info">
+                                                                <div class="member-meta">
+                                                                    <h3 class="member-name">Billy Mark</h3>
+                                                                    <div class="member-subtitle">Senior Vice President
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="member-desc">
+                                                                    <p>Billy is a senior vice president and the chief
+                                                                        procurement officer at Hank Construction
+                                                                        Company.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-2 vc_col-md-4 vc_col-xs-6">
+                                                <div class="vc_column-inner vc_custom_1581415011872">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="member  style2  has-image">
+
+                                                            <div class="member-image">
+                                                                <img width="500" height="500" decoding="async"
+                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E"
+                                                                    alt="Suzy Page"
+                                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p8.jpg" /><noscript><img
+                                                                        width="500" height="500"
+                                                                        decoding="async"
+                                                                        src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p8.jpg"
+                                                                        alt="Suzy Page" /></noscript>
+                                                            </div>
+
+                                                            <div class="member-info">
+                                                                <div class="member-meta">
+                                                                    <h3 class="member-name">Suzy Page</h3>
+                                                                    <div class="member-subtitle">Project Management
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="member-desc">
+                                                                    <p>Suzy has served in key project management,
+                                                                        quality and business development roles at Hank
+                                                                        since 2007.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-2 vc_col-md-4 vc_col-xs-6">
+                                                <div class="vc_column-inner vc_custom_1581415018270">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="member  style2  has-image">
+
+                                                            <div class="member-image">
+                                                                <img width="500" height="500" decoding="async"
+                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E"
+                                                                    alt="Ron Lewis"
+                                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p12.jpg" /><noscript><img
+                                                                        width="500" height="500"
+                                                                        decoding="async"
+                                                                        src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p12.jpg"
+                                                                        alt="Ron Lewis" /></noscript>
+                                                            </div>
+
+                                                            <div class="member-info">
+                                                                <div class="member-meta">
+                                                                    <h3 class="member-name">Ron Lewis</h3>
+                                                                    <div class="member-subtitle">Project Executive
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="member-desc">
+                                                                    <p>Ron is an avid genealogist, having traced his
+                                                                        family ancestry back to the American Revolution.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-2 vc_col-md-4 vc_col-xs-6">
+                                                <div class="vc_column-inner vc_custom_1581415024341">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="member  style2  has-image">
+
+                                                            <div class="member-image">
+                                                                <img width="500" height="500" decoding="async"
+                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E"
+                                                                    alt="Stephan W.Lars"
+                                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/P10.jpg" /><noscript><img
+                                                                        width="500" height="500"
+                                                                        decoding="async"
+                                                                        src="https://live.21lab.co/hank/wp-content/uploads/2020/02/P10.jpg"
+                                                                        alt="Stephan W.Lars" /></noscript>
+                                                            </div>
+
+                                                            <div class="member-info">
+                                                                <div class="member-meta">
+                                                                    <h3 class="member-name">Stephan W.Lars</h3>
+                                                                    <div class="member-subtitle">Chief Strategy Officer
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="member-desc">
+                                                                    <p>Stephan is a senior vice president and the chief
+                                                                        strategy officer at Hank Construction Company.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vc_row wpb_row vc_row-fluid">
+                                        <div class="row-inner">
+                                            <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                <div class="vc_column-inner">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="vc_empty_space" style="height: 20px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
-                                                                <p><a class="link has-arrow" style="color: #7f7f7f;"
-                                                                        href="{{ route('about') }}">Find
-                                                                        out more about company</a></p>
+                                                                <p style="text-align: center;"><span
+                                                                        class="badge style2">Hiring</span> – We are
+                                                                    looking for talented &amp; driven people to come
+                                                                    work with us. <a class="link"
+                                                                        style="color: #7f7f7f;"
+                                                                        href="#">Available
+                                                                        Positions</a></p>
 
                                                             </div>
                                                         </div>
@@ -2206,4 +2305,4 @@
 
 </html>
 
-<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1765320359 -->
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1765245815 -->

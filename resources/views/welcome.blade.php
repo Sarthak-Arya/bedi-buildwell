@@ -2759,15 +2759,9 @@
                                                                         href="{{ route('about') }}core-values/"
                                                                         target="_self">
                                                                         <img decoding="async" class=""
-                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201200%20710'%3E%3C/svg%3E"
+                                                                            src="{{ asset('images/orange_jacket.webp') }}"
                                                                             width="1200" height="710"
-                                                                            alt="img2" title="img2"
-                                                                            data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2019/12/img2-1200x710.jpg" /><noscript><img
-                                                                                decoding="async" class=""
-                                                                                src="https://live.21lab.co/hank/wp-content/uploads/2019/12/img2-1200x710.jpg"
-                                                                                width="1200" height="710"
-                                                                                alt="img2"
-                                                                                title="img2" /></noscript>
+                                                                            alt="img2" title="img2" />
                                                                         <h3 class="box-title">
                                                                             <span>CORE</span>
                                                                             <span class="box-subtitle">
@@ -2792,7 +2786,7 @@
                                                                         href="{{ route('leadership') }}"
                                                                         target="_self">
                                                                         <img decoding="async" class=""
-                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201200%20710'%3E%3C/svg%3E"
+                                                                            src="{{ asset('images/landscape.webp') }}"
                                                                             width="1200" height="710"
                                                                             alt="video" title="video"
                                                                             data-lazy-src="{{ asset('images/yellow_helmet.webp') }}" /><noscript><img

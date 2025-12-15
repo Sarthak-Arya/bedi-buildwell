@@ -117,7 +117,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li id="menu-item-166"
+                                <!-- <li id="menu-item-166"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-166">
                                     <a href="#">Join Today</a>
                                     <ul class="sub-menu">
@@ -137,7 +137,7 @@
                                                 Consultant</a>
                                         </li>
                                     </ul>
-                                </li>
+                                </li> -->
                                 <li id="menu-item-170"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-170">
                                     <a href="#">Calculators</a>
@@ -198,12 +198,12 @@
         <div class="footer-copyright-inner wrap">
             <div class="copyright-content">
                 <img width="150" height="86"
-                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20150%2086'%3E%3C/svg%3E"
+                    src="{{ asset('assets/logo_full_text_dark.svg') }}"
                     alt="logo"
                     data-lazy-src="{{ asset('assets/logo_full_text_dark.svg') }}"><noscript><img
                         width="150" height="86" src="{{ asset('assets/logo_full_text_dark.svg') }}"
                         alt="logo"></noscript>
-                <p>Copyright © 2020 Bedi Buildwell. Designed and Developed by <a href="#">Takniv</a>
+                <p>Copyright © 2025 Bedi Buildwell. Designed and Developed by <a href="#">Takniv</a>
                 </p>
             </div>
 

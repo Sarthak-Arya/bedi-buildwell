@@ -1279,13 +1279,13 @@
                                                                             <a href="{{ route('why-choose-us') }}"
                                                                                 aria-current="page">Why choose us</a>
                                                                         </li>
-                                                                        <li id="menu-item-518"
+                                                                        <!-- <li id="menu-item-518"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-518">
                                                                             <a
                                                                                 href="#">Join
                                                                                 Us <span class="badge">7
                                                                                     jobs</span></a>
-                                                                        </li>
+                                                                        </li> -->
                                                                     </ul>
                                                                 </div>
                                                             </div>
@@ -1405,7 +1405,7 @@
                                         </div>
                                     </div>
                                 </section>
-                                <section id="awards" class="vc_section vc_custom_1581310837307">
+                                <!--<section id="awards" class="vc_section vc_custom_1581310837307">
                                     <div class="vc_row wpb_row vc_row-fluid">
                                         <div class="row-inner">
                                             <div class="wpb_column vc_column_container vc_col-sm-12">
@@ -1539,7 +1539,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </section>
+                                </section> -->
                                 <section class="vc_section vc_custom_1581325680569 vc_section-has-fill">
                                     <div
                                         class="vc_row wpb_row vc_row-fluid vc_custom_1581137821392 vc_row-has-fill vc_row-o-content-middle vc_row-flex">
@@ -1566,11 +1566,11 @@
                                                             </div>
                                                             <div class="testimonial-meta">
                                                                 <div class="testimonial-author">
-                                                                    <strong class="author-name">John Doe</strong>
+                                                                    <strong class="author-name">Sukrit Singh Bedi</strong>
                                                                     <div class="author-info"><span
                                                                             class="subtitle">CEO</span> <span
-                                                                            class="divider">-</span> <span
-                                                                            class="company">Hank Construction</span>
+                                                                            class="divider"></span>- <span
+                                                                            class="company">Bedi Buildwell Group</span>
                                                                     </div>
                                                                 </div>
                                                             </div>

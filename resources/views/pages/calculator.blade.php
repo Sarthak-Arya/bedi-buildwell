@@ -631,6 +631,118 @@
             }
         }
         
+        /* How It Works Section Styles */
+        .how-it-works-section {
+            margin-top: 30px;
+            padding: 30px 0;
+        }
+        
+        .how-it-works-steps {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .how-it-works-step {
+            flex: 1;
+            min-width: 150px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .step-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f8f9fa;
+            border-radius: 50%;
+            border: 2px solid #34b8e1;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .how-it-works-step:hover .step-icon {
+            transform: scale(1.1);
+            box-shadow: 0 5px 15px rgba(52, 184, 225, 0.3);
+        }
+        
+        .step-arrow {
+            flex: 0 0 auto;
+            padding: 0 8px;
+        }
+        
+        /* Responsive styles for How It Works section */
+        @media (max-width: 1200px) {
+            .how-it-works-steps {
+                justify-content: center;
+            }
+            
+            .step-arrow {
+                transform: rotate(90deg);
+                padding: 8px 0;
+            }
+        }
+        
+        @media (max-width: 991px) {
+            .how-it-works-steps {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .how-it-works-step {
+                width: 100%;
+                max-width: 250px;
+                margin-bottom: 20px;
+            }
+            
+            .step-arrow {
+                transform: rotate(90deg);
+                padding: 8px 0;
+            }
+            
+            .how-it-works-section h2 {
+                font-size: 24px !important;
+                margin-bottom: 25px !important;
+            }
+        }
+        
+        @media (max-width: 767px) {
+            .how-it-works-section {
+                margin-top: 25px;
+                padding: 20px 0;
+            }
+            
+            .how-it-works-section h2 {
+                font-size: 22px !important;
+                margin-bottom: 20px !important;
+            }
+            
+            .step-icon {
+                width: 70px;
+                height: 70px;
+            }
+            
+            .step-icon i {
+                font-size: 30px !important;
+            }
+            
+            .how-it-works-step h3 {
+                font-size: 14px !important;
+            }
+            
+            .how-it-works-step h4 {
+                font-size: 14px !important;
+            }
+            
+            .how-it-works-step p {
+                font-size: 12px !important;
+            }
+        }
+        
     </style>
     
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
@@ -858,6 +970,67 @@
                                                                 <div class="wpcf7-response-output"
                                                                     aria-hidden="true"></div>
                                                             </form>
+                                                            
+                                                            <!-- How It Works Section -->
+                                                            <div class="how-it-works-section" style="margin-top: 30px; padding: 30px 0;">
+                                                                <h2 style="text-align: center; font-size: 28px; font-weight: 700; margin-bottom: 30px; color: #000000;">How It Works</h2>
+                                                                <div class="how-it-works-steps" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px;">
+                                                                    <!-- Step I -->
+                                                                    <div class="how-it-works-step" style="flex: 1; min-width: 150px; text-align: center; position: relative;">
+                                                                        <div class="step-icon" style="width: 80px; height: 80px; margin: 0 auto 12px; display: flex; align-items: center; justify-content: center; background-color: #f8f9fa; border-radius: 50%; border: 2px solid #34b8e1;">
+                                                                            <i class="fas fa-mobile-alt" style="font-size: 35px; color: #34b8e1;"></i>
+                                                                        </div>
+                                                                        <h3 style="font-size: 16px; font-weight: 700; margin-bottom: 6px; color: #000000;">STEP - I</h3>
+                                                                        <h4 style="font-size: 15px; font-weight: 600; margin-bottom: 5px; color: #232323;">Fill Out the Form</h4>
+                                                                        <p style="font-size: 13px; color: #666666; line-height: 1.4;">Share basic details about you and your plot.</p>
+                                                                    </div>
+                                                                    
+                                                                    <!-- Arrow 1 -->
+                                                                    <div class="step-arrow" style="flex: 0 0 auto; padding: 0 8px;">
+                                                                        <i class="fas fa-arrow-right" style="font-size: 28px; color: #34b8e1;"></i>
+                                                                    </div>
+                                                                    
+                                                                    <!-- Step II -->
+                                                                    <div class="how-it-works-step" style="flex: 1; min-width: 150px; text-align: center; position: relative;">
+                                                                        <div class="step-icon" style="width: 80px; height: 80px; margin: 0 auto 12px; display: flex; align-items: center; justify-content: center; background-color: #f8f9fa; border-radius: 50%; border: 2px solid #34b8e1;">
+                                                                            <i class="fas fa-headset" style="font-size: 35px; color: #34b8e1;"></i>
+                                                                        </div>
+                                                                        <h3 style="font-size: 16px; font-weight: 700; margin-bottom: 6px; color: #000000;">STEP - II</h3>
+                                                                        <h4 style="font-size: 15px; font-weight: 600; margin-bottom: 5px; color: #232323;">Talk to our Experts</h4>
+                                                                        <p style="font-size: 13px; color: #666666; line-height: 1.4;">We'll discuss your needs and preferences.</p>
+                                                                    </div>
+                                                                    
+                                                                    <!-- Arrow 2 -->
+                                                                    <div class="step-arrow" style="flex: 0 0 auto; padding: 0 8px;">
+                                                                        <i class="fas fa-arrow-right" style="font-size: 28px; color: #34b8e1;"></i>
+                                                                    </div>
+                                                                    
+                                                                    <!-- Step III -->
+                                                                    <div class="how-it-works-step" style="flex: 1; min-width: 150px; text-align: center; position: relative;">
+                                                                        <div class="step-icon" style="width: 80px; height: 80px; margin: 0 auto 12px; display: flex; align-items: center; justify-content: center; background-color: #f8f9fa; border-radius: 50%; border: 2px solid #34b8e1;">
+                                                                            <i class="fas fa-lightbulb" style="font-size: 35px; color: #34b8e1;"></i>
+                                                                        </div>
+                                                                        <h3 style="font-size: 16px; font-weight: 700; margin-bottom: 6px; color: #000000;">STEP - III</h3>
+                                                                        <h4 style="font-size: 15px; font-weight: 600; margin-bottom: 5px; color: #232323;">Select Your Preferences</h4>
+                                                                        <p style="font-size: 13px; color: #666666; line-height: 1.4;">Choose structural & finishing options to match your budget.</p>
+                                                                    </div>
+                                                                    
+                                                                    <!-- Arrow 3 -->
+                                                                    <div class="step-arrow" style="flex: 0 0 auto; padding: 0 8px;">
+                                                                        <i class="fas fa-arrow-right" style="font-size: 28px; color: #34b8e1;"></i>
+                                                                    </div>
+                                                                    
+                                                                    <!-- Step IV -->
+                                                                    <div class="how-it-works-step" style="flex: 1; min-width: 150px; text-align: center; position: relative;">
+                                                                        <div class="step-icon" style="width: 80px; height: 80px; margin: 0 auto 12px; display: flex; align-items: center; justify-content: center; background-color: #f8f9fa; border-radius: 50%; border: 2px solid #34b8e1;">
+                                                                            <i class="fas fa-home" style="font-size: 35px; color: #34b8e1;"></i>
+                                                                        </div>
+                                                                        <h3 style="font-size: 16px; font-weight: 700; margin-bottom: 6px; color: #000000;">STEP - IV</h3>
+                                                                        <h4 style="font-size: 15px; font-weight: 600; margin-bottom: 5px; color: #232323;">Get Your Quote</h4>
+                                                                        <p style="font-size: 13px; color: #666666; line-height: 1.4;">Get a precise cost estimate for your home.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                                             
                                                             <!-- Thank You Message Display -->
                                                             <div id="thank-you-message" style="display: none; margin-top: 40px; padding: 40px; background-color: #f8f9fa; border-radius: 8px; border: 2px solid #e0e0e0; text-align: center;">
