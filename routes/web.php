@@ -41,3 +41,13 @@ Route::get('/blog', function () {
 Route::get('/calculator', function () {
     return view('pages.calculator')->with('title', 'Construction Cost Calculator');
 })->name('calculator');
+
+Route::get('/login', function () {
+    return view('auth.login')->with('title', 'Login');
+})->name('login');
+
+Route::middleware(['auth'])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard')->with('title', 'Dashboard');
+    })->name('dashboard');
+});

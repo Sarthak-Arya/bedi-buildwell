@@ -26,7 +26,7 @@
     {{-- <link rel="stylesheet" href="https://live.21lab.co/hank/wp-content/cache/min/1/308ad0553bcac79c7cebff97685e6bad.css"
         media="all" data-minify="1" /> --}}
     <link rel="stylesheet" href="{{ asset('css/main.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/styles.css') }}" />  
+    <link rel="stylesheet" href="{{ asset('css/styles.css') }}" />
     {{-- robots file --}}
     <meta name='robots' content='max-image-preview:large' />
     <style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
@@ -974,9 +974,9 @@
 
 
     {{-- js --}}
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-migrate-3.4.1.min.js" 
+    <script src="https://code.jquery.com/jquery-migrate-3.4.1.min.js"
         integrity="sha256-R/JgA0/4e/03p17J5X/wGj/z/V4E/g6Qf0Jq0lG1d78=" crossorigin="anonymous" id="jquery-migrate-js">
     </script>
 
@@ -1000,8 +1000,8 @@
     {{-- <script type="text/javascript"
         src="https://live.21lab.co/hank/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.6.1.2"
         id="jquery-blockui-js"></script> --}}
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.blockUI/2.70/jquery.blockUI.min.js" 
-        integrity="sha512-eRMZciS8N28YtK69B+y9iB11Lw+s7fH/k+xK/y1E6Q1w22j0T5O5lB9g/u1G+b2r0E/3w5i9c6Zq8Z5G+w5g==" 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.blockUI/2.70/jquery.blockUI.min.js"
+        integrity="sha512-eRMZciS8N28YtK69B+y9iB11Lw+s7fH/k+xK/y1E6Q1w22j0T5O5lB9g/u1G+b2r0E/3w5i9c6Zq8Z5G+w5g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" id="jquery-blockui-js"></script>
     <script type="text/javascript" id="wc-add-to-cart-js-extra">
         /* <![CDATA[ */
@@ -1592,7 +1592,7 @@
                                                         <div class="vc_empty_space" style="height: 40px"><span
                                                                 class="vc_empty_space_inner"></span>
                                                         </div>
-                                                        
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -2795,9 +2795,9 @@
                                                                             src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201200%20710'%3E%3C/svg%3E"
                                                                             width="1200" height="710"
                                                                             alt="video" title="video"
-                                                                            data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2019/12/video-1200x710.jpg" /><noscript><img
+                                                                            data-lazy-src="{{ asset('images/yellow_helmet.webp') }}" /><noscript><img
                                                                                 decoding="async" class=""
-                                                                                src="https://live.21lab.co/hank/wp-content/uploads/2019/12/video-1200x710.jpg"
+                                                                                src="{{ asset('images/yellow_helmet.webp') }}"
                                                                                 width="1200" height="710"
                                                                                 alt="video"
                                                                                 title="video" /></noscript>
@@ -2870,9 +2870,9 @@
                                         </div>
                                     </div>
                                 </section>
-                                  <section class="vc_section vc_custom_1580725919396">
+                                <section class="vc_section vc_custom_1580725919396">
                                     <!-- map removed -->
-                                   <!-- <div
+                                    <!-- <div
                                         class="vc_row wpb_row vc_row-fluid vc_custom_1577346374548 vc_row-o-content-bottom vc_row-flex">
                                         <div class="row-inner">
                                             <div class="wpb_column vc_column_container vc_col-sm-6">
@@ -3088,7 +3088,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>  --> 
+                                    </div>  -->
                                     <div class="vc_row wpb_row vc_row-fluid">
                                         <div class="row-inner">
                                             <div class="wpb_column vc_column_container vc_col-sm-12">
@@ -3281,9 +3281,9 @@
                                                                     aria-atomic="true"></p>
                                                                 <ul></ul>
                                                             </div>
-                                                            <form action="https://formspree.io/f/mvgevqql" method="post"
-                                                                class="wpcf7-form init" novalidate="novalidate"
-                                                                data-status="init">
+                                                            <form action="https://formspree.io/f/mvgevqql"
+                                                                method="post" class="wpcf7-form init"
+                                                                novalidate="novalidate" data-status="init">
                                                                 <div class="contact-light">
                                                                     <div class="field line">
                                                                         <label>I want</label><br />
@@ -3350,7 +3350,8 @@
                                                                             <label>* Phone Number</label><br />
                                                                             <span
                                                                                 class="wpcf7-form-control-wrap tel-869"><input
-                                                                                    type="tel" name="Phone Number"
+                                                                                    type="tel"
+                                                                                    name="Phone Number"
                                                                                     value="" size="40"
                                                                                     class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel"
                                                                                     aria-invalid="false"
@@ -3396,7 +3397,7 @@
                                                     <div class="wpb_wrapper">
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
-                                                                
+
 
                                                             </div>
                                                         </div>
@@ -3482,11 +3483,11 @@
             function revslider_showDoubleJqueryError(sliderID) {
                 console.log(
                     "You have some jquery.js library include that comes after the Slider Revolution files js inclusion."
-                    );
+                );
                 console.log("To fix this, you can:");
                 console.log(
                     "1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on"
-                    );
+                );
                 console.log("2. Find the double jQuery.js inclusion and remove it");
                 return "Double Included jQuery Library";
             }
@@ -3982,9 +3983,9 @@
                     },
                 });
                 /*
-      change the "1" in the "revapi3" part below to match your slider's ID:
-      https://www.themepunch.com/wp-content/uploads/2016/08/slider-id.png
-    */
+              change the "1" in the "revapi3" part below to match your slider's ID:
+              https://www.themepunch.com/wp-content/uploads/2016/08/slider-id.png
+            */
                 var api = revapi3;
 
                 /* no need to edit below */
