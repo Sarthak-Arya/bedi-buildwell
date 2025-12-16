@@ -1296,8 +1296,8 @@
                                                 <div class="vc_column-inner">
                                                     <div class="wpb_wrapper">
                                                         <h2 style="font-size: 40px;color: #ffffff;line-height: 44px;text-align: left"
-                                                            class="vc_custom_heading">we have one mission<br />
-                                                            to be the <strong>best builder in India.</strong></h2>
+                                                            class="vc_custom_heading">where quality, cost, and timelines finally align<br />
+                                                            <strong></strong></h2>
                                                         <div class="vc_empty_space" style="height: 20px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                     </div>
@@ -1313,10 +1313,8 @@
                                                     <div class="wpb_wrapper">
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
-                                                                <p><span style="color: #b7b7b7;">It’s a burning,
-                                                                        never-ending desire to help our clients maximize
-                                                                        their outcomes — and exceed their strategic
-                                                                        goals. <a class="link"
+                                                                <p><span style="color: #b7b7b7;">Your home deserves more than guesswork.
+                                                                    We make sure every project stays exactly as we commit. <a class="link"
                                                                             style="color: #ffffff;"
                                                                             href="{{ route('about') }}">Find
                                                                             out more</a></span></p>
@@ -1397,8 +1395,8 @@
                                                                             data-frame_1="st:600;sp:1200;sR:600;"
                                                                             data-frame_1_mask="u:t;"
                                                                             data-frame_999="o:0;st:w;sR:7200;"
-                                                                            style="z-index:10;font-family:'Rubik';text-transform:lowercase;">We
-                                                                            Believe in “Teamworks”
+                                                                            style="z-index:10;font-family:'Rubik';text-transform:lowercase;">Quality
+                                                                            starts with our in-house team
                                                                         </rs-layer><!--
 
        --><rs-layer id="slider-3-slide-10-layer-4" class="f-b" data-type="button" data-color="#000000"
@@ -1466,7 +1464,7 @@
                                                                             data-frame_1_mask="u:t;"
                                                                             data-frame_999="o:0;st:w;sR:7200;"
                                                                             style="z-index:10;font-family:'Rubik';text-transform:lowercase;">To
-                                                                            Deliver Superior Performance.
+                                                                            build with precision.
                                                                         </rs-layer><!--
 
        --><rs-layer id="slider-3-slide-11-layer-4" class="f-b" data-type="text" data-color="#000000"
@@ -1501,7 +1499,7 @@
                                                                         <!--
        --><rs-layer id="slider-3-slide-12-layer-1" class="f-l" data-type="text" data-color="rgba(0, 0, 0, 0.5)"
                                                                             data-rsp_ch="on"
-                                                                            data-xy="x:898px;y:185px;"
+                                                                            data-xy="x:920px;y:185px;"
                                                                             data-text="w:normal;s:32;l:32;ls:2px;fw:300;"
                                                                             data-frame_0="y:100%;"
                                                                             data-frame_0_mask="u:t;"
@@ -1514,7 +1512,7 @@
 
        --><rs-layer id="slider-3-slide-12-layer-2" class="f-xb" data-type="text" data-color="#000000"
                                                                             data-rsp_ch="on"
-                                                                            data-xy="x:895px;y:225px;"
+                                                                            data-xy="x:925px;y:225px;"
                                                                             data-text="w:normal;s:72;l:72;ls:-1px;fw:500;"
                                                                             data-frame_0="y:100%;"
                                                                             data-frame_0_mask="u:t;"
@@ -1526,7 +1524,7 @@
 
        --><rs-layer id="slider-3-slide-12-layer-3" class="f-l" data-type="text" data-color="#000000"
                                                                             data-rsp_ch="on"
-                                                                            data-xy="x:899px;y:302px;"
+                                                                            data-xy="x:940px;y:302px;"
                                                                             data-text="w:normal;s:36;l:36;fw:300;"
                                                                             data-frame_0="y:100%;"
                                                                             data-frame_0_mask="u:t;"
@@ -1534,7 +1532,7 @@
                                                                             data-frame_1_mask="u:t;"
                                                                             data-frame_999="o:0;st:w;sR:7200;"
                                                                             style="z-index:10;font-family:'Rubik';text-transform:lowercase;">We
-                                                                            know exactly what is required
+                                                                            know what works
                                                                         </rs-layer><!--
 
        --><rs-layer id="slider-3-slide-12-layer-4" class="f-b" data-type="button" data-color="#000000"
@@ -1550,7 +1548,7 @@
                                                                             style="z-index:11;font-family:'Rubik';text-transform:uppercase;"><a
                                                                                 class="button has-arrow"
                                                                                 href="https://live.linethemes.com/hank/work/">Explore
-                                                                                Bedi Buildwell Group Projects</a>
+                                                                                Bedi Buildwell Projects</a>
                                                                         </rs-layer><!--
 --> </rs-slide>
                                                                 </rs-slides>
@@ -1614,9 +1612,9 @@
                                                 <div class="vc_column-inner">
                                                     <div class="wpb_wrapper">
                                                         <h2 style="font-size: 36px;color: #ffffff;line-height: 44px;text-align: center"
-                                                            class="vc_custom_heading">quality construction. inspired
-                                                            design.<br />
-                                                            unparalleled experience. exemplary service.</h2>
+                                                            class="vc_custom_heading">in-house teams. predictable
+                                                            timelines.<br />
+                                                            transparent costing. lasting structure.</h2>
                                                         <div class="vc_empty_space" style="height: 15px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                         <div class="wpb_text_column wpb_content_element ">
@@ -1670,10 +1668,10 @@
                                                                                 alt="bg-ab4"
                                                                                 title="bg-ab4" /></noscript>
                                                                         <h3 class="box-title">
-                                                                            <span>QC</span>
+                                                                            <span>IH</span>
                                                                             <span class="box-subtitle">
-                                                                                You will have quality professionals
-                                                                                working on your project. </span>
+                                                                                You will have in-house 
+                                                                                experts building your project. </span>
                                                                         </h3>
 
                                                                     </a>
@@ -1699,10 +1697,10 @@
                                                                                 alt="Image by @katethielicke Unsplash"
                                                                                 title="p2" /></noscript>
                                                                         <h3 class="box-title">
-                                                                            <span>ID</span>
+                                                                            <span>EP</span>
                                                                             <span class="box-subtitle">
-                                                                                From idea creation to finished work, we
-                                                                                turn your dream into reality! </span>
+                                                                                From idea creation to finished work, 
+                                                                                we turn your dream into reality! </span>
                                                                         </h3>
 
                                                                     </a>
@@ -1728,10 +1726,10 @@
                                                                                 alt="b3"
                                                                                 title="b3" /></noscript>
                                                                         <h3 class="box-title">
-                                                                            <span>UE</span>
+                                                                            <span>EX</span>
                                                                             <span class="box-subtitle">
-                                                                                With 30 years of experience in the
-                                                                                construction industry. </span>
+                                                                                With 14+ years of excellence 
+                                                                                in the construction industry.</span>
                                                                         </h3>
 
                                                                     </a>
@@ -1757,11 +1755,10 @@
                                                                                 alt="bg_ab"
                                                                                 title="bg_ab" /></noscript>
                                                                         <h3 class="box-title">
-                                                                            <span>ES</span>
+                                                                            <span>CP</span>
                                                                             <span class="box-subtitle">
-                                                                                Bedi Buildwell providing clients a
-                                                                                complete
-                                                                                service package. </span>
+                                                                                Bedi Buildwell delivering clients 
+                                                                                a complete construction package.</span>
                                                                         </h3>
 
                                                                     </a>
@@ -1791,9 +1788,9 @@
                                                         <div class="vc_empty_space" style="height: 15px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                         <p style="font-size: 21px;color: #7f7f7f;line-height: 26px;text-align: center"
-                                                            class="vc_custom_heading">Bedi Buildwell is dedicated to
-                                                            being a partner<br />
-                                                            for all of your construction needs.</p>
+                                                            class="vc_custom_heading">Bedi Buildwell is committed to providing predictable, <br/>
+                                                             high-quality solutions for every one of your construction projects.
+                                                            </p>
                                                         <div class="vc_empty_space" style="height: 50px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                     </div>
@@ -1813,7 +1810,7 @@
                                                                     <div class="box-header">
                                                                         <div class="box-icon"><i
                                                                                 class="hank-pantone"></i></div>
-                                                                        <h3 class="box-title">We plan with ingenuity
+                                                                        <h3 class="box-title">WE DESIGN WITH PRECISION
                                                                         </h3>
                                                                     </div>
                                                                     <div class="box-content">
@@ -1830,7 +1827,7 @@
                                                                     <div class="box-header">
                                                                         <div class="box-icon"><i
                                                                                 class="hank-ruler-pencil"></i></div>
-                                                                        <h3 class="box-title">We build with integrity
+                                                                        <h3 class="box-title">we build with discipline
                                                                         </h3>
                                                                     </div>
                                                                     <div class="box-content">
@@ -1847,7 +1844,7 @@
                                                                     <div class="box-header">
                                                                         <div class="box-icon"><i
                                                                                 class="hank-layers-2"></i></div>
-                                                                        <h3 class="box-title">We manage with assurance
+                                                                        <h3 class="box-title">We manage with expertise
                                                                         </h3>
                                                                     </div>
                                                                     <div class="box-content">
@@ -1857,7 +1854,7 @@
                                                                         <p class="box-readmore">
                                                                             <a
                                                                                 href="{{ route('experience') }}#services">Click
-                                                                                here to Explore Facility Services.</a>
+                                                                                here to explore project services</a>
                                                                         </p>
                                                                     </div>
                                                                 </div>
@@ -1868,12 +1865,12 @@
                                                                 class="vc_empty_space_inner"></span></div>
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
-                                                                <p><strong class="badge style2">Important</strong> This
-                                                                    is a new service – your <span
+                                                                <p><strong class="badge style2">Important</strong> We're strengthening
+                                                                    our systems – your <span
                                                                         style="color: #000000;"><a class="link"
                                                                             style="color: #000000;"
                                                                             href="{{ route('contact') }}/">feedback</a></span>
-                                                                    will help us to improve it. Thank you!</p>
+                                                                    guides us toward delivering clearer, more reliable projects.</p>
 
                                                             </div>
                                                         </div>
@@ -2384,15 +2381,16 @@
                                                         <div class="testimonial ">
                                                             <div class="testimonial-content">
                                                                 <blockquote>
-                                                                    <p>good buildings come from good people, and all
-                                                                        problems are solved by good design.</p>
+                                                                    <p>Enduring buildings come from experienced hands, 
+                                                                        and lasting confidence is created through transparent 
+                                                                        systems and thoughtful execution.</p>
                                                                 </blockquote>
                                                             </div>
                                                             <div class="testimonial-meta">
                                                                 <div class="testimonial-author">
-                                                                    <strong class="author-name">John Doe</strong>
+                                                                    <strong class="author-name">Sukrit Singh Bedi</strong>
                                                                     <div class="author-info"><span
-                                                                            class="subtitle">CEO</span> <span
+                                                                            class="subtitle">Proprietor</span> <span
                                                                             class="divider">-</span> <span
                                                                             class="company">Bedi Buildwell</span>
                                                                     </div>
@@ -2416,10 +2414,9 @@
                                                     <div class="wpb_wrapper">
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
-                                                                <h6 class="badge">People</h6>
-                                                                <p style="display: inline;">United by a common goal
-                                                                    and passion for people, our project team is second
-                                                                    to none.</p>
+                                                                <h6 class="badge">Team</h6>
+                                                                <p style="display: inline;">United by shared values & disciplined execution, 
+                                                                    our in-house team brings consistency to every project we build.</p>
 
                                                             </div>
                                                         </div>
@@ -2467,20 +2464,20 @@
                                                                 <div class="iconlist-item-icon"><i
                                                                         class="hank-d-check"></i></div>
                                                                 <div class="iconlist-item-content"><strong>Partners in
-                                                                        your dream</strong></div>
+                                                                        your build</strong></div>
                                                             </li>
                                                             <li>
                                                                 <div class="iconlist-item-icon"><i
                                                                         class="hank-d-check"></i></div>
                                                                 <div class="iconlist-item-content"><strong>Committed
-                                                                        to your success</strong></div>
+                                                                        to your project</strong></div>
                                                             </li>
                                                             <li>
                                                                 <div class="iconlist-item-icon"><i
                                                                         class="hank-d-check"></i></div>
                                                                 <div class="iconlist-item-content"><strong>The Bedi
                                                                         Buildwell
-                                                                        experience</strong></div>
+                                                                        difference</strong></div>
                                                             </li>
                                                             <li>
                                                                 <div class="iconlist-item-icon"><i
@@ -2492,23 +2489,21 @@
                                                                 <div class="iconlist-item-icon"><i
                                                                         class="hank-d-check"></i></div>
                                                                 <div class="iconlist-item-content"><strong>Right team
-                                                                        &#8211; right experience</strong></div>
+                                                                        &#8211; right execution</strong></div>
                                                             </li>
                                                             <li>
                                                                 <div class="iconlist-item-icon"><i
                                                                         class="hank-d-check"></i></div>
                                                                 <div class="iconlist-item-content"><strong>We will be
-                                                                        honest and fair</strong></div>
+                                                                        honest and transparent</strong></div>
                                                             </li>
                                                         </ul>
                                                         <div class="vc_empty_space" style="height: 40px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
-                                                                <p style="text-align: center;">Partners in your dream,
-                                                                    committed to your success – that is the Bedi
-                                                                    Buildwell
-                                                                    difference.</p>
+                                                                <p style="text-align: center;">Partners in your build, committed to every detail — that is the trusted 
+                                                                    Bedi Buildwell difference.</p>
 
                                                             </div>
                                                         </div>
@@ -2729,14 +2724,15 @@
                                                 <div class="vc_column-inner">
                                                     <div class="wpb_wrapper">
                                                         <h2 style="font-size: 64px;line-height: 64px;text-align: center"
-                                                            class="vc_custom_heading"><strong>should know about
-                                                                us</strong></h2>
+                                                            class="vc_custom_heading"><strong>how we build 
+                                                                differently
+                                                                </strong></h2>
                                                         <div class="vc_empty_space" style="height: 15px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                         <p style="font-size: 21px;color: #7f7f7f;line-height: 26px;text-align: center"
-                                                            class="vc_custom_heading">It’s not just what we build that
+                                                            class="vc_custom_heading">It’s not just how we build that
                                                             makes<br />
-                                                            us the right partner to work with.</p>
+                                                            us the right partner for your construction needs.</p>
                                                         <div class="vc_empty_space" style="height: 50px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                     </div>

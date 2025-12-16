@@ -1239,9 +1239,9 @@
                                                 <div class="vc_column-inner">
                                                     <div class="wpb_wrapper">
                                                         <div style="font-size: 40px;color: #ffffff;line-height: 44px;text-align: left"
-                                                            class="vc_custom_heading">purpose. principles.
-                                                            culture.<br />
-                                                            <strong>we're Hank construction company.</strong>
+                                                            class="vc_custom_heading">planning. process.
+                                                            precision.<br />
+                                                            <strong>we're Bedi Buildwell company.</strong>
                                                         </div>
                                                         <div class="vc_empty_space" style="height: 20px"><span
                                                                 class="vc_empty_space_inner"></span></div>
@@ -1258,10 +1258,10 @@
                                                     <div class="wpb_wrapper">
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
-                                                                <p><span style="color: #b7b7b7;">Having a dream of
-                                                                        being a general contractor to build spectacular
-                                                                        houses, I have started my journey working with a
-                                                                        construction company in the year 1988.</span>
+                                                                <p><span style="color: #b7b7b7;">Driven by a vision to bring reliable,
+                                                                    high-quality construction to our clients, we began our 
+                                                                    journey building G+4 projects with our in-house team in Delhi NCR in 2012.
+                                                                    </span>
                                                                 </p>
 
                                                             </div>
@@ -1345,12 +1345,12 @@
                                                 <div class="vc_column-inner">
                                                     <div class="wpb_wrapper">
                                                         <h2 style="font-size: 64px;line-height: 64px;text-align: center"
-                                                            class="vc_custom_heading"><strong>we're Bedi Buildwell Group.</strong></h2>
+                                                            class="vc_custom_heading"><strong>we're Bedi Buildwell.</strong></h2>
                                                         <div class="vc_empty_space" style="height: 15px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                         <p style="font-size: 21px;line-height: 26px;text-align: center"
-                                                            class="vc_custom_heading">Bedi Buildwell Group is built on three
-                                                            pillars: People, Process and Partnership.</p>
+                                                            class="vc_custom_heading">Bedi Buildwell is built on three pillars: People, Precision 
+                                                            and Performance across every build.</p>
                                                         <div class="vc_empty_space" style="height: 70px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                         <ul class="iconlist iconlist iconlist-icon-large columns-3">
@@ -1359,15 +1359,11 @@
                                                                         class="hank-chess-knight"></i></div>
                                                                 <div class="iconlist-item-content">
                                                                     <h3>our people.</h3>
-                                                                    <p><span style="color: #7f7f7f;">Are the most
-                                                                            dedicated and skilled builders in the
-                                                                            country. We develop and nurture “homegrown”
-                                                                            talent – the average tenure of a Hank
-                                                                            employee is 20 years – that allows us to
-                                                                            pass down knowledge to each new generation,
-                                                                            and allows our employees to develop into
-                                                                            masters of their craft through years of
-                                                                            experience.</span></p>
+                                                                    <p><span style="color: #7f7f7f;">Our people are the backbone of every build.
+                                                                         With an in-house team of skilled masons, engineers and supervisors, each 
+                                                                         project moves with steady quality and full accountability. Their shared experience, 
+                                                                         clear communication and ownership ensure reliable workmanship, transparent updates 
+                                                                         and the confidence that every structure is built with genuine care.</span></p>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -1375,30 +1371,22 @@
                                                                         class="hank-ruler-pencil"></i></div>
                                                                 <div class="iconlist-item-content">
                                                                     <h3>our process.</h3>
-                                                                    <p><span style="color: #7f7f7f;">Developed in close
-                                                                            collaboration with our partners and clients,
-                                                                            combines industry knowledge, decades of
-                                                                            experience, ingenuity and adaptability to
-                                                                            deliver excellence to our clients. Whether
-                                                                            it’s a medical facility in Florida, an
-                                                                            office park in Denver or an airport terminal
-                                                                            in San Francisco, our process is
-                                                                            uniform.</span></p>
+                                                                    <p><span style="color: #7f7f7f;">Our process blends technical expertise, 
+                                                                        structured planning and transparent execution to deliver predictable results. 
+                                                                        Each stage is monitored and aligned with quality checks and coordinated teams. 
+                                                                        Whether building G+4 structures or completing renovations, we plan precisely, execute 
+                                                                        consistently and communicate clearly to keep timelines steady and budgets controlled.</span></p>
                                                                 </div>
                                                             </li>
                                                             <li>
                                                                 <div class="iconlist-item-icon"><i
                                                                         class="hank-privacy-policy"></i></div>
                                                                 <div class="iconlist-item-content">
-                                                                    <h3>partnership.</h3>
-                                                                    <p><span style="color: #7f7f7f;">We have
-                                                                            longstanding relationships with our clients
-                                                                            and our partners – from subcontractors to
-                                                                            craft specialists to financing and beyond.
-                                                                            We’ve developed these relationships based on
-                                                                            mutual respect and earned trust. We work
-                                                                            only with trusted professional partners, all
-                                                                            of whom are well-versed in the Hank.</span>
+                                                                    <h3>performance.</h3>
+                                                                    <p><span style="color: #7f7f7f;">Performance reflects the strength of our people and process. 
+                                                                        With in-house teams and refined systems, we deliver stable timelines, controlled costs and 
+                                                                        lasting structures. Every milestone is monitored and communicated clearly, ensuring clients 
+                                                                        receive predictable results and buildings that stand strong long after the project is complete.</span>
                                                                     </p>
                                                                 </div>
                                                             </li>
@@ -1682,9 +1670,9 @@
                                                 <div class="vc_column-inner">
                                                     <div class="wpb_wrapper">
                                                         <h2 style="font-size: 36px;line-height: 44px;text-align: center"
-                                                            class="vc_custom_heading">a history of excellence - from
-                                                            one man’s<br />
-                                                            dream to one of america’s most successful contractors</h2>
+                                                            class="vc_custom_heading">a legacy of reliability - from
+                                                            one vision<br />
+                                                            in Delhi NCR to a trusted name in construction</h2>
                                                         <div class="vc_empty_space" style="height: 20px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                         <div class="wpb_text_column wpb_content_element ">
@@ -1735,16 +1723,14 @@
                                                                                     height="280"
                                                                                     srcset="https://live.21lab.co/hank/wp-content/uploads/2019/12/t1.jpg 600w, https://live.21lab.co/hank/wp-content/uploads/2019/12/t1-300x140.jpg 300w"
                                                                                     sizes="(max-width: 600px) 100vw, 600px" /></noscript><br />
-                                                                            Hank Construction Company wins the
-                                                                            prestigious MBI Outstanding Company Safety
-                                                                            Achievement Award</p>
+                                                                            Bedi Buildwell has now achieved 25+ successful projects, hundrends of satisfied families in Delhi NCR and joined BNI, demonstrating the credibility earned so far.</p>
 
                                                                     </div>
                                                                 </div>
 
                                                                 <div class="wpb_text_column wpb_content_element ">
                                                                     <div class="wpb_wrapper">
-                                                                        <p class="title">May 2014</p>
+                                                                        <p class="title">2021</p>
                                                                         <p><img decoding="async"
                                                                                 class="alignnone wp-image-401 size-full"
                                                                                 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20280'%3E%3C/svg%3E"
@@ -1760,15 +1746,15 @@
                                                                                     height="280"
                                                                                     srcset="https://live.21lab.co/hank/wp-content/uploads/2019/12/t2.jpg 600w, https://live.21lab.co/hank/wp-content/uploads/2019/12/t2-300x140.jpg 300w"
                                                                                     sizes="(max-width: 600px) 100vw, 600px" /></noscript><br />
-                                                                            Hank Construction builds its first
-                                                                            industrial warehouse.</p>
+                                                                            Bedi Buildwell obtains MSME registration enhancing credibility and supporting ongoing business development.
+                                                                            </p>
 
                                                                     </div>
                                                                 </div>
 
                                                                 <div class="wpb_text_column wpb_content_element ">
                                                                     <div class="wpb_wrapper">
-                                                                        <p class="title">Feb 2010</p>
+                                                                        <p class="title">2019</p>
                                                                         <p><img decoding="async"
                                                                                 class="alignnone wp-image-402 size-full"
                                                                                 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20280'%3E%3C/svg%3E"
@@ -1784,16 +1770,14 @@
                                                                                     height="280"
                                                                                     srcset="https://live.21lab.co/hank/wp-content/uploads/2019/12/t3.jpg 600w, https://live.21lab.co/hank/wp-content/uploads/2019/12/t3-300x140.jpg 300w"
                                                                                     sizes="(max-width: 600px) 100vw, 600px" /></noscript><br />
-                                                                            The Hank Mentality Award is established to
-                                                                            honor employees who exemplify Hank&#8217;s
-                                                                            core values</p>
+                                                                            Bedi Buildwell secures trademark registration protecting its identity across all construction services.</p>
 
                                                                     </div>
                                                                 </div>
 
                                                                 <div class="wpb_text_column wpb_content_element ">
                                                                     <div class="wpb_wrapper">
-                                                                        <p class="title">Jan 2008</p>
+                                                                        <p class="title">2018</p>
                                                                         <p><img decoding="async"
                                                                                 class="alignnone wp-image-403 size-full"
                                                                                 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20280'%3E%3C/svg%3E"
@@ -1809,8 +1793,7 @@
                                                                                     height="280"
                                                                                     srcset="https://live.21lab.co/hank/wp-content/uploads/2019/12/t4.jpg 600w, https://live.21lab.co/hank/wp-content/uploads/2019/12/t4-300x140.jpg 300w"
                                                                                     sizes="(max-width: 600px) 100vw, 600px" /></noscript><br />
-                                                                            Begins building first replacement and USDA
-                                                                            funded hospital at Ringgold County Hospital
+                                                                                    Bedi Buildwell receives GST registration strengthening compliance within the construction sector.
                                                                         </p>
 
                                                                     </div>
@@ -1818,7 +1801,7 @@
 
                                                                 <div class="wpb_text_column wpb_content_element ">
                                                                     <div class="wpb_wrapper">
-                                                                        <p class="title">Apr 2005</p>
+                                                                        <p class="title">2017</p>
                                                                         <p><img decoding="async"
                                                                                 class="alignnone wp-image-404 size-full"
                                                                                 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20280'%3E%3C/svg%3E"
@@ -1834,15 +1817,14 @@
                                                                                     height="280"
                                                                                     srcset="https://live.21lab.co/hank/wp-content/uploads/2019/12/t5.jpg 600w, https://live.21lab.co/hank/wp-content/uploads/2019/12/t5-300x140.jpg 300w"
                                                                                     sizes="(max-width: 600px) 100vw, 600px" /></noscript><br />
-                                                                            Starts doing work in Cedar Rapids at St.
-                                                                            Luke’s Hospital</p>
+                                                                            Bedi Buildwell completes its tenth full project demonstrating growth in construction expertise.</p>
 
                                                                     </div>
                                                                 </div>
 
                                                                 <div class="wpb_text_column wpb_content_element ">
                                                                     <div class="wpb_wrapper">
-                                                                        <p class="title">Mar 1999</p>
+                                                                        <p class="title">2014</p>
                                                                         <p><img decoding="async"
                                                                                 class="alignnone wp-image-405 size-full"
                                                                                 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20280'%3E%3C/svg%3E"
@@ -1858,15 +1840,15 @@
                                                                                     height="280"
                                                                                     srcset="https://live.21lab.co/hank/wp-content/uploads/2019/12/t6.jpg 600w, https://live.21lab.co/hank/wp-content/uploads/2019/12/t6-300x140.jpg 300w"
                                                                                     sizes="(max-width: 600px) 100vw, 600px" /></noscript><br />
-                                                                            Begins first Private Education project at
-                                                                            Simpson College</p>
+                                                                                Bedi Buildwell completes its first full project marking the start of operations.
+                                                                        </p>
 
                                                                     </div>
                                                                 </div>
 
                                                                 <div class="wpb_text_column wpb_content_element ">
                                                                     <div class="wpb_wrapper">
-                                                                        <p class="title">Dec 1988</p>
+                                                                        <p class="title">2012</p>
                                                                         <p><img decoding="async"
                                                                                 class="alignnone wp-image-406 size-full"
                                                                                 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20280'%3E%3C/svg%3E"
@@ -1882,10 +1864,8 @@
                                                                                     height="280"
                                                                                     srcset="https://live.21lab.co/hank/wp-content/uploads/2019/12/t7.jpg 600w, https://live.21lab.co/hank/wp-content/uploads/2019/12/t7-300x140.jpg 300w"
                                                                                     sizes="(max-width: 600px) 100vw, 600px" /></noscript><br />
-                                                                            Hank is founded, and begins the first
-                                                                            medical construction project for Mercy
-                                                                            Campus which still to this day is a current
-                                                                            client.</p>
+                                                                                Bedi Buildwell is founded and begins its journey delivering projects across Delhi.    
+                                                                            </p>
 
                                                                     </div>
                                                                 </div>
