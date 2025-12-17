@@ -243,7 +243,7 @@
         </a>
         <p class="whatsapp-powered">Powered by MargX</p>
     </div>
-    <button class="whatsapp-float" id="whatsapp-float" aria-label="Toggle WhatsApp chat" type="button">
+    <a class="whatsapp-float" id="whatsapp-float" aria-label="Chat on WhatsApp" href="https://wa.me/919990116198" target="_blank" rel="noopener noreferrer">
         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M16 0C7.164 0 0 7.164 0 16c0 2.825.74 5.47 2.037 7.76L0 32l8.496-1.984C10.696 31.64 13.24 32 16 32c8.836 0 16-7.164 16-16S24.836 0 16 0zm0 28.8c-2.24 0-4.352-.592-6.176-1.632l-.352-.208-3.52.824.84-3.424-.224-.368A12.768 12.768 0 013.2 16c0-7.072 5.728-12.8 12.8-12.8S28.8 8.928 28.8 16 23.072 28.8 16 28.8z" fill="white"/>
             <path d="M24.128 20.928c-.32.896-1.6 1.664-2.624 1.888-.64.144-1.472.256-4.256-.96-3.424-1.504-5.632-4.896-5.808-5.12-.176-.224-1.44-1.92-1.44-3.664 0-1.744.896-2.592 1.216-2.944.32-.352.704-.448.944-.448.224 0 .448.016.64.016.224 0 .512-.032.8.576.32.704 1.088 2.72 1.184 2.912.096.192.16.416.048.672-.112.256-.176.416-.352.64-.176.224-.352.48-.512.672-.176.192-.352.4-.16.768.192.368.864 1.408 1.856 2.272 1.28 1.12 2.368 1.472 2.72 1.632.352.16.56.128.768-.096.208-.224.896-1.04 1.136-1.408.24-.368.48-.304.8-.176.32.128 2.032.96 2.384 1.136.352.176.592.272.672.432.08.16.08.928-.24 1.824z" fill="white"/>
@@ -527,13 +527,13 @@
             clearTimeout(hideTimeout);
         }
         
-        // Toggle chat bubble on WhatsApp button click
+        // Toggle chat bubble on WhatsApp button click (desktop/tablet).
+        // On mobile, this element is a normal link to WhatsApp (wa.me).
         if (whatsappBtn) {
             whatsappBtn.addEventListener('click', function(e) {
-                e.preventDefault();
-                e.stopPropagation();
-                
                 if (chatBubble && window.innerWidth > 767) {
+                    e.preventDefault();
+                    e.stopPropagation();
                     const isVisible = chatBubble.classList.contains('show') || chatBubble.style.display === 'block';
                     if (isVisible) {
                         hideChatBubble();

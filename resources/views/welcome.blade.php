@@ -1296,7 +1296,7 @@
                                                 <div class="vc_column-inner">
                                                     <div class="wpb_wrapper">
                                                         <h2 style="font-size: 40px;color: #ffffff;line-height: 44px;text-align: left"
-                                                            class="vc_custom_heading">where quality, cost, and timelines finally align<br />
+                                                            class="vc_custom_heading">where quality, cost and timelines finally align<br />
                                                             <strong></strong></h2>
                                                         <div class="vc_empty_space" style="height: 20px"><span
                                                                 class="vc_empty_space_inner"></span></div>
