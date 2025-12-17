@@ -203,7 +203,7 @@
                     data-lazy-src="{{ asset('assets/logo_full_text_dark.svg') }}"><noscript><img
                         width="150" height="86" src="{{ asset('assets/logo_full_text_dark.svg') }}"
                         alt="logo"></noscript>
-                <p>Copyright © 2025 Bedi Buildwell. Designed and Developed by <a href="#">Takniv</a>
+                <p>Copyright © 2025 Bedi Buildwell. Designed and Developed by <a href="#">MargX</a>
                 </p>
             </div>
 
@@ -241,7 +241,7 @@
                 <path d="M6 12L10 8L6 4" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
         </a>
-        <p class="whatsapp-powered">Powered by Takniv</p>
+        <p class="whatsapp-powered">Powered by MargX</p>
     </div>
     <button class="whatsapp-float" id="whatsapp-float" aria-label="Toggle WhatsApp chat" type="button">
         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">

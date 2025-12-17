@@ -1225,9 +1225,9 @@
                                                         <div class="vc_empty_space" style="height: 15px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                         <p style="font-size: 21px;color: #b7b7b7;line-height: 26px;text-align: center"
-                                                            class="vc_custom_heading">We take pride in the expertise on
-                                                            many projects<br />
-                                                            throughout the United States.</p>
+                                                            class="vc_custom_heading">We take pride in delivering consistent,
+                                                            well-managed projects<br />
+                                                            across Delhi NCR.</p>
                                                         <div class="vc_empty_space" style="height: 30px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                         <div
@@ -1256,11 +1256,11 @@
                                                             <div class="counter-content">
                                                                 <span class="counter-prefix"></span>
                                                                 <span class="counter-value" data-from="0"
-                                                                    data-to="32" data-speed="1000">0</span>
+                                                                    data-to="14" data-speed="1000">0</span>
                                                                 <span class="counter-suffix">y</span>
                                                             </div>
-                                                            <div class="counter-title">Experience as a veteran-owned
-                                                                full-service construction firm</div>
+                                                            <div class="counter-title">Experience building reliable, code-compliant 
+                                                                homes across Delhi NCR.</div>
                                                         </div>
                                                         <div class="vc_empty_space" style="height: 30px"><span
                                                                 class="vc_empty_space_inner"></span></div>
@@ -1275,11 +1275,10 @@
                                                             <div class="counter-content">
                                                                 <span class="counter-prefix"></span>
                                                                 <span class="counter-value" data-from="0"
-                                                                    data-to="7" data-speed="1000">0</span>
-                                                                <span class="counter-suffix">/45</span>
+                                                                    data-to="25" data-speed="1000">0</span>
+                                                                <span class="counter-suffix">+</span>
                                                             </div>
-                                                            <div class="counter-title">Hank construction is
-                                                                consistently ranked on the top 45 contractors</div>
+                                                            <div class="counter-title">Completed projects delivered through in-house teams and disciplined project management.</div>
                                                         </div>
                                                         <div class="vc_empty_space" style="height: 30px"><span
                                                                 class="vc_empty_space_inner"></span></div>
@@ -1294,11 +1293,11 @@
                                                             <div class="counter-content">
                                                                 <span class="counter-prefix"></span>
                                                                 <span class="counter-value" data-from="0"
-                                                                    data-to="84" data-speed="1000">0</span>
-                                                                <span class="counter-suffix">k</span>
+                                                                    data-to="0" data-speed="1000">0</span>
+                                                                <span class="counter-suffix"></span>
                                                             </div>
-                                                            <div class="counter-title">84,296 manpower hours worked
-                                                                without any loss days or incidents in 2019</div>
+                                                            <div class="counter-title">Major site incidents, thanks to 
+                                                                trained teams, strict supervision, and a disciplined construction process.</div>
                                                         </div>
                                                         <div class="vc_empty_space" style="height: 30px"><span
                                                                 class="vc_empty_space_inner"></span></div>
@@ -1531,9 +1530,9 @@
                                                         <div class="vc_empty_space" style="height: 15px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                         <p style="font-size: 21px;color: #7f7f7f;line-height: 26px;text-align: center"
-                                                            class="vc_custom_heading">We develop, construct and
-                                                            maintain inspired landmarks<br />
-                                                            that turn our clients’ aspirations into reality.</p>
+                                                            class="vc_custom_heading">We plan, build, and manage residential projects<br />
+                                                            with disciplined execution that turns our clients’ vision into reality.
+                                                        </p>
                                                         <div class="vc_empty_space" style="height: 50px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                     </div>

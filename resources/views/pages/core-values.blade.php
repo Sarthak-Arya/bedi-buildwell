@@ -1191,8 +1191,8 @@
                                                 <div class="vc_column-inner">
                                                     <div class="wpb_wrapper">
                                                         <div style="font-size: 40px;color: #ffffff;line-height: 44px;text-align: left"
-                                                            class="vc_custom_heading">we have one mission to be<br />
-                                                            the <strong>Best Builder Company in US.</strong></div>
+                                                            class="vc_custom_heading">we have one mission <br />
+                                                            : to build with <strong>honesty, clarity, and consistency.</strong></div>
                                                         <div class="vc_empty_space" style="height: 20px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                     </div>
@@ -1208,11 +1208,9 @@
                                                     <div class="wpb_wrapper">
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
-                                                                <p><span style="color: #b7b7b7;">It’s a burning,
-                                                                        never-ending desire to help our clients maximize
-                                                                        their outcomes — and exceed their strategic
-                                                                        goals. Though our goal is a bit aspirational,
-                                                                        our values are what drive us every day.</span>
+                                                                <p><span style="color: #b7b7b7;">We work every day to deliver predictable 
+                                                                    results through in-house teams, clear systems, and genuine care. Our principles 
+                                                                    guide every decision, and every structure we deliver reflects the values we stand for.</span>
                                                                 </p>
 
                                                             </div>
@@ -1288,8 +1286,8 @@
                                                         <div class="vc_empty_space" style="height: 15px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                         <p style="font-size: 21px;line-height: 26px;text-align: center"
-                                                            class="vc_custom_heading">Make a difference in the lives of
-                                                            Our Customers, Employees and Community.</p>
+                                                            class="vc_custom_heading">Create lasting value for our clients, 
+                                                            our people, and the communities we proudly serve.</p>
                                                         <div class="vc_empty_space" style="height: 70px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                     </div>
@@ -1308,13 +1306,10 @@
                                                                         class="hank-factory"></i></div>
                                                                 <div class="iconlist-item-content">
                                                                     <h3>customers.</h3>
-                                                                    <p><span style="color: #7f7f7f;">We provide
-                                                                            attentive and detailed construction
-                                                                            management services. We use our extensive
-                                                                            industry experience and current technology
-                                                                            to service our clients while remaining
-                                                                            sensitive to an ever-changing
-                                                                            environment.</span></p>
+                                                                    <p><span style="color: #7f7f7f;">We provide transparent and dependable 
+                                                                        construction services. Our in-house expertise and proven systems 
+                                                                        help clients navigate every stage confidently while ensuring quality, 
+                                                                        clarity, and steady progress through an industry that is constantly evolving.</span></p>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -1322,13 +1317,11 @@
                                                                         class="hank-privacy-policy"></i></div>
                                                                 <div class="iconlist-item-content">
                                                                     <h3>employees.</h3>
-                                                                    <p><span style="color: #7f7f7f;">To our dedicated
-                                                                            employees we provide an open work
-                                                                            environment that promises to nurture
-                                                                            creativity, tolerance, professional
-                                                                            development, safety, and a family
-                                                                            environment. We strive to bring diversity
-                                                                            into the workplace.</span></p>
+                                                                    <p><span style="color: #7f7f7f;">We provide a 
+                                                                        supportive workplace that encourages learning, ownership, and 
+                                                                        professional growth. We foster collaboration, safety, mutual respect, 
+                                                                        and long-term development so every individual advances confidently within our 
+                                                                        organization.</span></p>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -1336,13 +1329,10 @@
                                                                         class="hank-new-construction"></i></div>
                                                                 <div class="iconlist-item-content">
                                                                     <h3>community.</h3>
-                                                                    <p><span style="color: #7f7f7f;">To our community
-                                                                            we have a strong commitment to providing
-                                                                            opportunities to local residents &amp;
-                                                                            women-owned businesses in the community to
-                                                                            work with us as employees or subcontractors
-                                                                            &amp; contribute to our collective
-                                                                            success.</span></p>
+                                                                    <p><span style="color: #7f7f7f;">We stay committed through sewa; supporting 
+                                                                        local workers, uplifting families, and sponsoring meaningful initiatives. Guided by Sikh 
+                                                                        values of service and honesty, we continue contributing steadily, building trust through 
+                                                                        actions that genuinely improve lives around us.</span></p>
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -1372,17 +1362,17 @@
                                                         <div class="testimonial ">
                                                             <div class="testimonial-content">
                                                                 <blockquote>
-                                                                    <p>good buildings come from good people, and all
-                                                                        problems are solved by good design.</p>
+                                                                    <p>enduring structures come from humble hands, and 
+                                                                        challenges ease when guided by honest, responsible design.</p>
                                                                 </blockquote>
                                                             </div>
                                                             <div class="testimonial-meta">
                                                                 <div class="testimonial-author">
-                                                                    <strong class="author-name">John Doe</strong>
+                                                                    <strong class="author-name">Sukrit Singh Bedi</strong>
                                                                     <div class="author-info"><span
-                                                                            class="subtitle">CEO</span> <span
+                                                                            class="subtitle">Proprietor</span> <span
                                                                             class="divider">-</span> <span
-                                                                            class="company">Hank Construction</span>
+                                                                            class="company">Bedi Buildwell</span>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1432,7 +1422,7 @@
                                                                 class="vc_empty_space_inner"></span></div>
                                                         <p style="font-size: 21px;color: #b7b7b7;line-height: 26px;text-align: center"
                                                             class="vc_custom_heading">Our core values are the
-                                                            foundation by which Hank Construction was built.</p>
+                                                            foundation on which Bedi Buildwell continues to grow.</p>
                                                         <div class="vc_empty_space" style="height: 70px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                     </div>
@@ -1451,10 +1441,9 @@
                                                                         class="hank-d-check"></i></div>
                                                                 <div class="iconlist-item-content">
                                                                     <h3>teamwork.</h3>
-                                                                    <p><span style="color: #999;">We recognize our
-                                                                            primary asset is people. We work with our
-                                                                            clients as a team. Mutual respect provides
-                                                                            the foundation for our success.</span></p>
+                                                                    <p><span style="color: #999;">Our strength is our people. With clients, 
+                                                                        partners, and our in-house team working as one, every project moves 
+                                                                        with clarity, respect, and a shared commitment to smooth execution.</span></p>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -1462,11 +1451,10 @@
                                                                         class="hank-d-check"></i></div>
                                                                 <div class="iconlist-item-content">
                                                                     <h3>intergity.</h3>
-                                                                    <p><span style="color: #999;">We abide by the
-                                                                            Biblical principle that our “yes is yes” and
-                                                                            our “no is no”. When we make a commitment or
-                                                                            an agreement, we will always follow
-                                                                            through</span></p>
+                                                                    <p><span style="color: #999;">We hold ourselves to honest, 
+                                                                        transparent commitment. When we agree to a timeline, cost, 
+                                                                        or process, we stand by it. Guided by our principles and Sikh values, 
+                                                                        we ensure every promise made is a promise delivered.</span></p>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -1474,11 +1462,9 @@
                                                                         class="hank-d-check"></i></div>
                                                                 <div class="iconlist-item-content">
                                                                     <h3>excellence.</h3>
-                                                                    <p><span style="color: #999;">Skillfully execute
-                                                                            our work, utilizing innovation and
-                                                                            ingenuity, so that we provide a high-quality
-                                                                            finished product and excellent customer
-                                                                            service.</span></p>
+                                                                    <p><span style="color: #999;">We pursue excellence through disciplined systems, 
+                                                                        skilled workmanship, and continuous refinement, delivering high-quality structures 
+                                                                        and a dependable experience, project after project.</span></p>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -1486,7 +1472,7 @@
                                                                         class="hank-d-check"></i></div>
                                                                 <div class="iconlist-item-content">
                                                                     <h3>safety.</h3>
-                                                                    <p><span style="color: #999;">At Hank Construction,
+                                                                    <p><span style="color: #999;">At Bedi Buildwell,
                                                                             we are dedicated to maintaining a safe work
                                                                             environment for our employees, our
                                                                             subcontractors, our clients and the general
@@ -1552,13 +1538,12 @@
                                                                 class="vc_empty_space_inner"></span></div>
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
-                                                                <p><strong>We Have One Goal: To be the Best Builder in
-                                                                        America. </strong><span
-                                                                        style="color: #7f7f7f;">It’s a burning,
-                                                                        never-ending desire to help our clients maximize
-                                                                        their outcomes — and exceed their strategic
-                                                                        goals. Though our goal is a bit aspirational,
-                                                                        our values are what drive us every day.</span>
+                                                                <p><strong>We Have One Goal: To Build With 
+                                                                    Integrity and Predictability. </strong><span
+                                                                        style="color: #7f7f7f;">Our mission is to make construction clearer, 
+                                                                        calmer, and more dependable for every client. With an in-house team, 
+                                                                        disciplined planning, and transparent systems, we deliver projects that 
+                                                                        stay on quality, on cost, and on time, exactly as promised.</span>
                                                                 </p>
 
                                                             </div>
@@ -1593,14 +1578,12 @@
                                                                 class="vc_empty_space_inner"></span></div>
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
-                                                                <p><span style="color: #7f7f7f;">The firm strives to
-                                                                        maintain project diversity as it continues to
-                                                                        expand its construction activities, constructing
-                                                                        corporate interiors, renovating existing
-                                                                        properties and aiming to increase its
-                                                                        participation in building ground-up, high-design
-                                                                        residential apartments, condominiums and
-                                                                        hotels.</span></p>
+                                                                <p><strong>To Become the Most Trusted Name in Residential Construction in Delhi NCR. </strong><span
+                                                                        style="color: #7f7f7f;">Our vision is to create durable, compliant homes through skilled 
+                                                                        workmanship and clear systems. As we strengthen our G+4, renovation, and PMC offerings, 
+                                                                        we aim to set a new standard for reliability, where clients always know their project is in 
+                                                                        responsible hands.</span>
+                                                                </p>
 
                                                             </div>
                                                         </div>

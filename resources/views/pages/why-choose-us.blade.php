@@ -1229,11 +1229,11 @@
                                                     <div class="wpb_wrapper">
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
-                                                                <p><span style="color: #b7b7b7;">For 32 years, Hank has
-                                                                        been delivering quality products and services
-                                                                        &#8211; making us the preferred partner for
-                                                                        transportation and heavy civil construction
-                                                                        projects.</span></p>
+                                                                <p><span style="color: #b7b7b7;">For over a decade, Bedi Buildwell has 
+                                                                    delivered reliable 
+                                                                    construction services, making us a trusted 
+                                                                    partner for residential projects, renovations, 
+                                                                    and structured G+4 developments.</span></p>
 
                                                             </div>
                                                         </div>
@@ -1328,7 +1328,7 @@
                                                                         <h4 class="box-title">ethics</h4>
                                                                     </div>
                                                                     <div class="box-content">
-                                                                        <p>Integrity is one of Hank’s core values – we
+                                                                        <p>Integrity is one of Bedi Buildwell’s core values, we
                                                                             are committed to acting beyond reproach in
                                                                             all matters and to doing what is legal,
                                                                             moral, and ethical.</p>
@@ -1343,10 +1343,8 @@
                                                                         <h4 class="box-title">quality</h4>
                                                                     </div>
                                                                     <div class="box-content">
-                                                                        <p>We has a reputation for delivering quality
-                                                                            products and services. That’s because our
-                                                                            employees work together to deliver a quality
-                                                                            product the first time.</p>
+                                                                        <p>We have a reputation for delivering consistent construction quality. Our in-house team works together with discipline to 
+                                                                            ensure every project is built right the first time.</p>
 
 
                                                                     </div>
@@ -1358,10 +1356,9 @@
                                                                         <h4 class="box-title">environmental</h4>
                                                                     </div>
                                                                     <div class="box-content">
-                                                                        <p>Hank is committed to conducting business in
-                                                                            an environmentally responsible way. By
-                                                                            producing recycled materials and creating
-                                                                            innovative solutions.</p>
+                                                                        <p>Committed to building responsibly, 
+                                                                            using efficient materials, reducing waste, and applying 
+                                                                            thoughtful practices that support sustainable construction.</p>
 
 
                                                                     </div>
@@ -1373,10 +1370,9 @@
                                                                         <h4 class="box-title">experience</h4>
                                                                     </div>
                                                                     <div class="box-content">
-                                                                        <p>We believe that continual education and
-                                                                            on-site training is extremely important for
-                                                                            all of our staff and continually seek to be
-                                                                            the best in the industry.</p>
+                                                                        <p>We believe ongoing learning and on-site training 
+                                                                            strengthen our team, ensuring every project meets
+                                                                            the highest standards of workmanship.</p>
 
 
                                                                     </div>
@@ -1388,10 +1384,9 @@
                                                                         <h4 class="box-title">award-winning</h4>
                                                                     </div>
                                                                     <div class="box-content">
-                                                                        <p>Hank Construction are specialists in the
-                                                                            construction of beautiful projects and have
-                                                                            been recognised for it by industry
-                                                                            associations such as HIA and MBA.</p>
+                                                                        <p>Bedi Buildwell is known for dependable construction 
+                                                                            quality, supported by MSME registration, 
+                                                                            trademark approval, and recognition through BNI.</p>
 
 
                                                                     </div>
@@ -1560,15 +1555,15 @@
                                                         <div class="testimonial ">
                                                             <div class="testimonial-content">
                                                                 <blockquote>
-                                                                    <p>good buildings come from good people, and all
-                                                                        problems are solved by good design.</p>
+                                                                    <p>predictable outcomes come from honest communication, disciplined 
+                                                                        processes, and the skilled in-house teams behind every Bedi Buildwell project.</p>
                                                                 </blockquote>
                                                             </div>
                                                             <div class="testimonial-meta">
                                                                 <div class="testimonial-author">
                                                                     <strong class="author-name">Sukrit Singh Bedi</strong>
                                                                     <div class="author-info"><span
-                                                                            class="subtitle">CEO</span> <span
+                                                                            class="subtitle">Proprietor</span> <span
                                                                             class="divider"></span>- <span
                                                                             class="company">Bedi Buildwell Group</span>
                                                                     </div>

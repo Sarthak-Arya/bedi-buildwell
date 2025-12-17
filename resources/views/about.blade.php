@@ -1723,7 +1723,7 @@
                                                                                     height="280"
                                                                                     srcset="https://live.21lab.co/hank/wp-content/uploads/2019/12/t1.jpg 600w, https://live.21lab.co/hank/wp-content/uploads/2019/12/t1-300x140.jpg 300w"
                                                                                     sizes="(max-width: 600px) 100vw, 600px" /></noscript><br />
-                                                                            Bedi Buildwell has now achieved 25+ successful projects, hundrends of satisfied families in Delhi NCR and joined BNI, demonstrating the credibility earned so far.</p>
+                                                                            Bedi Buildwell has now achieved 25+ successful projects in Delhi NCR and joined BNI, demonstrating the credibility earned so far.</p>
 
                                                                     </div>
                                                                 </div>
@@ -1890,9 +1890,8 @@
                                                         <div class="vc_empty_space" style="height: 15px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                         <p style="font-size: 21px;color: #7f7f7f;line-height: 26px;text-align: center"
-                                                            class="vc_custom_heading">For 32 years, Hank has been
-                                                            delivering<br />
-                                                            quality products and services.</p>
+                                                            class="vc_custom_heading">For over a decade, Bedi Buildwell has been delivering reliable construction and services.
+                                                            </p>
                                                         <div class="vc_empty_space" style="height: 50px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                     </div>
@@ -1916,9 +1915,8 @@
                                                                         <h4 class="box-title">what we do</h4>
                                                                     </div>
                                                                     <div class="box-content">
-                                                                        <p>Our diverse portfolio represents decades of
-                                                                            construction experience backed by a passion
-                                                                            for quality.</p>
+                                                                        <p>Our work spans G+4 construction and renovations, 
+                                                                            delivered through in-house expertise and a commitment to quality.</p>
 
 
                                                                         <p class="box-readmore">
@@ -1935,9 +1933,8 @@
                                                                         <h4 class="box-title">how we do</h4>
                                                                     </div>
                                                                     <div class="box-content">
-                                                                        <p>As a diverse and innovative builder, we excel
-                                                                            at solving the industry’s toughest
-                                                                            challenges.</p>
+                                                                        <p>With skilled in-house teams and proven systems, 
+                                                                            we consistently solve construction challenges with clarity and precision.</p>
 
 
                                                                         <p class="box-readmore">
@@ -1952,9 +1949,8 @@
                                                                         <h4 class="box-title">why choose us</h4>
                                                                     </div>
                                                                     <div class="box-content">
-                                                                        <p>The age old question “why should we choose
-                                                                            you?” is one asked by clients worldwide, and
-                                                                            rightfully so.</p>
+                                                                        <p>The common question “why choose Bedi Buildwell?” reflects 
+                                                                            what clients value most: reliability, clarity, and builders who stand by their word.</p>
 
 
                                                                         <p class="box-readmore">
@@ -1966,7 +1962,7 @@
                                                             </div>
                                                         </div>
                                                         <!-- END: .elements-carousel -->
-                                                        <div class="vc_empty_space" style="height: 50px"><span
+                                                        <!--<div class="vc_empty_space" style="height: 50px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
@@ -1976,7 +1972,7 @@
                                                                     improve it. Thank you!</p>
 
                                                             </div>
-                                                        </div>
+                                                        </div>-->
                                                         <div class="vc_empty_space" style="height: 45px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                         <div

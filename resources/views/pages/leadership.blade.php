@@ -1220,8 +1220,8 @@
                                                 <div class="vc_column-inner">
                                                     <div class="wpb_wrapper">
                                                         <h2 style="font-size: 40px;color: #ffffff;line-height: 44px;text-align: left"
-                                                            class="vc_custom_heading">Bedi Buildwell Group's leaders are some of
-                                                            the hardest visionaries in the industry.</h2>
+                                                            class="vc_custom_heading">Bedi Buildwell’s clarity & discipline 
+                                                            guide every project with precision.</h2>
                                                         <div class="vc_empty_space" style="height: 20px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                     </div>
@@ -1237,11 +1237,8 @@
                                                     <div class="wpb_wrapper">
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
-                                                                <p><span style="color: #b7b7b7;">Hank’s leadership team
-                                                                        provides the vision that has propelled us from a
-                                                                        small construction company to a worldwide
-                                                                        diversified leader in a remarkably short period
-                                                                        of time.</span></p>
+                                                                <p><span style="color: #b7b7b7;">Our leadership upholds honesty, in-house skill, and steady growth, 
+                                                                    establishing Bedi Buildwell as a trusted construction partner across Delhi NCR.</span></p>
 
                                                             </div>
                                                         </div>
@@ -1327,18 +1324,18 @@
                                                         <div class="testimonial ">
                                                             <div class="testimonial-content">
                                                                 <blockquote>
-                                                                    <p>Our overall goal is to provide quality,
-                                                                        cost-efficient projects that leave a positive
-                                                                        experience for our clients.</p>
+                                                                    <p>Our leadership focuses on skilled in-house teams 
+                                                                        and clear systems, delivering predictable results 
+                                                                        and positive outcomes for every client.</p>
                                                                 </blockquote>
                                                             </div>
                                                             <div class="testimonial-meta">
                                                                 <div class="testimonial-author">
                                                                     <strong class="author-name">Sukrit Singh Bedi</strong>
                                                                     <div class="author-info"><span
-                                                                            class="subtitle">CEO</span> <span
+                                                                            class="subtitle">Proprietor</span> <span
                                                                             class="divider">-</span> <span
-                                                                            class="company">Bedi Buildwell Group</span>
+                                                                            class="company">Bedi Buildwell</span>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1393,8 +1390,8 @@
                                                         <div class="vc_empty_space" style="height: 15px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                         <p style="font-size: 21px;color: #7f7f7f;line-height: 26px;text-align: center"
-                                                            class="vc_custom_heading">The journey of building<br />
-                                                            Bedi Buildwell from the ground up.</p>
+                                                            class="vc_custom_heading">The journey of shaping<br />
+                                                            Bedi Buildwell with vision, commitment, purpose.</p>
                                                         <div class="vc_empty_space" style="height: 70px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                     </div>
@@ -1413,15 +1410,12 @@
                                                                     <div class="vc_empty_space" style="height: 20px"><span class="vc_empty_space_inner"></span></div>
                                                                     <h3 style="font-size: 32px; line-height: 1.2em; margin-bottom: 25px; color: #000000; text-align: center;">Our Founding Vision</h3>
                                                                     <p style="font-size: 18px; line-height: 1.8em; color: #666666; margin-bottom: 25px; text-align: justify;">
-                                                                        Bedi Buildwell was founded with a simple yet powerful vision: to transform the construction industry by delivering exceptional quality, unmatched integrity, and personalized service to every client. What started as a dream has grown into a trusted name in construction, built on the foundation of hard work, dedication, and an unwavering commitment to excellence.
+                                                                        Bedi Buildwell began with a clear intention: to make construction honest, predictable, and stress-free for homeowners. What started as a single project grew into a purpose to bring disciplined planning, skilled in-house teams, and transparent systems to an industry where uncertainty was once the norm.
                                                                     </p>
                                                                     <p style="font-size: 18px; line-height: 1.8em; color: #666666; margin-bottom: 25px; text-align: justify;">
-                                                                        From humble beginnings, our founder recognized that the construction industry needed a company that would prioritize the client's vision above all else. Every project, whether large or small, is approached with the same level of care, attention to detail, and passion that has become the hallmark of Bedi Buildwell.
-                                                                    </p>
+                                                                        Our founder believed every family deserved clarity, respect, and craftsmanship they could trust. That belief shaped the way we work today. Whether it’s a full G+4 build or a complete renovation, each project is approached with the same steady discipline, careful supervision, and genuine care for the people we’re building for.
                                                                     <p style="font-size: 18px; line-height: 1.8em; color: #666666; margin-bottom: 25px; text-align: justify;">
-                                                                        Today, we continue to honor that founding vision by maintaining the highest standards of craftsmanship, fostering long-term relationships with our clients, and building structures that stand the test of time. Our journey is a testament to what can be achieved when passion meets purpose, and we remain committed to building not just structures, but dreams.
-                                                                    </p>
-                                                                    <div class="vc_empty_space" style="height: 30px"><span class="vc_empty_space_inner"></span></div>
+                                                                        Years later, that vision continues to guide us. We focus on creating structures that last, relationships that feel effortless, and an experience rooted in integrity and responsibility. Our journey is proof that when consistency meets purpose and service meets skill construction becomes more than building homes. It becomes building confidence.
                                                                 </div>
                                                             </div>
                                                         </div>
