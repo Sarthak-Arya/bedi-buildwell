@@ -1591,7 +1591,7 @@
                                                                             data-frame_1_mask="u:t;"
                                                                             data-frame_999="o:0;st:w;sR:7800;"
                                                                             style="z-index:8;font-family:'Rubik';text-transform:uppercase;">Over
-                                                                            30 years
+                                                                            14 years
                                                                         </rs-layer><!--
 
        --><rs-layer id="slider-3-slide-12-layer-2" class="f-xb" data-type="text" data-color="#000000"
@@ -2567,8 +2567,8 @@
                                                             <li>
                                                                 <div class="iconlist-item-icon"><i
                                                                         class="hank-d-check"></i></div>
-                                                                <div class="iconlist-item-content"><strong>24/7
-                                                                        Accessibility</strong></div>
+                                                                <div class="iconlist-item-content"><strong>Reliable
+                                                                        Support</strong></div>
                                                             </li>
                                                             <li>
                                                                 <div class="iconlist-item-icon"><i

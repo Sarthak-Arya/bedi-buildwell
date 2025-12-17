@@ -1293,11 +1293,11 @@
                                                             <div class="counter-content">
                                                                 <span class="counter-prefix"></span>
                                                                 <span class="counter-value" data-from="0"
-                                                                    data-to="0" data-speed="1000">0</span>
-                                                                <span class="counter-suffix"></span>
+                                                                    data-to="98" data-speed="1000">98</span>
+                                                                <span class="counter-suffix">%</span>
                                                             </div>
-                                                            <div class="counter-title">Major site incidents, thanks to 
-                                                                trained teams, strict supervision, and a disciplined construction process.</div>
+                                                            <div class="counter-title">Client satisfaction rate, driven by clear 
+                                                                communication and disciplined processes.</div>
                                                         </div>
                                                         <div class="vc_empty_space" style="height: 30px"><span
                                                                 class="vc_empty_space_inner"></span></div>
@@ -1638,9 +1638,8 @@
                                                         <div class="vc_empty_space" style="height: 15px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                         <p style="font-size: 21px;color: #7f7f7f;line-height: 26px;text-align: left"
-                                                            class="vc_custom_heading">Hank construction is dedicated to
-                                                            being a partner<br />
-                                                            for all of your construction needs.</p>
+                                                            class="vc_custom_heading">Bedi Buildwell is committed to being a dependable partner<br />
+                                                            for all your construction needs.</p>
                                                         <div class="vc_empty_space" style="height: 30px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                     </div>
@@ -1693,23 +1692,17 @@
                                                                             sizes="(max-width: 900px) 100vw, 900px" /></noscript>
                                                                 </p>
                                                                 <h3>Pre-construction</h3>
-                                                                <p><span style="color: #7f7f7f;">Before any ground is
-                                                                        broken and before any materials are ordered, our
-                                                                        preconstruction managers, estimators and project
-                                                                        managers work closely with the client, architect
-                                                                        and other key project partners to execute a
-                                                                        variety of preconstruction services. The goal is
-                                                                        to craft a well-defined project scope, schedule
-                                                                        and budget that will drive your project’s
-                                                                        success.</span></p>
+                                                                <p><span style="color: #7f7f7f;">Before plans turn into concrete and steel, our team works 
+                                                                    closely with clients, architects, and engineers to define a clear project roadmap. We align scope, budget, and timelines to ensure every build begins with confidence and clarity. Our focus is simple: prevent problems before 
+                                                                    they reach the site and create a seamless foundation for execution.</span></p>
                                                                 <h6><span style="color: #7f7f7f;">Our pre-construction
                                                                         services include:</span></h6>
                                                                 <ul class="list-style2">
-                                                                    <li>Project feasibility study</li>
-                                                                    <li>Constructability reviews</li>
-                                                                    <li>Lifecycle Analysis</li>
-                                                                    <li>Conceptual Budgeting</li>
-                                                                    <li>Cost Estimating</li>
+                                                                    <li>Plot feasibility guidance</li>
+                                                                    <li>Architectural Coordination</li>
+                                                                    <li>Cost and material building</li>
+                                                                    <li>Schedule Planning</li>
+                                                                    <li>Structural and Design reviews</li>
                                                                     <li>Schedule Optimization</li>
                                                                 </ul>
 
@@ -1744,32 +1737,23 @@
                                                                 <div class="cols">
                                                                     <div class="col">
                                                                         <h3>Construction management</h3>
-                                                                        <p><span style="color: #7f7f7f;">If you are
-                                                                                looking for a full-service construction
-                                                                                management company, look to Hank. As
-                                                                                your CM, we serve as the liaison between
-                                                                                you, the subcontractors and other
-                                                                                project partners. Consider us an
-                                                                                extension of your team. We will work
-                                                                                with you from the first day of your
-                                                                                project – planning, designing and
-                                                                                constructing a high-quality, functional
-                                                                                project that delivers the best value for
-                                                                                every dollar committed to your
-                                                                                project.</span></p>
+                                                                        <p><span style="color: #7f7f7f;">For homeowners and plot owners seeking 
+                                                                            reliable execution, we manage every stage
+                                                                             with in-house teams, disciplined supervision, and transparent 
+                                                                             communication. We act as your single point of responsibility—ensuring 
+                                                                             your building is delivered on time, within budget, and exactly as promised.
+                                                                            </span></p>
                                                                     </div>
                                                                     <div class="col">
                                                                         <h6><span style="color: #7f7f7f;">Construction
                                                                                 Management Services:</span></h6>
                                                                         <ul class="list-style2">
-                                                                            <li>Site Selection and Economic Development
-                                                                                Incentive Negotiations</li>
-                                                                            <li>Program Management and Owner Advocacy
+                                                                            <li>Complete G+4 construction</li>
+                                                                            <li>Full-site supervision and labour management
                                                                             </li>
-                                                                            <li>Construction Management as Advisor (CMa)
+                                                                            <li>Vendor and material coordination
                                                                             </li>
-                                                                            <li>Construction Management as Constructor
-                                                                                (CMc)</li>
+                                                                            <li>Timeline and cost tracking</li>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -1807,21 +1791,19 @@
                                                                             sizes="(max-width: 900px) 100vw, 900px" /></noscript>
                                                                 </p>
                                                                 <h3>General contracting</h3>
-                                                                <p><span style="color: #7f7f7f;">Providing lump sum
-                                                                        general contracting services for a vast array of
-                                                                        marketplaces, including financial, corporate,
-                                                                        healthcare, retail, hospitality, industrial,
-                                                                        multi-family residential, and academic spaces.
-                                                                        We utilize Hank pre-approved subcontractors on
-                                                                        your project.</span></p>
+                                                                <p><span style="color: #7f7f7f;">We provide end-to-end construction services 
+                                                                    for residential and commercial G+4 projects. From structural work to finishing, 
+                                                                    our in-house workforce ensures consistent quality, predictable timelines, and lower
+                                                                     overall project costs without the uncertainty of third-party contractors.</span></p>
                                                                 <h6><span style="color: #7f7f7f;">General Contracting
                                                                         Services:</span></h6>
                                                                 <ul class="list-style2">
-                                                                    <li>Lump Sum</li>
-                                                                    <li>Cost-plus</li>
-                                                                    <li>Time and Material</li>
-                                                                    <li>Unit Price</li>
-                                                                    <li>New Construction</li>
+                                                                    <li>Turnkey G+4 construction</li>
+                                                                    <li>RCC and structural execution</li>
+                                                                    <li>Masonry and plastering</li>
+                                                                    <li>Electrical and plumbing</li>
+                                                                    <li>Flooring and finishing</li>
+                                                                    
                                                                 </ul>
 
                                                             </div>
@@ -1853,21 +1835,18 @@
                                                                             sizes="(max-width: 900px) 100vw, 900px" /></noscript>
                                                                 </p>
                                                                 <h3>Design-build</h3>
-                                                                <p><span style="color: #7f7f7f;">Our team is known for
-                                                                        their exceptional communication, full-team
-                                                                        integration, and commitment to collaboration.
-                                                                        We’ve developed best practices to complete
-                                                                        fast-track projects while delivering
-                                                                        high-quality results with single-source
-                                                                        accountability</span></p>
+                                                                <p><span style="color: #7f7f7f;">With a single-source approach, we combine 
+                                                                    design coordination with complete execution to deliver homes and 
+                                                                    commercial spaces that are functional, compliant, and market-ready. 
+                                                                    Our team ensures clarity from first sketch to handover.</span></p>
                                                                 <h6><span style="color: #7f7f7f;">Design-Build
                                                                         Services:</span></h6>
                                                                 <ul class="list-style2">
-                                                                    <li>Build to Suit</li>
-                                                                    <li>Build Operate Transfer (BOT)</li>
-                                                                    <li>Public-Private Partnership (P3)</li>
-                                                                    <li>Progressive Design-Build</li>
-                                                                    <li>Lease-back</li>
+                                                                    <li>Architectural collaboration</li>
+                                                                    <li>Structural planning</li>
+                                                                    <li>Interior design integration</li>
+                                                                    <li>End-to-end execution</li>
+                                                                    <li>Single-point accountability</li>
                                                                 </ul>
 
                                                             </div>
@@ -1899,19 +1878,17 @@
                                                                             sizes="(max-width: 900px) 100vw, 900px" /></noscript>
                                                                 </p>
                                                                 <h3>Post-construction</h3>
-                                                                <p><span style="color: #7f7f7f;">Our post-construction
-                                                                        services gives you peace of mind knowing that we
-                                                                        are still here for you even after we exit your
-                                                                        job site for the final time. In fact, we hope
-                                                                        that the end of your project marks the beginning
-                                                                        of a long-term relationship with us.</span></p>
+                                                                <p><span style="color: #7f7f7f;">Even after handover, we stay involved to verify 
+                                                                    that everything functions as intended. Our post-build services ensure 
+                                                                    long-term performance, smooth occupancy, and continued trust long after 
+                                                                    the project is delivered.</span></p>
                                                                 <h6><span style="color: #7f7f7f;">Our post-construction
                                                                         work includes:</span></h6>
                                                                 <ul class="list-style2">
-                                                                    <li>Final site clean-up and preparation</li>
+                                                                    <li>Site clean-up and final checks</li>
                                                                     <li>As-built documentation</li>
-                                                                    <li>Electronic project archive</li>
-                                                                    <li>Systems turnover and training</li>
+                                                                    <li>Handover support</li>
+                                                                    <li>System demonstration</li>
                                                                     <li>Post-project review</li>
                                                                 </ul>
 
@@ -1969,8 +1946,8 @@
                                                                 <div class="iconlist-item-content"><span
                                                                         style="color: #ffffff;"><a
                                                                             style="color: #ffffff;"
-                                                                            href="{{ route('experience') }}#markets"><strong>Aviation
-                                                                                &amp; Transportation</strong></a></span>
+                                                                            href="{{ route('experience') }}#markets"><strong>Residential <br/>Construction
+                                                                                </strong></a></span>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -1979,8 +1956,8 @@
                                                                 <div class="iconlist-item-content"><span
                                                                         style="color: #ffffff;"><a
                                                                             style="color: #ffffff;"
-                                                                            href="{{ route('experience') }}#markets"><strong>Property
-                                                                                and buildings</strong></a></span></div>
+                                                                            href="{{ route('experience') }}#markets"><strong>Commercial <br/>Buildings
+                                                                                </strong></a></span></div>
                                                             </li>
                                                             <li>
                                                                 <div class="iconlist-item-icon"><i
@@ -1988,8 +1965,8 @@
                                                                 <div class="iconlist-item-content"><span
                                                                         style="color: #ffffff;"><a
                                                                             style="color: #ffffff;"
-                                                                            href="{{ route('experience') }}#markets"><strong>Energy
-                                                                                and Environment</strong></a></span>
+                                                                            href="{{ route('experience') }}#markets"><strong>Renovation<br/> Projects
+                                                                                </strong></a></span>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -1998,8 +1975,8 @@
                                                                 <div class="iconlist-item-content"><span
                                                                         style="color: #ffffff;"><a
                                                                             style="color: #ffffff;"
-                                                                            href="{{ route('experience') }}#markets"><strong>Industrial
-                                                                                / Manufacturing</strong></a></span>
+                                                                            href="{{ route('experience') }}#markets"><strong>PMC &amp; Client Representation
+                                                                            </strong></a></span>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -2008,8 +1985,8 @@
                                                                 <div class="iconlist-item-content"><span
                                                                         style="color: #ffffff;"><a
                                                                             style="color: #ffffff;"
-                                                                            href="{{ route('experience') }}#markets"><strong>Commercial
-                                                                                and Restaurant</strong></a></span></div>
+                                                                            href="{{ route('experience') }}#markets"><strong>Inverstor-Led<br/>Developments
+                                                                                </strong></a></span></div>
                                                             </li>
                                                         </ul>
                                                         <div class="vc_empty_space" style="height: 50px"><span
@@ -2141,9 +2118,8 @@
                                                         <div class="vc_empty_space" style="height: 15px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                         <p style="font-size: 21px;color: #7f7f7f;line-height: 26px;text-align: center"
-                                                            class="vc_custom_heading">Our safety rating is among the
-                                                            best in the industry and<br />
-                                                            well below the nationwide industry average.</p>
+                                                            class="vc_custom_heading">Our safety record stays steady and reliable across projects,<br/> 
+                                                            remaining well below the incident levels commonly seen in everyday construction.</p>
                                                         <div class="vc_empty_space" style="height: 70px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                     </div>
@@ -2162,13 +2138,11 @@
                                                                         class="hank-plug"></i></div>
                                                                 <div class="iconlist-item-content">
                                                                     <h3>more than just words</h3>
-                                                                    <p><span style="color: #7f7f7f;">Hank Construction
-                                                                            has completed 84,296 hours worked by all
-                                                                            employees without a single lost workday in
-                                                                            2016 We have been honored to receive the
-                                                                            Builders’ Association Safety Excellence
-                                                                            Award in the Best in Class 70,000-250,000
-                                                                            exposure hours in 2014</span></p>
+                                                                    <p><span style="color: #7f7f7f;">Bedi Buildwell’s sites run on disciplined 
+                                                                        systems and daily supervision, 
+                                                                        helping us maintain steady, incident-free operations across most projects. 
+                                                                        Our focus on safe, organised work environments is a reflection of the care we 
+                                                                        put into every home we build.</span></p>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -2176,29 +2150,22 @@
                                                                         class="hank-engine-start"></i></div>
                                                                 <div class="iconlist-item-content">
                                                                     <h3>safety are a top priority</h3>
-                                                                    <p><span style="color: #7f7f7f;">It’s the most
-                                                                            important thing we do every day for our
-                                                                            tradesmen and specialty subcontractors – to
-                                                                            make sure they go home safely to their
-                                                                            families every night. We believe that starts
-                                                                            with training and preparedness combined with
-                                                                            a top down commitment our core value of
-                                                                            safety.</span></p>
+                                                                    <p><span style="color: #7f7f7f;">Bedi Buildwell collaborates closely with 
+                                                                        engineers, supervisors, and local authorities to maintain safe, compliant 
+                                                                        job sites. Our internal safety practices continue to strengthen as we grow, 
+                                                                        with regular reviews and on-site training for every team.</span></p>
                                                                 </div>
                                                             </li>
                                                             <li>
                                                                 <div class="iconlist-item-icon"><i
                                                                         class="hank-privacy-policy"></i></div>
                                                                 <div class="iconlist-item-content">
-                                                                    <h3>OSHA partnership</h3>
-                                                                    <p><span style="color: #7f7f7f;">Hank has
-                                                                            voluntarily partnered with the Occupational
-                                                                            Safety &amp; Health Administration (OSHA) at
-                                                                            a silver level through an alliance with the
-                                                                            Builders Association of Greater Chicago. Our
-                                                                            safety programs are recognized annually for
-                                                                            excellence in occupational safety and health
-                                                                            training.</span></p>
+                                                                    <h3>safety partnership</h3>
+                                                                    <p><span style="color: #7f7f7f;">Bedi Buildwell collaborates closely with engineers, 
+                                                                        supervisors, and local authorities to maintain safe, 
+                                                                        compliant job sites. Our internal safety practices continue 
+                                                                        to strengthen as we grow, with regular reviews and on-site training 
+                                                                        for every team.</span></p>
                                                                 </div>
                                                             </li>
                                                         </ul>
