@@ -71,7 +71,12 @@
                                         </li>
                                         <li id="menu-item-155"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-155">
-                                            <a href="#"><i class="fa fa-twitter"></i>Twitter</a>
+                                            <a href="#" aria-label="X">
+                                                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"
+                                                    style="width:21px;height:24px;margin-right:20px;vertical-align:middle;display:inline-block;fill:currentColor;">
+                                                    <path d="M18.9 2H22l-6.77 7.74L23.2 22h-6.4l-5.02-7.45L5.35 22H2.2l7.25-8.29L.8 2h6.56l4.53 6.68L18.9 2Zm-1.12 18.09h1.72L6.38 3.82H4.54l13.24 16.27Z"/>
+                                                </svg>X
+                                            </a>
                                         </li>
                                         <li id="menu-item-156"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-156">
@@ -197,11 +202,11 @@
     <div class="footer-copyright footer-copyright-left">
         <div class="footer-copyright-inner wrap">
             <div class="copyright-content">
-                <img width="150" height="86"
-                    src="{{ asset('assets/logo_full_text_dark.svg') }}"
+                <img width="180" height="104" style="height:auto;"
+                    src="{{ asset('assets/icons/logo_with_text_dark.png') }}"
                     alt="logo"
-                    data-lazy-src="{{ asset('assets/logo_full_text_dark.svg') }}"><noscript><img
-                        width="150" height="86" src="{{ asset('assets/logo_full_text_dark.svg') }}"
+                    data-lazy-src="{{ asset('assets/icons/logo_with_text_dark.png') }}"><noscript><img
+                        width="180" height="104" style="height:auto;" src="{{ asset('assets/icons/logo_with_text_dark.png') }}"
                         alt="logo"></noscript>
                 <p>Copyright © 2025 Bedi Buildwell. Designed and Developed by <a href="#">MargX</a>
                 </p>

@@ -3,8 +3,8 @@
         <div class="header-content">
             <div class="header-brand">
                 <a href="{{ route('welcome') }}">
-                    <img width="180" height="104"
-                        src="{{ asset('assets/logo_full_text_dark.svg') }}"
+                    <img width="220" height="128" style="height:auto;margin-top:-40px;"
+                        src="{{ asset('assets/icons/logo_with_text_dark.png') }}"
                         alt="Bedi Buildwell" class="logo logoDefault" /> </a>
             </div>
 

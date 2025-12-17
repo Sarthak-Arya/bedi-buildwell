@@ -436,7 +436,7 @@
         .badge.style2,
         h6.badge.style2,
         #site .blog-shortcode.post-thumbnail-cover .blog-grid .post .post-inner .post-date {
-            color: #ffed00;
+            color: #ffd000;
         }
 
         .button.primary,
@@ -490,7 +490,7 @@
         .shopping-cart .shopping-cart-items-count,
         .woocommerce-pagination li .page-numbers:hover,
         .woocommerce .products li .button:hover:before {
-            background-color: #ffed00;
+            background-color: #ffd000;
         }
 
         .button.primary.border:before,
@@ -502,7 +502,7 @@
         rs-module-wrap .video-button.play:after,
         #site .testimonial:not(.has-image),
         #site-header-sticky .extras .header-info-text .info-list span.lg:after {
-            border-color: #ffed00;
+            border-color: #ffd000;
         }
 
         .button:hover,
@@ -568,11 +568,11 @@
         }
 
         ::selection {
-            background: #ffed00;
+            background: #ffd000;
         }
 
         ::-moz-selection {
-            background: #ffed00;
+            background: #ffd000;
         }
 
         .related-posts .grid-posts .post .post-inner:hover .post-title a,
@@ -583,15 +583,15 @@
         #site .blog-shortcode.post-thumbnail-cover .blog-grid .post .post-inner:hover .post-title,
         .woocommerce .products li:hover .woocommerce-loop-product__title,
         .woocommerce .product .summary .grouped_form table tr td.woocommerce-grouped-product-list-item__label a:hover {
-            box-shadow: inset 0 -1px 0 0 #ffed00;
+            box-shadow: inset 0 -1px 0 0 #ffd000;
         }
 
         #site .imagebox:hover .box-title span:not(.box-subtitle) {
-            -webkit-text-stroke-color: #ffed00;
+            -webkit-text-stroke-color: #ffd000;
         }
 
         .vc_custom_heading u {
-            background-image: linear-gradient(180deg, transparent 65%, #ffed00 0);
+            background-image: linear-gradient(180deg, transparent 65%, #ffd000 0);
         }
 
         #site .vc_custom_heading.style1 {
@@ -603,7 +603,7 @@
         #site .vc_section.shape-4:before,
         #site .vc_row.shape-4:before,
         .site-footer:before {
-            background: repeating-linear-gradient(-45deg, transparent, transparent 4px, #ffed00 5px, #ffed00 10px, transparent 11px);
+            background: repeating-linear-gradient(-45deg, transparent, transparent 4px, #ffd000 5px, #ffd000 10px, transparent 11px);
         }
 
         #site .vc_section.shape-3:before,

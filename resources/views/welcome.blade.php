@@ -30,6 +30,32 @@
     {{-- robots file --}}
     <meta name='robots' content='max-image-preview:large' />
     <style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+    <style>
+        /* Slider tabs: remove big number and top line */
+        rs-module-wrap .custom-tab .tp-tabs-inner-wrapper .tp-tab:before {
+            content: none !important;
+            display: none !important;
+        }
+        rs-module-wrap .custom-tab .tp-tabs-inner-wrapper .tp-tab:after {
+            content: none !important;
+            display: none !important;
+        }
+        /* Optional: reclaim left padding reserved for the number */
+        rs-module-wrap .custom-tab .tp-tabs-inner-wrapper .tp-tab {
+            padding-left: 0 !important;
+        }
+    </style>
+    {{-- <style>
+        /* Ensure tab numbers (1/2/3) render even with custom tabs.tmp */
+        rs-module-wrap .custom-tab .tp-tabs-inner-wrapper {
+            counter-reset: hank_tab_counter;
+        }
+        rs-module-wrap .custom-tab .tp-tabs-inner-wrapper .tp-tab .tp-tab-number:before {
+            content: counter(hank_tab_counter);
+            counter-increment: hank_tab_counter;
+        }
+    </style> --}}
+    <!-- Slider tabs styling is provided by theme CSS (see public/css/main.css: .custom-tab rules) -->
     {{--  prefetch fonts file --}}
     <link rel='dns-prefetch' href='//static.addtoany.com' />
     <link rel='dns-prefetch' href='//fonts.googleapis.com' />
@@ -427,7 +453,7 @@
         .badge.style2,
         h6.badge.style2,
         #site .blog-shortcode.post-thumbnail-cover .blog-grid .post .post-inner .post-date {
-            color: #ffed00;
+            color: #ffd000;
         }
 
         .button.primary,
@@ -481,7 +507,7 @@
         .shopping-cart .shopping-cart-items-count,
         .woocommerce-pagination li .page-numbers:hover,
         .woocommerce .products li .button:hover:before {
-            background-color: #ffed00;
+            background-color: #ffd000;
         }
 
         .button.primary.border:before,
@@ -559,11 +585,11 @@
         }
 
         ::selection {
-            background: #ffed00;
+            background: #ffd000;
         }
 
         ::-moz-selection {
-            background: #ffed00;
+            background: #ffd000;
         }
 
         .related-posts .grid-posts .post .post-inner:hover .post-title a,
@@ -574,15 +600,15 @@
         #site .blog-shortcode.post-thumbnail-cover .blog-grid .post .post-inner:hover .post-title,
         .woocommerce .products li:hover .woocommerce-loop-product__title,
         .woocommerce .product .summary .grouped_form table tr td.woocommerce-grouped-product-list-item__label a:hover {
-            box-shadow: inset 0 -1px 0 0 #ffed00;
+            box-shadow: inset 0 -1px 0 0 #ffd000;
         }
 
         #site .imagebox:hover .box-title span:not(.box-subtitle) {
-            -webkit-text-stroke-color: #ffed00;
+            -webkit-text-stroke-color: #ffd000;
         }
 
         .vc_custom_heading u {
-            background-image: linear-gradient(180deg, transparent 65%, #ffed00 0);
+            background-image: linear-gradient(180deg, transparent 65%, #ffd000 0);
         }
 
         #site .vc_custom_heading.style1 {
@@ -594,7 +620,7 @@
         #site .vc_section.shape-4:before,
         #site .vc_row.shape-4:before,
         .site-footer:before {
-            background: repeating-linear-gradient(-45deg, transparent, transparent 4px, #ffed00 5px, #ffed00 10px, transparent 11px);
+            background: repeating-linear-gradient(-45deg, transparent, transparent 4px, #ffd000 5px, #ffd000 10px, transparent 11px);
         }
 
         #site .vc_section.shape-3:before,
@@ -602,6 +628,64 @@
         #site .vc_section.shape-5:before,
         #site .vc_row.shape-5:before {
             background: repeating-linear-gradient(-45deg, transparent, transparent 4px, #000000 5px, #000000 10px, transparent 11px);
+        }
+
+        /* Mobile: show slider arrows under the "Difference is our people" slider */
+        @media (max-width: 767px) {
+            /*
+             * Revolution positions arrows with inline styles. Force our mobile layout:
+             * - arrows sit BELOW the slider (in the black area)
+             * - one back (left), one forward (right)
+             */
+            #rev_slider_3_1_wrapper {
+                position: relative !important;
+                overflow: visible !important; /* allow arrows to sit outside slider box */
+                margin-bottom: 30px !important; /* make room in the page flow (black area) */
+            }
+
+            /* slider internals sometimes clip absolutely-positioned arrows */
+            #rev_slider_3_1_wrapper rs-module,
+            #rev_slider_3_1_wrapper rs-slides,
+            #rev_slider_3_1_wrapper rs-slide,
+            #rev_slider_3_1_wrapper .rev_slider_wrapper,
+            #rev_slider_3_1_wrapper .rev_slider {
+                overflow: visible !important;
+            }
+
+            #rev_slider_3_1_wrapper .tparrows.tp-leftarrow,
+            #rev_slider_3_1_wrapper .tparrows.tp-rightarrow {
+                top: auto !important;
+                bottom: -95px !important; /* push below the white slider box into the black area */
+                transform: none !important;
+                position: absolute !important;
+                z-index: 50 !important;
+                opacity: 1 !important;
+                visibility: visible !important;
+                display: block !important;
+            }
+
+            /* main.css hides the left arrow globally; enable it for this slider on mobile */
+            #rev_slider_3_1_wrapper .tparrows.tp-leftarrow {
+                display: block !important;
+                visibility: visible !important;
+                opacity: 1 !important;
+            }
+
+            /* make left arrow icon point left (same glyph, flipped) */
+            #rev_slider_3_1_wrapper .tparrows.tp-leftarrow:after {
+                transform: scaleX(-1);
+                display: inline-block;
+            }
+
+            #rev_slider_3_1_wrapper .tparrows.tp-leftarrow {
+                left: calc(50% - 50px) !important; /* shift pair to the right */
+                right: auto !important;
+            }
+
+            #rev_slider_3_1_wrapper .tparrows.tp-rightarrow {
+                left: calc(50% + 50px) !important; /* shift pair to the right */
+                right: auto !important;
+            }
         }
     </style>
     <style id='wp-emoji-styles-inline-css' type='text/css'>
@@ -1347,14 +1431,14 @@
                                                                 data-version="6.5.14">
                                                                 <rs-slides>
                                                                     <rs-slide style="position: absolute;"
-                                                                        data-key="rs-10"
-                                                                        data-title="Culture Makes the Difference"
-                                                                        data-thumb="//live.21lab.co/hank/wp-content/uploads/revslider/slider-1/slider_1-50x100.jpg"
+                                                                        
+                                                                        
+                                                                        
                                                                         data-anim="ms:1000;r:0;" data-in="o:0;"
                                                                         data-out="a:false;">
                                                                         <img width="1" height="1"
                                                                             decoding="async"
-                                                                            src="//live.21lab.co/hank/wp-content/plugins/revslider/public/assets/assets/dummy.png"
+                                                                            
                                                                             alt="" title="Home"
                                                                             class="rev-slidebg tp-rs-img rs-lazyload"
                                                                             data-lazyload="{{ asset('images/slider_2.png') }}"
@@ -1418,7 +1502,7 @@
                                                                     <rs-slide style="position: absolute;"
                                                                         data-key="rs-11"
                                                                         data-title="Our Promise of Superior Performance"
-                                                                        data-thumb="//live.21lab.co/hank/wp-content/uploads/revslider/slider-1/4-slider-50x100.jpg"
+                                                                        data-thumb="{{ asset('images/slider_1.png') }}"
                                                                         data-anim="ms:1000;r:0;" data-in="o:0;"
                                                                         data-out="a:false;">
                                                                         <img width="1" height="1"
@@ -1486,7 +1570,7 @@
                                                                     <rs-slide style="position: absolute;"
                                                                         data-key="rs-12"
                                                                         data-title="When a Project has Extraordinary Challenges"
-                                                                        data-thumb="//live.21lab.co/hank/wp-content/uploads/revslider/slider-1/slider-50x100.jpg"
+                                                                        data-thumb="{{ asset('images/slider_3.png') }}"
                                                                         data-anim="ms:1000;r:0;" data-in="o:0;"
                                                                         data-out="a:false;">
                                                                         <img width="1" height="1"
@@ -1700,7 +1784,8 @@
                                                                             <span>EP</span>
                                                                             <span class="box-subtitle">
                                                                                 From idea creation to finished work, 
-                                                                                we turn your dream into reality! </span>
+                                                                                we turn your dream into reality!
+                                                                            </span>
                                                                         </h3>
 
                                                                     </a>
@@ -3916,8 +4001,8 @@
                         arrows: {
                             enable: true,
                             style: "custom-arrow",
-                            hide_onmobile: true,
-                            hide_under: 778,
+                            hide_onmobile: false,
+                            hide_under: 0,
                             left: {
                                 container: "layergrid",
                                 h_align: "right",
@@ -3944,6 +4029,8 @@
                         tabs: {
                             enable: true,
                             style: "custom-tab",
+                            // tmp: '<span class="tp-tab-number"></span>@{{title}}<rs-tab></rs-tab>',
+                            tmp: '@{{title}}',
                             hide_onmobile: true,
                             hide_under: 778,
                             anim: "bottom",

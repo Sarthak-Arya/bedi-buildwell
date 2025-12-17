@@ -2,6 +2,63 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 423.74 149.93">
   <defs>
     <style>
+      /* Embed logo font so the SVG renders identically across devices */
+      @font-face {
+        font-family: 'MADE TOMMY';
+        src: url('/fonts/MADETOMMY-Regular.woff2') format('woff2'),
+             url('/fonts/MADETOMMY-Regular.woff') format('woff'),
+             url('/fonts/MADETOMMY-Regular.otf') format('opentype');
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+      /* Alias names used inside this SVG */
+      @font-face {
+        font-family: MADETOMMY;
+        src: url('/fonts/MADETOMMY-Regular.woff2') format('woff2'),
+             url('/fonts/MADETOMMY-Regular.woff') format('woff'),
+             url('/fonts/MADETOMMY-Regular.otf') format('opentype');
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'MADE TOMMY';
+        src: url('/fonts/MADETOMMY-Medium.woff2') format('woff2'),
+             url('/fonts/MADETOMMY-Medium.woff') format('woff'),
+             url('/fonts/MADETOMMY-Medium.otf') format('opentype');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: MADETOMMY-Medium;
+        src: url('/fonts/MADETOMMY-Medium.woff2') format('woff2'),
+             url('/fonts/MADETOMMY-Medium.woff') format('woff'),
+             url('/fonts/MADETOMMY-Medium.otf') format('opentype');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'MADE TOMMY';
+        src: url('/fonts/MADETOMMY-Bold.woff2') format('woff2'),
+             url('/fonts/MADETOMMY-Bold.woff') format('woff'),
+             url('/fonts/MADETOMMY-Bold.otf') format('opentype');
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: MADETOMMY-Bold;
+        src: url('/fonts/MADETOMMY-Bold.woff2') format('woff2'),
+             url('/fonts/MADETOMMY-Bold.woff') format('woff'),
+             url('/fonts/MADETOMMY-Bold.otf') format('opentype');
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+      }
+
       .cls-1 {
         fill: #c59e31;
       }
