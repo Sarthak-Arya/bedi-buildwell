@@ -4,16 +4,6 @@
     </a>
 
     <div class="off-canvas-wrap">
-        <div class="widget widget_search">
-            <form role="search" method="get" class="search-form" action="{{ route('welcome') }}">
-                <label>
-                    <span class="screen-reader-text">Search for:</span>
-                    <input type="search" class="search-field" placeholder="Search &hellip;" value=""
-                        name="s" />
-                </label>
-                <input type="submit" class="search-submit" value="Search" />
-            </form>
-        </div>
         <ul id="menu-main-menu-2" class="menu menu-sliding">
             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home">
                 <a href="{{ route('welcome') }}">Home</a>
@@ -25,22 +15,17 @@
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-381"><a
                             href="{{ route('about') }}">Company</a></li>
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-512"><a
-                            href="{{ route('about') }}core-values/">Core Values</a></li>
+                            href="{{ route('core-values') }}">Core Values</a></li>
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380"><a
-                            href="{{ route('leadership') }}/">Leadership</a></li>
+                            href="{{ route('leadership') }}">Leadership</a></li>
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-781"><a
-                            href="{{ route('about') }}why-choose-us/">Why choose us</a></li>
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-517"><a
-                            href="{{ route('about') }}careers/">Careers</a></li>
+                            href="{{ route('why-choose-us') }}">Why choose us</a></li>
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175"><a
-                            href="{{ route('contact') }}/">Contact</a></li>
+                            href="{{ route('contact') }}">Contact</a></li>
                     <li
                         class="sm has-border menu-item menu-item-type-custom menu-item-object-custom menu-item-787">
-                        <a href="{{ route('about') }}why-choose-us/#testimonials">Testimonials</a>
+                        <a href="{{ route('why-choose-us') }}#testimonials">Testimonials</a>
                     </li>
-                    <li class="sm menu-item menu-item-type-custom menu-item-object-custom menu-item-788"><a
-                            href="{{ route('about') }}why-choose-us/#awards">Awards &#038;
-                            Recognition</a></li>
                     <li class="sm menu-item menu-item-type-custom menu-item-object-custom menu-item-886"><a
                             href="{{ route('about') }}#history">Our History</a></li>
                 </ul>

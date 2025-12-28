@@ -184,7 +184,7 @@
             text-transform: lowercase;
             font-size: 32px;
             line-height: 30px;
-            background-color: #FF6A00;
+            background-color: #ffd000;
         }
 
         .content-bottom-widgets .widget {
@@ -237,7 +237,7 @@
         .site-header .navigator .menu.menu-extras .search-field,
         .site-header .off-canvas-toggle,
         .site-header .off-canvas-toggle:hover {
-            color: #FF6A00;
+            color: #ffd000;
         }
 
         .site-header-sticky .off-canvas-toggle,
@@ -281,7 +281,7 @@
         }
 
         .site-footer .footer-copyright a:hover {
-            color: #FF6A00;
+            color: #ffd000;
         }
 
         .wrap {
@@ -312,15 +312,106 @@
         }
 
         .site-header-sticky .header-brand {
-            margin-top: 30px;
-            margin-bottom: 31px;
+            margin-top: 10px;
+            margin-bottom: 10px;
         }
 
         .site-header-sticky .off-canvas-toggle,
         .site-header-sticky .navigator .menu>li>a,
         .site-header-sticky .menu-extras>li>a {
-            padding-top: 5px;
-            padding-bottom: 4px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+        }
+        
+        /* Make sticky header logo larger */
+        .site-header-sticky .header-brand img {
+            max-height: 90px !important;
+            height: auto !important;
+        }
+        
+        /* Reduce sticky header overall height */
+        .site-header-sticky .site-header-inner {
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
+        }
+        
+        /* Ensure header elements are always visible at all aspect ratios */
+        .site-header .header-brand,
+        .site-header-sticky .header-brand {
+            display: block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+        }
+        
+        /* Ensure mobile menu button is visible when navigation doesn't fit */
+        @media only screen and (max-width: 1200px) {
+            .sliding-desktop-off .site-header .off-canvas-toggle[data-target="off-canvas-right"],
+            .sliding-desktop-off .site-header-sticky .off-canvas-toggle[data-target="off-canvas-right"] {
+                display: block !important;
+                visibility: visible !important;
+                opacity: 1 !important;
+            }
+        }
+        
+        /* Ensure navigation is visible when it fits */
+        @media only screen and (min-width: 1201px) {
+            .site-header .navigator,
+            .site-header-sticky .navigator {
+                display: block !important;
+                visibility: visible !important;
+            }
+        }
+        
+        /* At medium widths, show both navigation and menu button if needed */
+        @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+            .site-header .navigator {
+                display: block !important;
+            }
+            .sliding-desktop-off .site-header .off-canvas-toggle[data-target="off-canvas-right"],
+            .sliding-desktop-off .site-header-sticky .off-canvas-toggle[data-target="off-canvas-right"] {
+                display: block !important;
+                visibility: visible !important;
+                opacity: 1 !important;
+            }
+        }
+        
+        /* Ensure header content doesn't overflow and wraps properly */
+        .site-header .header-content,
+        .site-header-sticky .header-content {
+            display: flex !important;
+            align-items: center !important;
+            flex-wrap: wrap !important;
+            width: 100% !important;
+        }
+        
+        /* Ensure logo is always visible and doesn't shrink too much */
+        .site-header .header-brand,
+        .site-header-sticky .header-brand {
+            flex-shrink: 0 !important;
+            min-width: 120px !important;
+        }
+        
+        /* Ensure mobile menu button is always accessible */
+        .site-header .off-canvas-toggle,
+        .site-header-sticky .off-canvas-toggle {
+            flex-shrink: 0 !important;
+            z-index: 1000 !important;
+        }
+        
+        /* Hide contact info on smaller screens to make room for menu */
+        @media only screen and (max-width: 1100px) {
+            .site-header .extras .header-info-text,
+            .site-header-sticky .extras .header-info-text {
+                display: none !important;
+            }
+        }
+        
+        /* Ensure navigation wraps or hides gracefully when space is limited */
+        @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+            .site-header .navigator .menu {
+                display: flex !important;
+                flex-wrap: wrap !important;
+            }
         }
 
         .content-header .content-header-inner {
@@ -3637,7 +3728,7 @@
         .custom .tp-bullet-title {}
 
         #rev_slider_3_1_wrapper rs-loader.spinner1 {
-            background-color: #FF6A00 !important
+            background-color: #ffd000 !important
         }
     </style>
     <script data-minify="1" type="text/javascript"

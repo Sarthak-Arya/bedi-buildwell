@@ -71,16 +71,12 @@
                                         </li>
                                         <li id="menu-item-155"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-155">
-                                            <a href="#" aria-label="X">
-                                                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"
-                                                    style="width:21px;height:24px;margin-right:20px;vertical-align:middle;display:inline-block;fill:currentColor;">
-                                                    <path d="M18.9 2H22l-6.77 7.74L23.2 22h-6.4l-5.02-7.45L5.35 22H2.2l7.25-8.29L.8 2h6.56l4.53 6.68L18.9 2Zm-1.12 18.09h1.72L6.38 3.82H4.54l13.24 16.27Z"/>
-                                                </svg>X
-                                            </a>
+                                            <a href="https://www.instagram.com/bedibuildwell?igsh=MTI5OHlqMmd3cmVyMw==" target="_blank" rel="noopener noreferrer"><i
+                                                    class="fa fa-instagram"></i>Instagram</a>
                                         </li>
                                         <li id="menu-item-156"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-156">
-                                            <a href="#"><i
+                                            <a href="https://www.linkedin.com/in/sukrit-singh-950761170?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer"><i
                                                     class="fa fa-linkedin-square"></i>Linkedin</a>
                                         </li>
                                     </ul>

@@ -173,7 +173,7 @@
             text-transform: lowercase;
             font-size: 32px;
             line-height: 30px;
-            background-color: #feeb35;
+            background-color: #ffd000;
         }
 
         .content-bottom-widgets .widget {
@@ -226,7 +226,7 @@
         .site-header .navigator .menu.menu-extras .search-field,
         .site-header .off-canvas-toggle,
         .site-header .off-canvas-toggle:hover {
-            color: #feeb35;
+            color: #ffd000;
         }
 
         .site-header-sticky .off-canvas-toggle,
@@ -270,7 +270,7 @@
         }
 
         .site-footer .footer-copyright a:hover {
-            color: #feeb35;
+            color: #ffd000;
         }
 
         .wrap {
@@ -313,15 +313,27 @@
         }
 
         .site-header-sticky .header-brand {
-            margin-top: 30px;
-            margin-bottom: 31px;
+            margin-top: 10px;
+            margin-bottom: 10px;
         }
 
         .site-header-sticky .off-canvas-toggle,
         .site-header-sticky .navigator .menu>li>a,
         .site-header-sticky .menu-extras>li>a {
-            padding-top: 5px;
-            padding-bottom: 4px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+        }
+        
+        /* Make sticky header logo larger */
+        .site-header-sticky .header-brand img {
+            max-height: 90px !important;
+            height: auto !important;
+        }
+        
+        /* Reduce sticky header overall height */
+        .site-header-sticky .site-header-inner {
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
         }
 
         .content-header .content-header-inner {
@@ -471,7 +483,8 @@
             display: grid !important;
             grid-template-columns: 1fr 1fr !important;
             gap: 30px !important;
-            align-items: start !important;
+            align-items: stretch !important;
+            grid-auto-rows: 1fr !important;
         }
         
         /* Make each field container symmetrical */
@@ -479,6 +492,12 @@
             display: flex !important;
             flex-direction: column !important;
             min-height: 100% !important;
+            height: 100% !important;
+            width: 100% !important;
+            box-sizing: border-box !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            justify-content: flex-start !important;
         }
         
         /* Ensure consistent spacing and alignment */
@@ -488,14 +507,19 @@
         
         /* Make input/select fields have consistent height for symmetry */
         .contact-light .field .wpcf7-form-control-wrap {
-            flex: 1 !important;
+            flex: 1 1 auto !important;
             display: flex !important;
+            width: 100% !important;
+            align-items: stretch !important;
         }
         
         .contact-light .field .wpcf7-form-control-wrap input,
         .contact-light .field .wpcf7-form-control-wrap select {
-            flex: 1 !important;
+            flex: 1 1 auto !important;
             min-height: 55px !important;
+            height: 55px !important;
+            width: 100% !important;
+            box-sizing: border-box !important;
         }
         
         /* Make labels single line, bold, and input fields bigger */
@@ -525,6 +549,22 @@
         .contact-light .field.grid > .field:first-child,
         .contact-light .field.grid > .field:last-child {
             width: 100% !important;
+            flex: 1 1 0 !important;
+        }
+        
+        /* Ensure grid columns are perfectly aligned and equal */
+        .contact-light .field.grid > .field {
+            align-self: stretch !important;
+            flex-basis: 0 !important;
+        }
+        
+        /* Perfect symmetry - ensure both columns are exactly equal */
+        .contact-light .field.grid > .field:first-child {
+            margin-right: 0 !important;
+        }
+        
+        .contact-light .field.grid > .field:last-child {
+            margin-left: 0 !important;
         }
         
         /* Consistent spacing between form rows */
@@ -534,6 +574,116 @@
         
         .contact-light > .field.grid:last-of-type {
             margin-bottom: 0 !important;
+        }
+        
+        /* Ensure full-width fields maintain symmetry */
+        .contact-light .field.grid > .field[style*="grid-column: 1 / -1"] {
+            grid-column: 1 / -1 !important;
+            width: 100% !important;
+        }
+        
+        /* Perfect grid column balance - ensure equal columns */
+        .contact-light .field.grid {
+            grid-template-columns: 1fr 1fr !important;
+            column-gap: 30px !important;
+            row-gap: 0 !important;
+        }
+        
+        /* Ensure visual symmetry - equal padding and margins */
+        .contact-light .field.grid > .field > * {
+            box-sizing: border-box !important;
+        }
+        
+        /* Perfect symmetry for all input elements */
+        .contact-light .field.grid > .field input,
+        .contact-light .field.grid > .field select {
+            margin: 0 !important;
+            padding: 18px 20px !important;
+        }
+        
+        /* Phone field with +91 prefix styling */
+        .contact-light .field .wpcf7-form-control-wrap.phone {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: stretch !important;
+            width: 100% !important;
+            flex-wrap: nowrap !important;
+        }
+        
+        .contact-light .field .wpcf7-form-control-wrap.phone > span:first-child {
+            display: inline-flex !important;
+            align-items: center !important;
+            padding: 18px 15px !important;
+            background-color: #f5f5f5 !important;
+            border: 1px solid #e6e6e6 !important;
+            border-right: none !important;
+            border-radius: 0 !important;
+            font-size: 16px !important;
+            color: #000000 !important;
+            white-space: nowrap !important;
+            flex-shrink: 0 !important;
+            min-height: 55px !important;
+            height: 55px !important;
+            box-sizing: border-box !important;
+            line-height: 1 !important;
+        }
+        
+        .contact-light .field .wpcf7-form-control-wrap.phone input[type="tel"] {
+            flex: 1 1 auto !important;
+            border-left: none !important;
+            border-radius: 0 !important;
+            padding-left: 20px !important;
+            min-width: 0 !important;
+        }
+        
+        .contact-light .field .wpcf7-form-control-wrap.phone input[type="tel"]:focus {
+            border-left: 1px solid #e6e6e6 !important;
+        }
+        
+        /* Ensure labels have equal spacing */
+        .contact-light .field.grid > .field:first-child > label,
+        .contact-light .field.grid > .field:last-child > label {
+            margin-bottom: 10px !important;
+            padding: 0 !important;
+        }
+        
+        /* Perfect column balance - no visual differences */
+        .contact-light .field.grid > .field:first-child {
+            padding-right: 0 !important;
+        }
+        
+        .contact-light .field.grid > .field:last-child {
+            padding-left: 0 !important;
+        }
+        
+        /* Ensure labels are aligned at the same height */
+        .contact-light .field.grid > .field > label {
+            margin-bottom: 10px !important;
+            margin-top: 0 !important;
+            line-height: 1.5 !important;
+            height: auto !important;
+            min-height: auto !important;
+            flex-shrink: 0 !important;
+        }
+        
+        /* Ensure inputs are aligned and take equal space */
+        .contact-light .field.grid > .field > .wpcf7-form-control-wrap {
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+            flex: 1 1 auto !important;
+            display: flex !important;
+            flex-direction: column !important;
+        }
+        
+        /* Remove any br tags spacing issues */
+        .contact-light .field.grid > .field > label + br {
+            display: none !important;
+        }
+        
+        /* Ensure all grid fields have equal heights */
+        .contact-light .field.grid > .field:first-child,
+        .contact-light .field.grid > .field:last-child {
+            height: 100% !important;
         }
         
         /* Make input and select fields bigger and symmetrical */
@@ -552,18 +702,42 @@
             border: 1px solid #e6e6e6 !important;
         }
         
-        /* Ensure selects match input height */
+        /* Ensure selects match input height and have same gray background */
         .contact-light .field select {
             appearance: none !important;
             -webkit-appearance: none !important;
             -moz-appearance: none !important;
-            background-color: rgba(255, 255, 255, 0) !important;
+            background-color: #f5f5f5 !important;
+        }
+        
+        /* Ensure all input fields have the same gray background */
+        .contact-light .field input[type="text"],
+        .contact-light .field input[type="email"],
+        .contact-light .field input[type="tel"],
+        .contact-light .field input[type="number"] {
+            background-color: #f5f5f5 !important;
+        }
+        
+        /* Radio button styling */
+        .contact-light .field input[type="radio"] {
+            width: 18px !important;
+            height: 18px !important;
+            min-width: 18px !important;
+            min-height: 18px !important;
+            margin: 0 !important;
+            cursor: pointer !important;
+            accent-color: #34b8e1 !important;
         }
         
         /* Ensure form field containers take full width */
         .contact-light .field .wpcf7-form-control-wrap {
             width: 100% !important;
-            display: block !important;
+        }
+        
+        /* For grid fields, use flex to maintain alignment */
+        .contact-light .field.grid > .field .wpcf7-form-control-wrap {
+            display: flex !important;
+            flex-direction: column !important;
         }
         
         .contact-light .field .wpcf7-form-control-wrap input,
@@ -596,12 +770,20 @@
                 height: 50px !important;
             }
             
-            .contact-light .field input[type="submit"] {
-                min-width: 200px !important;
-                padding: 16px 30px !important;
-                width: 100% !important;
-                max-width: 100% !important;
-            }
+        .contact-light .field input[type="submit"] {
+            min-width: 200px !important;
+            padding: 16px 30px !important;
+            width: auto !important;
+            max-width: none !important;
+            margin: 0 auto !important;
+        }
+        
+        /* Ensure submit button container is symmetrical */
+        .contact-light .field.grid > .field[style*="text-align: center"] {
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+        }
         }
         
         @media (min-width: 768px) and (max-width: 991px) {
@@ -834,25 +1016,16 @@
                                                                 <input type="hidden" name="calculated_cost" id="calculated_cost" value="">
                                                                 <div class="contact-light">
                                                                     <div class="field grid">
-                                                                        <div class="field">
-                                                                            <label>First Name</label><br />
+                                                                        <div class="field" style="grid-column: 1 / -1;">
+                                                                            <label>Full Name <span style="color: red;">*</span></label><br />
                                                                             <span
-                                                                                class="wpcf7-form-control-wrap first-name"><input
-                                                                                    type="text" name="first_name"
+                                                                                class="wpcf7-form-control-wrap full-name"><input
+                                                                                    type="text" name="full_name"
                                                                                     value="" size="40"
                                                                                     class="wpcf7-form-control wpcf7-text"
                                                                                     aria-invalid="false"
-                                                                                    placeholder="First Name" /></span>
-                                                                        </div>
-                                                                        <div class="field">
-                                                                            <label>Last Name</label><br />
-                                                                            <span
-                                                                                class="wpcf7-form-control-wrap last-name"><input
-                                                                                    type="text" name="last_name"
-                                                                                    value="" size="40"
-                                                                                    class="wpcf7-form-control wpcf7-text"
-                                                                                    aria-invalid="false"
-                                                                                    placeholder="Last Name" /></span>
+                                                                                    placeholder="Full Name"
+                                                                                    required /></span>
                                                                         </div>
                                                                     </div>
                                                                     <div class="field grid">
@@ -867,72 +1040,62 @@
                                                                                     placeholder="Email" /></span>
                                                                         </div>
                                                                         <div class="field">
-                                                                            <label>Phone</label><br />
+                                                                            <label>Phone <span style="color: red;">*</span></label><br />
                                                                             <span
-                                                                                class="wpcf7-form-control-wrap phone"><input
+                                                                                class="wpcf7-form-control-wrap phone" style="display: flex !important; flex-direction: row !important; align-items: stretch !important; width: 100% !important; flex-wrap: nowrap !important;">
+                                                                                <span style="display: inline-flex !important; align-items: center !important; padding: 18px 15px !important; background-color: #f5f5f5 !important; border: 1px solid #e6e6e6 !important; border-right: none !important; border-radius: 0 !important; font-size: 16px !important; color: #000000 !important; white-space: nowrap !important; flex-shrink: 0 !important; min-height: 55px !important; height: 55px !important; box-sizing: border-box !important;">+91</span>
+                                                                                <input
                                                                                     type="tel" name="phone"
                                                                                     value="" size="40"
                                                                                     class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel"
                                                                                     aria-invalid="false"
-                                                                                    placeholder="Phone Number" /></span>
+                                                                                    placeholder="Phone Number"
+                                                                                    required
+                                                                                    style="flex: 1 1 auto !important; border-left: none !important; border-radius: 0 !important; min-width: 0 !important;" /></span>
                                                                         </div>
                                                                     </div>
                                                                     <div class="field grid">
-                                                                        <div class="field">
+                                                                        <div class="field" style="grid-column: 1 / -1;">
+                                                                            <label>Address</label><br />
+                                                                            <span
+                                                                                class="wpcf7-form-control-wrap address"><input
+                                                                                    type="text" name="address"
+                                                                                    value="" size="40"
+                                                                                    class="wpcf7-form-control wpcf7-text"
+                                                                                    aria-invalid="false"
+                                                                                    placeholder="Address" /></span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="field grid">
+                                                                        <div class="field" style="grid-column: 1 / -1;">
                                                                             <label>What is the size of your plot?</label><br />
-                                                                            <span
-                                                                                class="wpcf7-form-control-wrap plot-size"><input
-                                                                                    type="number" name="plot_size"
-                                                                                    value="" size="40"
-                                                                                    min="0"
-                                                                                    step="0.01"
-                                                                                    class="wpcf7-form-control wpcf7-number wpcf7-validates-as-number"
-                                                                                    aria-invalid="false"
-                                                                                    placeholder="Plot Size" /></span>
-                                                                        </div>
-                                                                        <div class="field">
-                                                                            <label>What is the unit of plot measurement? <span style="color: red;">*</span></label><br />
-                                                                            <span
-                                                                                class="wpcf7-form-control-wrap plot-unit"><select
-                                                                                    name="plot_unit"
-                                                                                    class="wpcf7-form-control wpcf7-select"
-                                                                                    aria-invalid="false">
-                                                                                    <option value="">Select Unit</option>
-                                                                                    <option value="Square Yards">Square Yards</option>
-                                                                                    <option value="Square Feet">Square Feet</option>
-                                                                                    <option value="Square Meters">Square Meters</option>
-                                                                                </select></span>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="field grid">
-                                                                        <div class="field">
-                                                                            <label>Size of your Plot Front?</label><br />
-                                                                            <span
-                                                                                class="wpcf7-form-control-wrap plot-front"><input
-                                                                                    type="number" name="plot_front"
-                                                                                    value="" size="40"
-                                                                                    min="0"
-                                                                                    step="0.01"
-                                                                                    class="wpcf7-form-control wpcf7-number wpcf7-validates-as-number"
-                                                                                    aria-invalid="false"
-                                                                                    placeholder="Plot Front Size" /></span>
-                                                                        </div>
-                                                                        <div class="field">
-                                                                            <label>What is the unit of plot front measurement? <span style="color: red;">*</span></label><br />
-                                                                            <span
-                                                                                class="wpcf7-form-control-wrap plot-front-unit"><select
-                                                                                    name="plot_front_unit"
-                                                                                    class="wpcf7-form-control wpcf7-select"
-                                                                                    aria-invalid="false">
-                                                                                    <option value="">Select Unit</option>
-                                                                                    <option value="Feet">Feet</option>
-                                                                                    <option value="Meters">Meters</option>
-                                                                                </select></span>
+                                                                            <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; width: 100%; margin-top: 0;">
+                                                                                <span
+                                                                                    class="wpcf7-form-control-wrap plot-size" style="flex: 0 1 auto; min-width: 200px; max-width: 300px; display: flex;"><input
+                                                                                        type="number" name="plot_size"
+                                                                                        value="" size="40"
+                                                                                        min="0"
+                                                                                        step="0.01"
+                                                                                        class="wpcf7-form-control wpcf7-number wpcf7-validates-as-number"
+                                                                                        aria-invalid="false"
+                                                                                        placeholder="Plot Size"
+                                                                                        style="width: 100%; height: 55px;" /></span>
+                                                                                <div style="display: flex; gap: 20px; align-items: center; flex-wrap: wrap; flex-shrink: 0; height: 55px;">
+                                                                                    <label style="display: flex; align-items: center; gap: 8px; font-weight: normal; margin: 0; cursor: pointer; white-space: nowrap; height: 100%;">
+                                                                                        <input type="radio" name="plot_unit" value="Square Meters" class="wpcf7-form-control wpcf7-radio" style="width: 18px; height: 18px; margin: 0; cursor: pointer; flex-shrink: 0;" />
+                                                                                        <span>Square Meters</span>
+                                                                                    </label>
+                                                                                    <label style="display: flex; align-items: center; gap: 8px; font-weight: normal; margin: 0; cursor: pointer; white-space: nowrap; height: 100%;">
+                                                                                        <input type="radio" name="plot_unit" value="Gaj" class="wpcf7-form-control wpcf7-radio" style="width: 18px; height: 18px; margin: 0; cursor: pointer; flex-shrink: 0;" />
+                                                                                        <span>Gaj</span>
+                                                                                    </label>
+                                                                                </div>
+                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                     <div class="field grid">
                                                                         <div class="field">
-                                                                            <label>How many floors do you wish to build? <span style="color: red;">*</span></label><br />
+                                                                            <label>How many floors do you wish to build?</label><br />
                                                                             <span
                                                                                 class="wpcf7-form-control-wrap floors"><select
                                                                                     name="floors"
@@ -946,7 +1109,7 @@
                                                                                 </select></span>
                                                                         </div>
                                                                         <div class="field">
-                                                                            <label>Do you wish to build a basement? <span style="color: red;">*</span></label><br />
+                                                                            <label>Do you wish to build a basement?</label><br />
                                                                             <span
                                                                                 class="wpcf7-form-control-wrap basement"><select
                                                                                     name="basement"
@@ -1152,28 +1315,44 @@
                     e.preventDefault();
                     
                     // Validate required fields
+                    const fullName = document.querySelector('input[name="full_name"]').value.trim();
+                    let phone = document.querySelector('input[name="phone"]').value.trim();
                     const plotSize = parseFloat(document.querySelector('input[name="plot_size"]').value) || 0;
-                    const plotUnit = document.querySelector('select[name="plot_unit"]').value;
+                    const plotUnitRadio = document.querySelector('input[name="plot_unit"]:checked');
+                    const plotUnit = plotUnitRadio ? plotUnitRadio.value : '';
                     const floors = document.querySelector('select[name="floors"]').value;
                     const basement = document.querySelector('select[name="basement"]').value;
                     const email = document.querySelector('input[name="email"]').value;
                     const submitButton = document.querySelector('input[type="submit"]');
                     
-                    if (!plotUnit || !floors || !basement) {
-                        alert('Please fill in all required fields (marked with *)');
+                    // Validate required fields (Full Name and Phone)
+                    if (!fullName) {
+                        alert('Please enter your Full Name');
                         return;
                     }
                     
-                    if (plotSize <= 0) {
-                        alert('Please enter a valid plot size');
+                    if (!phone) {
+                        alert('Please enter your Phone Number');
                         return;
                     }
                     
-                    // Calculate construction cost (in background, not displayed)
-                    const result = calculateConstructionCost(plotSize, plotUnit, floors, basement);
+                    // Prepend +91 to phone number if not already present
+                    if (phone && !phone.startsWith('+91')) {
+                        phone = '+91' + phone;
+                        // Update the input value for form submission
+                        document.querySelector('input[name="phone"]').value = phone;
+                    }
                     
-                    // Store calculated cost in hidden field
-                    document.getElementById('calculated_cost').value = formatINR(result.finalCost);
+                    // Calculate construction cost only if plot details are provided (optional)
+                    let result = null;
+                    if (plotSize > 0 && plotUnit && floors && basement) {
+                        result = calculateConstructionCost(plotSize, plotUnit, floors, basement);
+                        // Store calculated cost in hidden field
+                        document.getElementById('calculated_cost').value = formatINR(result.finalCost);
+                    } else {
+                        // No calculation if optional fields are not filled
+                        document.getElementById('calculated_cost').value = 'Not calculated';
+                    }
                     
                     // Set email for replyto
                     if (email) {
@@ -1241,6 +1420,7 @@
                 let plotAreaSqft;
                 switch(plotUnit) {
                     case 'Square Yards':
+                    case 'Gaj':
                         plotAreaSqft = plotSize * 9;
                         break;
                     case 'Square Feet':

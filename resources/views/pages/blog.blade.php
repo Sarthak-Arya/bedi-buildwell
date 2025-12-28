@@ -156,7 +156,7 @@
             text-transform: lowercase;
             font-size: 32px;
             line-height: 30px;
-            background-color: #feeb35;
+            background-color: #ffd000;
         }
 
         .content-bottom-widgets .widget {
@@ -209,7 +209,7 @@
         .site-header .navigator .menu.menu-extras .search-field,
         .site-header .off-canvas-toggle,
         .site-header .off-canvas-toggle:hover {
-            color: #feeb35;
+            color: #ffd000;
         }
 
         .site-header-sticky .off-canvas-toggle,
@@ -253,7 +253,7 @@
         }
 
         .site-footer .footer-copyright a:hover {
-            color: #feeb35;
+            color: #ffd000;
         }
 
         .wrap {
@@ -278,15 +278,27 @@
         }
 
         .site-header-sticky .header-brand {
-            margin-top: 30px;
-            margin-bottom: 31px;
+            margin-top: 10px;
+            margin-bottom: 10px;
         }
 
         .site-header-sticky .off-canvas-toggle,
         .site-header-sticky .navigator .menu>li>a,
         .site-header-sticky .menu-extras>li>a {
-            padding-top: 5px;
-            padding-bottom: 4px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+        }
+        
+        /* Make sticky header logo larger */
+        .site-header-sticky .header-brand img {
+            max-height: 90px !important;
+            height: auto !important;
+        }
+        
+        /* Reduce sticky header overall height */
+        .site-header-sticky .site-header-inner {
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
         }
 
         .content-header .content-header-inner {

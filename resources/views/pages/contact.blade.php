@@ -159,7 +159,7 @@
             text-transform: lowercase;
             font-size: 32px;
             line-height: 30px;
-            background-color: #feeb35;
+            background-color: #ffd000;
         }
 
         .content-bottom-widgets .widget {
@@ -212,7 +212,7 @@
         .site-header .navigator .menu.menu-extras .search-field,
         .site-header .off-canvas-toggle,
         .site-header .off-canvas-toggle:hover {
-            color: #feeb35;
+            color: #ffd000;
         }
 
         .site-header-sticky .off-canvas-toggle,
@@ -256,7 +256,7 @@
         }
 
         .site-footer .footer-copyright a:hover {
-            color: #feeb35;
+            color: #ffd000;
         }
 
         .wrap {
@@ -287,15 +287,27 @@
         }
 
         .site-header-sticky .header-brand {
-            margin-top: 30px;
-            margin-bottom: 31px;
+            margin-top: 10px;
+            margin-bottom: 10px;
         }
 
         .site-header-sticky .off-canvas-toggle,
         .site-header-sticky .navigator .menu>li>a,
         .site-header-sticky .menu-extras>li>a {
-            padding-top: 5px;
-            padding-bottom: 4px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+        }
+        
+        /* Make sticky header logo larger */
+        .site-header-sticky .header-brand img {
+            max-height: 90px !important;
+            height: auto !important;
+        }
+        
+        /* Reduce sticky header overall height */
+        .site-header-sticky .site-header-inner {
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
         }
 
         .content-header .content-header-inner {
@@ -1025,8 +1037,6 @@
             }
         </style>
     </noscript>
-    <meta name="generator"[^>]*/>
-    <meta name="generator"[^>]*/>
     <script>
         function setREVStartSize(e) {
             //window.requestAnimationFrame(function() {
@@ -1428,365 +1438,6 @@
                                         </div>
                                     </div>
                                 </section>
-                                <section class="vc_section vc_custom_1582422117613">
-                                    <div
-                                        class="vc_row wpb_row vc_row-fluid vc_custom_1582337290734 vc_row-has-fill vc_row-o-content-middle vc_row-flex">
-                                        <div class="row-inner">
-                                            <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <h2 style="font-size: 64px;line-height: 64px;text-align: center"
-                                                            class="vc_custom_heading"><strong>talk to the
-                                                                experts</strong></h2>
-                                                        <div class="vc_empty_space" style="height: 15px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                        <p style="font-size: 21px;color: #7f7f7f;line-height: 26px;text-align: center"
-                                                            class="vc_custom_heading">Give us a call, open a ticket, or
-                                                            send us a note.<br />
-                                                            We can’t wait to hear from you!</p>
-                                                        <div class="vc_empty_space" style="height: 70px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="vc_row wpb_row vc_row-fluid vc_column-gap-30">
-                                        <div class="row-inner">
-                                            <div
-                                                class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-4 vc_col-md-6 vc_col-xs-12">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="member  style1  has-image">
-
-                                                            <div class="member-image">
-                                                                <img width="500" height="500" decoding="async"
-                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E"
-                                                                    alt="Billy Mark"
-                                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p9.jpg" /><noscript><img
-                                                                        width="500" height="500"
-                                                                        decoding="async"
-                                                                        src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p9.jpg"
-                                                                        alt="Billy Mark" /></noscript>
-                                                            </div>
-
-                                                            <div class="member-info">
-                                                                <div class="member-meta">
-                                                                    <h3 class="member-name">Billy Mark</h3>
-                                                                    <div class="member-subtitle">Senior Vice President
-                                                                    </div>
-
-                                                                </div>
-                                                                <div class="member-desc">
-                                                                    <dl>
-                                                                        <dt>Phone Number</dt>
-                                                                        <dd><a href="#">1800-712-70xxxx</a></dd>
-                                                                        <dt>Email Us</dt>
-                                                                        <dd><a href="#">info.ny@example.com</a>
-                                                                        </dd>
-                                                                    </dl>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="vc_empty_space" style="height: 30px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-4 vc_col-md-6 vc_col-xs-12">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="member  style1  has-image">
-
-                                                            <div class="member-image">
-                                                                <img width="500" height="500" decoding="async"
-                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E"
-                                                                    alt="Amy Jr"
-                                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/P4.jpg" /><noscript><img
-                                                                        width="500" height="500"
-                                                                        decoding="async"
-                                                                        src="https://live.21lab.co/hank/wp-content/uploads/2020/02/P4.jpg"
-                                                                        alt="Amy Jr" /></noscript>
-                                                            </div>
-
-                                                            <div class="member-info">
-                                                                <div class="member-meta">
-                                                                    <h3 class="member-name">Amy Jr</h3>
-                                                                    <div class="member-subtitle">Director of Business
-                                                                        Development</div>
-
-                                                                </div>
-                                                                <div class="member-desc">
-                                                                    <dl>
-                                                                        <dt>Phone Number</dt>
-                                                                        <dd><a href="#">1800-712-70xxxx</a></dd>
-                                                                        <dt>Email Us</dt>
-                                                                        <dd><a href="#">info.ny@example.com</a>
-                                                                        </dd>
-                                                                    </dl>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="vc_empty_space" style="height: 30px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-4 vc_col-md-6 vc_col-xs-12">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="member  style1  has-image">
-
-                                                            <div class="member-image">
-                                                                <img width="500" height="500" decoding="async"
-                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E"
-                                                                    alt="Steve Perry"
-                                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p9.jpg" /><noscript><img
-                                                                        width="500" height="500"
-                                                                        decoding="async"
-                                                                        src="https://live.21lab.co/hank/wp-content/uploads/2020/02/p9.jpg"
-                                                                        alt="Steve Perry" /></noscript>
-                                                            </div>
-
-                                                            <div class="member-info">
-                                                                <div class="member-meta">
-                                                                    <h3 class="member-name">Steve Perry</h3>
-                                                                    <div class="member-subtitle">Vice President of HR
-                                                                    </div>
-
-                                                                </div>
-                                                                <div class="member-desc">
-                                                                    <dl>
-                                                                        <dt>Phone Number</dt>
-                                                                        <dd><a href="#">1800-712-70xxxx</a></dd>
-                                                                        <dt>Email Us</dt>
-                                                                        <dd><a href="#">info.ny@example.com</a>
-                                                                        </dd>
-                                                                    </dl>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="vc_empty_space" style="height: 30px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section id="locations" class="vc_section vc_custom_1582779812584">
-                                    <div data-vc-stretch-content="true"
-                                        class="vc_row wpb_row vc_row-fluid vc_custom_1644801517561 vc_row-has-fill">
-                                        <div class="row-inner">
-                                            <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="elm-google-maps"
-                                                            data-options="{&quot;style&quot;:&quot;subtle-grayscale&quot;,&quot;zoomlevel&quot;:&quot;16&quot;,&quot;zoomable&quot;:&quot;no&quot;,&quot;height&quot;:&quot;500&quot;,&quot;locations&quot;:&quot;[{\&quot;marker\&quot;:\&quot;https:\\\/\\\/live.21lab.co\\\/hank\\\/wp-content\\\/uploads\\\/2019\\\/11\\\/pin.svg\&quot;,\&quot;address\&quot;:\&quot;172 Rugby Rd, Brooklyn, NY 11226, United States\&quot;,\&quot;content\&quot;:\&quot;&lt;p&gt;172 Rugby Rd, Brooklyn, NY 11226, United States&lt;\\\/p&gt;\\n\&quot;,\&quot;latlng\&quot;:false}]&quot;}"
-                                                            style="height: 500px"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="vc_row wpb_row vc_row-fluid vc_custom_1582779840306">
-                                        <div class="row-inner">
-                                            <div
-                                                class="wpb_column vc_column_container vc_col-sm-2 vc_col-lg-2 vc_col-md-1 vc_hidden-sm vc_hidden-xs">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper"></div>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-8 vc_col-md-10">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <h2 style="font-size: 36px;line-height: 44px;text-align: center"
-                                                            class="vc_custom_heading">With a presence in three
-                                                            countries. We has<br />
-                                                            the most comprehensive local office network in the industry.
-                                                        </h2>
-                                                        <div class="vc_empty_space" style="height: 15px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                        <div class="wpb_text_column wpb_content_element ">
-                                                            <div class="wpb_wrapper">
-                                                                <p style="text-align: center;"><a
-                                                                        class="link has-arrow" style="color: #7f7f7f;"
-                                                                        href="#">Download Hank Office Listing</a>
-                                                                </p>
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="vc_empty_space" style="height: 50px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="wpb_column vc_column_container vc_col-sm-2 vc_col-lg-2 vc_col-md-1 vc_hidden-sm vc_hidden-xs">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="vc_row wpb_row vc_row-fluid vc_column-gap-30 vc_row-o-equal-height vc_row-flex">
-                                        <div class="row-inner">
-                                            <div
-                                                class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-4 vc_col-md-6">
-                                                <div class="vc_column-inner vc_custom_1582796337328">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="member    has-image">
-
-                                                            <div class="member-image">
-                                                                <img width="800" height="500" decoding="async"
-                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20500'%3E%3C/svg%3E"
-                                                                    alt="NEW YORK"
-                                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2019/11/l1.jpg" /><noscript><img
-                                                                        width="800" height="500"
-                                                                        decoding="async"
-                                                                        src="https://live.21lab.co/hank/wp-content/uploads/2019/11/l1.jpg"
-                                                                        alt="NEW YORK" /></noscript>
-                                                            </div>
-
-                                                            <div class="member-info">
-                                                                <div class="member-meta">
-                                                                    <h3 class="member-name">NEW YORK</h3>
-                                                                    <div class="member-subtitle">Hank Headquarters
-                                                                    </div>
-
-                                                                </div>
-                                                                <div class="member-desc">
-                                                                    <dl>
-                                                                        <dt>Address</dt>
-                                                                        <dd>207 Beverley Rd Brooklyn, New York 126
-                                                                            United States.</dd>
-                                                                        <dt>Phone Number</dt>
-                                                                        <dd><a href="#">1800-712-70xxxx</a></dd>
-                                                                        <dt>Email Us</dt>
-                                                                        <dd><a href="#">info.ny@example.com</a>
-                                                                        </dd>
-                                                                        <dt>Office Hours</dt>
-                                                                        <dd>7:00AM to 4:30PM</dd>
-                                                                    </dl>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-4 vc_col-md-6">
-                                                <div class="vc_column-inner vc_custom_1582796345110">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="member    has-image">
-
-                                                            <div class="member-image">
-                                                                <img width="800" height="500" decoding="async"
-                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20500'%3E%3C/svg%3E"
-                                                                    alt="TORONTO"
-                                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2019/11/l2.jpg" /><noscript><img
-                                                                        width="800" height="500"
-                                                                        decoding="async"
-                                                                        src="https://live.21lab.co/hank/wp-content/uploads/2019/11/l2.jpg"
-                                                                        alt="TORONTO" /></noscript>
-                                                            </div>
-
-                                                            <div class="member-info">
-                                                                <div class="member-meta">
-                                                                    <h3 class="member-name">TORONTO</h3>
-                                                                    <div class="member-subtitle">Canada Office</div>
-
-                                                                </div>
-                                                                <div class="member-desc">
-                                                                    <dl>
-                                                                        <dt>Address</dt>
-                                                                        <dd>36 Toronto Street, Suite 600, Toronto, ON
-                                                                            M5C2C5.</dd>
-                                                                        <dt>Phone Number</dt>
-                                                                        <dd><a href="#">+1 416 765 4343</a></dd>
-                                                                        <dt>Email Us</dt>
-                                                                        <dd><a href="#">info.ca@example.com</a>
-                                                                        </dd>
-                                                                        <dt>Office Hours</dt>
-                                                                        <dd>7:00AM to 4:30PM</dd>
-                                                                    </dl>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-4 vc_col-md-6">
-                                                <div class="vc_column-inner vc_custom_1582796354572">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="member    has-image">
-
-                                                            <div class="member-image">
-                                                                <img width="800" height="500" decoding="async"
-                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20500'%3E%3C/svg%3E"
-                                                                    alt="MELBOURNE"
-                                                                    data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2019/11/l3.jpg" /><noscript><img
-                                                                        width="800" height="500"
-                                                                        decoding="async"
-                                                                        src="https://live.21lab.co/hank/wp-content/uploads/2019/11/l3.jpg"
-                                                                        alt="MELBOURNE" /></noscript>
-                                                            </div>
-
-                                                            <div class="member-info">
-                                                                <div class="member-meta">
-                                                                    <h3 class="member-name">MELBOURNE</h3>
-                                                                    <div class="member-subtitle">Australia Office</div>
-
-                                                                </div>
-                                                                <div class="member-desc">
-                                                                    <dl>
-                                                                        <dt>Address</dt>
-                                                                        <dd>121 King Street, Melbourne Victoria 3000
-                                                                            Australia.</dd>
-                                                                        <dt>Phone Number</dt>
-                                                                        <dd><a href="#">+61 3 8377 6226</a></dd>
-                                                                        <dt>Email Us</dt>
-                                                                        <dd><a href="#">info.au@example.com</a>
-                                                                        </dd>
-                                                                        <dt>Office Hours</dt>
-                                                                        <dd>7:00AM to 4:30PM</dd>
-                                                                    </dl>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="vc_row wpb_row vc_row-fluid">
-                                        <div class="row-inner">
-                                            <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="wpb_text_column wpb_content_element ">
-                                                            <div class="wpb_wrapper">
-                                                                <p style="text-align: center;"><span
-                                                                        class="badge">Hiring</span> – We are looking
-                                                                    for talented &amp; driven people to come work with
-                                                                    us. <a class="link" style="color: #7f7f7f;"
-                                                                        href="#">Available
-                                                                        Positions</a></p>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-
                             </div>
                             <!-- /.content -->
 
