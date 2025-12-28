@@ -78,6 +78,18 @@
             background-color: #ffffff;
         }
 
+        .site-header .navigator>.menu>li a {
+            text-transform: lowercase;
+            font-size: 21px;
+            line-height: 16px;
+        }
+
+        .site-header-sticky .navigator>.menu>li a {
+            text-transform: lowercase;
+            font-size: 21px;
+            line-height: 16px;
+        }
+
         .content-header {
             background-color: #000000;
             background-image: url(https://live.21lab.co/hank/wp-content/uploads/2019/10/bg-title.jpg);
@@ -124,24 +136,13 @@
         }
 
         h6 {
-            color: #34b8e1;
+            color: #ffd000;
             text-transform: uppercase;
             font-size: 12px;
             line-height: 1.2em;
             letter-spacing: 1px;
         }
 
-        .site-header .navigator>.menu>li a {
-            text-transform: lowercase;
-            font-size: 21px;
-            line-height: 16px;
-        }
-
-        .site-header-sticky .navigator>.menu>li a {
-            text-transform: lowercase;
-            font-size: 21px;
-            line-height: 16px;
-        }
 
         .content-header .page-title-inner,
         .page-title .subtitle {
@@ -195,7 +196,7 @@
         }
 
         a {
-            color: #34b8e1;
+            color: #ffd000;
         }
 
         a:hover {
@@ -268,36 +269,57 @@
         .site-footer a {
             color: #ffffff;
         }
+        
+        /* Ensure footer icons use #ffd000 */
+        .site-footer i,
+        .site-footer .fa,
+        .site-footer .fas,
+        .site-footer .fab,
+        .site-footer .far,
+        .site-footer a i {
+            color: #ffd000 !important;
+        }
+        
+        /* Ensure all icons on calculator page use #ffd000, not golden */
+        .calculator-form-row i,
+        .calculator-form-row .fa,
+        .calculator-form-row .fas,
+        .calculator-form-row .fab,
+        .step-icon i,
+        .step-icon .fa,
+        .step-icon .fas,
+        .how-it-works-step i,
+        .how-it-works-step .fa,
+        .how-it-works-step .fas {
+            color: #ffd000 !important;
+        }
+
+        /* Comprehensive override for all Font Awesome icons to use #ffd000 */
+        i[class*="fa-"],
+        [class*="fa-"]:before,
+        .fa:before,
+        .fas:before,
+        .fab:before,
+        .far:before,
+        i.fa,
+        i.fas,
+        i.fab,
+        i.far {
+            color: #ffd000 !important;
+        }
+
+        /* Exception: keep header icons white as per design */
+        .site-header i[class*="fa-"],
+        .site-header [class*="fa-"]:before,
+        .site-header .fa:before,
+        .site-header .fas:before,
+        .site-header .fab:before {
+            color: inherit !important;
+        }
+
 
         .site-footer .footer-copyright a:hover {
             color: #ffd000;
-        }
-
-        .wrap {
-            width: 1680px;
-            max-width: 90%;
-        }
-
-        .content-body-inner {
-            padding-bottom: 80px;
-        }
-
-        .content>.vc_row>.row-inner,
-        .content>.vc_section>.vc_row>.row-inner {
-            width: 1710px;
-            margin: 0 auto;
-        }
-        
-        /* Override fixed width for calculator form row - full width */
-        .content>.vc_section>.vc_row .calculator-form-row {
-            width: 100% !important;
-            max-width: 100% !important;
-        }
-        
-        /* Ensure the vc_row container uses full width */
-        .vc_custom_1574824341747.vc_row {
-            width: 100% !important;
-            max-width: 100% !important;
         }
 
         .site-header .header-brand {
@@ -335,6 +357,113 @@
             padding-top: 0 !important;
             padding-bottom: 0 !important;
         }
+        
+        /* Ensure header elements are always visible at all aspect ratios */
+        .site-header .header-brand,
+        .site-header-sticky .header-brand {
+            display: block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+        }
+        
+        /* Ensure mobile menu button is visible when navigation doesn't fit */
+        @media only screen and (max-width: 1200px) {
+            .sliding-desktop-off .site-header .off-canvas-toggle[data-target="off-canvas-right"],
+            .sliding-desktop-off .site-header-sticky .off-canvas-toggle[data-target="off-canvas-right"] {
+                display: block !important;
+                visibility: visible !important;
+                opacity: 1 !important;
+            }
+        }
+        
+        /* Ensure navigation is visible when it fits */
+        @media only screen and (min-width: 1201px) {
+            .site-header .navigator,
+            .site-header-sticky .navigator {
+                display: block !important;
+                visibility: visible !important;
+            }
+        }
+        
+        /* At medium widths, show both navigation and menu button if needed */
+        @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+            .site-header .navigator {
+                display: block !important;
+            }
+            .sliding-desktop-off .site-header .off-canvas-toggle[data-target="off-canvas-right"],
+            .sliding-desktop-off .site-header-sticky .off-canvas-toggle[data-target="off-canvas-right"] {
+                display: block !important;
+                visibility: visible !important;
+                opacity: 1 !important;
+            }
+        }
+        
+        /* Ensure header content doesn't overflow and wraps properly */
+        .site-header .header-content,
+        .site-header-sticky .header-content {
+            display: flex !important;
+            align-items: center !important;
+            flex-wrap: wrap !important;
+            width: 100% !important;
+        }
+        
+        /* Ensure logo is always visible and doesn't shrink too much */
+        .site-header .header-brand,
+        .site-header-sticky .header-brand {
+            flex-shrink: 0 !important;
+            min-width: 120px !important;
+        }
+        
+        /* Ensure mobile menu button is always accessible */
+        .site-header .off-canvas-toggle,
+        .site-header-sticky .off-canvas-toggle {
+            flex-shrink: 0 !important;
+            z-index: 1000 !important;
+        }
+        
+        /* Hide contact info on smaller screens to make room for menu */
+        @media only screen and (max-width: 1100px) {
+            .site-header .extras .header-info-text,
+            .site-header-sticky .extras .header-info-text {
+                display: none !important;
+            }
+        }
+        
+        /* Ensure navigation wraps or hides gracefully when space is limited */
+        @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+            .site-header .navigator .menu {
+                display: flex !important;
+                flex-wrap: wrap !important;
+            }
+        }
+
+        .wrap {
+            width: 1680px;
+            max-width: 90%;
+        }
+
+        .content-body-inner {
+            padding-bottom: 80px;
+        }
+
+        .content>.vc_row>.row-inner,
+        .content>.vc_section>.vc_row>.row-inner {
+            width: 1710px;
+            margin: 0 auto;
+        }
+        
+        /* Override fixed width for calculator form row - full width */
+        .content>.vc_section>.vc_row .calculator-form-row {
+            width: 100% !important;
+            max-width: 100% !important;
+        }
+        
+        /* Ensure the vc_row container uses full width */
+        .vc_custom_1574824341747.vc_row {
+            width: 100% !important;
+            max-width: 100% !important;
+        }
+
 
         .content-header .content-header-inner {
             height: 32vh;
@@ -726,7 +855,7 @@
             min-height: 18px !important;
             margin: 0 !important;
             cursor: pointer !important;
-            accent-color: #34b8e1 !important;
+            accent-color: #ffd000 !important;
         }
         
         /* Ensure form field containers take full width */
@@ -843,13 +972,13 @@
             justify-content: center;
             background-color: #f8f9fa;
             border-radius: 50%;
-            border: 2px solid #34b8e1;
+            border: 2px solid #ffd000;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
         
         .how-it-works-step:hover .step-icon {
             transform: scale(1.1);
-            box-shadow: 0 5px 15px rgba(52, 184, 225, 0.3);
+            box-shadow: 0 5px 15px rgba(255, 208, 0, 0.3);
         }
         
         .step-arrow {
@@ -1140,8 +1269,8 @@
                                                                 <div class="how-it-works-steps" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px;">
                                                                     <!-- Step I -->
                                                                     <div class="how-it-works-step" style="flex: 1; min-width: 150px; text-align: center; position: relative;">
-                                                                        <div class="step-icon" style="width: 80px; height: 80px; margin: 0 auto 12px; display: flex; align-items: center; justify-content: center; background-color: #f8f9fa; border-radius: 50%; border: 2px solid #34b8e1;">
-                                                                            <i class="fas fa-mobile-alt" style="font-size: 35px; color: #34b8e1;"></i>
+                                                                        <div class="step-icon" style="width: 80px; height: 80px; margin: 0 auto 12px; display: flex; align-items: center; justify-content: center; background-color: #f8f9fa; border-radius: 50%; border: 2px solid #ffd000;">
+                                                                            <i class="fas fa-mobile-alt" style="font-size: 35px; color: #ffd000;"></i>
                                                                         </div>
                                                                         <h3 style="font-size: 16px; font-weight: 700; margin-bottom: 6px; color: #000000;">STEP - I</h3>
                                                                         <h4 style="font-size: 15px; font-weight: 600; margin-bottom: 5px; color: #232323;">Fill Out the Form</h4>
@@ -1150,13 +1279,13 @@
                                                                     
                                                                     <!-- Arrow 1 -->
                                                                     <div class="step-arrow" style="flex: 0 0 auto; padding: 0 8px;">
-                                                                        <i class="fas fa-arrow-right" style="font-size: 28px; color: #34b8e1;"></i>
+                                                                        <i class="fas fa-arrow-right" style="font-size: 28px; color: #ffd000;"></i>
                                                                     </div>
                                                                     
                                                                     <!-- Step II -->
                                                                     <div class="how-it-works-step" style="flex: 1; min-width: 150px; text-align: center; position: relative;">
-                                                                        <div class="step-icon" style="width: 80px; height: 80px; margin: 0 auto 12px; display: flex; align-items: center; justify-content: center; background-color: #f8f9fa; border-radius: 50%; border: 2px solid #34b8e1;">
-                                                                            <i class="fas fa-headset" style="font-size: 35px; color: #34b8e1;"></i>
+                                                                        <div class="step-icon" style="width: 80px; height: 80px; margin: 0 auto 12px; display: flex; align-items: center; justify-content: center; background-color: #f8f9fa; border-radius: 50%; border: 2px solid #ffd000;">
+                                                                            <i class="fas fa-headset" style="font-size: 35px; color: #ffd000;"></i>
                                                                         </div>
                                                                         <h3 style="font-size: 16px; font-weight: 700; margin-bottom: 6px; color: #000000;">STEP - II</h3>
                                                                         <h4 style="font-size: 15px; font-weight: 600; margin-bottom: 5px; color: #232323;">Talk to our Experts</h4>
@@ -1165,13 +1294,13 @@
                                                                     
                                                                     <!-- Arrow 2 -->
                                                                     <div class="step-arrow" style="flex: 0 0 auto; padding: 0 8px;">
-                                                                        <i class="fas fa-arrow-right" style="font-size: 28px; color: #34b8e1;"></i>
+                                                                        <i class="fas fa-arrow-right" style="font-size: 28px; color: #ffd000;"></i>
                                                                     </div>
                                                                     
                                                                     <!-- Step III -->
                                                                     <div class="how-it-works-step" style="flex: 1; min-width: 150px; text-align: center; position: relative;">
-                                                                        <div class="step-icon" style="width: 80px; height: 80px; margin: 0 auto 12px; display: flex; align-items: center; justify-content: center; background-color: #f8f9fa; border-radius: 50%; border: 2px solid #34b8e1;">
-                                                                            <i class="fas fa-lightbulb" style="font-size: 35px; color: #34b8e1;"></i>
+                                                                        <div class="step-icon" style="width: 80px; height: 80px; margin: 0 auto 12px; display: flex; align-items: center; justify-content: center; background-color: #f8f9fa; border-radius: 50%; border: 2px solid #ffd000;">
+                                                                            <i class="fas fa-lightbulb" style="font-size: 35px; color: #ffd000;"></i>
                                                                         </div>
                                                                         <h3 style="font-size: 16px; font-weight: 700; margin-bottom: 6px; color: #000000;">STEP - III</h3>
                                                                         <h4 style="font-size: 15px; font-weight: 600; margin-bottom: 5px; color: #232323;">Select Your Preferences</h4>
@@ -1180,13 +1309,13 @@
                                                                     
                                                                     <!-- Arrow 3 -->
                                                                     <div class="step-arrow" style="flex: 0 0 auto; padding: 0 8px;">
-                                                                        <i class="fas fa-arrow-right" style="font-size: 28px; color: #34b8e1;"></i>
+                                                                        <i class="fas fa-arrow-right" style="font-size: 28px; color: #ffd000;"></i>
                                                                     </div>
                                                                     
                                                                     <!-- Step IV -->
                                                                     <div class="how-it-works-step" style="flex: 1; min-width: 150px; text-align: center; position: relative;">
-                                                                        <div class="step-icon" style="width: 80px; height: 80px; margin: 0 auto 12px; display: flex; align-items: center; justify-content: center; background-color: #f8f9fa; border-radius: 50%; border: 2px solid #34b8e1;">
-                                                                            <i class="fas fa-home" style="font-size: 35px; color: #34b8e1;"></i>
+                                                                        <div class="step-icon" style="width: 80px; height: 80px; margin: 0 auto 12px; display: flex; align-items: center; justify-content: center; background-color: #f8f9fa; border-radius: 50%; border: 2px solid #ffd000;">
+                                                                            <i class="fas fa-home" style="font-size: 35px; color: #ffd000;"></i>
                                                                         </div>
                                                                         <h3 style="font-size: 16px; font-weight: 700; margin-bottom: 6px; color: #000000;">STEP - IV</h3>
                                                                         <h4 style="font-size: 15px; font-weight: 600; margin-bottom: 5px; color: #232323;">Get Your Quote</h4>
@@ -1469,6 +1598,53 @@
         } else {
             document.body.classList.add('is-loaded');
         }
+        
+        // Sticky header functionality - matching welcome page behavior
+        jQuery(document).ready(function($) {
+            var $site = $('.site');
+            var $stickyHeader = $('.site-header-sticky');
+            var lastScrollTop = 0;
+            var scrollThreshold = 100;
+            
+            if (!$site.length || !$stickyHeader.length) return;
+            
+            function handleScroll() {
+                var scrollTop = $(window).scrollTop();
+                
+                if (scrollTop > scrollThreshold) {
+                    $stickyHeader.addClass('active');
+                    
+                    if (scrollTop < lastScrollTop) {
+                        // Scrolling up
+                        $site.addClass('scrolling_up');
+                    } else {
+                        // Scrolling down
+                        $site.removeClass('scrolling_up');
+                    }
+                } else {
+                    // At top of page
+                    $stickyHeader.removeClass('active');
+                    $site.removeClass('scrolling_up');
+                }
+                
+                lastScrollTop = scrollTop;
+            }
+            
+            // Throttle scroll events
+            var ticking = false;
+            $(window).on('scroll', function() {
+                if (!ticking) {
+                    window.requestAnimationFrame(function() {
+                        handleScroll();
+                        ticking = false;
+                    });
+                    ticking = true;
+                }
+            });
+            
+            // Initial check
+            handleScroll();
+        });
     </script>
 
 </body>

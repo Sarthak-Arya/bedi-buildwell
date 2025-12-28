@@ -64,15 +64,11 @@
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-157">
                                     <a href="#">Find us at</a>
                                     <ul class="sub-menu">
-                                        <li id="menu-item-154"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-154">
-                                            <a href="#"><i
-                                                    class="fa fa-facebook-square"></i>Facebook</a>
-                                        </li>
+                                        
                                         <li id="menu-item-155"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-155">
                                             <a href="https://www.instagram.com/bedibuildwell?igsh=MTI5OHlqMmd3cmVyMw==" target="_blank" rel="noopener noreferrer"><i
-                                                    class="fa fa-instagram"></i>Instagram</a>
+                                                    class="fab fa-instagram" aria-hidden="true" style="font-weight: 400;"></i>Instagram</a>
                                         </li>
                                         <li id="menu-item-156"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-156">
@@ -569,4 +565,11 @@
         }, 1000); // Show after 1 second delay for better UX
     });
 </script>
+
+<style>
+    /* Match Instagram icon color to #ffd000 from calculator page */
+    #menu-item-155 a i.fab.fa-instagram {
+        color: #ffd000 !important;
+    }
+</style>
 

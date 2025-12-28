@@ -22,6 +22,10 @@
         <link rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Jost%3A100%2C200%2C300%2Cregular%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2Citalic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CRubik%3A300%2C500%2C400%7CRoboto%3A400&#038;subset=cyrillic%2Clatin%2Clatin-ext&#038;display=swap" />
     </noscript>
+    {{-- Font Awesome 5 CDN - Load before main.css so its font-face rules take precedence --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     {{-- CSS files --}}
     {{-- <link rel="stylesheet" href="https://live.21lab.co/hank/wp-content/cache/min/1/308ad0553bcac79c7cebff97685e6bad.css"
         media="all" data-minify="1" /> --}}
