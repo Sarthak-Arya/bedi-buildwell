@@ -1597,7 +1597,7 @@
                                                                     <rs-slide style="position: absolute;"
                                                                         data-key="rs-11"
                                                                         data-title="Our Promise of Superior Performance"
-                                                                        data-thumb="{{ asset('images/slider_1.png') }}"
+                                                                        data-thumb="{{ asset('images/people-1.jpg') }}"
                                                                         data-anim="ms:1000;r:0;" data-in="o:0;"
                                                                         data-out="a:false;">
                                                                         <img width="1" height="1"
@@ -1605,7 +1605,7 @@
                                                                             src="//live.21lab.co/hank/wp-content/plugins/revslider/public/assets/assets/dummy.png"
                                                                             alt="" title="Home"
                                                                             class="rev-slidebg tp-rs-img rs-lazyload"
-                                                                            data-lazyload="{{ asset('images/slider_1.png') }}"
+                                                                            data-lazyload="{{ asset('images/people-1.jpg') }}"
                                                                             data-no-retina>
                                                                         <!--
        --><rs-layer id="slider-3-slide-11-layer-1" class="f-l" data-type="text" data-color="rgba(0, 0, 0, 0.5)"
@@ -1665,7 +1665,7 @@
                                                                     <rs-slide style="position: absolute;"
                                                                         data-key="rs-12"
                                                                         data-title="When a Project has Extraordinary Challenges"
-                                                                        data-thumb="{{ asset('images/slider_3.png') }}"
+                                                                        data-thumb="{{ asset('images/cthrough-Temye8jNSwM-unsplash.jpg') }}"
                                                                         data-anim="ms:1000;r:0;" data-in="o:0;"
                                                                         data-out="a:false;">
                                                                         <img width="1" height="1"
@@ -1673,7 +1673,7 @@
                                                                             src="//live.21lab.co/hank/wp-content/plugins/revslider/public/assets/assets/dummy.png"
                                                                             alt="" title="Home"
                                                                             class="rev-slidebg tp-rs-img rs-lazyload"
-                                                                            data-lazyload="{{ asset('images/slider_3.png') }}"
+                                                                            data-lazyload="{{ asset('images/cthrough-Temye8jNSwM-unsplash.jpg') }}"
                                                                             data-no-retina>
                                                                         <!--
        --><rs-layer id="slider-3-slide-12-layer-1" class="f-l" data-type="text" data-color="rgba(0, 0, 0, 0.5)"
