@@ -1309,11 +1309,10 @@
                                                             <div class="counter-content">
                                                                 <span class="counter-prefix"></span>
                                                                 <span class="counter-value" data-from="0"
-                                                                    data-to="98" data-speed="1000">98</span>
-                                                                <span class="counter-suffix">%</span>
+                                                                    data-to="99" data-speed="1000">99</span>
+                                                                <span class="counter-suffix">+</span>
                                                             </div>
-                                                            <div class="counter-title">Client satisfaction rate, driven by clear 
-                                                                communication and disciplined processes.</div>
+                                                            <div class="counter-title">Families we've helped settle into their dream homes.</div>
                                                         </div>
                                                         <div class="vc_empty_space" style="height: 30px"><span
                                                                 class="vc_empty_space_inner"></span></div>
@@ -1546,7 +1545,7 @@
                                                         <div class="vc_empty_space" style="height: 15px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                         <p style="font-size: 21px;color: #7f7f7f;line-height: 26px;text-align: center"
-                                                            class="vc_custom_heading">We plan, build, and manage residential projects<br />
+                                                            class="vc_custom_heading">We plan, build and manage residential projects<br />
                                                             with disciplined execution that turns our clients’ vision into reality.
                                                         </p>
                                                         <div class="vc_empty_space" style="height: 50px"><span
@@ -1709,7 +1708,7 @@
                                                                 </p>
                                                                 <h3>Pre-construction</h3>
                                                                 <p><span style="color: #7f7f7f;">Before plans turn into concrete and steel, our team works 
-                                                                    closely with clients, architects, and engineers to define a clear project roadmap. We align scope, budget, and timelines to ensure every build begins with confidence and clarity. Our focus is simple: prevent problems before 
+                                                                    closely with clients, architects and engineers to define a clear project roadmap. We align scope, budget and timelines to ensure every build begins with confidence and clarity. Our focus is simple: prevent problems before 
                                                                     they reach the site and create a seamless foundation for execution.</span></p>
                                                                 <h6><span style="color: #7f7f7f;">Our pre-construction
                                                                         services include:</span></h6>
@@ -1755,9 +1754,9 @@
                                                                         <h3>Construction management</h3>
                                                                         <p><span style="color: #7f7f7f;">For homeowners and plot owners seeking 
                                                                             reliable execution, we manage every stage
-                                                                             with in-house teams, disciplined supervision, and transparent 
+                                                                             with in-house teams, disciplined supervision and transparent 
                                                                              communication. We act as your single point of responsibility—ensuring 
-                                                                             your building is delivered on time, within budget, and exactly as promised.
+                                                                             your building is delivered on time, within budget and exactly as promised.
                                                                             </span></p>
                                                                     </div>
                                                                     <div class="col">
@@ -1809,7 +1808,7 @@
                                                                 <h3>General contracting</h3>
                                                                 <p><span style="color: #7f7f7f;">We provide end-to-end construction services 
                                                                     for residential and commercial G+4 projects. From structural work to finishing, 
-                                                                    our in-house workforce ensures consistent quality, predictable timelines, and lower
+                                                                    our in-house workforce ensures consistent quality, predictable timelines and lower
                                                                      overall project costs without the uncertainty of third-party contractors.</span></p>
                                                                 <h6><span style="color: #7f7f7f;">General Contracting
                                                                         Services:</span></h6>
@@ -1853,7 +1852,7 @@
                                                                 <h3>Design-build</h3>
                                                                 <p><span style="color: #7f7f7f;">With a single-source approach, we combine 
                                                                     design coordination with complete execution to deliver homes and 
-                                                                    commercial spaces that are functional, compliant, and market-ready. 
+                                                                    commercial spaces that are functional, compliant and market-ready. 
                                                                     Our team ensures clarity from first sketch to handover.</span></p>
                                                                 <h6><span style="color: #7f7f7f;">Design-Build
                                                                         Services:</span></h6>
@@ -1896,7 +1895,7 @@
                                                                 <h3>Post-construction</h3>
                                                                 <p><span style="color: #7f7f7f;">Even after handover, we stay involved to verify 
                                                                     that everything functions as intended. Our post-build services ensure 
-                                                                    long-term performance, smooth occupancy, and continued trust long after 
+                                                                    long-term performance, smooth occupancy and continued trust long after 
                                                                     the project is delivered.</span></p>
                                                                 <h6><span style="color: #7f7f7f;">Our post-construction
                                                                         work includes:</span></h6>
@@ -2023,16 +2022,7 @@
                                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                                 <div class="vc_column-inner">
                                                     <div class="wpb_wrapper">
-                                                        <div
-                                                            class="vc_separator wpb_content_element vc_separator_align_left vc_sep_width_100 vc_sep_pos_align_center vc_custom_1582264787358 vc_separator-has-text">
-                                                            <span class="vc_sep_holder vc_sep_holder_l"><span
-                                                                    style="border-color:rgb(255,255,255);border-color:rgba(255,255,255,0.12);"
-                                                                    class="vc_sep_line"></span></span>
-                                                            <h4>Industry Ranking</h4><span
-                                                                class="vc_sep_holder vc_sep_holder_r"><span
-                                                                    style="border-color:rgb(255,255,255);border-color:rgba(255,255,255,0.12);"
-                                                                    class="vc_sep_line"></span></span>
-                                                        </div>
+                                                        
                                                         <div class="vc_empty_space" style="height: 60px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                     </div>
@@ -2042,82 +2032,7 @@
                                     </div>
                                     <div class="vc_row wpb_row vc_row-fluid counter-white">
                                         <div class="row-inner">
-                                            <div
-                                                class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-6 vc_col-xs-12">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="counter ">
-                                                            <div class="counter-content">
-                                                                <span class="counter-prefix"></span>
-                                                                <span class="counter-value" data-from="0"
-                                                                    data-to="2" data-speed="1000">0</span>
-                                                                <span class="counter-suffix">th</span>
-                                                            </div>
-                                                            <div class="counter-title">largest wastewater treatment
-                                                                plant builder</div>
-                                                        </div>
-                                                        <div class="vc_empty_space" style="height: 30px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-6 vc_col-xs-12">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="counter ">
-                                                            <div class="counter-content">
-                                                                <span class="counter-prefix"></span>
-                                                                <span class="counter-value" data-from="0"
-                                                                    data-to="5" data-speed="1000">0</span>
-                                                                <span class="counter-suffix">th</span>
-                                                            </div>
-                                                            <div class="counter-title">largest transportation
-                                                                contractor</div>
-                                                        </div>
-                                                        <div class="vc_empty_space" style="height: 30px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-6 vc_col-xs-12">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="counter ">
-                                                            <div class="counter-content">
-                                                                <span class="counter-prefix"></span>
-                                                                <span class="counter-value" data-from="0"
-                                                                    data-to="6" data-speed="1000">0</span>
-                                                                <span class="counter-suffix">th</span>
-                                                            </div>
-                                                            <div class="counter-title">largest mass transit and rail
-                                                                builder</div>
-                                                        </div>
-                                                        <div class="vc_empty_space" style="height: 30px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-6 vc_col-xs-12">
-                                                <div class="vc_column-inner">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="counter ">
-                                                            <div class="counter-content">
-                                                                <span class="counter-prefix"></span>
-                                                                <span class="counter-value" data-from="0"
-                                                                    data-to="9" data-speed="1000">0</span>
-                                                                <span class="counter-suffix">th</span>
-                                                            </div>
-                                                            <div class="counter-title">largest government office
-                                                                builder</div>
-                                                        </div>
-                                                        <div class="vc_empty_space" style="height: 30px"><span
-                                                                class="vc_empty_space_inner"></span></div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            
                                         </div>
                                     </div>
                                 </section>
@@ -2157,7 +2072,7 @@
                                                                     <p><span style="color: #7f7f7f;">Bedi Buildwell’s sites run on disciplined 
                                                                         systems and daily supervision, 
                                                                         helping us maintain steady, incident-free operations across most projects. 
-                                                                        Our focus on safe, organised work environments is a reflection of the care we 
+                                                                        Our focus on safe organised work environments is a reflection of the care we 
                                                                         put into every home we build.</span></p>
                                                                 </div>
                                                             </li>
@@ -2167,7 +2082,7 @@
                                                                 <div class="iconlist-item-content">
                                                                     <h3>safety are a top priority</h3>
                                                                     <p><span style="color: #7f7f7f;">Bedi Buildwell collaborates closely with 
-                                                                        engineers, supervisors, and local authorities to maintain safe, compliant 
+                                                                        engineers, supervisors and local authorities to maintain safe, compliant 
                                                                         job sites. Our internal safety practices continue to strengthen as we grow, 
                                                                         with regular reviews and on-site training for every team.</span></p>
                                                                 </div>
@@ -2178,7 +2093,7 @@
                                                                 <div class="iconlist-item-content">
                                                                     <h3>safety partnership</h3>
                                                                     <p><span style="color: #7f7f7f;">Bedi Buildwell collaborates closely with engineers, 
-                                                                        supervisors, and local authorities to maintain safe, 
+                                                                        supervisors and local authorities to maintain safe, 
                                                                         compliant job sites. Our internal safety practices continue 
                                                                         to strengthen as we grow, with regular reviews and on-site training 
                                                                         for every team.</span></p>
@@ -2215,7 +2130,7 @@
                                     </div>
                                 </section>
                                 <section class="vc_section vc_custom_1582192224741">
-                                    <div class="vc_row wpb_row vc_row-fluid">
+{{--                                     <div class="vc_row wpb_row vc_row-fluid">
                                         <div class="row-inner">
                                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                                 <div class="vc_column-inner">
@@ -2330,7 +2245,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </section>
 
                             </div>

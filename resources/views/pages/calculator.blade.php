@@ -651,7 +651,7 @@
             box-sizing: border-box !important;
         }
         
-        /* Make labels single line, bold, and input fields bigger */
+        /* Make labels single line, bold and input fields bigger */
         .contact-light .field label {
             white-space: nowrap !important;
             font-size: 15px !important;
@@ -1104,7 +1104,7 @@
                                                     <div class="wpb_wrapper">
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
-                                                                <p><span style="color: #b7b7b7;">Fill out the form below to get an instant estimate for your construction project based on plot size, number of floors, and other key factors.</span></p>
+                                                                <p><span style="color: #b7b7b7;">Fill out the form below to get an instant estimate for your construction project based on plot size, number of floors and other key factors.</span></p>
 
                                                             </div>
                                                         </div>
@@ -1138,7 +1138,7 @@
                                                                 IMPORTANT: Replace YOUR_FORM_ID with your actual Formspree form ID
                                                                 Get your form ID from: https://formspree.io/forms
                                                             --}}
-                                                            <form action="https://formspree.io/f/mgvgryva" method="post"
+                                                            <form action="https://formspree.io/f/xvzovldb" method="post"
                                                                 class="wpcf7-form init" novalidate="novalidate"
                                                                 data-status="init" id="calculator-form">
                                                                 <input type="hidden" name="_replyto" id="replyto_email" value="">

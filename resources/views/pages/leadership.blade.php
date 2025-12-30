@@ -1253,7 +1253,7 @@
                                                     <div class="wpb_wrapper">
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
-                                                                <p><span style="color: #b7b7b7;">Our leadership upholds honesty, in-house skill, and steady growth, 
+                                                                <p><span style="color: #b7b7b7;">Our leadership upholds honesty, in-house skill and steady growth, 
                                                                     establishing Bedi Buildwell as a trusted construction partner across Delhi NCR.</span></p>
 
                                                             </div>
@@ -1426,12 +1426,12 @@
                                                                     <div class="vc_empty_space" style="height: 20px"><span class="vc_empty_space_inner"></span></div>
                                                                     <h3 style="font-size: 32px; line-height: 1.2em; margin-bottom: 25px; color: #000000; text-align: center;">Our Founding Vision</h3>
                                                                     <p style="font-size: 18px; line-height: 1.8em; color: #666666; margin-bottom: 25px; text-align: justify;">
-                                                                        Bedi Buildwell began with a clear intention: to make construction honest, predictable, and stress-free for homeowners. What started as a single project grew into a purpose to bring disciplined planning, skilled in-house teams, and transparent systems to an industry where uncertainty was once the norm.
+                                                                        Bedi Buildwell began with a clear intention: to make construction honest, predictable and stress-free for homeowners. What started as a single project grew into a purpose to bring disciplined planning, skilled in-house teams and transparent systems to an industry where uncertainty was once the norm.
                                                                     </p>
                                                                     <p style="font-size: 18px; line-height: 1.8em; color: #666666; margin-bottom: 25px; text-align: justify;">
-                                                                        Our founder believed every family deserved clarity, respect, and craftsmanship they could trust. That belief shaped the way we work today. Whether it’s a full G+4 build or a complete renovation, each project is approached with the same steady discipline, careful supervision, and genuine care for the people we’re building for.
+                                                                        Our founder believed every family deserved clarity, respect and craftsmanship they could trust. That belief shaped the way we work today. Whether it’s a full G+4 build or a complete renovation, each project is approached with the same steady discipline, careful supervision and genuine care for the people we’re building for.
                                                                     <p style="font-size: 18px; line-height: 1.8em; color: #666666; margin-bottom: 25px; text-align: justify;">
-                                                                        Years later, that vision continues to guide us. We focus on creating structures that last, relationships that feel effortless, and an experience rooted in integrity and responsibility. Our journey is proof that when consistency meets purpose and service meets skill construction becomes more than building homes. It becomes building confidence.
+                                                                        Years later, that vision continues to guide us. We focus on creating structures that last, relationships that feel effortless and an experience rooted in integrity and responsibility. Our journey is proof that when consistency meets purpose and service meets skill construction becomes more than building homes. It becomes building confidence.
                                                                 </div>
                                                             </div>
                                                         </div>

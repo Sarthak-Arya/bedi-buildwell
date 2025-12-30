@@ -1371,498 +1371,77 @@
                             <div class="content" role="main" itemprop="mainContentOfPage">
                                 <div class="content-inner" data-grid-normal data-columns="3">
 
-                                    <div id="post-109"
-                                        class="post post-109 type-post status-publish format-standard has-post-thumbnail hentry category-diy-tips tag-energy-efficiency tag-home-improvement tag-icf-construction">
-                                        <div class="post-inner">
-
-
-                                            <div class="post-image">
-                                                <a class="featured-image"
-                                                    href="https://live.21lab.co/hank/renovations-that-add-the-most-resale-value-to-your-home/"
-                                                    target="_self">
-
-                                                    <span class="more">Read More</span>
-
-                                                    <img class=""
-                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20350'%3E%3C/svg%3E"
-                                                        width="800" height="350"
-                                                        alt="Female carpenter measuring the lumber - Image by © rawpixel"
-                                                        title="b10"
-                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2019/10/b10-800x350.jpg" /><noscript><img
-                                                            class=""
-                                                            src="https://live.21lab.co/hank/wp-content/uploads/2019/10/b10-800x350.jpg"
-                                                            width="800" height="350"
-                                                            alt="Female carpenter measuring the lumber - Image by © rawpixel"
-                                                            title="b10" /></noscript> </a>
-                                            </div>
-
-
-                                            <div class="post-categories">
-                                                <span>October 26, 2019</span>
-                                                <a href="https://live.21lab.co/hank/category/diy-tips/"
-                                                    rel="category tag">DIY Tips</a>
-                                            </div>
-
-                                            <div class="post-header">
-
-                                                <h2 class="post-title" itemprop="headline">
-                                                    <a href="https://live.21lab.co/hank/renovations-that-add-the-most-resale-value-to-your-home/"
-                                                        rel="bookmark">
-                                                        Renovations that Add the Most Resale Value to your Home </a>
-                                                </h2>
-                                            </div>
-
-                                            <div class="post-content">
-                                                <p>Spring is a time for new projects and many homeowners take advantage
-                                                    of the warmer weather to tackle renovations. Whether you are a DIY
-                                                    enthusiast or are relying on a contractor, you want to know that you
-                                                    are getting the most out of every home-improv...</p>
-                                            </div>
-
-                                            <div class="post-footer">
-
-                                                <div class="post-meta">
-                                                    <div class="post-author-content">
-                                                        <img alt=''
-                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2040%2040'%3E%3C/svg%3E"
-                                                            data-lazy-srcset='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=80&#038;d=mm&#038;r=g 2x'
-                                                            class='avatar avatar-40 photo' height='40'
-                                                            width='40' decoding='async'
-                                                            data-lazy-src="https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=40&#038;d=mm&#038;r=g" /><noscript><img
-                                                                alt=''
-                                                                src='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=40&#038;d=mm&#038;r=g'
-                                                                srcset='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=80&#038;d=mm&#038;r=g 2x'
-                                                                class='avatar avatar-40 photo' height='40'
-                                                                width='40' decoding='async' /></noscript>
-                                                        <span>by</span>
-                                                        <span class="post-name">
-                                                            <a href="https://live.21lab.co/hank/author/linethemes/"
-                                                                title="Posts by Linethemes"
-                                                                rel="author">Linethemes</a> </span>
-                                                    </div>
-                                                    <div class="post-comments">
-                                                        <a
-                                                            href="https://live.21lab.co/hank/renovations-that-add-the-most-resale-value-to-your-home/#respond">0
-                                                            <span>Comment</span></a>
-                                                    </div>
+                                    @if(empty($posts))
+                                        <div class="post">
+                                            <div class="post-inner">
+                                                <div class="post-content">
+                                                    <p>No posts available at the moment. Please check back later.</p>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    @else
+                                        @foreach($posts as $index => $post)
+                                            <div id="linkedin-post-{{ $index }}"
+                                                class="post linkedin-post type-post status-publish format-standard {{ !empty($post['image']) ? 'has-post-thumbnail' : '' }} hentry">
+                                                <div class="post-inner">
 
-                                    <div id="post-97"
-                                        class="post post-97 type-post status-publish format-standard has-post-thumbnail hentry category-innovation tag-3d-printing tag-art tag-human">
-                                        <div class="post-inner">
+                                                    @if(!empty($post['image']))
+                                                        <div class="post-image">
+                                                            <a class="featured-image"
+                                                                href="{{ $post['link'] ?? '#' }}"
+                                                                target="_blank"
+                                                                rel="noopener noreferrer">
 
+                                                                <span class="more">Read More</span>
 
-                                            <div class="post-image">
-                                                <a class="featured-image"
-                                                    href="https://live.21lab.co/hank/3d-printing-a-technology-to-serve-humans-and-human-art/"
-                                                    target="_self">
+                                                                <img class=""
+                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20350'%3E%3C/svg%3E"
+                                                                    width="800" height="350"
+                                                                    alt="{{ $post['title'] ?? 'LinkedIn Post' }}"
+                                                                    title="{{ $post['title'] ?? 'LinkedIn Post' }}"
+                                                                    data-lazy-src="{{ $post['image'] }}" /><noscript><img
+                                                                        class=""
+                                                                        src="{{ $post['image'] }}"
+                                                                        width="800" height="350"
+                                                                        alt="{{ $post['title'] ?? 'LinkedIn Post' }}"
+                                                                        title="{{ $post['title'] ?? 'LinkedIn Post' }}" /></noscript> </a>
+                                                        </div>
+                                                    @endif
 
-                                                    <span class="more">Read More</span>
-
-                                                    <img class=""
-                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20350'%3E%3C/svg%3E"
-                                                        width="800" height="350"
-                                                        alt="Oslo Opera House, Oslo, Norway - Image by @maxvdo Unsplash"
-                                                        title="b9-4"
-                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2019/10/b9-4-800x350.jpg" /><noscript><img
-                                                            class=""
-                                                            src="https://live.21lab.co/hank/wp-content/uploads/2019/10/b9-4-800x350.jpg"
-                                                            width="800" height="350"
-                                                            alt="Oslo Opera House, Oslo, Norway - Image by @maxvdo Unsplash"
-                                                            title="b9-4" /></noscript> </a>
-                                            </div>
-
-
-                                            <div class="post-categories">
-                                                <span>October 26, 2019</span>
-                                                <a href="https://live.21lab.co/hank/category/innovation/"
-                                                    rel="category tag">Innovation</a>
-                                            </div>
-
-                                            <div class="post-header">
-
-                                                <h2 class="post-title" itemprop="headline">
-                                                    <a href="https://live.21lab.co/hank/3d-printing-a-technology-to-serve-humans-and-human-art/"
-                                                        rel="bookmark">
-                                                        3D Printing a Technology to Serve Humans and Human Art </a>
-                                                </h2>
-                                            </div>
-
-                                            <div class="post-content">
-                                                <p>Many a fantasy has arisen from some spectacular and highly publicised
-                                                    examples of add-on constructions produced by 3D printing techniques,
-                                                    the most obvious one being the replacement of humans by machines
-                                                    leading to the risk of job losses. … But reali...</p>
-                                            </div>
-
-                                            <div class="post-footer">
-
-                                                <div class="post-meta">
-                                                    <div class="post-author-content">
-                                                        <img alt=''
-                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2040%2040'%3E%3C/svg%3E"
-                                                            data-lazy-srcset='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=80&#038;d=mm&#038;r=g 2x'
-                                                            class='avatar avatar-40 photo' height='40'
-                                                            width='40' decoding='async'
-                                                            data-lazy-src="https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=40&#038;d=mm&#038;r=g" /><noscript><img
-                                                                alt=''
-                                                                src='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=40&#038;d=mm&#038;r=g'
-                                                                srcset='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=80&#038;d=mm&#038;r=g 2x'
-                                                                class='avatar avatar-40 photo' height='40'
-                                                                width='40' decoding='async' /></noscript>
-                                                        <span>by</span>
-                                                        <span class="post-name">
-                                                            <a href="https://live.21lab.co/hank/author/linethemes/"
-                                                                title="Posts by Linethemes"
-                                                                rel="author">Linethemes</a> </span>
+                                                    <div class="post-categories">
+                                                        <span>{{ $post['date'] ?? '' }}</span>
                                                     </div>
-                                                    <div class="post-comments">
-                                                        <a
-                                                            href="https://live.21lab.co/hank/3d-printing-a-technology-to-serve-humans-and-human-art/#respond">0
-                                                            <span>Comment</span></a>
+
+                                                    <div class="post-header">
+                                                        <h2 class="post-title" itemprop="headline">
+                                                            <a href="{{ $post['link'] ?? '#' }}"
+                                                                target="_blank"
+                                                                rel="noopener noreferrer bookmark">
+                                                                {{ $post['title'] ?? 'Untitled Post' }} </a>
+                                                        </h2>
+                                                    </div>
+
+                                                    <div class="post-content">
+                                                        <p>{{ $post['excerpt'] ?? $post['content'] ?? 'No content available.' }}</p>
+                                                    </div>
+
+                                                    <div class="post-footer">
+                                                        <div class="post-meta">
+                                                            <div class="post-author-content">
+                                                                <span>via</span>
+                                                                <span class="post-name">
+                                                                    <a href="https://www.linkedin.com/in/sukrit-singh-950761170/"
+                                                                        target="_blank"
+                                                                        rel="noopener noreferrer author"
+                                                                        title="View LinkedIn Profile">LinkedIn</a> </span>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-
-                                    <div id="post-93"
-                                        class="post post-93 type-post status-publish format-standard has-post-thumbnail hentry category-diy-tips tag-home-improvement">
-                                        <div class="post-inner">
-
-
-                                            <div class="post-image">
-                                                <a class="featured-image"
-                                                    href="https://live.21lab.co/hank/3-signs-your-home-is-at-risk-of-moisture-damage/"
-                                                    target="_self">
-
-                                                    <span class="more">Read More</span>
-
-                                                    <img class=""
-                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20350'%3E%3C/svg%3E"
-                                                        width="800" height="350"
-                                                        alt="Man fixing kitchen sink - image by © rawpixel"
-                                                        title="b8"
-                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2019/10/b8-800x350.jpg" /><noscript><img
-                                                            class=""
-                                                            src="https://live.21lab.co/hank/wp-content/uploads/2019/10/b8-800x350.jpg"
-                                                            width="800" height="350"
-                                                            alt="Man fixing kitchen sink - image by © rawpixel"
-                                                            title="b8" /></noscript> </a>
-                                            </div>
-
-
-                                            <div class="post-categories">
-                                                <span>October 26, 2019</span>
-                                                <a href="https://live.21lab.co/hank/category/diy-tips/"
-                                                    rel="category tag">DIY Tips</a>
-                                            </div>
-
-                                            <div class="post-header">
-
-                                                <h2 class="post-title" itemprop="headline">
-                                                    <a href="https://live.21lab.co/hank/3-signs-your-home-is-at-risk-of-moisture-damage/"
-                                                        rel="bookmark">
-                                                        3 Signs your Home is at Risk of Moisture Damage </a>
-                                                </h2>
-                                            </div>
-
-                                            <div class="post-content">
-                                                <p>Moisture can cause a disastrous amount of damage to your home when
-                                                    left unchecked. Performing regular maintenance and looking out for
-                                                    these warning signs will help you to reduce the risk of damage and
-                                                    keep your home functioning optimally.
-
-
-
-                                                    Your Wat...</p>
-                                            </div>
-
-                                            <div class="post-footer">
-
-                                                <div class="post-meta">
-                                                    <div class="post-author-content">
-                                                        <img alt=''
-                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2040%2040'%3E%3C/svg%3E"
-                                                            data-lazy-srcset='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=80&#038;d=mm&#038;r=g 2x'
-                                                            class='avatar avatar-40 photo' height='40'
-                                                            width='40' decoding='async'
-                                                            data-lazy-src="https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=40&#038;d=mm&#038;r=g" /><noscript><img
-                                                                alt=''
-                                                                src='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=40&#038;d=mm&#038;r=g'
-                                                                srcset='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=80&#038;d=mm&#038;r=g 2x'
-                                                                class='avatar avatar-40 photo' height='40'
-                                                                width='40' decoding='async' /></noscript>
-                                                        <span>by</span>
-                                                        <span class="post-name">
-                                                            <a href="https://live.21lab.co/hank/author/linethemes/"
-                                                                title="Posts by Linethemes"
-                                                                rel="author">Linethemes</a> </span>
-                                                    </div>
-                                                    <div class="post-comments">
-                                                        <a
-                                                            href="https://live.21lab.co/hank/3-signs-your-home-is-at-risk-of-moisture-damage/#respond">0
-                                                            <span>Comment</span></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div id="post-88"
-                                        class="post post-88 type-post status-publish format-standard has-post-thumbnail hentry category-sustainability tag-green-building tag-icf-construction">
-                                        <div class="post-inner">
-
-
-                                            <div class="post-image">
-                                                <a class="featured-image"
-                                                    href="https://live.21lab.co/hank/sustainable-and-eco-friendly-construction-with-icf/"
-                                                    target="_self">
-
-                                                    <span class="more">Read More</span>
-
-                                                    <img class=""
-                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20350'%3E%3C/svg%3E"
-                                                        width="800" height="350"
-                                                        alt="Volumetric composition - image by @ripato" title="b7"
-                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2019/10/b7-800x350.jpg" /><noscript><img
-                                                            class=""
-                                                            src="https://live.21lab.co/hank/wp-content/uploads/2019/10/b7-800x350.jpg"
-                                                            width="800" height="350"
-                                                            alt="Volumetric composition - image by @ripato"
-                                                            title="b7" /></noscript> </a>
-                                            </div>
-
-
-                                            <div class="post-categories">
-                                                <span>October 25, 2019</span>
-                                                <a href="https://live.21lab.co/hank/category/sustainability/"
-                                                    rel="category tag">Sustainability</a>
-                                            </div>
-
-                                            <div class="post-header">
-
-                                                <h2 class="post-title" itemprop="headline">
-                                                    <a href="https://live.21lab.co/hank/sustainable-and-eco-friendly-construction-with-icf/"
-                                                        rel="bookmark">
-                                                        Sustainable and Eco-friendly Construction with ICF </a>
-                                                </h2>
-                                            </div>
-
-                                            <div class="post-content">
-                                                <p>Sustainable Development requires a balance to be maintained between
-                                                    development and the environment. It promotes inter-generational
-                                                    equity, i.e. better quality of life for present and future
-                                                    generations. Insulated Concrete Forms (ICFs) do exactly jus...</p>
-                                            </div>
-
-                                            <div class="post-footer">
-
-                                                <div class="post-meta">
-                                                    <div class="post-author-content">
-                                                        <img alt=''
-                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2040%2040'%3E%3C/svg%3E"
-                                                            data-lazy-srcset='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=80&#038;d=mm&#038;r=g 2x'
-                                                            class='avatar avatar-40 photo' height='40'
-                                                            width='40' decoding='async'
-                                                            data-lazy-src="https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=40&#038;d=mm&#038;r=g" /><noscript><img
-                                                                alt=''
-                                                                src='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=40&#038;d=mm&#038;r=g'
-                                                                srcset='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=80&#038;d=mm&#038;r=g 2x'
-                                                                class='avatar avatar-40 photo' height='40'
-                                                                width='40' decoding='async' /></noscript>
-                                                        <span>by</span>
-                                                        <span class="post-name">
-                                                            <a href="https://live.21lab.co/hank/author/linethemes/"
-                                                                title="Posts by Linethemes"
-                                                                rel="author">Linethemes</a> </span>
-                                                    </div>
-                                                    <div class="post-comments">
-                                                        <a
-                                                            href="https://live.21lab.co/hank/sustainable-and-eco-friendly-construction-with-icf/#respond">0
-                                                            <span>Comment</span></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div id="post-85"
-                                        class="post post-85 type-post status-publish format-standard has-post-thumbnail hentry category-energy-savings tag-energy tag-wind">
-                                        <div class="post-inner">
-
-
-                                            <div class="post-image">
-                                                <a class="featured-image"
-                                                    href="https://live.21lab.co/hank/digitalisation-drives-efficiency-and-decision-making-in-wind-energy/"
-                                                    target="_self">
-
-                                                    <span class="more">Read More</span>
-
-                                                    <img class=""
-                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20350'%3E%3C/svg%3E"
-                                                        width="800" height="350"
-                                                        alt="Unnamed Road, 44580 Bourgneuf-en-Retz, France, Bourgneuf-en-Retz - by @thomasreaubourg"
-                                                        title="b6"
-                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2019/10/b6-800x350.jpg" /><noscript><img
-                                                            class=""
-                                                            src="https://live.21lab.co/hank/wp-content/uploads/2019/10/b6-800x350.jpg"
-                                                            width="800" height="350"
-                                                            alt="Unnamed Road, 44580 Bourgneuf-en-Retz, France, Bourgneuf-en-Retz - by @thomasreaubourg"
-                                                            title="b6" /></noscript> </a>
-                                            </div>
-
-
-                                            <div class="post-categories">
-                                                <span>October 25, 2019</span>
-                                                <a href="https://live.21lab.co/hank/category/energy-savings/"
-                                                    rel="category tag">Energy Savings</a>
-                                            </div>
-
-                                            <div class="post-header">
-
-                                                <h2 class="post-title" itemprop="headline">
-                                                    <a href="https://live.21lab.co/hank/digitalisation-drives-efficiency-and-decision-making-in-wind-energy/"
-                                                        rel="bookmark">
-                                                        Digitalisation Drives Efficiency and Decision Making in Wind
-                                                        Energy </a>
-                                                </h2>
-                                            </div>
-
-                                            <div class="post-content">
-                                                <p>This is the key finding of the report Digitalisation and the Future
-                                                    of the Wind Energy Industry published yesterday by DNV GL, a global
-                                                    quality assurance and risk management company operating in more than
-                                                    100 countries. Based on a survey of almost 2,...</p>
-                                            </div>
-
-                                            <div class="post-footer">
-
-                                                <div class="post-meta">
-                                                    <div class="post-author-content">
-                                                        <img alt=''
-                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2040%2040'%3E%3C/svg%3E"
-                                                            data-lazy-srcset='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=80&#038;d=mm&#038;r=g 2x'
-                                                            class='avatar avatar-40 photo' height='40'
-                                                            width='40' decoding='async'
-                                                            data-lazy-src="https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=40&#038;d=mm&#038;r=g" /><noscript><img
-                                                                alt=''
-                                                                src='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=40&#038;d=mm&#038;r=g'
-                                                                srcset='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=80&#038;d=mm&#038;r=g 2x'
-                                                                class='avatar avatar-40 photo' height='40'
-                                                                width='40' decoding='async' /></noscript>
-                                                        <span>by</span>
-                                                        <span class="post-name">
-                                                            <a href="https://live.21lab.co/hank/author/linethemes/"
-                                                                title="Posts by Linethemes"
-                                                                rel="author">Linethemes</a> </span>
-                                                    </div>
-                                                    <div class="post-comments">
-                                                        <a
-                                                            href="https://live.21lab.co/hank/digitalisation-drives-efficiency-and-decision-making-in-wind-energy/#respond">0
-                                                            <span>Comment</span></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div id="post-79"
-                                        class="post post-79 type-post status-publish format-standard has-post-thumbnail hentry category-company-news tag-hanoi tag-signing">
-                                        <div class="post-inner">
-
-
-                                            <div class="post-image">
-                                                <a class="featured-image"
-                                                    href="https://live.21lab.co/hank/signing-ceremony-asahi-intecc-hanoi-auxiliary-renovation-work/"
-                                                    target="_self">
-
-                                                    <span class="more">Read More</span>
-
-                                                    <img class=""
-                                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20350'%3E%3C/svg%3E"
-                                                        width="800" height="350"
-                                                        alt="Hands shaking comic style vector - image by © rawpixel"
-                                                        title="b5-2"
-                                                        data-lazy-src="https://live.21lab.co/hank/wp-content/uploads/2019/10/b5-2-800x350.jpg" /><noscript><img
-                                                            class=""
-                                                            src="https://live.21lab.co/hank/wp-content/uploads/2019/10/b5-2-800x350.jpg"
-                                                            width="800" height="350"
-                                                            alt="Hands shaking comic style vector - image by © rawpixel"
-                                                            title="b5-2" /></noscript> </a>
-                                            </div>
-
-
-                                            <div class="post-categories">
-                                                <span>October 25, 2019</span>
-                                                <a href="https://live.21lab.co/hank/category/company-news/"
-                                                    rel="category tag">Company News</a>
-                                            </div>
-
-                                            <div class="post-header">
-
-                                                <h2 class="post-title" itemprop="headline">
-                                                    <a href="https://live.21lab.co/hank/signing-ceremony-asahi-intecc-hanoi-auxiliary-renovation-work/"
-                                                        rel="bookmark">
-                                                        Signing Ceremony: Asahi Intecc Hanoi Auxiliary Renovation work
-                                                    </a>
-                                                </h2>
-                                            </div>
-
-                                            <div class="post-content">
-                                                <p>On April 24, 2019, at NSN Construction &amp; Engineering Joint Stock
-                                                    Company’s Office, there was a Signing Ceremony between NSN Company
-                                                    and the owner- Asahi Intecc Hanoi Co, Ltd. for upgrading Asahi
-                                                    Intecc Hanoi Auxiliary Factory.
-
-
-
-                                                    At the ceremony,...</p>
-                                            </div>
-
-                                            <div class="post-footer">
-
-                                                <div class="post-meta">
-                                                    <div class="post-author-content">
-                                                        <img alt=''
-                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2040%2040'%3E%3C/svg%3E"
-                                                            data-lazy-srcset='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=80&#038;d=mm&#038;r=g 2x'
-                                                            class='avatar avatar-40 photo' height='40'
-                                                            width='40' decoding='async'
-                                                            data-lazy-src="https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=40&#038;d=mm&#038;r=g" /><noscript><img
-                                                                alt=''
-                                                                src='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=40&#038;d=mm&#038;r=g'
-                                                                srcset='https://secure.gravatar.com/avatar/370c1494f5ecbd1a9de1de9ed70b2f8359127ccb01ef55a58aad0ba562b4be9e?s=80&#038;d=mm&#038;r=g 2x'
-                                                                class='avatar avatar-40 photo' height='40'
-                                                                width='40' decoding='async' /></noscript>
-                                                        <span>by</span>
-                                                        <span class="post-name">
-                                                            <a href="https://live.21lab.co/hank/author/linethemes/"
-                                                                title="Posts by Linethemes"
-                                                                rel="author">Linethemes</a> </span>
-                                                    </div>
-                                                    <div class="post-comments">
-                                                        <a
-                                                            href="https://live.21lab.co/hank/signing-ceremony-asahi-intecc-hanoi-auxiliary-renovation-work/#respond">0
-                                                            <span>Comment</span></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                        @endforeach
+                                    @endif
                                 </div>
-
-                                <nav class="navigation paging-navigation pager-numeric">
-                                    <div class="pagination loop-pagination"><span aria-current="page"
-                                            class="page-numbers current">1</span>
-                                        <a class="page-numbers" href="{{ route('blog') }}?page=2">2</a>
-                                        <a class="next page-numbers"
-                                            href="{{ route('blog') }}?page=2">Next Page</a>
-                                    </div>
-                                </nav>
                             </div>
                             <!-- /.content -->
                         </div>

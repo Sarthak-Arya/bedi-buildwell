@@ -1230,7 +1230,7 @@
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
                                                                 <p><span style="color: #b7b7b7;">We welcome your
-                                                                        questions and comments, and look forward to
+                                                                        questions and comments and look forward to
                                                                         speaking with you. Please contact one of our
                                                                         offices below.</span></p>
 

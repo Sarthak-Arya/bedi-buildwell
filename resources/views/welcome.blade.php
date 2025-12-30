@@ -2418,7 +2418,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="vc_row wpb_row vc_row-fluid vc_custom_1583730330045">
+{{--                                     <div class="vc_row wpb_row vc_row-fluid vc_custom_1583730330045">
                                         <div class="row-inner">
                                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                                 <div class="vc_column-inner">
@@ -2534,7 +2534,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </section> --}}
 
 
@@ -2561,7 +2561,7 @@
                                                         <div class="testimonial ">
                                                             <div class="testimonial-content">
                                                                 <blockquote>
-                                                                    <p>Enduring buildings come from experienced hands, 
+                                                                    <p>Enduring buildings come from experienced hands 
                                                                         and lasting confidence is created through transparent 
                                                                         systems and thoughtful execution.</p>
                                                                 </blockquote>
@@ -3451,7 +3451,7 @@
                                                                     aria-atomic="true"></p>
                                                                 <ul></ul>
                                                             </div>
-                                                            <form action="https://formspree.io/f/mvgevqql"
+                                                            <form action="https://formspree.io/f/xpqzobkr"
                                                                 method="post" class="wpcf7-form init"
                                                                 novalidate="novalidate" data-status="init">
                                                                 <div class="contact-light">

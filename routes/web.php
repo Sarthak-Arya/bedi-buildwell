@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BlogController;
 
 Route::get('/', function () {
     return view('welcome')->with('title', 'Bedi Buildwell');
@@ -34,9 +35,7 @@ Route::get('/experience', function () {
     return view('pages.experience')->with('title', 'Experience');
 })->name('experience');
 
-Route::get('/blog', function () {
-    return view('pages.blog')->with('title', 'Blog');
-})->name('blog');
+Route::get('/blog', [BlogController::class, 'index'])->name('blog');
 
 Route::get('/calculator', function () {
     return view('pages.calculator')->with('title', 'Construction Cost Calculator');

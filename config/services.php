@@ -35,4 +35,9 @@ return [
         ],
     ],
 
+    'linkedin' => [
+        'rss_url' => env('LINKEDIN_RSS_URL'),
+        'cache_duration' => env('LINKEDIN_CACHE_DURATION', 3600), // 1 hour default
+    ],
+
 ];

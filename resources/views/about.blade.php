@@ -1966,7 +1966,7 @@
                                                                     </div>
                                                                     <div class="box-content">
                                                                         <p>The common question “why choose Bedi Buildwell?” reflects 
-                                                                            what clients value most: reliability, clarity, and builders who stand by their word.</p>
+                                                                            what clients value most: reliability, clarity and builders who stand by their word.</p>
 
 
                                                                         <p class="box-readmore">
@@ -2414,7 +2414,7 @@
                                     </div>
                                 </section> -->
                                 <section class="vc_section">
-                                    <div class="vc_row wpb_row vc_row-fluid vc_custom_1581224264919">
+{{--                                     <div class="vc_row wpb_row vc_row-fluid vc_custom_1581224264919">
                                         <div class="row-inner">
                                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                                 <div class="vc_column-inner">
@@ -2529,7 +2529,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </section>
 
                             </div>

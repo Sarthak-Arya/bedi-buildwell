@@ -1208,7 +1208,7 @@
                                                     <div class="wpb_wrapper">
                                                         <div style="font-size: 40px;color: #ffffff;line-height: 44px;text-align: left"
                                                             class="vc_custom_heading">we have one mission <br />
-                                                            : to build with <strong>honesty, clarity, and consistency.</strong></div>
+                                                            : to build with <strong>honesty, clarity and consistency.</strong></div>
                                                         <div class="vc_empty_space" style="height: 20px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                     </div>
@@ -1225,8 +1225,8 @@
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
                                                                 <p><span style="color: #b7b7b7;">We work every day to deliver predictable 
-                                                                    results through in-house teams, clear systems, and genuine care. Our principles 
-                                                                    guide every decision, and every structure we deliver reflects the values we stand for.</span>
+                                                                    results through in-house teams, clear systems and genuine care. Our principles 
+                                                                    guide every decision and every structure we deliver reflects the values we stand for.</span>
                                                                 </p>
 
                                                             </div>
@@ -1303,7 +1303,7 @@
                                                                 class="vc_empty_space_inner"></span></div>
                                                         <p style="font-size: 21px;line-height: 26px;text-align: center"
                                                             class="vc_custom_heading">Create lasting value for our clients, 
-                                                            our people, and the communities we proudly serve.</p>
+                                                            our people and the communities we proudly serve.</p>
                                                         <div class="vc_empty_space" style="height: 70px"><span
                                                                 class="vc_empty_space_inner"></span></div>
                                                     </div>
@@ -1325,7 +1325,7 @@
                                                                     <p><span style="color: #7f7f7f;">We provide transparent and dependable 
                                                                         construction services. Our in-house expertise and proven systems 
                                                                         help clients navigate every stage confidently while ensuring quality, 
-                                                                        clarity, and steady progress through an industry that is constantly evolving.</span></p>
+                                                                        clarity and steady progress through an industry that is constantly evolving.</span></p>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -1334,8 +1334,8 @@
                                                                 <div class="iconlist-item-content">
                                                                     <h3>employees.</h3>
                                                                     <p><span style="color: #7f7f7f;">We provide a 
-                                                                        supportive workplace that encourages learning, ownership, and 
-                                                                        professional growth. We foster collaboration, safety, mutual respect, 
+                                                                        supportive workplace that encourages learning, ownership and 
+                                                                        professional growth. We foster collaboration, safety, mutual respect 
                                                                         and long-term development so every individual advances confidently within our 
                                                                         organization.</span></p>
                                                                 </div>
@@ -1346,7 +1346,7 @@
                                                                 <div class="iconlist-item-content">
                                                                     <h3>community.</h3>
                                                                     <p><span style="color: #7f7f7f;">We stay committed through sewa; supporting 
-                                                                        local workers, uplifting families, and sponsoring meaningful initiatives. Guided by Sikh 
+                                                                        local workers, uplifting families and sponsoring meaningful initiatives. Guided by Sikh 
                                                                         values of service and honesty, we continue contributing steadily, building trust through 
                                                                         actions that genuinely improve lives around us.</span></p>
                                                                 </div>
@@ -1378,7 +1378,7 @@
                                                         <div class="testimonial ">
                                                             <div class="testimonial-content">
                                                                 <blockquote>
-                                                                    <p>enduring structures come from humble hands, and 
+                                                                    <p>enduring structures come from humble hands and 
                                                                         challenges ease when guided by honest, responsible design.</p>
                                                                 </blockquote>
                                                             </div>
@@ -1458,8 +1458,8 @@
                                                                 <div class="iconlist-item-content">
                                                                     <h3>teamwork.</h3>
                                                                     <p><span style="color: #999;">Our strength is our people. With clients, 
-                                                                        partners, and our in-house team working as one, every project moves 
-                                                                        with clarity, respect, and a shared commitment to smooth execution.</span></p>
+                                                                        partners and our in-house team working as one, every project moves 
+                                                                        with clarity, respect and a shared commitment to smooth execution.</span></p>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -1468,7 +1468,7 @@
                                                                 <div class="iconlist-item-content">
                                                                     <h3>intergity.</h3>
                                                                     <p><span style="color: #999;">We hold ourselves to honest, 
-                                                                        transparent commitment. When we agree to a timeline, cost, 
+                                                                        transparent commitment. When we agree to a timeline, cost 
                                                                         or process, we stand by it. Guided by our principles and Sikh values, 
                                                                         we ensure every promise made is a promise delivered.</span></p>
                                                                 </div>
@@ -1479,7 +1479,7 @@
                                                                 <div class="iconlist-item-content">
                                                                     <h3>excellence.</h3>
                                                                     <p><span style="color: #999;">We pursue excellence through disciplined systems, 
-                                                                        skilled workmanship, and continuous refinement, delivering high-quality structures 
+                                                                        skilled workmanship and continuous refinement, delivering high-quality structures 
                                                                         and a dependable experience, project after project.</span></p>
                                                                 </div>
                                                             </li>
@@ -1490,8 +1490,7 @@
                                                                     <h3>safety.</h3>
                                                                     <p><span style="color: #999;">At Bedi Buildwell,
                                                                             we are dedicated to maintaining a safe work
-                                                                            environment for our employees, our
-                                                                            subcontractors, our clients and the general
+                                                                            environment for our employees, clients and the general
                                                                             public.</span></p>
                                                                 </div>
                                                             </li>
@@ -1513,8 +1512,8 @@
                                                                 <div class="iconlist-item-content">
                                                                     <h3>communication.</h3>
                                                                     <p><span style="color: #999;">We take time to
-                                                                            listen. Open, honest, and proactive
-                                                                            communication with clients, partners, and
+                                                                            listen. Open, honest and proactive
+                                                                            communication with clients, partners and
                                                                             employees is essential to how we
                                                                             operate.</span></p>
                                                                 </div>
@@ -1557,9 +1556,9 @@
                                                                 <p><strong>We Have One Goal: To Build With 
                                                                     Integrity and Predictability. </strong><span
                                                                         style="color: #7f7f7f;">Our mission is to make construction clearer, 
-                                                                        calmer, and more dependable for every client. With an in-house team, 
-                                                                        disciplined planning, and transparent systems, we deliver projects that 
-                                                                        stay on quality, on cost, and on time, exactly as promised.</span>
+                                                                        calmer and more dependable for every client. With an in-house team, 
+                                                                        disciplined planning and transparent systems, we deliver projects that 
+                                                                        stay on quality, on cost and on time, exactly as promised.</span>
                                                                 </p>
 
                                                             </div>
@@ -1596,7 +1595,7 @@
                                                             <div class="wpb_wrapper">
                                                                 <p><strong>To Become the Most Trusted Name in Residential Construction in Delhi NCR. </strong><span
                                                                         style="color: #7f7f7f;">Our vision is to create durable, compliant homes through skilled 
-                                                                        workmanship and clear systems. As we strengthen our G+4, renovation, and PMC offerings, 
+                                                                        workmanship and clear systems. As we strengthen our G+4, renovation and PMC offerings, 
                                                                         we aim to set a new standard for reliability, where clients always know their project is in 
                                                                         responsible hands.</span>
                                                                 </p>
@@ -1629,7 +1628,7 @@
                                     </div>
                                 </section>
                                 <section class="vc_section">
-                                    <div class="vc_row wpb_row vc_row-fluid vc_custom_1581395783488">
+{{--                                     <div class="vc_row wpb_row vc_row-fluid vc_custom_1581395783488">
                                         <div class="row-inner">
                                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                                 <div class="vc_column-inner">
@@ -1745,7 +1744,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </section>
 
                             </div>

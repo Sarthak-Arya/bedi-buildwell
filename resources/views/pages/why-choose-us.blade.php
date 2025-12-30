@@ -1347,7 +1347,7 @@
                                                                         <p>Integrity is one of Bedi Buildwell’s core values, we
                                                                             are committed to acting beyond reproach in
                                                                             all matters and to doing what is legal,
-                                                                            moral, and ethical.</p>
+                                                                            moral and ethical.</p>
 
 
                                                                     </div>
@@ -1373,7 +1373,7 @@
                                                                     </div>
                                                                     <div class="box-content">
                                                                         <p>Committed to building responsibly, 
-                                                                            using efficient materials, reducing waste, and applying 
+                                                                            using efficient materials, reducing waste and applying 
                                                                             thoughtful practices that support sustainable construction.</p>
 
 
@@ -1402,7 +1402,7 @@
                                                                     <div class="box-content">
                                                                         <p>Bedi Buildwell is known for dependable construction 
                                                                             quality, supported by MSME registration, 
-                                                                            trademark approval, and recognition through BNI.</p>
+                                                                            trademark approval and recognition through BNI.</p>
 
 
                                                                     </div>
@@ -1572,7 +1572,7 @@
                                                             <div class="testimonial-content">
                                                                 <blockquote>
                                                                     <p>predictable outcomes come from honest communication, disciplined 
-                                                                        processes, and the skilled in-house teams behind every Bedi Buildwell project.</p>
+                                                                        processes and the skilled in-house teams behind every Bedi Buildwell project.</p>
                                                                 </blockquote>
                                                             </div>
                                                             <div class="testimonial-meta">
@@ -1819,7 +1819,7 @@
                                                                                 deliver the project on time, for the
                                                                                 agreed upon price, despite having less
                                                                                 than eight months in which to design,
-                                                                                permit, and build the facility. Such
+                                                                                permit and build the facility. Such
                                                                                 confidence comes from the long-term
                                                                                 relationship of our team with a proven
                                                                                 record of excellent results….I am very
@@ -1870,7 +1870,7 @@
                                     </div>
                                 </section>
                                 <section class="vc_section">
-                                    <div class="vc_row wpb_row vc_row-fluid vc_custom_1581224264919">
+{{--                                     <div class="vc_row wpb_row vc_row-fluid vc_custom_1581224264919">
                                         <div class="row-inner">
                                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                                 <div class="vc_column-inner">
@@ -1976,7 +1976,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </section>
 
                             </div>

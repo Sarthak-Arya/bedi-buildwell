@@ -172,7 +172,7 @@
                             data-id="33" data-name="Newsletter">
                             <div class="mc4wp-form-fields">
                                 <p>
-                                    <label>Stay updated on special offers design trends, and more.</label>
+                                    <label>Stay updated on special offers design trends and more.</label>
                                     <input type="email" name="EMAIL" placeholder="Your email address"
                                         required />
                                 </p>
