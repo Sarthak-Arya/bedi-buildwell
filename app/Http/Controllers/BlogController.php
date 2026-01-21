@@ -18,7 +18,16 @@ class BlogController extends Controller
         $posts = $this->fetchLinkedInPosts();
         
         return view('pages.blog', [
-            'title' => 'Blog',
+            'seo' => [
+                'title' => 'Blog | Bedi Buildwell - Construction Insights',
+                'description' => 'Read the latest construction insights, industry news, and project updates from Bedi Buildwell. Stay informed about construction trends and best practices.',
+                'keywords' => 'construction blog, building insights, construction news, industry updates',
+                'canonical' => url('/blog'),
+                'breadcrumbs' => [
+                    ['name' => 'Home', 'url' => url('/')],
+                    ['name' => 'Blog', 'url' => url('/blog')],
+                ],
+            ],
             'posts' => $posts,
         ]);
     }

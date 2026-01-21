@@ -1,2 +1,12 @@
 User-agent: *
-Disallow:
+Allow: /
+
+# Disallow admin and login pages
+Disallow: /login
+Disallow: /dashboard
+Disallow: /admin
+Disallow: /_ignition
+
+# Sitemap location
+# Note: Replace with your actual domain when deploying
+Sitemap: https://bedibuildwell.com/sitemap.xml
