@@ -14,7 +14,8 @@ class SitemapController extends Controller
      */
     public function index()
     {
-        $baseUrl = config('app.url');
+        // Use the actual request URL instead of config to ensure correct domain
+        $baseUrl = request()->getSchemeAndHttpHost();
         $now = now()->toAtomString();
 
         $urls = [
