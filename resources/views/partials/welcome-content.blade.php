@@ -128,7 +128,7 @@
                                                                     <rs-slide style="position: absolute;"
                                                                         data-key="rs-11"
                                                                         data-title="Our Promise of Superior Performance"
-                                                                        data-thumb="{{ asset('images/people-1.jpg') }}"
+                                                                        data-thumb="{{ asset('images/cover2.webp') }}"
                                                                         data-anim="ms:1000;r:0;" data-in="o:0;"
                                                                         data-out="a:false;">
                                                                         <img width="1" height="1"
@@ -136,7 +136,7 @@
                                                                             src="//live.21lab.co/hank/wp-content/plugins/revslider/public/assets/assets/dummy.png"
                                                                             alt="" title="Home"
                                                                             class="rev-slidebg tp-rs-img rs-lazyload"
-                                                                            data-lazyload="{{ asset('images/people-1.jpg') }}"
+                                                                            data-lazyload="{{ asset('images/cover2.webp') }}"
                                                                             data-no-retina>
                                                                         <!--
        --><rs-layer id="slider-3-slide-11-layer-1" class="f-l" data-type="text" data-color="rgba(0, 0, 0, 0.5)"
